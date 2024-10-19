@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{599954A7-1C8F-4573-9895-E324FC0E0670}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="45575.7539236111" objectName="Aliases.browser.pageQms.buttonDelete_PrepaidCollect" objectLeft="1549" objectTop="416" objectRight="1587" objectBottom="446" clickPointX="1570" clickPointY="435" imageFileName="tcvi26891098479600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="15" kind="0" dateTime="45575.7555902778" objectName="Aliases.browser.pageQms2.panelFcl2" objectLeft="997" objectTop="554" objectRight="1049" objectBottom="574" clickPointX="1020" clickPointY="561" imageFileName="tcvi26905478179601.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="17" kind="0" dateTime="45575.7557175926" objectName="Aliases.browser.pageQms.buttonYes_DeletePrepaidCollect" objectLeft="1067" objectTop="609" objectRight="1131" objectBottom="639" clickPointX="1099" clickPointY="624" imageFileName="tcvi26906556279603.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

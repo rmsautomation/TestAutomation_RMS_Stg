@@ -2039,7 +2039,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//div[contains(@class, &apos;mat-mdc-select-arrow-wrapper&apos;)]/div[contains(@class,&apos;mat-mdc-select-arrow&apos;)])[6]" />
+												<Value Value="xpath=(//div[contains(@class, &apos;mat-mdc-select-arrow-wrapper&apos;)]/div[contains(@class,&apos;mat-mdc-select-arrow&apos;)])[5]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;cdk-overlay-backdrop&apos;)]" />
@@ -3875,13 +3875,10 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[@class=&apos;value green&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="xpath=(//div[contains(@class, &apos;value&apos;)])[7]" />
-											</Selector>
-											<Selector>
 												<Value Value="xpath=//*[@class=&quot;value green&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;value&apos;)])[6]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -4989,21 +4986,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel16" Key="{898CF50D-2268-46D3-9945-59BD14B1813F}">
+									<Child Name="prepaidOption" Key="{898CF50D-2268-46D3-9945-59BD14B1813F}">
 										<Image FileName="-1785654276" Left="1827" Top="962" Right="1844" Bottom="982" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(@class, &apos;controls-toggle&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[contains(@class, &apos;control--increase&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//shared-info-panel/mat-card/div/div/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//shared-info-panel/mat-card/div/div/div" />
+												<Value Value="xpath=//span[@class=&apos;mdc-list-item__primary-text&apos; and normalize-space(text())=&apos;Prepaid&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -9104,15 +9092,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="vg14" Key="{80587FE2-C86B-4993-9FEF-373C0812539A}">
+									<Child Name="value" Key="{80587FE2-C86B-4993-9FEF-373C0812539A}">
 										<Image FileName="358737192" Left="971" Top="305" Right="995" Bottom="329" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//mat-select[@id=&apos;mat-select-30&apos;]//*[name()=&apos;svg&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//search-form-booking-options//mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+												<Value Value="xpath=(//mat-dialog-container[@role=&apos;dialog&apos;]//cp-prepaid-collect-dialog//div/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)])[1]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -11100,12 +11085,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelValue" Key="{018ABF49-0341-4E59-A806-22DC6198EBF1}">
+									<Child Name="exportOption" Key="{018ABF49-0341-4E59-A806-22DC6198EBF1}">
 										<Image FileName="841996130" Left="627" Top="612" Right="1276" Bottom="660" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//app-location-dialog/div/div/div[contains(@class, &apos;d-flex&apos;)]" />
+												<Value Value="xpath=//span[@class=&apos;mdc-list-item__primary-text&apos; and normalize-space(text())=&apos;Export&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -12644,18 +12629,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="vg19" Key="{485221A9-E493-4ECA-B7E5-16F883F6ED17}">
+									<Child Name="directionOption" Key="{485221A9-E493-4ECA-B7E5-16F883F6ED17}">
 										<Image FileName="281400834" Left="258" Top="465" Right="282" Bottom="489" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-114&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-select[@id=&apos;mat-select-34&apos;]//*[name()=&apos;svg&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//shared-filter//mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+												<Value Value="xpath=//mat-dialog-container[@role=&apos;dialog&apos;]//cp-prepaid-collect-dialog//div[2]/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15502,10 +15481,7 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[contains(@class, &apos;QMS_Icon_refresh&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-card//search-form-header-panel//label/span" />
+												<Value Value="xpath=(//span)[73]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17049,7 +17025,7 @@
 				<Child Name="panel100" Owner="{AA7C2BAB-D5AC-4FB0-A94B-8425D34C488D}" />
 				<Child Name="textnodeCollect" Owner="{EA60C97B-FAAF-4904-B2D1-B7A64D61ED1A}" />
 				<Child Name="save" Owner="{5B4E8B40-E25B-4102-8A56-DA406909D6C8}" />
-				<Child Name="panel16" Owner="{898CF50D-2268-46D3-9945-59BD14B1813F}" />
+				<Child Name="prepaidOption" Owner="{898CF50D-2268-46D3-9945-59BD14B1813F}" />
 				<Child Name="textboxMatInput284" Owner="{4D2E74F9-50F6-4D8F-ACC4-8CA5E05BFE18}" />
 				<Child Name="buttonLock" Owner="{43BE987F-39CF-4AD8-82DB-5CA2946CCC01}" />
 				<Child Name="textnodePrepaid2" Owner="{541FA459-19EC-4648-A9C9-97D0818B30B6}" />
@@ -17351,7 +17327,7 @@
 				<Child Name="textnodeBookings" Owner="{A92792E0-FD48-4955-A4E8-B5215C7F02D1}" />
 				<Child Name="textnodeBulkUpload" Owner="{A32AB579-BCAC-4BC6-8317-13E1617C1C71}" />
 				<Child Name="uploadBooking" Owner="{33311A01-4B7D-4D69-BB8D-2354811C0369}" />
-				<Child Name="vg14" Owner="{80587FE2-C86B-4993-9FEF-373C0812539A}" />
+				<Child Name="value" Owner="{80587FE2-C86B-4993-9FEF-373C0812539A}" />
 				<Child Name="textnodeBookings2" Owner="{2228D956-44BB-4662-8333-CF1335E6D98D}" />
 				<Child Name="link" Owner="{E0FCED8C-F624-4C8C-ACF8-AE7E5CBAD9AE}" />
 				<Child Name="textboxMatInput63" Owner="{838FE5CD-475C-4DE9-9E5F-DDBF54A1E5AD}" />
@@ -17477,7 +17453,7 @@
 				</Child>
 				<Child Name="buttonAdd5" Owner="{ADBCCC4F-6C36-4B62-B9CF-39B5E292652D}" />
 				<Child Name="buttonAdd6" Owner="{3AE2E9BB-3862-4671-9F36-E8A344FC7A21}" />
-				<Child Name="panelValue" Owner="{018ABF49-0341-4E59-A806-22DC6198EBF1}" />
+				<Child Name="exportOption" Owner="{018ABF49-0341-4E59-A806-22DC6198EBF1}" />
 				<Child Name="deletebutton" Owner="{A13A48DA-3144-4896-B48E-C5FBC5AE8FDD}" />
 				<Child Name="departmentRule" Owner="{1091F9D2-3C01-44D0-8A8D-E4A14A648E39}" />
 				<Child Name="allunloc_priorization" Owner="{C953C4CE-3843-4A7E-B987-A8794BAD600D}" />
@@ -17580,7 +17556,7 @@
 				<Child Name="radiobuttonApplyMarginOnSellRate" Owner="{29D81616-B1E3-41A3-ADF6-973BB585AC85}" />
 				<Child Name="disclaimerForm" Owner="{F3D42342-14F8-4014-9DDF-77279CD82F43}" />
 				<Child Name="panelBookinguploadMonOct07202422" Owner="{7CF60AEF-6666-426A-AD9D-F490593B3080}" />
-				<Child Name="vg19" Owner="{485221A9-E493-4ECA-B7E5-16F883F6ED17}" />
+				<Child Name="directionOption" Owner="{485221A9-E493-4ECA-B7E5-16F883F6ED17}" />
 				<Child Name="textnodeContract3" Owner="{8E4824DF-66C2-4AD6-94B0-B040ECAEDAE7}" />
 				<Child Name="panel11Of1" Owner="{82354EF3-DB4C-4942-871C-02FF32FB107B}" />
 				<Child Name="panel5" Owner="{1A9B45D6-C250-46FF-9204-B039B201D522}" />

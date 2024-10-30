@@ -80,7 +80,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_15_QMS_11323_EFT_FCL_No_city_linking_Standard_user" key="{CCF3D36F-AFF6-4AA5-82AB-67726EB1D10D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{155C5CA6-F4A4-4CC7-9A92-0A538A2B94DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_15_QMS_11323_EFT_FCL_No_city_linking_Standard_user" key="{CCF3D36F-AFF6-4AA5-82AB-67726EB1D10D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{155C5CA6-F4A4-4CC7-9A92-0A538A2B94DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -150,12 +150,12 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_29_QMS_4967_City_Linking_Do_a_search_with_City_Linking" key="{98D16E55-F447-463D-AEAE-F631A2641172}" group="False" parallel="False" enabled="True" testMoniker="KDT\{72878ABA-40F6-4697-86B6-AEB39D2ACDF1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_29_QMS_4967_City_Linking_Do_a_search_with_City_Linking" key="{98D16E55-F447-463D-AEAE-F631A2641172}" group="False" parallel="False" enabled="False" testMoniker="KDT\{72878ABA-40F6-4697-86B6-AEB39D2ACDF1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_30_QMS_5584_Region_Management___Create_a_Region___Default_Forms" key="{702D524D-1FCF-4EE3-9EA4-5CDA896BD2CB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{17B7D940-2AFB-4616-8D8D-86FC4005EAB1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_30_QMS_5584_Region_Management___Create_a_Region___Default_Forms" key="{702D524D-1FCF-4EE3-9EA4-5CDA896BD2CB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{17B7D940-2AFB-4616-8D8D-86FC4005EAB1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -165,12 +165,12 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_32_QMS_5272_Add_trade_lane" key="{9091966D-A40A-4EF5-A9A4-37C443985B7C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{ABC61E1C-BBBA-484D-A49F-EE802677BE19}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_32_QMS_5272_Add_trade_lane" key="{9091966D-A40A-4EF5-A9A4-37C443985B7C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABC61E1C-BBBA-484D-A49F-EE802677BE19}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_33_QMS_5585_Surcharge_List_Manager_Catapult_List" key="{E0721F1A-78FA-4369-95AB-A0ED74DB58C4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{621A01D8-C276-4704-8233-02407EA802C3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_33_QMS_5585_Surcharge_List_Manager_Catapult_List" key="{E0721F1A-78FA-4369-95AB-A0ED74DB58C4}" group="False" parallel="False" enabled="False" testMoniker="KDT\{621A01D8-C276-4704-8233-02407EA802C3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -195,7 +195,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_38_QMS_4746_Multi_Rate_Selection" key="{7E4DCC40-0FFA-4D90-AFD9-8712775CC88A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{DC68FEA6-DA13-4ED4-A117-3DC503A98E63}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_38_QMS_4746_Multi_Rate_Selection" key="{7E4DCC40-0FFA-4D90-AFD9-8712775CC88A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DC68FEA6-DA13-4ED4-A117-3DC503A98E63}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -215,7 +215,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_42_QMS_12257_Zip_to_Port_Incomplete_Linked_rates_missing_ground_Check_Uncheck" key="{F8341B96-B621-4C7E-874B-1DE1FC58F395}" group="False" parallel="False" enabled="False" testMoniker="KDT\{134D9103-FBE6-4819-83F1-21FC3A9DF64F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_42_QMS_12257_Zip_to_Port_Incomplete_Linked_rates_missing_ground_Check_Uncheck" key="{F8341B96-B621-4C7E-874B-1DE1FC58F395}" group="False" parallel="False" enabled="True" testMoniker="KDT\{134D9103-FBE6-4819-83F1-21FC3A9DF64F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -258,7 +258,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_49_QMS_5578_Contract_Full_Serve_Upload" key="{D2C9D070-0452-4B87-9FD3-218ADD2A29D9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{8A8E1DD7-FA78-4691-B576-2586F5B75EFF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_49_QMS_5578_Contract_Full_Serve_Upload" key="{D2C9D070-0452-4B87-9FD3-218ADD2A29D9}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8A8E1DD7-FA78-4691-B576-2586F5B75EFF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -278,7 +278,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_53_QMS_4669_BookingSearch_by_Location" key="{E0EA3C11-29F4-4138-B710-C5B92E5796B5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{247860C4-10F3-43AE-A02A-E9F5F74FC47C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_53_QMS_4669_BookingSearch_by_Location" key="{E0EA3C11-29F4-4138-B710-C5B92E5796B5}" group="False" parallel="False" enabled="False" testMoniker="KDT\{247860C4-10F3-43AE-A02A-E9F5F74FC47C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />

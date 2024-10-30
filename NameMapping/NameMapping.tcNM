@@ -11666,21 +11666,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="checkboxPending" Key="{E29CB53C-5875-4C56-B869-893F4B31BE4F}">
+									<Child Name="versionAuto" Key="{E29CB53C-5875-4C56-B869-893F4B31BE4F}">
 										<Image FileName="650791881" Left="542" Top="639" Right="582" Bottom="679" />
 										<TypeInfo Item0="{93903514-5E2D-4197-AB74-2FA6E602F703}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//input[@id=(//label[contains(.,&apos;Pending&apos;)]/@for)]" />
-											</Selector>
-											<Selector>
-												<Value Value="#mat-mdc-checkbox-113-input" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[2]/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[2]/mat-checkbox//input" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and contains(normalize-space(text()), &apos;EFT (v.Auto&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13067,6 +13058,24 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(text(), &apos;000AAutomationDisclaimer&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{FF4B50E4-FECC-46E0-9DA3-6CAD7CF95F94}">
+										<Image FileName="1305060610" Left="1772" Top="606" Right="1911" Bottom="642" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;EFT (v.AutoOct3013:40:58)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-row[25]/mat-cell[5]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//mat-row[25]/mat-cell[5]/shared-grid-cell/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-row[25]/mat-cell[5]/shared-grid-cell/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17487,7 +17496,7 @@
 				</Child>
 				<Child Name="textnodeMatOption691" Owner="{80014C29-DBFE-462D-AB16-E7F59287C1C1}" />
 				<Child Name="checkboxWon" Owner="{3B1ACED1-F427-4453-AFD2-BBE75762DCCA}" />
-				<Child Name="checkboxPending" Owner="{E29CB53C-5875-4C56-B869-893F4B31BE4F}" />
+				<Child Name="versionAuto" Owner="{E29CB53C-5875-4C56-B869-893F4B31BE4F}" />
 				<Child Name="panelSearch2" Owner="{437B5A56-8094-4F24-8416-C3A11B669427}" />
 				<Child Name="emailLabel" Owner="{4CD64314-286D-41FE-AAFC-09051B450CB5}" />
 				<Child Name="textnodeMatMdcCheckbox76" Owner="{5BB5125A-73C2-47E4-AC3A-4E1FCC428D87}" />
@@ -17585,6 +17594,7 @@
 				<Child Name="cell2" Owner="{1C3743F0-133C-4B51-9A70-E178DDEAE490}" />
 				<Child Name="panelAutomationnamed" Owner="{3C4605D3-BF91-4E7F-9652-5B3AE83EF7A7}" />
 				<Child Name="panel000aautomationdisclaimer" Owner="{FAAD3DF0-C179-420C-9F86-F5A4731B4123}" />
+				<Child Name="panel3" Owner="{FF4B50E4-FECC-46E0-9DA3-6CAD7CF95F94}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">

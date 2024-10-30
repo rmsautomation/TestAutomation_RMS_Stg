@@ -3702,18 +3702,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeGridView" Key="{41AD6951-85A7-46C5-AB52-41521104673E}">
+									<Child Name="quoteForm30" Key="{41AD6951-85A7-46C5-AB52-41521104673E}">
 										<Image FileName="-1245433902" Left="105" Top="333" Right="165" Bottom="347" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[text()=&apos;Grid View&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-3-0&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//div/div/div/span/span" />
+												<Value Value="xpath=//span[contains(@class, &apos;mat-mdc-select-min-line&apos;) and normalize-space(text())=&apos;6704TEST&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16936,7 +16930,7 @@
 				<Child Name="textnodeCell2" Owner="{D616A385-CDE2-4AFA-AEDE-938CDCFA4ECF}" />
 				<Child Name="textboxNumber25" Owner="{56AF4B95-F392-4DA4-ABDD-ADBB3EF9F618}" />
 				<Child Name="panelShoppingCart" Owner="{3964DBE7-5CE9-4841-B54A-ADCD80D0C1E8}" />
-				<Child Name="textnodeGridView" Owner="{41AD6951-85A7-46C5-AB52-41521104673E}" />
+				<Child Name="quoteForm30" Owner="{41AD6951-85A7-46C5-AB52-41521104673E}" />
 				<Child Name="disclaimerText" Owner="{5C3D60EF-AA86-4861-929E-2ADE80D5A773}" />
 				<Child Name="base_rate" Owner="{1A1F88A8-5AD5-4A85-AF5A-5E4B87DEF0AC}" />
 				<Child Name="checkbox20" Owner="{807F869E-1E1C-4F3B-A21B-F5D6B3DD4009}" />

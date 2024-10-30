@@ -9596,18 +9596,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeUsername2" Key="{AB3F157D-8318-4A80-B7FD-D1B93FF83BD6}">
+									<Child Name="allocationGrid" Key="{AB3F157D-8318-4A80-B7FD-D1B93FF83BD6}">
 										<Image FileName="984737460" Left="568" Top="688" Right="645" Bottom="712" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[contains(text(), &apos;Username&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-143&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-143&apos;]/span" />
+												<Value Value="xpath=//div[contains(@class, &apos;table-row header&apos;)] //div[contains(@class, &apos;column-label&apos;) and normalize-space(text())=&apos;Allocation %&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -12518,12 +12512,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="checkDeleteBooking" Key="{5E300A57-2F85-480F-9C93-2E4FCD63D192}">
+									<Child Name="allocationInfoPanel" Key="{5E300A57-2F85-480F-9C93-2E4FCD63D192}">
 										<Image FileName="-1690059485" Left="552" Top="626" Right="673" Bottom="677" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//span[@class=&apos;mat-ripple mat-mdc-button-ripple&apos;]" />
+												<Value Value="xpath=//mat-header-cell[contains(@class, &apos;cdk-column-allocation&apos;)] //div[contains(@class, &apos;mat-sort-header-content&apos;) and normalize-space(text())=&apos;Allocation %&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13076,6 +13070,1350 @@
 											</Selector>
 											<Selector>
 												<Value Value="//mat-row[25]/mat-cell[5]/shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelAllocation" Key="{2FC44C3A-7F18-4EE2-8D63-116ABC78BDDD}">
+										<Image FileName="-1657099513" Left="105" Top="355" Right="180" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Allocation %%&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-19&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-19&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-19&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAllocation" Key="{A45CAE7F-4FCD-4F73-AD8D-D1DFC7E67279}">
+										<Image FileName="-1657099513" Left="109" Top="355" Right="180" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Allocation %%&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-19&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-19&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelDestinationCountry" Key="{792B7BAC-B0AE-4806-A5C3-6668246126C5}">
+										<Image FileName="-1630489387" Left="105" Top="385" Right="223" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Destination Country&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-30&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-30&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-30&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDestinationCountry" Key="{A46FBF5C-D58B-435B-B3E6-650012826341}">
+										<Image FileName="-1630489387" Left="109" Top="385" Right="224" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Destination Country&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-30&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-30&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-30&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelOriginFreetime" Key="{6CBF878C-0E29-416C-B8BB-BB80D40D7415}">
+										<Image FileName="-833361221" Left="105" Top="415" Right="197" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Origin Freetime&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-41&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-41&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-41&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOriginFreetime" Key="{C6F0138D-C9D1-4F96-85C7-47755DC95D09}">
+										<Image FileName="-833361221" Left="109" Top="415" Right="198" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Origin Freetime&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-41&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-41&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-41&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelShipmentType" Key="{7C4DB6B8-6E08-43C0-A536-75BD7AD43874}">
+										<Image FileName="-2141590734" Left="105" Top="445" Right="195" Bottom="460" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Shipment Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-52&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-52&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-52&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShipmentType" Key="{911C47F3-F6FA-4835-AF92-677329E73ECB}">
+										<Image FileName="-2141590734" Left="109" Top="445" Right="195" Bottom="460" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Shipment Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-52&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-52&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-52&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAllocation" Key="{BD2737FC-461B-460A-9BF1-8F8E681C1438}">
+										<Image FileName="1176752170" Left="1776" Top="625" Right="1909" Bottom="651" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Allocation %%&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid-customizer//div[19]//div[contains(@class, &apos;column-label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelAmendment" Key="{7E521448-25EA-4465-948F-E37255FC40AA}">
+										<Image FileName="286831589" Left="267" Top="355" Right="353" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Amendment #&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-154&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-154&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-154&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAmendment" Key="{2549FADF-1074-41FC-BBD5-0D080629B8C7}">
+										<Image FileName="-1314963571" Left="271" Top="355" Right="353" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Amendment #&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-154&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-154&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-154&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelDestinationFreetime" Key="{A44991BD-D84C-48A8-A3DE-1E32047DD74E}">
+										<Image FileName="2138134084" Left="267" Top="385" Right="391" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Destination Freetime&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-165&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-165&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-165&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDestinationFreetime" Key="{B669CD62-B2A7-4D8A-8F81-BAFF7774AF6F}">
+										<Image FileName="2138134084" Left="271" Top="385" Right="392" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Destination Freetime&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-165&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-165&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-165&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelOriginVia" Key="{B59C3235-8663-43FC-A5D2-CABA550B218E}">
+										<Image FileName="1580383094" Left="267" Top="415" Right="327" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Origin Via&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-176&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-176&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-176&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOriginVia" Key="{40A2CA5F-B562-4EFF-94B9-3D2A061DFC12}">
+										<Image FileName="1580383094" Left="271" Top="415" Right="327" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Origin Via&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-176&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-176&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-176&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSize" Key="{CE162A97-8693-4958-BF86-264A1E8D2063}">
+										<Image FileName="1574479012" Left="267" Top="445" Right="295" Bottom="460" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Size&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-187&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-187&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-187&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSize" Key="{ED573709-3A4A-4E40-BA40-8093C74EC406}">
+										<Image FileName="1574479012" Left="271" Top="445" Right="295" Bottom="460" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Size&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-187&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-187&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-187&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelBuyDestinationCharges" Key="{6480EA15-9E27-49D0-8E64-F599F2A4A8E6}">
+										<Image FileName="-92711723" Left="429" Top="348" Right="566" Bottom="378" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Buy Destination Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-155&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-155&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-155&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBuyDestinationCharges" Key="{3FE4EDCF-9C38-4560-A08C-CF7B32654E3D}">
+										<Image FileName="-92711723" Left="433" Top="348" Right="524" Bottom="378" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Buy Destination Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-155&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-155&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-155&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelDestinationVia" Key="{C8C2324F-8386-44F3-8BBB-463F4AE4CD32}">
+										<Image FileName="-1033096519" Left="429" Top="385" Right="521" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Destination Via&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-166&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-166&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-166&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDestinationVia" Key="{44638C79-B66E-45C6-B430-1CA2007BE2C4}">
+										<Image FileName="-1033096519" Left="433" Top="385" Right="521" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Destination Via&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-166&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-166&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-166&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelPrice" Key="{FFDBD4FE-0CE1-49F4-8B66-FF235AD730BE}">
+										<Image FileName="-178029744" Left="429" Top="415" Right="462" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Price&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-177&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-177&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-177&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePrice" Key="{72D683BE-5626-4FD3-9698-DE3B053B282A}">
+										<Image FileName="-178029744" Left="433" Top="415" Right="463" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Price&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-177&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-177&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-177&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelTotalAllocationAmount" Key="{7F6C169A-3380-4D46-9274-EC8F72A8CCDE}">
+										<Image FileName="1199689602" Left="429" Top="438" Right="566" Bottom="468" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Total Allocation Amount&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-188&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-188&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-188&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTotalAllocationAmount" Key="{FDF2DFF5-BF52-4CAA-941A-810E82E75545}">
+										<Image FileName="1199689602" Left="433" Top="438" Right="524" Bottom="468" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Total Allocation Amount&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-188&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-188&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-188&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelBuyFreightCharges" Key="{6146A5C7-8653-4635-AE52-BB04FCE0DCFC}">
+										<Image FileName="35921259" Left="591" Top="355" Right="711" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Buy Freight Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-156&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-156&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-156&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBuyFreightCharges" Key="{17DBF9B2-D0AC-457F-ADA8-4ACD101B95F4}">
+										<Image FileName="35921259" Left="595" Top="355" Right="711" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Buy Freight Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-156&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-156&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-156&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelEarliestDepartureDate" Key="{8CF8017B-9BBB-447D-9EB5-9287956EDB31}">
+										<Image FileName="-1894475830" Left="591" Top="378" Right="728" Bottom="408" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Earliest Departure Date&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-167&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-167&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-167&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRateEffectiveDate" Key="{D5C62F70-41ED-4FB4-8B61-A04742E67E4E}">
+										<Image FileName="-2030463371" Left="591" Top="415" Right="705" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Rate Effective Date&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-178&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-178&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-178&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRateEffectiveDate" Key="{1BE60607-B9FD-4059-BE7F-FCA8AC969E0C}">
+										<Image FileName="-2030463371" Left="595" Top="415" Right="706" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Rate Effective Date&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-178&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-178&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-178&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelTotalDestinationDemurrage" Key="{19E6E37A-8844-432F-B326-10FAA200B7AB}">
+										<Image FileName="1306154883" Left="591" Top="438" Right="728" Bottom="468" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Total Destination Demurrage&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-189&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-189&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-189&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTotalDestinationDemurrag" Key="{8555D347-A247-4001-94A7-810B85FEE480}">
+										<Image FileName="1306154883" Left="595" Top="438" Right="694" Bottom="468" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Total Destination Demurrage&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-189&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-189&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-189&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelBuyOriginCharges" Key="{CA631913-E2AA-4C82-AF41-84931C34617E}">
+										<Image FileName="-990936024" Left="753" Top="355" Right="867" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Buy Origin Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-157&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-157&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-157&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBuyOriginCharges" Key="{EEC0376B-4036-49DE-B9D4-3F3A4311858F}">
+										<Image FileName="-990936024" Left="757" Top="355" Right="868" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Buy Origin Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-157&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-157&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-157&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelEstTransit" Key="{105F4611-1BB6-4E05-97F8-62271D070637}">
+										<Image FileName="1011887461" Left="753" Top="385" Right="822" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Est. Transit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-168&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-168&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-168&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEstTransit" Key="{5A7F2FCD-DE6D-454F-A067-C09070311A4B}">
+										<Image FileName="1011887461" Left="757" Top="385" Right="822" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Est. Transit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-168&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-168&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-168&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRateExpirationDate" Key="{C9465DD0-5EE5-4544-B313-D02EFD561179}">
+										<Image FileName="-2037339723" Left="753" Top="415" Right="874" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Rate Expiration Date&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-179&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-179&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-179&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRateExpirationDate" Key="{A0DD5880-1A46-4192-9864-AA0B0E5E53FF}">
+										<Image FileName="-2037339723" Left="757" Top="415" Right="875" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Rate Expiration Date&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-179&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-179&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-179&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelTotalDestinationDetention" Key="{D3BFA004-0173-4D0C-9A03-BD2D85EDCC3C}">
+										<Image FileName="1997625216" Left="753" Top="438" Right="890" Bottom="468" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Total Destination Detention&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-190&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-190&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-190&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelBuyPrice" Key="{9EF02F04-A101-4F5B-8F4C-332669288036}">
+										<Image FileName="-737770445" Left="915" Top="355" Right="973" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Buy Price&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-158&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-158&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-158&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBuyPrice" Key="{6292FF64-C88D-46E3-8F75-73F620043588}">
+										<Image FileName="-737770445" Left="919" Top="355" Right="973" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Buy Price&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-158&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-158&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-158&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelMargin" Key="{BAE66E75-0DF7-4985-BFB2-637BB3D53CA5}">
+										<Image FileName="1946890973" Left="915" Top="385" Right="959" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Margin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-169&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-169&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-169&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMargin" Key="{8003636C-02E9-488E-B192-5028FBA6A802}">
+										<Image FileName="1946890973" Left="919" Top="385" Right="959" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Margin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-169&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-169&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-169&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelRateType" Key="{4DFDB957-A5D9-4E2B-AB58-894422C3005E}">
+										<Image FileName="-1543765791" Left="915" Top="415" Right="976" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Rate Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-180&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-180&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-180&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRateType" Key="{61EC35D7-DAB3-4420-857B-0124B264D55D}">
+										<Image FileName="-1543765791" Left="919" Top="415" Right="976" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Rate Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-180&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-180&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-180&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelTotalFreetime" Key="{EA615954-9F26-4068-AC58-24598BCE002B}">
+										<Image FileName="781941190" Left="915" Top="445" Right="1002" Bottom="460" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Total Freetime&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-191&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-191&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-191&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTotalFreetime" Key="{BADC8095-B6B2-41A8-B8BD-7AFB56F5EEC6}">
+										<Image FileName="781941190" Left="919" Top="445" Right="1003" Bottom="460" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Total Freetime&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-191&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-191&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-191&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelCarrier2" Key="{655412A2-06C2-4D63-A80C-E4A6A32F14BE}">
+										<Image FileName="935878476" Left="1077" Top="355" Right="1120" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Carrier&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-159&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-159&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-159&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCarrier5" Key="{DABA3898-73B9-42B3-BBC6-5A11E72C75DE}">
+										<Image FileName="935878476" Left="1081" Top="355" Right="1120" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Carrier&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-159&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-159&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-159&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelMargin2" Key="{5CD869F5-F964-447F-91C9-126F973E5AA4}">
+										<Image FileName="-1363203451" Left="1077" Top="385" Right="1134" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Margin %%&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-170&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-170&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-170&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMargin2" Key="{ADD73FFE-95D5-4A3F-B066-4BA768C7C547}">
+										<Image FileName="-1363203451" Left="1081" Top="385" Right="1134" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Margin %%&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-170&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-170&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-170&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelTotalOriginDemurrage" Key="{0C2788D5-DD20-46C0-AB40-F647E3539CBE}">
+										<Image FileName="577663736" Left="1077" Top="438" Right="1214" Bottom="468" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Total Origin Demurrage&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-192&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-192&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-192&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTotalOriginDemurrage" Key="{AD7984F0-CDD5-4B39-AD61-8A3D62073A2B}">
+										<Image FileName="577663736" Left="1081" Top="438" Right="1148" Bottom="468" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Total Origin Demurrage&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-192&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-192&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-192&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCommodity2" Key="{6AE4FE73-48A1-4071-A60C-909B153446EE}">
+										<Image FileName="-458648480" Left="1243" Top="355" Right="1310" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Commodity&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-160&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-160&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-160&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelMode" Key="{5B3ECEE4-E256-4CB0-A4AA-B8692C70A304}">
+										<Image FileName="2044553629" Left="1239" Top="385" Right="1275" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Mode&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-171&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-171&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-171&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMode" Key="{0C690628-5311-40C5-9C3F-BE1B6A42BB7D}">
+										<Image FileName="2044553629" Left="1243" Top="385" Right="1276" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Mode&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-171&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-171&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-171&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSellFreightCharges" Key="{7FA2E64F-3515-406B-B6A9-EA0962FB76F7}">
+										<Image FileName="-840178566" Left="1239" Top="415" Right="1359" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Sell Freight Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-182&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-182&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-182&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSellFreightCharges" Key="{19460FC8-93AC-4BA7-8B7C-ED11A8211BEA}">
+										<Image FileName="-840178566" Left="1243" Top="415" Right="1359" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Sell Freight Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-182&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-182&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-182&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelTotalOriginDetention" Key="{E69E22BA-95F9-4ADE-A450-31378BC24F6D}">
+										<Image FileName="-408870343" Left="1239" Top="445" Right="1369" Bottom="460" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Total Origin Detention&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-193&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-193&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-193&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTotalOriginDetention" Key="{8BA368D0-A30E-4572-87CD-8372A54FE445}">
+										<Image FileName="-408870343" Left="1243" Top="445" Right="1369" Bottom="460" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Total Origin Detention&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-193&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-193&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-193&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelContractExpiration" Key="{81F3BFFD-38DD-44A4-8079-785418D84E95}">
+										<Image FileName="429573415" Left="1401" Top="355" Right="1516" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Contract Expiration&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-161&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-161&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-161&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContractExpiration" Key="{30140C56-FDCE-424D-8B10-65098E55E7FA}">
+										<Image FileName="429573415" Left="1405" Top="355" Right="1516" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Contract Expiration&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-161&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-161&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-161&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNamedAccount2" Key="{717346CF-E6F8-4348-9CCD-DF962F01C02B}">
+										<Image FileName="1009866681" Left="1405" Top="385" Right="1498" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Named Account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-172&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-172&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-172&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSellOriginCharges" Key="{5DDD279D-61EC-4FF7-9DBD-B7A98E5CC141}">
+										<Image FileName="-1817919149" Left="1401" Top="415" Right="1515" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Sell Origin Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-183&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-183&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-183&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSellOriginCharges" Key="{07B6149E-E45F-498D-8053-ACFD9C2D849A}">
+										<Image FileName="-1817919149" Left="1405" Top="415" Right="1515" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Sell Origin Charges&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-183&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-183&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-183&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelContractId" Key="{BAF50AD3-34EC-4B8F-A86A-C5B0350846A9}">
+										<Image FileName="440665470" Left="1563" Top="355" Right="1632" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Contract ID&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-162&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-162&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-162&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContractId2" Key="{10842EFB-ED20-48F0-BB61-AF7F734405A5}">
+										<Image FileName="440665470" Left="1567" Top="355" Right="1632" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Contract ID&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-162&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-162&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-162&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSellPrice" Key="{D8537DFF-D5B0-41D9-8904-C483E0809476}">
+										<Image FileName="-1817919149" Left="1563" Top="415" Right="1621" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Sell Price&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-184&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-184&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-184&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSellPrice" Key="{56E4DC80-C8C6-48E3-BB51-4FFB93FF0073}">
+										<Image FileName="-1817919149" Left="1567" Top="415" Right="1621" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Sell Price&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-184&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-184&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-184&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelDestination2" Key="{0105FE8E-4500-4565-A0F0-EB5E4BCA006C}">
+										<Image FileName="-1138667922" Left="1725" Top="355" Right="1795" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Destination&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-163&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-163&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-163&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDestination" Key="{F4113F1F-0AAB-49D6-B249-309D69506D20}">
+										<Image FileName="-1138667922" Left="1729" Top="355" Right="1795" Bottom="370" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Destination&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-163&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-163&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-163&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelOriginCountry" Key="{F25C6195-085C-43A0-B85D-9F00999B0DF7}">
+										<Image FileName="887636797" Left="1725" Top="385" Right="1812" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Origin Country&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-174&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-174&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-174&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOriginCountry" Key="{213A574B-3384-44DF-A6E1-10CE3A2F036D}">
+										<Image FileName="887636797" Left="1729" Top="385" Right="1812" Bottom="400" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Origin Country&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-174&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-174&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-174&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelService" Key="{2B99130F-B3FC-4817-B4D2-0E71EE2A5648}">
+										<Image FileName="-1709606124" Left="1725" Top="415" Right="1771" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Service&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-185&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-185&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-185&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeService" Key="{5553888F-7551-48DC-9977-9AC64AE5B937}">
+										<Image FileName="-1709606124" Left="1729" Top="415" Right="1772" Bottom="430" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Service&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-185&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-185&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-185&apos;]//label/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15030,6 +16368,45 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeGridSettings" Key="{4D2C797B-49AB-4893-8252-D0F36B926A31}">
+										<Image FileName="1006856011" Left="378" Top="276" Right="453" Bottom="292" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Grid Settings&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/cp-card[2]//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxAllocation" Key="{894E3690-BDB1-4336-9A8E-D69BF03E7246}">
+										<Image FileName="565767132" Left="67" Top="337" Right="103" Bottom="373" />
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Allocation %%&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-checkbox-19-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-19&apos;]//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-19&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContractId" Key="{247780D3-00C2-41D7-B9E5-C2BCF126F481}">
+										<Image FileName="1219321853" Left="72" Top="594" Right="1902" Bottom="783" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;column-preview-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -16538,6 +17915,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeArrowBack" Key="{C1758F11-C509-445E-B331-DF13E98CD31E}">
+										<Image FileName="-549328541" Left="63" Top="179" Right="1911" Bottom="989" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-card[contains(., &apos;arrow_back&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card[contains(@class, &apos;mat-mdc-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -17366,7 +18758,7 @@
 				<Child Name="radiobuttonUser" Owner="{7794A55D-7F8C-48C8-A7D5-A961F3D75F32}" />
 				<Child Name="textnodeUsername" Owner="{7A718274-F45F-4272-8F2D-6BDBB9A57096}" />
 				<Child Name="ruleAccess" Owner="{1CBB047B-7D3D-48DB-8776-A1824CCEF4C1}" />
-				<Child Name="textnodeUsername2" Owner="{AB3F157D-8318-4A80-B7FD-D1B93FF83BD6}" />
+				<Child Name="allocationGrid" Owner="{AB3F157D-8318-4A80-B7FD-D1B93FF83BD6}" />
 				<Child Name="textnodeCarrierContractNamedAcco" Owner="{09515ECF-706B-4641-9C78-0058B50236AE}" />
 				<Child Name="buttonAdd2" Owner="{78BC895A-4C0D-4E33-B487-FE05EE3FB5C0}" />
 				<Child Name="radiobuttonNamedAccount" Owner="{113E7F06-1CD4-4C7C-A28F-580FD3BE4954}" />
@@ -17552,7 +18944,7 @@
 				<Child Name="textnodeEmail" Owner="{E732F2FC-1B59-4F28-B612-160A97D4897B}" />
 				<Child Name="vg18" Owner="{E89CDD2C-F864-4C38-8850-B56AC5FC6890}" />
 				<Child Name="textnodeCell4" Owner="{6F1285B4-CD49-4920-8A53-9E83520F6ACF}" />
-				<Child Name="checkDeleteBooking" Owner="{5E300A57-2F85-480F-9C93-2E4FCD63D192}" />
+				<Child Name="allocationInfoPanel" Owner="{5E300A57-2F85-480F-9C93-2E4FCD63D192}" />
 				<Child Name="calendar1" Owner="{552946DA-92BA-4E5B-9172-97F3B24D3224}" />
 				<Child Name="panel110" Owner="{CE4C8B5D-03B3-4F33-A833-55037F5E8003}" />
 				<Child Name="radiobuttonApplyToBaseRate" Owner="{852A83F4-C792-4805-9F3B-6EC48741C87B}" />
@@ -17578,8 +18970,12 @@
 				<Child Name="saveForm" Owner="{B4D696E6-6AB0-4350-A509-F23C280DE1F1}" />
 				<Child Name="organizationGroup" Owner="{C94BC50C-AC86-4093-967D-C7546F15CD79}" />
 				<Child Name="labelDestination" Owner="{71A657E6-7F8F-49B1-8B29-E1490BD05F65}" />
-				<Child Name="labelCommodity" Owner="{B62D0F0B-C296-4FE3-A573-FF995635CBD6}" />
-				<Child Name="labelNamedAccount" Owner="{4BC63413-76AC-4262-B501-29CC45236D2E}" />
+				<Child Name="labelCommodity" Owner="{B62D0F0B-C296-4FE3-A573-FF995635CBD6}">
+					<Child Name="textnodeCommodity2" Owner="{6AE4FE73-48A1-4071-A60C-909B153446EE}" />
+				</Child>
+				<Child Name="labelNamedAccount" Owner="{4BC63413-76AC-4262-B501-29CC45236D2E}">
+					<Child Name="textnodeNamedAccount2" Owner="{717346CF-E6F8-4348-9CCD-DF962F01C02B}" />
+				</Child>
 				<Child Name="labelCarrier" Owner="{F3654A83-0BA2-44CE-AF34-423448F7DEC4}" />
 				<Child Name="labelCustomerName" Owner="{AFC69635-A9FE-4148-90F2-B00675718D37}" />
 				<Child Name="labelPrimaryService" Owner="{ECE11929-DB70-4DBD-A1CB-293D347F548C}" />
@@ -17595,6 +18991,114 @@
 				<Child Name="panelAutomationnamed" Owner="{3C4605D3-BF91-4E7F-9652-5B3AE83EF7A7}" />
 				<Child Name="panel000aautomationdisclaimer" Owner="{FAAD3DF0-C179-420C-9F86-F5A4731B4123}" />
 				<Child Name="panel3" Owner="{FF4B50E4-FECC-46E0-9DA3-6CAD7CF95F94}" />
+				<Child Name="labelAllocation" Owner="{2FC44C3A-7F18-4EE2-8D63-116ABC78BDDD}">
+					<Child Name="textnodeAllocation" Owner="{A45CAE7F-4FCD-4F73-AD8D-D1DFC7E67279}" />
+				</Child>
+				<Child Name="labelDestinationCountry" Owner="{792B7BAC-B0AE-4806-A5C3-6668246126C5}">
+					<Child Name="textnodeDestinationCountry" Owner="{A46FBF5C-D58B-435B-B3E6-650012826341}" />
+				</Child>
+				<Child Name="labelOriginFreetime" Owner="{6CBF878C-0E29-416C-B8BB-BB80D40D7415}">
+					<Child Name="textnodeOriginFreetime" Owner="{C6F0138D-C9D1-4F96-85C7-47755DC95D09}" />
+				</Child>
+				<Child Name="labelShipmentType" Owner="{7C4DB6B8-6E08-43C0-A536-75BD7AD43874}">
+					<Child Name="textnodeShipmentType" Owner="{911C47F3-F6FA-4835-AF92-677329E73ECB}" />
+				</Child>
+				<Child Name="panelAllocation" Owner="{BD2737FC-461B-460A-9BF1-8F8E681C1438}" />
+				<Child Name="labelAmendment" Owner="{7E521448-25EA-4465-948F-E37255FC40AA}">
+					<Child Name="textnodeAmendment" Owner="{2549FADF-1074-41FC-BBD5-0D080629B8C7}" />
+				</Child>
+				<Child Name="labelDestinationFreetime" Owner="{A44991BD-D84C-48A8-A3DE-1E32047DD74E}">
+					<Child Name="textnodeDestinationFreetime" Owner="{B669CD62-B2A7-4D8A-8F81-BAFF7774AF6F}" />
+				</Child>
+				<Child Name="labelOriginVia" Owner="{B59C3235-8663-43FC-A5D2-CABA550B218E}">
+					<Child Name="textnodeOriginVia" Owner="{40A2CA5F-B562-4EFF-94B9-3D2A061DFC12}" />
+				</Child>
+				<Child Name="labelSize" Owner="{CE162A97-8693-4958-BF86-264A1E8D2063}">
+					<Child Name="textnodeSize" Owner="{ED573709-3A4A-4E40-BA40-8093C74EC406}" />
+				</Child>
+				<Child Name="labelBuyDestinationCharges" Owner="{6480EA15-9E27-49D0-8E64-F599F2A4A8E6}">
+					<Child Name="textnodeBuyDestinationCharges" Owner="{3FE4EDCF-9C38-4560-A08C-CF7B32654E3D}" />
+				</Child>
+				<Child Name="labelDestinationVia" Owner="{C8C2324F-8386-44F3-8BBB-463F4AE4CD32}">
+					<Child Name="textnodeDestinationVia" Owner="{44638C79-B66E-45C6-B430-1CA2007BE2C4}" />
+				</Child>
+				<Child Name="labelPrice" Owner="{FFDBD4FE-0CE1-49F4-8B66-FF235AD730BE}">
+					<Child Name="textnodePrice" Owner="{72D683BE-5626-4FD3-9698-DE3B053B282A}" />
+				</Child>
+				<Child Name="labelTotalAllocationAmount" Owner="{7F6C169A-3380-4D46-9274-EC8F72A8CCDE}">
+					<Child Name="textnodeTotalAllocationAmount" Owner="{FDF2DFF5-BF52-4CAA-941A-810E82E75545}" />
+				</Child>
+				<Child Name="labelBuyFreightCharges" Owner="{6146A5C7-8653-4635-AE52-BB04FCE0DCFC}">
+					<Child Name="textnodeBuyFreightCharges" Owner="{17DBF9B2-D0AC-457F-ADA8-4ACD101B95F4}" />
+				</Child>
+				<Child Name="labelEarliestDepartureDate" Owner="{8CF8017B-9BBB-447D-9EB5-9287956EDB31}" />
+				<Child Name="labelRateEffectiveDate" Owner="{D5C62F70-41ED-4FB4-8B61-A04742E67E4E}">
+					<Child Name="textnodeRateEffectiveDate" Owner="{1BE60607-B9FD-4059-BE7F-FCA8AC969E0C}" />
+				</Child>
+				<Child Name="labelTotalDestinationDemurrage" Owner="{19E6E37A-8844-432F-B326-10FAA200B7AB}">
+					<Child Name="textnodeTotalDestinationDemurrag" Owner="{8555D347-A247-4001-94A7-810B85FEE480}" />
+				</Child>
+				<Child Name="labelBuyOriginCharges" Owner="{CA631913-E2AA-4C82-AF41-84931C34617E}">
+					<Child Name="textnodeBuyOriginCharges" Owner="{EEC0376B-4036-49DE-B9D4-3F3A4311858F}" />
+				</Child>
+				<Child Name="labelEstTransit" Owner="{105F4611-1BB6-4E05-97F8-62271D070637}">
+					<Child Name="textnodeEstTransit" Owner="{5A7F2FCD-DE6D-454F-A067-C09070311A4B}" />
+				</Child>
+				<Child Name="labelRateExpirationDate" Owner="{C9465DD0-5EE5-4544-B313-D02EFD561179}">
+					<Child Name="textnodeRateExpirationDate" Owner="{A0DD5880-1A46-4192-9864-AA0B0E5E53FF}" />
+				</Child>
+				<Child Name="labelTotalDestinationDetention" Owner="{D3BFA004-0173-4D0C-9A03-BD2D85EDCC3C}" />
+				<Child Name="labelBuyPrice" Owner="{9EF02F04-A101-4F5B-8F4C-332669288036}">
+					<Child Name="textnodeBuyPrice" Owner="{6292FF64-C88D-46E3-8F75-73F620043588}" />
+				</Child>
+				<Child Name="labelMargin" Owner="{BAE66E75-0DF7-4985-BFB2-637BB3D53CA5}">
+					<Child Name="textnodeMargin" Owner="{8003636C-02E9-488E-B192-5028FBA6A802}" />
+				</Child>
+				<Child Name="labelRateType" Owner="{4DFDB957-A5D9-4E2B-AB58-894422C3005E}">
+					<Child Name="textnodeRateType" Owner="{61EC35D7-DAB3-4420-857B-0124B264D55D}" />
+				</Child>
+				<Child Name="labelTotalFreetime" Owner="{EA615954-9F26-4068-AC58-24598BCE002B}">
+					<Child Name="textnodeTotalFreetime" Owner="{BADC8095-B6B2-41A8-B8BD-7AFB56F5EEC6}" />
+				</Child>
+				<Child Name="labelCarrier2" Owner="{655412A2-06C2-4D63-A80C-E4A6A32F14BE}">
+					<Child Name="textnodeCarrier5" Owner="{DABA3898-73B9-42B3-BBC6-5A11E72C75DE}" />
+				</Child>
+				<Child Name="labelMargin2" Owner="{5CD869F5-F964-447F-91C9-126F973E5AA4}">
+					<Child Name="textnodeMargin2" Owner="{ADD73FFE-95D5-4A3F-B066-4BA768C7C547}" />
+				</Child>
+				<Child Name="labelTotalOriginDemurrage" Owner="{0C2788D5-DD20-46C0-AB40-F647E3539CBE}">
+					<Child Name="textnodeTotalOriginDemurrage" Owner="{AD7984F0-CDD5-4B39-AD61-8A3D62073A2B}" />
+				</Child>
+				<Child Name="labelMode" Owner="{5B3ECEE4-E256-4CB0-A4AA-B8692C70A304}">
+					<Child Name="textnodeMode" Owner="{0C690628-5311-40C5-9C3F-BE1B6A42BB7D}" />
+				</Child>
+				<Child Name="labelSellFreightCharges" Owner="{7FA2E64F-3515-406B-B6A9-EA0962FB76F7}">
+					<Child Name="textnodeSellFreightCharges" Owner="{19460FC8-93AC-4BA7-8B7C-ED11A8211BEA}" />
+				</Child>
+				<Child Name="labelTotalOriginDetention" Owner="{E69E22BA-95F9-4ADE-A450-31378BC24F6D}">
+					<Child Name="textnodeTotalOriginDetention" Owner="{8BA368D0-A30E-4572-87CD-8372A54FE445}" />
+				</Child>
+				<Child Name="labelContractExpiration" Owner="{81F3BFFD-38DD-44A4-8079-785418D84E95}">
+					<Child Name="textnodeContractExpiration" Owner="{30140C56-FDCE-424D-8B10-65098E55E7FA}" />
+				</Child>
+				<Child Name="labelSellOriginCharges" Owner="{5DDD279D-61EC-4FF7-9DBD-B7A98E5CC141}">
+					<Child Name="textnodeSellOriginCharges" Owner="{07B6149E-E45F-498D-8053-ACFD9C2D849A}" />
+				</Child>
+				<Child Name="labelContractId" Owner="{BAF50AD3-34EC-4B8F-A86A-C5B0350846A9}">
+					<Child Name="textnodeContractId2" Owner="{10842EFB-ED20-48F0-BB61-AF7F734405A5}" />
+				</Child>
+				<Child Name="labelSellPrice" Owner="{D8537DFF-D5B0-41D9-8904-C483E0809476}">
+					<Child Name="textnodeSellPrice" Owner="{56E4DC80-C8C6-48E3-BB51-4FFB93FF0073}" />
+				</Child>
+				<Child Name="labelDestination2" Owner="{0105FE8E-4500-4565-A0F0-EB5E4BCA006C}">
+					<Child Name="textnodeDestination" Owner="{F4113F1F-0AAB-49D6-B249-309D69506D20}" />
+				</Child>
+				<Child Name="labelOriginCountry" Owner="{F25C6195-085C-43A0-B85D-9F00999B0DF7}">
+					<Child Name="textnodeOriginCountry" Owner="{213A574B-3384-44DF-A6E1-10CE3A2F036D}" />
+				</Child>
+				<Child Name="labelService" Owner="{2B99130F-B3FC-4817-B4D2-0E71EE2A5648}">
+					<Child Name="textnodeService" Owner="{5553888F-7551-48DC-9977-9AC64AE5B937}" />
+				</Child>
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -17767,6 +19271,9 @@
 				<Child Name="panel2" Owner="{C8E65BA7-7B93-4D88-A560-DEDA1A3BD691}" />
 				<Child Name="panel000aautomationdisclaimer" Owner="{1348375F-91D1-4933-95C4-01CCD34708C5}" />
 				<Child Name="textnode000aautomationdisclaimer" Owner="{F66CAE36-1124-43BD-8AAA-7C8053049EF7}" />
+				<Child Name="textnodeGridSettings" Owner="{4D2C797B-49AB-4893-8252-D0F36B926A31}" />
+				<Child Name="checkboxAllocation" Owner="{894E3690-BDB1-4336-9A8E-D69BF03E7246}" />
+				<Child Name="panelContractId" Owner="{247780D3-00C2-41D7-B9E5-C2BCF126F481}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
@@ -17908,6 +19415,7 @@
 				<Child Name="panelPleaseSelectMembersFromThe" Owner="{8570F58F-7F5E-4917-AA16-17AC80C452A3}" />
 				<Child Name="textbox3" Owner="{43D8B4B0-16F3-481B-8383-B0DD661453A3}" />
 				<Child Name="checkboxSelectAll" Owner="{61997A1C-C3CD-4F88-B818-FE0D0D40099C}" />
+				<Child Name="textnodeArrowBack" Owner="{C1758F11-C509-445E-B331-DF13E98CD31E}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}" />
 			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}" />

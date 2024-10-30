@@ -96,6 +96,7 @@
 				<child name="TC_57_QMS_5586_Surcharge_List_ManagerFreeform" key="{BC3130B9-43B8-4402-AFD3-555B551E84E2}" path="TC_57_QMS_5586_Surcharge_List_ManagerFreeform.tcKDTest" />
 				<child name="TC_64_QMS_5024CreateNamedAccount" key="{4C1EAF46-BDB2-4A66-BFCF-61C34422A30F}" path="TC_64_QMS_5024CreateNamedAccount.tcKDTest" />
 				<child name="TC_65_QMS_4984CreateDisclaimer" key="{FB5217FF-FA33-4116-ABBC-3BE1EFDA45A5}" path="TC_65_QMS_4984CreateDisclaimer.tcKDTest" />
+				<child name="TC_66_QMS_4933_Grid_Settings_CustomizeSingle_FCL" key="{9B2B161D-2D06-413C-A004-129FDBFC1B02}" path="TC_66_QMS_4933_Grid_Settings_CustomizeSingle_FCL.tcKDTest" />
 			</folder>
 			<folder name="Allocation">
 				<folder name="Booking">

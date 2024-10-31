@@ -5890,15 +5890,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="expiration" Key="{F557FE93-D2A7-4AA1-8D44-054B31EBCE60}">
+									<Child Name="doneButtonDpto" Key="{F557FE93-D2A7-4AA1-8D44-054B31EBCE60}">
 										<Image FileName="1653465410" Left="1711" Top="697" Right="1863" Bottom="713" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//div[contains(@class, &apos;flex-equal-width&apos;)])[4]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[contains(text(), &apos;Sep 30, 2034&apos;)]" />
+												<Value Value="xpath=//button[contains(@class, &apos;mat-tooltip-trigger&apos;) and contains(@class, &apos;icon-button&apos;)]//i[contains(@class, &apos;material-icons&apos;) and normalize-space(text())=&apos;done&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -9725,12 +9722,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="email_quoteID" Key="{9CC67D8E-F7DF-4082-AA2E-707E725D2717}">
+									<Child Name="automationDpto" Key="{9CC67D8E-F7DF-4082-AA2E-707E725D2717}">
 										<Image FileName="1969512998" Left="863" Top="559" Right="927" Bottom="589" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//div[@class=&apos;ellipsis nw b f18&apos; and contains(., &apos;Quote ID&apos;)])[1]" />
+												<Value Value="xpath=//span[@mattooltipposition=&apos;after&apos; and contains(@class, &apos;mat-tooltip-trigger&apos;) and normalize-space(text())=&apos;AUTOMATIONTEST&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14459,6 +14456,36 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeAutomationDescription" Key="{FEE32D6F-DB10-4881-BCB2-8CB6FC0D0241}">
+										<Image FileName="410631699" Left="94" Top="288" Right="195" Bottom="302" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;AUTOMATIONTEST&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@aria-describedby=(//div[.=&apos;automation description&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-department-list//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNoDepartmentsFound" Key="{08B12924-0015-44F3-8D9F-0FE7383B3154}">
+										<Image FileName="562915434" Left="89" Top="288" Right="451" Bottom="302" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;No departments found.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-department-list/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}">
@@ -16470,6 +16497,90 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeDepartmentManagement" Key="{8BAE8A97-0D9B-4B42-885B-C34A02F95593}">
+										<Image FileName="1006856011" Left="1283" Top="528" Right="1431" Bottom="544" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Department Management&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/cp-card[5]//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCity" Key="{21EC1FD0-68B3-41F3-AA1B-6AD094ABC38A}">
+										<Image FileName="1461253850" Left="512" Top="428" Right="929" Bottom="450" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;City&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-input-5" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-department-form//div[3]/mat-form-field//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxPrimaryAddress" Key="{7D32051A-41AA-499B-B69F-49E57091E155}">
+										<Image FileName="1745853871" Left="512" Top="566" Right="929" Bottom="588" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Primary Address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-input-9" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-department-form//div[7]/mat-form-field//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSecondaryAddress" Key="{75C5DFFF-0D7A-4619-9038-CD752BE79023}">
+										<Image FileName="-1822858732" Left="512" Top="642" Right="929" Bottom="664" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Secondary Address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-input-10" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-department-form//div[8]/mat-form-field//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail" Key="{C1EF7064-EADA-48F8-B5F9-07D5B969623F}">
+										<Image FileName="641768888" Left="512" Top="871" Right="929" Bottom="893" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-input-13" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-department-form//div[11]/mat-form-field//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDepartment" Key="{963A827A-8B9E-4882-AA7C-714686188D61}">
+										<Image FileName="-993058327" Left="484" Top="243" Right="987" Bottom="985" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;pl-4&apos;)]/cp-department-form/div[contains(@class, &apos;pl-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-department-form/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -17993,6 +18104,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeCatapultTest" Key="{95945FD0-B7F5-4FAA-9B05-950D769ED25C}">
+										<Image FileName="168878092" Left="714" Top="729" Right="804" Bottom="751" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;CATAPULT TEST&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAdd2" Key="{32D773E3-1308-4EF3-9AE6-792903883D93}">
+										<Image FileName="1946568464" Left="1135" Top="645" Right="1166" Bottom="672" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-58&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-1&apos;]//shared-icon-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -18558,7 +18696,7 @@
 				<Child Name="textnodeArrowLeft" Owner="{45AFD29F-EA97-449D-A2FE-C395E169FB73}" />
 				<Child Name="panelTrainingaylinfcl3" Owner="{38D8F03D-9DFB-46B5-B3B1-50F0F59087DF}" />
 				<Child Name="spotRate" Owner="{2721AC68-78ED-47EF-B07B-673E9C4FB854}" />
-				<Child Name="expiration" Owner="{F557FE93-D2A7-4AA1-8D44-054B31EBCE60}" />
+				<Child Name="doneButtonDpto" Owner="{F557FE93-D2A7-4AA1-8D44-054B31EBCE60}" />
 				<Child Name="commodity" Owner="{1ACFD66B-C415-4B25-8649-21B9CD9B4CDC}" />
 				<Child Name="textnodeQ569080112" Owner="{87591A46-B247-4F67-B2ED-CF3839CA5263}" />
 				<Child Name="buttonRefreshMasterQuote" Owner="{DB7441E4-3E1C-4148-865C-70AE18B0A1E7}" />
@@ -18830,7 +18968,7 @@
 				<Child Name="textnodeSunriseFoods" Owner="{3EFB1C2F-B641-4CFA-990A-FA67C1DE382F}" />
 				<Child Name="panel1" Owner="{54C4E5E4-5BEF-4D00-B698-028DF932ADF7}" />
 				<Child Name="textnodeLocationQualifiers" Owner="{3DEC284A-90F5-401D-A08E-D6A23A6E6AEA}" />
-				<Child Name="email_quoteID" Owner="{9CC67D8E-F7DF-4082-AA2E-707E725D2717}" />
+				<Child Name="automationDpto" Owner="{9CC67D8E-F7DF-4082-AA2E-707E725D2717}" />
 				<Child Name="checkboxAllUnloc" Owner="{8D5D6527-CB85-4995-B7A5-608CDFDEDC97}" />
 				<Child Name="panel310" Owner="{51EF78AA-9D1F-494A-B616-295365D543DC}" />
 				<Child Name="panelContractAccessRuleSWas" Owner="{BADB470E-269D-48A3-9910-611193D4C424}" />
@@ -19165,6 +19303,8 @@
 				<Child Name="panelTitleTitle" Owner="{E035FCD9-5684-48CA-85C1-12992F9FDEB8}" />
 				<Child Name="panelAylineditRodriguezPerez" Owner="{DB19705C-B320-4B10-BB29-78D107B6FC1B}" />
 				<Child Name="textnodeAylineditRodriguezPerez" Owner="{6641D3C7-977C-4A0C-AB60-140EC1C3DC06}" />
+				<Child Name="textnodeAutomationDescription" Owner="{FEE32D6F-DB10-4881-BCB2-8CB6FC0D0241}" />
+				<Child Name="panelNoDepartmentsFound" Owner="{08B12924-0015-44F3-8D9F-0FE7383B3154}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -19342,6 +19482,12 @@
 				<Child Name="panelContractId" Owner="{247780D3-00C2-41D7-B9E5-C2BCF126F481}" />
 				<Child Name="textnodeProfile" Owner="{3C795552-6C59-4E7E-BDB6-0451FD155A15}" />
 				<Child Name="panelRoleAdmin" Owner="{67A79504-74B2-4C33-BEBC-3C40903D301D}" />
+				<Child Name="textnodeDepartmentManagement" Owner="{8BAE8A97-0D9B-4B42-885B-C34A02F95593}" />
+				<Child Name="textboxCity" Owner="{21EC1FD0-68B3-41F3-AA1B-6AD094ABC38A}" />
+				<Child Name="textboxPrimaryAddress" Owner="{7D32051A-41AA-499B-B69F-49E57091E155}" />
+				<Child Name="textboxSecondaryAddress" Owner="{75C5DFFF-0D7A-4619-9038-CD752BE79023}" />
+				<Child Name="textboxEmail" Owner="{C1EF7064-EADA-48F8-B5F9-07D5B969623F}" />
+				<Child Name="panelDepartment" Owner="{963A827A-8B9E-4882-AA7C-714686188D61}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
@@ -19484,6 +19630,8 @@
 				<Child Name="textbox3" Owner="{43D8B4B0-16F3-481B-8383-B0DD661453A3}" />
 				<Child Name="checkboxSelectAll" Owner="{61997A1C-C3CD-4F88-B818-FE0D0D40099C}" />
 				<Child Name="textnodeArrowBack" Owner="{C1758F11-C509-445E-B331-DF13E98CD31E}" />
+				<Child Name="textnodeCatapultTest" Owner="{95945FD0-B7F5-4FAA-9B05-950D769ED25C}" />
+				<Child Name="buttonAdd2" Owner="{32D773E3-1308-4EF3-9AE6-792903883D93}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}" />
 			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}" />

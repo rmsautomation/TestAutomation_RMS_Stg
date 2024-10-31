@@ -98,6 +98,7 @@
 				<child name="TC_65_QMS_4984CreateDisclaimer" key="{FB5217FF-FA33-4116-ABBC-3BE1EFDA45A5}" path="TC_65_QMS_4984CreateDisclaimer.tcKDTest" />
 				<child name="TC_66_QMS_4933_Grid_Settings_CustomizeSingle_FCL" key="{9B2B161D-2D06-413C-A004-129FDBFC1B02}" path="TC_66_QMS_4933_Grid_Settings_CustomizeSingle_FCL.tcKDTest" />
 				<child name="TC_68_QMS_4960_Profile_Edit_Account_Details" key="{CBD758A8-FE7D-4956-BEA8-3673DD5AC5A5}" path="TC_68_QMS_4960_Profile_Edit_Account_Details.tcKDTest" />
+				<child name="TC_71_QMS_4973_CreateDepartment" key="{46B0DD8F-B9E5-40AB-A826-4C0E9D4E85C5}" path="TC_71_QMS_4973_CreateDepartment.tcKDTest" />
 			</folder>
 			<folder name="Allocation">
 				<folder name="Booking">
@@ -314,6 +315,7 @@
 				<child name="AddCollectPrepaidSurchargeAndVerify" key="{5F6E6AAE-784F-4742-8FB3-C10BB3D089A2}" path="AddCollectPrepaidSurchargeAndVerify.tcKDTest" />
 				<child name="AddCityLinkingAndVerify" key="{EAC0F94E-D7B4-48E5-9458-83755B49ACDE}" path="AddCityLinkingAndVerify.tcKDTest" />
 				<child name="AddTradeLane" key="{C5B7A7E2-2514-4D42-9BB7-2C50737A6F22}" path="AddTradeLane.tcKDTest" />
+				<child name="DeleteDepartment" key="{F2AB3D09-39AA-42A9-B05F-157AC589C758}" path="DeleteDepartment.tcKDTest" />
 			</folder>
 			<folder name="Hooks">
 				<child name="Hooks_OnStartTest" key="{A523E07A-FB3A-4014-9FE9-44573491223C}" path="Hooks_OnStartTest.tcKDTest" />

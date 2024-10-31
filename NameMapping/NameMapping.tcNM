@@ -2702,25 +2702,22 @@
 										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-input-52" />
+												<Value Value="xpath=//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+												<Value Value="xpath=//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+												<Value Value="xpath=//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+												<Value Value="xpath=//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+												<Value Value="xpath=//mat-tab-body[@id=&apos;mat-tab-content-2-1&apos;]//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-2-1&apos;]//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input" />
+												<Value Value="xpath=//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13028,12 +13025,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="cell2" Key="{1C3743F0-133C-4B51-9A70-E178DDEAE490}">
+									<Child Name="titleProfile" Key="{1C3743F0-133C-4B51-9A70-E178DDEAE490}">
 										<Image FileName="-243844796" Left="761" Top="227" Right="786" Bottom="409" />
 										<TypeInfo Item0="{1C620272-A0E1-4E5E-B9AE-803C6739C04E}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//th[contains(text(), &apos;Commodity Brief Description&apos;)]" />
+												<Value Value="xpath=(//input[contains(@class, &apos;mat-mdc-input-element&apos;)])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[contains(@class, &apos;mat-mdc-input-element&apos;) and @placeholder=&apos;Title&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14414,6 +14414,48 @@
 											</Selector>
 											<Selector>
 												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-185&apos;]//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTitleTitle" Key="{E035FCD9-5684-48CA-85C1-12992F9FDEB8}">
+										<Image FileName="-924646865" Left="85" Top="385" Right="524" Bottom="399" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Title: Title&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAylineditRodriguezPerez" Key="{DB19705C-B320-4B10-BB29-78D107B6FC1B}">
+										<Image FileName="-924646865" Left="85" Top="244" Right="480" Bottom="284" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;AylinEdit Rodriguez Perez&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;w-90&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylineditRodriguezPerez" Key="{6641D3C7-977C-4A0C-AB60-140EC1C3DC06}">
+										<Image FileName="-924646865" Left="1715" Top="141" Right="1861" Bottom="156" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;AylinEdit Rodriguez Perez&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;cat-header-userName&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mcf-header&apos;]//h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16404,6 +16446,27 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;column-preview-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeProfile" Key="{3C795552-6C59-4E7E-BDB6-0451FD155A15}">
+										<Image FileName="-1168696627" Left="680" Top="276" Right="718" Bottom="292" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Profile&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/cp-card[3]//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRoleAdmin" Key="{67A79504-74B2-4C33-BEBC-3C40903D301D}">
+										<Image FileName="-438911267" Left="77" Top="220" Right="516" Bottom="669" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;brand-default-text&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -18987,7 +19050,7 @@
 				<Child Name="textnodeAmendmentsInProgress" Owner="{5854984E-AAA8-4AAB-ABFC-A5F0E3C04D2E}" />
 				<Child Name="textnode000aautomation2" Owner="{4C29C404-4BCD-4694-B7BD-94ECABC86AF2}" />
 				<Child Name="disclaimer" Owner="{F1EC4AB2-7B52-48A2-9196-FC240B2B178F}" />
-				<Child Name="cell2" Owner="{1C3743F0-133C-4B51-9A70-E178DDEAE490}" />
+				<Child Name="titleProfile" Owner="{1C3743F0-133C-4B51-9A70-E178DDEAE490}" />
 				<Child Name="panelAutomationnamed" Owner="{3C4605D3-BF91-4E7F-9652-5B3AE83EF7A7}" />
 				<Child Name="panel000aautomationdisclaimer" Owner="{FAAD3DF0-C179-420C-9F86-F5A4731B4123}" />
 				<Child Name="panel3" Owner="{FF4B50E4-FECC-46E0-9DA3-6CAD7CF95F94}" />
@@ -19099,6 +19162,9 @@
 				<Child Name="labelService" Owner="{2B99130F-B3FC-4817-B4D2-0E71EE2A5648}">
 					<Child Name="textnodeService" Owner="{5553888F-7551-48DC-9977-9AC64AE5B937}" />
 				</Child>
+				<Child Name="panelTitleTitle" Owner="{E035FCD9-5684-48CA-85C1-12992F9FDEB8}" />
+				<Child Name="panelAylineditRodriguezPerez" Owner="{DB19705C-B320-4B10-BB29-78D107B6FC1B}" />
+				<Child Name="textnodeAylineditRodriguezPerez" Owner="{6641D3C7-977C-4A0C-AB60-140EC1C3DC06}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -19274,6 +19340,8 @@
 				<Child Name="textnodeGridSettings" Owner="{4D2C797B-49AB-4893-8252-D0F36B926A31}" />
 				<Child Name="checkboxAllocation" Owner="{894E3690-BDB1-4336-9A8E-D69BF03E7246}" />
 				<Child Name="panelContractId" Owner="{247780D3-00C2-41D7-B9E5-C2BCF126F481}" />
+				<Child Name="textnodeProfile" Owner="{3C795552-6C59-4E7E-BDB6-0451FD155A15}" />
+				<Child Name="panelRoleAdmin" Owner="{67A79504-74B2-4C33-BEBC-3C40903D301D}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">

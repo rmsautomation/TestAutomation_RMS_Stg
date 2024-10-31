@@ -308,7 +308,7 @@
 	</TestData>
 	<Parameters Key="{5722855E-DDB8-41A0-AF6F-6415D9E2B0BE}">
 		<Parameter0 Name="ruleName" VarType="8" IsOptional="False" DefValueType="9" DefValueValue="4100550054004F004D004100540049004F004E005F005200650073007400720069006300740073005F0043006F006E00740072006100630074005F0055007300650072000D000A00" Description="" />
-		<Parameter1 Name="user" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" Description="" />
+		<Parameter1 Name="user" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="AYLINADMIN@TEST.COM" Description="" />
 		<Parameter2 Name="contract_id" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="AUTOMATION_NAC" Description="" />
 	</Parameters>
 </Root>

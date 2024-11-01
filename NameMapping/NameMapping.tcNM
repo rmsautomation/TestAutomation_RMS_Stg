@@ -11795,18 +11795,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel27" Key="{FCC36BC0-B4D3-4E4D-8147-C79E3FF70AB5}">
+									<Child Name="circularProgress" Key="{FCC36BC0-B4D3-4E4D-8147-C79E3FF70AB5}">
 										<Image FileName="538167054" Left="971" Top="527" Right="1101" Bottom="577" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//app-add-surcharge-rule//div[2]/div[2]/ft-surcharge-pricing//mat-form-field//div[contains(@class, &apos;mat-mdc-form-field-infix&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-0&apos;]//ft-surcharge-pricing//mat-form-field/div/div/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//ft-surcharge-pricing//div/mat-form-field/div/div/div" />
+												<Value Value="xpath=//div[@aria-hidden=&quot;true&quot; and contains(@class, &quot;mdc-circular-progress__indeterminate-container&quot;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14486,6 +14480,231 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeQuotationsCreated" Key="{D5B6FC5D-44F5-4A84-A364-D28FEB54C829}">
+										<Image FileName="-544605139" Left="90" Top="274" Right="202" Bottom="290" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Quotations Created&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/reports-item//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAverageMargin" Key="{452D0C1D-835E-49A3-8697-C36A06112E90}">
+										<Image FileName="-544605139" Left="550" Top="274" Right="641" Bottom="290" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Average Margin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/reports-item//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWinRatio" Key="{B07D53F1-4839-4C2F-A5D9-8733508954E3}">
+										<Image FileName="-544605139" Left="1009" Top="274" Right="1064" Bottom="290" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Win Ratio&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/reports-item//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRatesReturned" Key="{DA8D29D1-F702-449C-9687-B0E08E80D8F9}">
+										<Image FileName="-544605139" Left="1469" Top="274" Right="1558" Bottom="290" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Rates Returned&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/reports-item//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuoteTypeBreakdown" Key="{0C91FD9D-3CB5-4E36-81FE-52EC864F6BA2}">
+										<Image FileName="192784476" Left="85" Top="272" Right="197" Bottom="285" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Quote Type Breakdown&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[2]/div/shared-report-card/mat-card//span[contains(@class, &apos;text-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTop5Users" Key="{E7125A5B-7A6F-41A3-BF00-CFFA544BDABA}">
+										<Image FileName="192784476" Left="433" Top="272" Right="490" Bottom="285" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Top 5 Users&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[2]/div[2]/shared-report-card/mat-card//span[contains(@class, &apos;text-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[2]/div[2]/shared-report-card/mat-card//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTop5Destinations" Key="{D5E94661-9E27-46C1-890A-1765F6E5D2D7}">
+										<Image FileName="-770627021" Left="1129" Top="272" Right="1219" Bottom="285" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Top 5 Destinations&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[2]/div[4]/shared-report-card/mat-card//span[contains(@class, &apos;text-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[2]/div[4]/shared-report-card/mat-card//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTop5ODPairs" Key="{B55F19BF-45C0-4DAF-AAD1-29D33B3C3366}">
+										<Image FileName="-770627021" Left="1477" Top="272" Right="1553" Bottom="285" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Top 5 O/D Pairs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[2]/div[5]/shared-report-card/mat-card//span[contains(@class, &apos;text-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[2]/div[5]/shared-report-card/mat-card//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotationsVsTime" Key="{212C2773-96C8-4BD6-A245-F6E8910E5B68}">
+										<Image FileName="-770627021" Left="85" Top="461" Right="179" Bottom="474" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Quotations vs Time&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[3]/div/shared-report-card/mat-card//span[contains(@class, &apos;text-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/shared-report-card/mat-card/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotationsByMode" Key="{F5F9BA02-2788-48DE-A38A-DC34055B410F}">
+										<Image FileName="-770627021" Left="1477" Top="461" Right="1574" Bottom="474" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Quotations by Mode&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[3]/div[2]/shared-report-card/mat-card//span[contains(@class, &apos;text-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[3]/div[2]/shared-report-card/mat-card//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTop5Carriers" Key="{729710E7-F922-4BE4-A430-9241F2D63B64}">
+										<Image FileName="-770627021" Left="85" Top="749" Right="153" Bottom="762" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Top 5 Carriers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[4]/div/shared-report-card/mat-card//span[contains(@class, &apos;text-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/shared-report-card/mat-card/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTop5Customers" Key="{5275192C-71AD-4658-988A-E3B748FF69EE}">
+										<Image FileName="-1741857530" Left="1477" Top="749" Right="1559" Bottom="762" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Top 5 Customers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[4]/div[2]/shared-report-card/mat-card//span[contains(@class, &apos;text-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-created//div[4]/div[2]/shared-report-card/mat-card//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="canvas2" Key="{74F89FEE-E4D4-4805-87C2-242082926314}">
+										<Image FileName="-1741857530" Left="78" Top="489" Right="1452" Bottom="714" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//canvas[@type=&apos;line&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-vs-time/canvas" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="canvas3" Key="{32E1D1A4-B778-426E-B356-FF50C45EC940}">
+										<Image FileName="290717785" Left="1471" Top="489" Right="1917" Bottom="714" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//canvas[@type=&apos;doughnut&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-quotations-by-mode/canvas" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAutomationupload" Key="{A20F7320-F241-4FB0-AF20-62710C653837}">
+										<Image FileName="1426710766" Left="85" Top="284" Right="368" Bottom="306" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;AutomationUpload&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ft-contacts//mat-card/address-book//div[contains(@class, &apos;link&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAutomationcontactupload1Tes" Key="{ADFF680A-7851-4702-9087-31F6ADC00CDD}">
+										<Image FileName="-1327231312" Left="674" Top="284" Right="961" Bottom="306" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;AutomationContactUpload1 Testing&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div[contains(@class, &apos;list-comp-space&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCompanyDescription" Key="{A637052D-5578-485B-BA3D-5649C8EAD097}">
+										<Image FileName="1308460110" Left="379" Top="301" Right="662" Bottom="314" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Company Description: AutomationUploadDescription&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}">
@@ -16581,6 +16800,42 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelMatSelectValue5" Key="{BEE9C101-3FEA-42A4-9B1B-DDC56BB15E2A}">
+										<Image FileName="944537585" Left="723" Top="200" Right="957" Bottom="229" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-select-value-5" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div[2]/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMatSelectValue3" Key="{6D42F92D-A45A-404C-BF81-01C59EC85FD5}">
+										<Image FileName="556288677" Left="462" Top="200" Right="696" Bottom="229" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-select-value-3" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOctober12024" Key="{7721FA39-C3AC-4AAA-93DA-107F3A7996A0}">
+										<Image FileName="-470906490" Left="1518" Top="184" Right="1907" Bottom="230" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;justify-content-center&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -18131,6 +18386,380 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel" Key="{D98D14C3-7603-4B3D-BEEC-DE65684C5B6C}">
+										<Image FileName="1973588717" Left="16" Top="342" Right="34" Bottom="360" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuotationsCreated" Key="{46440831-6403-450D-977F-0D79487B4A2C}">
+										<Image FileName="-296841528" Left="82" Top="266" Right="194" Bottom="282" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Quotations Created&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/reports-item//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOctober12024" Key="{54073247-9F45-4685-B969-A7874F5F29CD}">
+										<Image FileName="1084067422" Left="1699" Top="200" Right="1788" Bottom="215" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;October 1, 2024&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span[contains(@class, &apos;link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOct2024" Key="{E1538AD5-713D-44E7-97EA-77A14AD02DAE}">
+										<Image FileName="-1578332865" Left="1529" Top="223" Right="1613" Bottom="250" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//label[.=&apos;OCT 2024&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;OCT 2024&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2024" Key="{E96F9277-B4DD-492E-906B-2C6ADC43437F}">
+										<Image FileName="1199778480" Left="1714" Top="454" Right="1777" Bottom="490" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-multi-year-view//tr[6]/td[4]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar//mat-multi-year-view//tr[6]/td[4]/button[contains(@class, &apos;mat-calendar-body-cell&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-8&apos;]//tr[6]/td[4]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-multi-year-view//tr[6]/td[4]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSeptember2024" Key="{DF3A674A-A903-4334-98BD-DD34EE2F10A9}">
+										<Image FileName="1030622784" Left="1525" Top="382" Right="1588" Bottom="418" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;SEP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-year-view//tr[4]/td/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar//mat-year-view//tr[4]/td/button[contains(@class, &apos;mat-calendar-body-cell&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-8&apos;]//tr[4]/td/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-year-view//tr[4]/td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSeptember12024" Key="{EA940654-3F59-4C72-BAFB-19F6A2864706}">
+										<Image FileName="405722525" Left="1525" Top="328" Right="1561" Bottom="364" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar//mat-month-view//tr[2]/td/button[contains(@class, &apos;mat-calendar-body-cell&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-8&apos;]//td/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSeptember22024" Key="{91CA64B0-699B-4953-B2B4-1B7A847CA216}">
+										<Image FileName="-1898651035" Left="1561" Top="328" Right="1597" Bottom="364" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[2]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar//mat-month-view//tr[2]/td[2]/button[contains(@class, &apos;mat-calendar-body-cell&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-8&apos;]//td[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOctober312024" Key="{3867FCF3-8787-46D4-A7D8-929E7699C925}">
+										<Image FileName="-2001266324" Left="1797" Top="200" Right="1893" Bottom="215" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;October 31, 2024&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/span[contains(@class, &apos;link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//reports-header/mat-card//div[3]//div[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOctober12024" Key="{902CD3CF-051E-4759-8FC1-8C3D163DA333}">
+										<Image FileName="530133543" Left="1597" Top="328" Right="1633" Bottom="364" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-month-view//tr[2]/td[2]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar//mat-month-view//tr[2]/td[2]/button[contains(@class, &apos;mat-calendar-body-cell&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-9&apos;]//tr[2]/td[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSeptember302024" Key="{1830EB9F-87AE-40C4-90A2-CBCF8E742713}">
+										<Image FileName="-610948549" Left="1561" Top="472" Right="1597" Bottom="508" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;30&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-month-view//tr[6]/td[2]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar//mat-month-view//tr[6]/td[2]/button[contains(@class, &apos;mat-calendar-body-cell&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-8&apos;]//tr[6]/td[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-month-view//tr[6]/td[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSeptember292024" Key="{4619101E-D38E-4F01-BA1B-22EAAEB96306}">
+										<Image FileName="959051826" Left="1525" Top="472" Right="1561" Bottom="508" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;29&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-month-view//tr[6]/td/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar//mat-month-view//tr[6]/td/button[contains(@class, &apos;mat-calendar-body-cell&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-8&apos;]//tr[6]/td/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-month-view//tr[6]/td/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMatSelectValue5" Key="{D6849405-79E9-493C-BD3B-9B8F3A383135}">
+										<Image FileName="1185342970" Left="723" Top="200" Right="957" Bottom="229" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-select-value-5" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div[2]/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{04551767-A243-448A-AA87-96C4C8696CCE}">
+										<Image FileName="-580328494" Left="0" Top="121" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;cdk-overlay-backdrop&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMatSelectValue9" Key="{47C3DE30-75F7-429E-9193-E1B82B3DE9E8}">
+										<Image FileName="-731272124" Left="1244" Top="200" Right="1478" Bottom="229" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-select-value-9" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div[4]/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMatSelectValue7" Key="{71540DE1-CA46-4117-8BCE-E689E4631CAD}">
+										<Image FileName="-731272124" Left="984" Top="200" Right="1218" Bottom="229" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-select-value-7" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div[3]/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMatSelectValue3" Key="{33392129-0021-4586-B27F-A2A406A74D68}">
+										<Image FileName="-731272124" Left="462" Top="200" Right="696" Bottom="229" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-select-value-3" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="Item" Key="{A59313E9-AE52-4462-B925-408A749ACFB2}">
+										<Image FileName="948592799" Left="1816" Top="193" Right="1897" Bottom="220" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Bulk Upload&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonUpload" Key="{1D5DA35D-8AE6-4A01-96D2-A9AB4ED62C4E}">
+										<Image FileName="516416408" Left="1076" Top="628" Right="1149" Bottom="660" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Upload&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/button[contains(@class, &apos;mcf__btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-0&apos;]//div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOk" Key="{D371B28E-2B20-4F2E-AF16-2948503D9A9D}">
+										<Image FileName="-1746546362" Left="1199" Top="775" Right="1251" Bottom="805" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;OK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-actions/button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-1&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-actions/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="label" Key="{B780CCDE-03AE-4295-9B17-962166B40DA3}">
+										<Image FileName="485341197" Left="1150" Top="479" Right="1167" Bottom="497" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/label[contains(@class, &apos;mcf__btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-0&apos;]//div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{CEA4504A-ABBC-4B61-AB81-CE87D09871BA}">
+										<Image FileName="485341197" Left="1153" Top="482" Right="1166" Bottom="495" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;QMS_Icon__close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-0&apos;]//label/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//app-bulk-upload//label/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox4" Key="{C37FE01A-78BE-4979-BE06-D2C380743FB0}">
+										<Image FileName="1953336984" Left="77" Top="230" Right="289" Bottom="266" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-card/address-book//div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card/address-book//div//input[contains(@class, &apos;border-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card/address-book//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAutomationupload" Key="{282DC6C4-3739-44AB-8E07-F73EF6DE3CE3}">
+										<Image FileName="1563164560" Left="77" Top="276" Right="360" Bottom="298" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;AutomationUpload&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ft-contacts//mat-card/address-book//div[contains(@class, &apos;link&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -18154,6 +18783,49 @@
 										<Value Value="Open" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="cbxFileName" Key="{1083E94A-533B-4D5E-9844-5CEA92B1C241}">
+										<Image FileName="-1837801289" Left="197" Top="465" Right="735" Bottom="489" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ComboBoxEx32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ComboBox" Key="{4566B49E-0648-4FF9-9A88-2AB27DFDDAC9}">
+												<Image FileName="-1837801289" Left="197" Top="465" Right="735" Bottom="489" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="ComboBox" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Edit" Key="{1CEEFD09-C13E-4A1C-9E1F-71CBB2F10C8B}">
+														<Image FileName="-1837801289" Left="201" Top="470" Right="715" Bottom="485" />
+														<TypeInfo Item0="{26812133-1EB6-4458-9314-F6EF015A20FE}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Edit" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="btnOpen" Key="{258A4ED8-4CA4-4B78-A65A-EC23E587A725}">
+										<Image FileName="1979742109" Left="747" Top="494" Right="835" Bottom="520" />
+										<TypeInfo Item0="{CA0FF9B7-4C49-47BB-A0CF-DE4403AA05DF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;Open" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="pageInbox9Rmsautomation24GmailCo" Key="{B143CE6A-4BDF-4959-89F4-AD738FC612BE}">
 								<Image FileName="-2020803217" Left="8" Top="95" Right="1928" Bottom="1048" />
@@ -19098,7 +19770,7 @@
 				<Child Name="panelAutomationLclDest" Owner="{34DF0CC1-B3C2-4EB9-952B-5A913EF2473A}" />
 				<Child Name="radiobuttonDestination" Owner="{22A476CB-CF7E-46A2-8F0E-48080EF2DFA7}" />
 				<Child Name="panel2" Owner="{29A52EEB-84FF-4077-857D-0A0D7452FBA1}" />
-				<Child Name="panel27" Owner="{FCC36BC0-B4D3-4E4D-8147-C79E3FF70AB5}" />
+				<Child Name="circularProgress" Owner="{FCC36BC0-B4D3-4E4D-8147-C79E3FF70AB5}" />
 				<Child Name="firstEFTRule" Owner="{E29CA85A-4B33-41A7-9892-5CD5446A69B2}" />
 				<Child Name="radiobuttonAir2" Owner="{EBBF06DC-C881-432F-9FC1-82D316AA70DD}" />
 				<Child Name="radiobuttonFreight" Owner="{531EAD44-6A25-46AB-ADE7-5B6BD2060169}" />
@@ -19305,6 +19977,23 @@
 				<Child Name="textnodeAylineditRodriguezPerez" Owner="{6641D3C7-977C-4A0C-AB60-140EC1C3DC06}" />
 				<Child Name="textnodeAutomationDescription" Owner="{FEE32D6F-DB10-4881-BCB2-8CB6FC0D0241}" />
 				<Child Name="panelNoDepartmentsFound" Owner="{08B12924-0015-44F3-8D9F-0FE7383B3154}" />
+				<Child Name="textnodeQuotationsCreated" Owner="{D5B6FC5D-44F5-4A84-A364-D28FEB54C829}" />
+				<Child Name="textnodeAverageMargin" Owner="{452D0C1D-835E-49A3-8697-C36A06112E90}" />
+				<Child Name="textnodeWinRatio" Owner="{B07D53F1-4839-4C2F-A5D9-8733508954E3}" />
+				<Child Name="textnodeRatesReturned" Owner="{DA8D29D1-F702-449C-9687-B0E08E80D8F9}" />
+				<Child Name="textnodeQuoteTypeBreakdown" Owner="{0C91FD9D-3CB5-4E36-81FE-52EC864F6BA2}" />
+				<Child Name="textnodeTop5Users" Owner="{E7125A5B-7A6F-41A3-BF00-CFFA544BDABA}" />
+				<Child Name="textnodeTop5Destinations" Owner="{D5E94661-9E27-46C1-890A-1765F6E5D2D7}" />
+				<Child Name="textnodeTop5ODPairs" Owner="{B55F19BF-45C0-4DAF-AAD1-29D33B3C3366}" />
+				<Child Name="textnodeQuotationsVsTime" Owner="{212C2773-96C8-4BD6-A245-F6E8910E5B68}" />
+				<Child Name="textnodeQuotationsByMode" Owner="{F5F9BA02-2788-48DE-A38A-DC34055B410F}" />
+				<Child Name="textnodeTop5Carriers" Owner="{729710E7-F922-4BE4-A430-9241F2D63B64}" />
+				<Child Name="textnodeTop5Customers" Owner="{5275192C-71AD-4658-988A-E3B748FF69EE}" />
+				<Child Name="canvas2" Owner="{74F89FEE-E4D4-4805-87C2-242082926314}" />
+				<Child Name="canvas3" Owner="{32E1D1A4-B778-426E-B356-FF50C45EC940}" />
+				<Child Name="panelAutomationupload" Owner="{A20F7320-F241-4FB0-AF20-62710C653837}" />
+				<Child Name="panelAutomationcontactupload1Tes" Owner="{ADFF680A-7851-4702-9087-31F6ADC00CDD}" />
+				<Child Name="panelCompanyDescription" Owner="{A637052D-5578-485B-BA3D-5649C8EAD097}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -19488,6 +20177,9 @@
 				<Child Name="textboxSecondaryAddress" Owner="{75C5DFFF-0D7A-4619-9038-CD752BE79023}" />
 				<Child Name="textboxEmail" Owner="{C1EF7064-EADA-48F8-B5F9-07D5B969623F}" />
 				<Child Name="panelDepartment" Owner="{963A827A-8B9E-4882-AA7C-714686188D61}" />
+				<Child Name="panelMatSelectValue5" Owner="{BEE9C101-3FEA-42A4-9B1B-DDC56BB15E2A}" />
+				<Child Name="panelMatSelectValue3" Owner="{6D42F92D-A45A-404C-BF81-01C59EC85FD5}" />
+				<Child Name="panelOctober12024" Owner="{7721FA39-C3AC-4AAA-93DA-107F3A7996A0}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
@@ -19632,9 +20324,41 @@
 				<Child Name="textnodeArrowBack" Owner="{C1758F11-C509-445E-B331-DF13E98CD31E}" />
 				<Child Name="textnodeCatapultTest" Owner="{95945FD0-B7F5-4FAA-9B05-950D769ED25C}" />
 				<Child Name="buttonAdd2" Owner="{32D773E3-1308-4EF3-9AE6-792903883D93}" />
+				<Child Name="panel" Owner="{D98D14C3-7603-4B3D-BEEC-DE65684C5B6C}" />
+				<Child Name="textnodeQuotationsCreated" Owner="{46440831-6403-450D-977F-0D79487B4A2C}" />
+				<Child Name="textnodeOctober12024" Owner="{54073247-9F45-4685-B969-A7874F5F29CD}" />
+				<Child Name="buttonOct2024" Owner="{E1538AD5-713D-44E7-97EA-77A14AD02DAE}" />
+				<Child Name="button2024" Owner="{E96F9277-B4DD-492E-906B-2C6ADC43437F}" />
+				<Child Name="buttonSeptember2024" Owner="{DF3A674A-A903-4334-98BD-DD34EE2F10A9}" />
+				<Child Name="buttonSeptember12024" Owner="{EA940654-3F59-4C72-BAFB-19F6A2864706}" />
+				<Child Name="buttonSeptember22024" Owner="{91CA64B0-699B-4953-B2B4-1B7A847CA216}" />
+				<Child Name="textnodeOctober312024" Owner="{3867FCF3-8787-46D4-A7D8-929E7699C925}" />
+				<Child Name="buttonOctober12024" Owner="{902CD3CF-051E-4759-8FC1-8C3D163DA333}" />
+				<Child Name="buttonSeptember302024" Owner="{1830EB9F-87AE-40C4-90A2-CBCF8E742713}" />
+				<Child Name="buttonSeptember292024" Owner="{4619101E-D38E-4F01-BA1B-22EAAEB96306}" />
+				<Child Name="panelMatSelectValue5" Owner="{D6849405-79E9-493C-BD3B-9B8F3A383135}" />
+				<Child Name="panel2" Owner="{04551767-A243-448A-AA87-96C4C8696CCE}" />
+				<Child Name="panelMatSelectValue9" Owner="{47C3DE30-75F7-429E-9193-E1B82B3DE9E8}" />
+				<Child Name="panelMatSelectValue7" Owner="{71540DE1-CA46-4117-8BCE-E689E4631CAD}" />
+				<Child Name="panelMatSelectValue3" Owner="{33392129-0021-4586-B27F-A2A406A74D68}" />
+				<Child Name="Item" Owner="{A59313E9-AE52-4462-B925-408A749ACFB2}" />
+				<Child Name="buttonUpload" Owner="{1D5DA35D-8AE6-4A01-96D2-A9AB4ED62C4E}" />
+				<Child Name="buttonOk" Owner="{D371B28E-2B20-4F2E-AF16-2948503D9A9D}" />
+				<Child Name="label" Owner="{B780CCDE-03AE-4295-9B17-962166B40DA3}">
+					<Child Name="textnode2" Owner="{CEA4504A-ABBC-4B61-AB81-CE87D09871BA}" />
+				</Child>
+				<Child Name="textbox4" Owner="{C37FE01A-78BE-4979-BE06-D2C380743FB0}" />
+				<Child Name="panelAutomationupload" Owner="{282DC6C4-3739-44AB-8E07-F73EF6DE3CE3}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}" />
-			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}" />
+			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}">
+				<Child Name="cbxFileName" Owner="{1083E94A-533B-4D5E-9844-5CEA92B1C241}">
+					<Child Name="ComboBox" Owner="{4566B49E-0648-4FF9-9A88-2AB27DFDDAC9}">
+						<Child Name="Edit" Owner="{1CEEFD09-C13E-4A1C-9E1F-71CBB2F10C8B}" />
+					</Child>
+				</Child>
+				<Child Name="btnOpen" Owner="{258A4ED8-4CA4-4B78-A65A-EC23E587A725}" />
+			</Child>
 			<Child Name="pageInbox9Rmsautomation24GmailCo" Owner="{B143CE6A-4BDF-4959-89F4-AD738FC612BE}">
 				<Child Name="quoteIDGmail" Owner="{83C20F5C-5DA0-4883-B134-A3E4ADFAC666}" />
 				<Child Name="panelPrintAll" Owner="{12FFCCBE-83D6-459B-8AC0-FCA72CFA9D2C}" />

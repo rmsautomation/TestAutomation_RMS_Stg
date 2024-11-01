@@ -118,6 +118,10 @@
 			<folder name="SSO">
 				<child name="TC_41_QMS_9837_Login_SSO_Send_quote" key="{7786A4B6-FC27-4FFD-98DE-40DE15B940F3}" path="TC_41_QMS_9837_Login_SSO_Send_quote.tcKDTest" />
 			</folder>
+			<folder name="Menu">
+				<child name="TC_72_QMS_5577_Reports" key="{4E0CED6F-BFF0-418A-8AE1-CA5C6E77783B}" path="TC_72_QMS_5577_Reports.tcKDTest" />
+				<child name="TC_73_QMS_5576_AddCompanyAndContactUpload" key="{73807839-80B9-4D9F-9196-4E0BCD183AC4}" path="TC_73_QMS_5576_AddCompanyAndContactUpload.tcKDTest" />
+			</folder>
 		</folder>
 		<folder name="Utils">
 			<folder name="ContractManagement">
@@ -250,6 +254,7 @@
 				<child name="UploadTariffAndVerify" key="{8AA0D6E4-6995-4A8E-872E-9EF92F21ECDD}" path="UploadTariffAndVerify.tcKDTest" />
 				<child name="UploadBookingAndVerify" key="{0DEED2B2-E856-4651-8A33-CBED62D9E6FB}" path="UploadBookingAndVerify.tcKDTest" />
 				<child name="AddMessagge" key="{EE60140B-2FB9-4E43-A6E0-2846844E777C}" path="AddMessagge.tcKDTest" />
+				<child name="UploadContactAndCompany" key="{6C34CB39-37FC-40E8-A71B-C0F58D21FC96}" path="UploadContactAndCompany.tcKDTest" />
 			</folder>
 			<folder name="ControlPanel">
 				<folder name="MAC">

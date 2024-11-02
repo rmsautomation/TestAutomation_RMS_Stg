@@ -334,6 +334,9 @@
 			<folder name="SSO">
 				<child name="LoginSSO" key="{C4A55F06-B533-453C-9AEE-49D506A6CDA4}" path="LoginSSO.tcKDTest" />
 			</folder>
+			<folder name="Menu">
+				<child name="AddCompanyAndContact" key="{DD972EE0-8273-4D4E-8422-442C59FB8D3F}" path="AddCompanyAndContact.tcKDTest" />
+			</folder>
 			<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 			<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
 			<child name="CloseChrome" key="{ABE8E178-8225-4C48-BF62-AF135C62BF15}" path="CloseChrome.tcKDTest" />

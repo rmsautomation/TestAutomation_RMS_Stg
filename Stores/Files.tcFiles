@@ -11,6 +11,9 @@
 			<child name="BookingUpload_xlsx" key="{9AFC4B34-84B0-48A8-9972-B0F049EBEB59}">
 				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="BookingUpload_xlsx" ID="{9AFC4B34-84B0-48A8-9972-B0F049EBEB59}" FileName="Files\BookingUpload.xlsx" Update="False" />
 			</child>
+			<child name="ContactUpload_xlsx" key="{8107AD9A-4FAF-4C0F-8284-DA34569161D3}">
+				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="ContactUpload_xlsx" ID="{8107AD9A-4FAF-4C0F-8284-DA34569161D3}" FileName="Files\ContactUpload.xlsx" Update="False" />
+			</child>
 		</folder>
 		<child name="Allocation_Agreement___AutomationTest___08_16_2024_xlsx" key="{637E7ABA-65CF-49F5-9B0C-1183F9430FE5}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Allocation_Agreement___AutomationTest___08_16_2024_xlsx" ID="{637E7ABA-65CF-49F5-9B0C-1183F9430FE5}" FileName="Files\Allocation Agreement - AutomationTest - 08-16-2024.xlsx" Update="True" />

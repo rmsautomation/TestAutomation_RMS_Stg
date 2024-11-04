@@ -600,15 +600,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeCurrencyAdjustmentFactor3" Key="{B84CD819-8E4E-4F24-A849-B9A85E6B1019}">
+									<Child Name="estTransit" Key="{B84CD819-8E4E-4F24-A849-B9A85E6B1019}">
 										<Image FileName="1136141721" Left="93" Top="419" Right="1055" Bottom="450" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//mat-cell[contains(., &apos;Currency Adjustment Factor (CAF)&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-cell[contains(@class, &apos;cdk-column-description&apos;)]" />
+												<Value Value="xpath=//mat-cell[contains(@class, &apos;cdk-column-transit&apos;)]//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -4293,12 +4290,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelContractIdEcuwApi" Key="{A23A5865-5F2E-4AFC-911C-42B3AEA3C526}">
+									<Child Name="transitText" Key="{A23A5865-5F2E-4AFC-911C-42B3AEA3C526}">
 										<Image FileName="-582468167" Left="1560" Top="541" Right="1712" Bottom="557" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Contract ID: ECUW_API&apos;)]" />
+												<Value Value="xpath=//div[text()=&apos; Average Port to Port Transit &apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -7318,15 +7315,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelOrigin4" Key="{8F77148C-9A55-4976-BDC7-AD516EF4463D}">
+									<Child Name="transitPanel" Key="{8F77148C-9A55-4976-BDC7-AD516EF4463D}">
 										<Image FileName="-1918782194" Left="1552" Top="399" Right="1873" Bottom="796" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(@class, &apos;adhoc-ltts-form&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//adhoc-location-transit-service[@id=&apos;adhoc-ltts&apos;]/div" />
+												<Value Value="xpath=(//div[@_ngcontent-ng-c2220943165])[12]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14663,15 +14657,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelAutomationcontactupload1Tes" Key="{ADFF680A-7851-4702-9087-31F6ADC00CDD}">
+									<Child Name="ecuAPI" Key="{ADFF680A-7851-4702-9087-31F6ADC00CDD}">
 										<Image FileName="-1327231312" Left="674" Top="284" Right="961" Bottom="306" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;AutomationContactUpload1 Testing&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[3]/div/div[contains(@class, &apos;list-comp-space&apos;)]" />
+												<Value Value="xpath=//div[ normalize-space(text()) = &apos;ECU WORLDWIDE (USA), INC.&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -18796,6 +18787,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonSchedules" Key="{9626568D-5ED6-4E16-935C-75CED6BE2D26}">
+										<Image FileName="-1858107659" Left="1711" Top="422" Right="1760" Bottom="449" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Schedules&apos;]/@id)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEcuwApi" Key="{36B5B3DB-F377-45E7-A505-15B52361E926}">
+										<Image FileName="770587815" Left="401" Top="499" Right="461" Bottom="517" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;ECUW_API&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-cell[4]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-cell[4]/shared-grid-cell/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-cell[4]/shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -19040,7 +19058,7 @@
 				<Child Name="combo_carrier_mess" Owner="{C36F1BE6-7AB5-4584-ACB1-8904C297A3C1}" />
 				<Child Name="panelMatSelectValue13" Owner="{D13262A3-F256-4201-8DAF-BE5EBCFBA1A1}" />
 				<Child Name="textnodeMatOption19" Owner="{896C551A-91A5-40ED-A093-D46609860B84}" />
-				<Child Name="textnodeCurrencyAdjustmentFactor3" Owner="{B84CD819-8E4E-4F24-A849-B9A85E6B1019}" />
+				<Child Name="estTransit" Owner="{B84CD819-8E4E-4F24-A849-B9A85E6B1019}" />
 				<Child Name="textnodeIs" Owner="{8813778B-D30B-444F-8C3E-40F7582299D6}" />
 				<Child Name="textnodeMatOption26" Owner="{550198C7-4424-434B-9904-D5BB3226BE93}" />
 				<Child Name="textnodeMatOption28" Owner="{DE466A09-B473-470A-A4CD-26BDC3354D4F}" />
@@ -19282,7 +19300,7 @@
 				<Child Name="panelContractIdCarotrans" Owner="{47438289-E51E-41EB-A994-F2875E4C85B0}" />
 				<Child Name="panel14" Owner="{AFCDFF9C-428E-45DE-88D8-7EC701118092}" />
 				<Child Name="panelContractIdVlsRest" Owner="{F5E1C5B9-25F9-43B0-A1F8-A812AE0D180D}" />
-				<Child Name="panelContractIdEcuwApi" Owner="{A23A5865-5F2E-4AFC-911C-42B3AEA3C526}" />
+				<Child Name="transitText" Owner="{A23A5865-5F2E-4AFC-911C-42B3AEA3C526}" />
 				<Child Name="panel200Usd" Owner="{4898E4DD-2272-4B3C-B03C-DD7AFE546A1C}" />
 				<Child Name="api_dropdown" Owner="{2A30A35A-398E-481E-BA44-064E197CA66F}" />
 				<Child Name="textnodeMatOption17" Owner="{650F4A8D-31E6-4B62-8305-D6E0EFEECD1C}" />
@@ -19510,7 +19528,7 @@
 				<Child Name="panel30" Owner="{D3CFF3AA-DCB7-429C-AEB8-544C8965249B}" />
 				<Child Name="textnode8016TestAir" Owner="{32F07AC1-F576-47E3-B871-C7554A9CFD5C}" />
 				<Child Name="saveMapping" Owner="{394DD450-E521-40AD-8753-B8EFFC3394C3}" />
-				<Child Name="panelOrigin4" Owner="{8F77148C-9A55-4976-BDC7-AD516EF4463D}" />
+				<Child Name="transitPanel" Owner="{8F77148C-9A55-4976-BDC7-AD516EF4463D}" />
 				<Child Name="textnodeMiamiFlUsa5" Owner="{64248531-6557-4DF8-88A5-8EFB5563F7D0}" />
 				<Child Name="textnodeRotterdamNetherlands" Owner="{0289AFE2-9F10-439A-A04D-E7F673B38F14}" />
 				<Child Name="panelSpotRateId" Owner="{284E9DF5-7215-4AD8-9E8B-6279787085CD}" />
@@ -20028,7 +20046,7 @@
 				<Child Name="canvas2" Owner="{74F89FEE-E4D4-4805-87C2-242082926314}" />
 				<Child Name="canvas3" Owner="{32E1D1A4-B778-426E-B356-FF50C45EC940}" />
 				<Child Name="panelAutomationupload" Owner="{A20F7320-F241-4FB0-AF20-62710C653837}" />
-				<Child Name="panelAutomationcontactupload1Tes" Owner="{ADFF680A-7851-4702-9087-31F6ADC00CDD}" />
+				<Child Name="ecuAPI" Owner="{ADFF680A-7851-4702-9087-31F6ADC00CDD}" />
 				<Child Name="panelCompanyDescription" Owner="{A637052D-5578-485B-BA3D-5649C8EAD097}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
@@ -20401,6 +20419,8 @@
 				<Child Name="textareaMatInput13" Owner="{CC85536A-3C11-49C9-8280-5D44DA846820}" />
 				<Child Name="textnodeNoMatchFound" Owner="{63934727-D362-4A4B-A95C-24C12E8ACCE4}" />
 				<Child Name="panelCompanyuploadNameTesting" Owner="{7A30494A-74FA-4D3A-90FD-A0C472C854B6}" />
+				<Child Name="buttonSchedules" Owner="{9626568D-5ED6-4E16-935C-75CED6BE2D26}" />
+				<Child Name="panelEcuwApi" Owner="{36B5B3DB-F377-45E7-A505-15B52361E926}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}" />
 			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}">

@@ -12449,18 +12449,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="vg18" Key="{E89CDD2C-F864-4C38-8850-B56AC5FC6890}">
+									<Child Name="emailToggle" Key="{E89CDD2C-F864-4C38-8850-B56AC5FC6890}">
 										<Image FileName="-856340066" Left="727" Top="390" Right="751" Bottom="414" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-35&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-select[@id=&apos;mat-select-16&apos;]//*[name()=&apos;svg&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-grid//shared-filter//mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+												<Value Value="xpath=//button[contains(@class, &apos;mdc-switch--selected&apos;) and contains(@class, &apos;mdc-switch--checked&apos;)]/following-sibling::label[normalize-space(text()) = &apos;Send Emails Using Magaya_DoNotReply@MagayaNetwork.com&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16806,6 +16800,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeEmailSettings" Key="{CB175236-F330-4F73-A4B3-BC79E5C7EC16}">
+										<Image FileName="1636155713" Left="77" Top="692" Right="160" Bottom="708" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Email Settings&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/cp-card[7]//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonTestConnection" Key="{BE22EC09-4AB6-458A-B607-86E1EA7DFACA}">
+										<Image FileName="53642263" Left="77" Top="379" Right="183" Bottom="406" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Test Connection&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -19869,7 +19890,7 @@
 				<Child Name="textnode16" Owner="{E1D9A493-9128-456C-AB17-906975E799BA}" />
 				<Child Name="textnodeDepartmentDescriptionUse" Owner="{752BC0AD-4654-4BDE-9E58-39AF0755A5FC}" />
 				<Child Name="textnodeEmail" Owner="{E732F2FC-1B59-4F28-B612-160A97D4897B}" />
-				<Child Name="vg18" Owner="{E89CDD2C-F864-4C38-8850-B56AC5FC6890}" />
+				<Child Name="emailToggle" Owner="{E89CDD2C-F864-4C38-8850-B56AC5FC6890}" />
 				<Child Name="textnodeCell4" Owner="{6F1285B4-CD49-4920-8A53-9E83520F6ACF}" />
 				<Child Name="allocationInfoPanel" Owner="{5E300A57-2F85-480F-9C93-2E4FCD63D192}" />
 				<Child Name="calendar1" Owner="{552946DA-92BA-4E5B-9172-97F3B24D3224}" />
@@ -20235,6 +20256,8 @@
 				<Child Name="panelMatSelectValue3" Owner="{6D42F92D-A45A-404C-BF81-01C59EC85FD5}" />
 				<Child Name="panelOctober12024" Owner="{7721FA39-C3AC-4AAA-93DA-107F3A7996A0}" />
 				<Child Name="textnodeModeEdit" Owner="{47FA3472-3784-4302-B40F-B923CF0DE4FF}" />
+				<Child Name="textnodeEmailSettings" Owner="{CB175236-F330-4F73-A4B3-BC79E5C7EC16}" />
+				<Child Name="buttonTestConnection" Owner="{BE22EC09-4AB6-458A-B607-86E1EA7DFACA}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">

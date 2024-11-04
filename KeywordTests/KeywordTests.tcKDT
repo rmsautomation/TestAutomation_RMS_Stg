@@ -44,6 +44,7 @@
 					<child name="TC_21_QMS_5581_ETF_Add__LCL_Min_Max" key="{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" path="TC_21_QMS_5581_ETF_Add__LCL_Min_Max.tcKDTest" />
 					<child name="TC_7728_EFT_Admin_USER__Destination_LCL" key="{9D7B85C4-0147-4935-94A6-5C3E0862C9F3}" path="TC_7728_EFT_Admin_USER__Destination_LCL.tcKDTest" />
 					<child name="TC_7729__EFT_Freight_AIR" key="{B49F8179-9CD7-4917-9C9A-04DEC8287388}" path="TC_7729__EFT_Freight_AIR.tcKDTest" />
+					<child name="TC_78_QMS_14205_EFT_GROUND_Origin_IMS_ITG" key="{53DBFAF6-2525-4F5B-8E9D-B598BAC3487F}" path="TC_78_QMS_14205_EFT_GROUND_Origin_IMS_ITG.tcKDTest" />
 				</folder>
 				<folder name="Contracts">
 					<child name="TC_20_QMS_5579_Contract_Self_Serve_Upload" key="{4B7F805D-1B10-4499-8A67-9EEF560DB1D8}" path="TC_20_QMS_5579_Contract_Self_Serve_Upload.tcKDTest" />

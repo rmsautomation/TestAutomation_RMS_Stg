@@ -10,6 +10,10 @@ function SelectGroundAPIs(){
   SelectAPI("ITG", "Xenon");
 }
 
+function SelectGroundEFTAPIs(){
+  SelectAPI("ITG", "IMS");
+}
+
 function SelectFirstGroundAndFCLAPIs(){
   SelectAPI("Evergreen Spot");
 }

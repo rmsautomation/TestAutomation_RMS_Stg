@@ -14669,6 +14669,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeCollect2" Key="{F5D3B1E4-0B68-421F-AD0B-BA312879A65A}">
+										<Image FileName="-107515501" Left="1373" Top="885" Right="1437" Bottom="903" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;COLLECT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-charge-form/mat-form-field[2]//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-select-value-215&apos;]//span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOrigin2" Key="{B555F9B1-1A07-4D2D-AB51-4B203B391E8C}">
+										<Image FileName="-978403323" Left="1355" Top="959" Right="1866" Bottom="1011" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-form-field[.=&apos;Origin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-form-field[contains(@class, &apos;ng-tns-c1205077789-614&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}">
@@ -18835,6 +18862,146 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="radiobuttonGround" Key="{21924D0F-7E78-4E4F-8ADC-B4A3FD8DB349}">
+										<Image FileName="1126634326" Left="1058" Top="185" Right="1094" Bottom="221" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;GROUND&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;GROUND&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-13-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//app-add-surcharge-rule//ft-rule-type//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-13&apos;]//input[@name=&apos;mat-radio-group-3&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//app-add-surcharge-rule//div//ft-rule-type//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-13&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelMatMdcSlideToggle4Label" Key="{99F3F4EA-5C21-4021-95CA-E570FE990F7F}">
+										<Image FileName="-1762097531" Left="1228" Top="787" Right="1232" Bottom="787" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-mdc-slide-toggle-4-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//ft-surcharge-pricing//div[4]/mat-slide-toggle//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-slide-toggle[@id=&apos;mat-mdc-slide-toggle-4&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//ft-surcharge-pricing//div[4]/mat-slide-toggle//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMatMdcSlideToggle4Button" Key="{85EE8687-1AAD-4AEA-AD66-23C6AC8E202B}">
+										<Image FileName="-1762097531" Left="1196" Top="781" Right="1228" Bottom="794" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//app-add-surcharge-rule//div[2]/ft-surcharge-pricing//mat-slide-toggle//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-labelledby=&apos;mat-mdc-slide-toggle-4-label&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-slide-toggle-4-button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonOrigin" Key="{9E2805BB-6903-4972-B8FD-834ABA8287EF}">
+										<Image FileName="-2027279946" Left="1235" Top="795" Right="1271" Bottom="831" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Origin&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;ORIGIN&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-9-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//app-add-surcharge-rule//ft-surcharge-pricing//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-9&apos;]//input[@name=&apos;mat-radio-group-7&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[5]//mat-radio-group/mat-radio-button//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelEftV00aautoground" Key="{0AF9FE64-1A7E-4825-92E9-46C44F94A347}">
+										<Image FileName="-880758167" Left="1555" Top="662" Right="1694" Bottom="680" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;EFT (v.00AAutoGround)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-grid-view//mat-table/mat-row/mat-cell[3]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//search-charges-result-grid-view//mat-row/mat-cell[3]/shared-grid-cell/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-grid-view//mat-table/mat-row/mat-cell[3]/shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContractId" Key="{861D1F92-1993-4A3E-A639-925B9897A74E}">
+										<Image FileName="-488071823" Left="77" Top="453" Right="1320" Bottom="927" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;grid-container&apos;)]/rate-search-grid-view//shared-grid//div[contains(@class, &apos;grid-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelIms" Key="{60F8E1C4-7D46-4249-9E05-F4DC70409729}">
+										<Image FileName="-600653592" Left="82" Top="867" Right="142" Bottom="885" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;IMS&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-row[17]/mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-row[17]/mat-cell/shared-grid-cell/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-row[17]/mat-cell/shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSurchargeOrigin" Key="{90FA4EA4-D6A9-4E4A-B482-DDD6D6F4AAC0}">
+										<Image FileName="1165138660" Left="1555" Top="632" Right="1645" Bottom="652" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Surcharge Origin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-grid-view/shared-grid//mat-table/mat-header-row/mat-header-cell[3]//div[contains(@class, &apos;mat-sort-header-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//search-charges-result-grid-view//mat-header-cell[3]/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-grid-view//mat-header-row/mat-header-cell[3]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -20069,6 +20236,8 @@
 				<Child Name="panelAutomationupload" Owner="{A20F7320-F241-4FB0-AF20-62710C653837}" />
 				<Child Name="ecuAPI" Owner="{ADFF680A-7851-4702-9087-31F6ADC00CDD}" />
 				<Child Name="panelCompanyDescription" Owner="{A637052D-5578-485B-BA3D-5649C8EAD097}" />
+				<Child Name="textnodeCollect2" Owner="{F5D3B1E4-0B68-421F-AD0B-BA312879A65A}" />
+				<Child Name="textnodeOrigin2" Owner="{B555F9B1-1A07-4D2D-AB51-4B203B391E8C}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -20444,6 +20613,15 @@
 				<Child Name="panelCompanyuploadNameTesting" Owner="{7A30494A-74FA-4D3A-90FD-A0C472C854B6}" />
 				<Child Name="buttonSchedules" Owner="{9626568D-5ED6-4E16-935C-75CED6BE2D26}" />
 				<Child Name="panelEcuwApi" Owner="{36B5B3DB-F377-45E7-A505-15B52361E926}" />
+				<Child Name="radiobuttonGround" Owner="{21924D0F-7E78-4E4F-8ADC-B4A3FD8DB349}" />
+				<Child Name="labelMatMdcSlideToggle4Label" Owner="{99F3F4EA-5C21-4021-95CA-E570FE990F7F}">
+					<Child Name="buttonMatMdcSlideToggle4Button" Owner="{85EE8687-1AAD-4AEA-AD66-23C6AC8E202B}" />
+				</Child>
+				<Child Name="radiobuttonOrigin" Owner="{9E2805BB-6903-4972-B8FD-834ABA8287EF}" />
+				<Child Name="panelEftV00aautoground" Owner="{0AF9FE64-1A7E-4825-92E9-46C44F94A347}" />
+				<Child Name="panelContractId" Owner="{861D1F92-1993-4A3E-A639-925B9897A74E}" />
+				<Child Name="panelIms" Owner="{60F8E1C4-7D46-4249-9E05-F4DC70409729}" />
+				<Child Name="panelSurchargeOrigin" Owner="{90FA4EA4-D6A9-4E4A-B482-DDD6D6F4AAC0}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}" />
 			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}">

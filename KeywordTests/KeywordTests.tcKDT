@@ -135,6 +135,7 @@
 					<child name="AddEFTDestinationLCL" key="{4D561E7F-F51B-448F-AF84-8615ED6B7246}" path="AddEFTDestinationLCL.tcKDTest" />
 					<child name="AddEFTAIR_Freigth" key="{CE2F3F65-4A4E-4344-9606-49856F504866}" path="AddEFTAIR_Freigth.tcKDTest" />
 					<child name="EditSurchargePercentageAndVerify" key="{F1E838DB-6561-419A-9510-E3AE2B5C577B}" path="EditSurchargePercentageAndVerify.tcKDTest" />
+					<child name="AddEFT_GroundOrigin" key="{A94D940C-8685-495C-81DB-322267197DCF}" path="AddEFT_GroundOrigin.tcKDTest" />
 				</folder>
 				<folder name="Contracts">
 					<child name="ViewContract" key="{6FDB8768-D5E6-4750-8898-9C658CB594DF}" path="ViewContract.tcKDTest" />
@@ -176,6 +177,7 @@
 					<child name="VerifyGroupOrg" key="{0AE028AF-C0E6-4D32-BDD4-AF58881861BB}" path="VerifyGroupOrg.tcKDTest" />
 					<child name="GroupOrgEXIST" key="{128C9AC9-13A0-40EF-8F7C-94DF69D3031D}" path="GroupOrgEXIST.tcKDTest" />
 					<child name="GroupOrgNOTEXIST" key="{C5401BE3-5566-4CC8-9D88-8BA3D8A31460}" path="GroupOrgNOTEXIST.tcKDTest" />
+					<child name="VerifyEFT_Ground" key="{3CA480EC-41D6-4B16-90DB-9F490AFEFCB2}" path="VerifyEFT_Ground.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />

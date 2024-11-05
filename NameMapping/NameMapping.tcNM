@@ -19131,6 +19131,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeFullServeUploads" Key="{F8672BA2-1124-4D1F-8745-7602DAD24FD4}">
+										<Image FileName="1466314708" Left="75" Top="325" Right="178" Bottom="340" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Full Serve Uploads&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-alert-list/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -20767,6 +20779,7 @@
 				<Child Name="panelContractId" Owner="{861D1F92-1993-4A3E-A639-925B9897A74E}" />
 				<Child Name="panelIms" Owner="{60F8E1C4-7D46-4249-9E05-F4DC70409729}" />
 				<Child Name="panelSurchargeOrigin" Owner="{90FA4EA4-D6A9-4E4A-B482-DDD6D6F4AAC0}" />
+				<Child Name="textnodeFullServeUploads" Owner="{F8672BA2-1124-4D1F-8745-7602DAD24FD4}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}" />
 			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}">

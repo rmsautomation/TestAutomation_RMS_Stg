@@ -104,6 +104,7 @@
 				<child name="TC_71_QMS_4973_CreateDepartment" key="{46B0DD8F-B9E5-40AB-A826-4C0E9D4E85C5}" path="TC_71_QMS_4973_CreateDepartment.tcKDTest" />
 				<child name="TC_67_QMS_4997Email_Settings_enabled" key="{11FB52FA-9AFC-4C17-B0A8-BB2F42DFFED3}" path="TC_67_QMS_4997Email_Settings_enabled.tcKDTest" />
 				<child name="TC_70_QMS_5583_Alerts___Tariff" key="{D719942C-D107-4667-BE0C-A073459700DD}" path="TC_70_QMS_5583_Alerts___Tariff.tcKDTest" />
+				<child name="TC_69_QMS_5582_Alerts___Rate_Uploads" key="{36273595-5535-437A-B160-CD9C7B72B8CF}" path="TC_69_QMS_5582_Alerts___Rate_Uploads.tcKDTest" />
 			</folder>
 			<folder name="Allocation">
 				<folder name="Booking">

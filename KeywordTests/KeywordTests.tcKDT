@@ -103,6 +103,7 @@
 				<child name="TC_68_QMS_4960_Profile_Edit_Account_Details" key="{CBD758A8-FE7D-4956-BEA8-3673DD5AC5A5}" path="TC_68_QMS_4960_Profile_Edit_Account_Details.tcKDTest" />
 				<child name="TC_71_QMS_4973_CreateDepartment" key="{46B0DD8F-B9E5-40AB-A826-4C0E9D4E85C5}" path="TC_71_QMS_4973_CreateDepartment.tcKDTest" />
 				<child name="TC_67_QMS_4997Email_Settings_enabled" key="{11FB52FA-9AFC-4C17-B0A8-BB2F42DFFED3}" path="TC_67_QMS_4997Email_Settings_enabled.tcKDTest" />
+				<child name="TC_70_QMS_5583_Alerts___Tariff" key="{D719942C-D107-4667-BE0C-A073459700DD}" path="TC_70_QMS_5583_Alerts___Tariff.tcKDTest" />
 			</folder>
 			<folder name="Allocation">
 				<folder name="Booking">
@@ -343,6 +344,9 @@
 			</folder>
 			<folder name="Menu">
 				<child name="AddCompanyAndContact" key="{DD972EE0-8273-4D4E-8422-442C59FB8D3F}" path="AddCompanyAndContact.tcKDTest" />
+			</folder>
+			<folder name="EmailGmail">
+				<child name="CheckAlertEmail" key="{855BC883-4E65-4966-AF39-F5F9ADE0A183}" path="CheckAlertEmail.tcKDTest" />
 			</folder>
 			<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 			<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />

@@ -13025,21 +13025,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeAllocation" Key="{A45CAE7F-4FCD-4F73-AD8D-D1DFC7E67279}">
+									<Child Name="addEmail" Key="{A45CAE7F-4FCD-4F73-AD8D-D1DFC7E67279}">
 										<Image FileName="-1657099513" Left="109" Top="355" Right="180" Bottom="370" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[.=&apos;Allocation %%&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-19&apos;]//label/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-19&apos;]//span" />
-											</Selector>
-											<Selector>
-												<Value Value="//label/span" />
+												<Value Value="xpath=(//button[contains(@class, &apos;icon-button&apos;) and contains(@class, &apos;mdbtn-extra-small&apos;)])[2]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14591,15 +14582,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="canvas2" Key="{74F89FEE-E4D4-4805-87C2-242082926314}">
+									<Child Name="removeEmail" Key="{74F89FEE-E4D4-4805-87C2-242082926314}">
 										<Image FileName="-1741857530" Left="78" Top="489" Right="1452" Bottom="714" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//canvas[@type=&apos;line&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//reports-quotations-vs-time/canvas" />
+												<Value Value="xpath=(//div[contains(@class, &apos;email&apos;) and .//a[normalize-space(text())=&apos;rmsautomation24@gmail.com&apos;]]//button[contains(@class, &apos;icon-button&apos;) and .//i[contains(@class, &apos;remove_circle&apos;)]])[4]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14672,12 +14660,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="cell" Key="{B13EE34C-9C9F-4DBA-B706-2708C0467DE2}">
+									<Child Name="emailTariff" Key="{B13EE34C-9C9F-4DBA-B706-2708C0467DE2}">
 										<Image FileName="-1815637767" Left="481" Top="-203" Right="544" Bottom="1298" />
 										<TypeInfo Item0="{1C620272-A0E1-4E5E-B9AE-803C6739C04E}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//td[contains(text(), &apos;MSC&apos;)]" />
+												<Value Value="xpath=//a[contains(@href, &apos;mailto:rmsautomation24@gmail.com&apos;) and text()[normalize-space()=&apos;rmsautomation24@gmail.com&apos;]]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16848,6 +16836,144 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelAlerts" Key="{C0C05F7D-15B6-4BAF-A12B-9444C7A28B5C}">
+										<Image FileName="1006856011" Left="67" Top="510" Right="355" Bottom="562" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Alerts&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/cp-card//div[contains(@class, &apos;control-panel-form-card-header&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTariff" Key="{D3492450-F3BD-4354-A3B1-72B512DD3CAE}">
+										<Image FileName="755756236" Left="178" Top="246" Right="208" Bottom="259" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-0-1&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-tab-label-0-1&apos;]/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNewTariffUploads" Key="{9FB0B99F-FCDB-4677-AB2C-A79BA9CCFF0A}">
+										<Image FileName="1500099642" Left="75" Top="325" Right="182" Bottom="340" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;New Tariff Uploads&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-alert-list/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formEmailAddressAlreadyExists" Key="{3DE76E37-C7D2-4F01-8CD8-B2B2BBA18384}">
+										<Image FileName="1301397067" Left="367" Top="413" Right="886" Bottom="484" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email address already exists.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMatMdcError1" Key="{CEC9800C-A86C-4BEB-88C2-D08BCA26D9A4}">
+										<Image FileName="1301397067" Left="382" Top="464" Right="544" Bottom="484" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-mdc-error-1" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-error[contains(text(), &apos;Email address already exists.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-error[contains(@class, &apos;mat-mdc-form-field-error&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-error" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkRmsautomation24GmailCom" Key="{0878ABEE-B35F-4404-9D51-FFBD7E470B2F}">
+										<Image FileName="199112372" Left="396" Top="590" Right="567" Bottom="605" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;rmsautomation24@gmail.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//app-email-list//div[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCopyEmailListFromAlertType" Key="{1F1B1F41-D477-4F06-9709-3B65E7753E3C}">
+										<Image FileName="-1197865171" Left="358" Top="587" Right="895" Bottom="682" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel4" Key="{81AD275D-D200-47E9-B24C-90757D81C0B0}">
+										<Image FileName="-1726701870" Left="367" Top="413" Right="558" Bottom="463" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/mat-form-field/div[contains(@class, &apos;mat-mdc-text-field-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-form-field/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageInbox1Rmsautomation24GmailCo" Key="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
+								<Image FileName="1023400277" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mail.google.com/mail/u/0/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeQmsAlertNewTariffUpload" Key="{416D8EE6-4131-48E1-A9AC-0B587458E79F}">
+										<Image FileName="-1731103862" Left="532" Top="300" Right="730" Bottom="318" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//tr/td[5]//span[contains(@class, &apos;bqe&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailText" Key="{E801A9BC-5577-4819-81FC-FADC95F1210F}">
+										<Image FileName="-621144445" Left="1135" Top="405" Right="1833" Bottom="425" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;AutoAlert&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;a3s&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -17057,6 +17183,15 @@
 										</Children>
 									</Child>
 								</Children>
+							</Child>
+							<Child Name="wndShell_LightDismissOverlay" Key="{2E62FB28-645B-4A10-85C3-0916B5170C79}">
+								<Image FileName="-1996811489" Left="0" Top="0" Right="1920" Bottom="1920" />
+								<TypeInfo Item0="{F1C287A1-D94A-4606-B125-8119C22A675B}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_LightDismissOverlay" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -20101,7 +20236,7 @@
 				<Child Name="panel000aautomationdisclaimer" Owner="{FAAD3DF0-C179-420C-9F86-F5A4731B4123}" />
 				<Child Name="panel3" Owner="{FF4B50E4-FECC-46E0-9DA3-6CAD7CF95F94}" />
 				<Child Name="automationCompany" Owner="{2FC44C3A-7F18-4EE2-8D63-116ABC78BDDD}">
-					<Child Name="textnodeAllocation" Owner="{A45CAE7F-4FCD-4F73-AD8D-D1DFC7E67279}" />
+					<Child Name="addEmail" Owner="{A45CAE7F-4FCD-4F73-AD8D-D1DFC7E67279}" />
 				</Child>
 				<Child Name="labelDestinationCountry" Owner="{792B7BAC-B0AE-4806-A5C3-6668246126C5}">
 					<Child Name="textnodeDestinationCountry" Owner="{A46FBF5C-D58B-435B-B3E6-650012826341}" />
@@ -20225,14 +20360,14 @@
 				<Child Name="textnodeQuotationsByMode" Owner="{F5F9BA02-2788-48DE-A38A-DC34055B410F}" />
 				<Child Name="textnodeTop5Carriers" Owner="{729710E7-F922-4BE4-A430-9241F2D63B64}" />
 				<Child Name="textnodeTop5Customers" Owner="{5275192C-71AD-4658-988A-E3B748FF69EE}" />
-				<Child Name="canvas2" Owner="{74F89FEE-E4D4-4805-87C2-242082926314}" />
+				<Child Name="removeEmail" Owner="{74F89FEE-E4D4-4805-87C2-242082926314}" />
 				<Child Name="canvas3" Owner="{32E1D1A4-B778-426E-B356-FF50C45EC940}" />
 				<Child Name="panelAutomationupload" Owner="{A20F7320-F241-4FB0-AF20-62710C653837}" />
 				<Child Name="ecuAPI" Owner="{ADFF680A-7851-4702-9087-31F6ADC00CDD}" />
 				<Child Name="panelCompanyDescription" Owner="{A637052D-5578-485B-BA3D-5649C8EAD097}" />
 				<Child Name="textnodeCollect2" Owner="{F5D3B1E4-0B68-421F-AD0B-BA312879A65A}" />
 				<Child Name="textnodeOrigin2" Owner="{B555F9B1-1A07-4D2D-AB51-4B203B391E8C}" />
-				<Child Name="cell" Owner="{B13EE34C-9C9F-4DBA-B706-2708C0467DE2}" />
+				<Child Name="emailTariff" Owner="{B13EE34C-9C9F-4DBA-B706-2708C0467DE2}" />
 				<Child Name="cell2" Owner="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
@@ -20423,6 +20558,19 @@
 				<Child Name="textnodeModeEdit" Owner="{47FA3472-3784-4302-B40F-B923CF0DE4FF}" />
 				<Child Name="textnodeEmailSettings" Owner="{CB175236-F330-4F73-A4B3-BC79E5C7EC16}" />
 				<Child Name="buttonTestConnection" Owner="{BE22EC09-4AB6-458A-B607-86E1EA7DFACA}" />
+				<Child Name="panelAlerts" Owner="{C0C05F7D-15B6-4BAF-A12B-9444C7A28B5C}" />
+				<Child Name="textnodeTariff" Owner="{D3492450-F3BD-4354-A3B1-72B512DD3CAE}" />
+				<Child Name="textnodeNewTariffUploads" Owner="{9FB0B99F-FCDB-4677-AB2C-A79BA9CCFF0A}" />
+				<Child Name="formEmailAddressAlreadyExists" Owner="{3DE76E37-C7D2-4F01-8CD8-B2B2BBA18384}">
+					<Child Name="textnodeMatMdcError1" Owner="{CEC9800C-A86C-4BEB-88C2-D08BCA26D9A4}" />
+					<Child Name="panel4" Owner="{81AD275D-D200-47E9-B24C-90757D81C0B0}" />
+				</Child>
+				<Child Name="linkRmsautomation24GmailCom" Owner="{0878ABEE-B35F-4404-9D51-FFBD7E470B2F}" />
+				<Child Name="panelCopyEmailListFromAlertType" Owner="{1F1B1F41-D477-4F06-9709-3B65E7753E3C}" />
+			</Child>
+			<Child Name="pageInbox1Rmsautomation24GmailCo" Owner="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
+				<Child Name="textnodeQmsAlertNewTariffUpload" Owner="{416D8EE6-4131-48E1-A9AC-0B587458E79F}" />
+				<Child Name="emailText" Owner="{E801A9BC-5577-4819-81FC-FADC95F1210F}" />
 			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
@@ -20451,6 +20599,7 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="wndShell_LightDismissOverlay" Owner="{2E62FB28-645B-4A10-85C3-0916B5170C79}" />
 		</Child>
 		<Child Name="EXCEL" Owner="{6606321D-9CF9-4136-9DF6-4179B97FC214}">
 			<Child Name="wndXLMAIN" Owner="{D62D4246-F633-4471-8715-AC4A43D5B282}">

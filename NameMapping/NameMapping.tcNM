@@ -11505,18 +11505,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="multiform" Key="{E7BF9B5A-E7EC-4329-AEC7-598D4C93F527}">
+									<Child Name="overrideCarrier" Key="{E7BF9B5A-E7EC-4329-AEC7-598D4C93F527}">
 										<Image FileName="-18976159" Left="507" Top="676" Right="581" Bottom="700" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//span[text()=&apos;242 - NE REGION OCEAN IMPORT COMBINED GRID QUOTE FORM Copy 2021/03/22 12:44:20&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-270&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-270&apos;]/span" />
+												<Value Value="xpath=//mat-slide-toggle[@id=&apos;mat-mdc-slide-toggle-15&apos;]//button[contains(@class, &apos;mdc-switch&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -11933,21 +11927,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelJan102025" Key="{962FA15A-C14C-4FD6-9C88-C16BD28B73B4}">
+									<Child Name="mscCarrier" Key="{962FA15A-C14C-4FD6-9C88-C16BD28B73B4}">
 										<Image FileName="-526414223" Left="680" Top="445" Right="789" Bottom="465" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Jan 10, 2025&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-cell[6]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-4-0&apos;]//mat-cell[6]/shared-grid-cell/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-cell[6]/shared-grid-cell/div" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and contains(@class, &apos;ng-star-inserted&apos;) and normalize-space(.)=&apos;MSC&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -12665,21 +12650,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelMscpr" Key="{4822D85B-6008-46CA-A862-81E2E4595686}">
+									<Child Name="customCarrier" Key="{4822D85B-6008-46CA-A862-81E2E4595686}">
 										<Image FileName="1940879929" Left="97" Top="554" Right="156" Bottom="574" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;MSCPR&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-2-0&apos;]//shared-grid-cell/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//shared-grid-cell/div" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and contains(@class, &apos;ng-star-inserted&apos;) and normalize-space(.)=&apos;MSCAUTO&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14693,6 +14669,24 @@
 											</Selector>
 											<Selector>
 												<Value Value="//mat-form-field[contains(@class, &apos;ng-tns-c1205077789-614&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{B13EE34C-9C9F-4DBA-B706-2708C0467DE2}">
+										<Image FileName="-1815637767" Left="481" Top="-203" Right="544" Bottom="1298" />
+										<TypeInfo Item0="{1C620272-A0E1-4E5E-B9AE-803C6739C04E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;MSC&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}">
+										<Image FileName="1164764207" Left="481" Top="400" Right="544" Bottom="431" />
+										<TypeInfo Item0="{1C620272-A0E1-4E5E-B9AE-803C6739C04E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;MSCAUTO&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -19993,7 +19987,7 @@
 				<Child Name="oceanFormThis" Owner="{6958849F-6ACC-4D78-93F0-709F5ED2AF6B}" />
 				<Child Name="panelDefaultDisclaimer3" Owner="{1AE24ECB-FAD4-4554-B879-65409D1E8F60}" />
 				<Child Name="panelSort22" Owner="{D298FDE0-B7C0-4C33-8C51-0BA1948EB2FE}" />
-				<Child Name="multiform" Owner="{E7BF9B5A-E7EC-4329-AEC7-598D4C93F527}" />
+				<Child Name="overrideCarrier" Owner="{E7BF9B5A-E7EC-4329-AEC7-598D4C93F527}" />
 				<Child Name="textnodeSelectDefaultMultiModeFo" Owner="{7221419D-759A-47DD-A340-B62F553A5492}" />
 				<Child Name="amendmentProgress" Owner="{115075D5-9DF4-4CDF-B78B-98A50E87481B}" />
 				<Child Name="textnodeHls" Owner="{E09506AF-4868-4E76-B773-B09FB86145F9}" />
@@ -20023,7 +20017,7 @@
 				<Child Name="panel46" Owner="{3595E2B8-D2E2-42CB-B5E8-568A8857399B}" />
 				<Child Name="panelMagaya2" Owner="{FA3DBD9E-A71A-4137-B23F-B264F9F26FFE}" />
 				<Child Name="tableSunday" Owner="{46663EE8-6A4E-4F38-A72E-B168F40AA1BF}" />
-				<Child Name="panelJan102025" Owner="{962FA15A-C14C-4FD6-9C88-C16BD28B73B4}" />
+				<Child Name="mscCarrier" Owner="{962FA15A-C14C-4FD6-9C88-C16BD28B73B4}" />
 				<Child Name="textnodeDec52021" Owner="{E92EBA28-2981-415F-AFC5-61B69963F62C}" />
 				<Child Name="textnodeEffectiveDate" Owner="{07273913-1430-459B-A95D-E7EC329DA04A}" />
 				<Child Name="textnodeLessThan" Owner="{5D4B19FC-B6D8-4BCE-9B94-EF22F6A6ADCD}" />
@@ -20075,7 +20069,7 @@
 				<Child Name="textnodeReports" Owner="{65158999-D504-483A-95BB-2B5BC69436DC}" />
 				<Child Name="textnode000aautomation" Owner="{09046EAB-A688-4CA9-96AE-4114CCF28704}" />
 				<Child Name="panel11Of12" Owner="{F5D25222-A74C-411D-81D1-0942981A4ECC}" />
-				<Child Name="panelMscpr" Owner="{4822D85B-6008-46CA-A862-81E2E4595686}" />
+				<Child Name="customCarrier" Owner="{4822D85B-6008-46CA-A862-81E2E4595686}" />
 				<Child Name="labelBookingReference" Owner="{675802EB-1AFD-4E92-A015-297E5F93D048}" />
 				<Child Name="labelBooker" Owner="{E07E87BC-6F03-4245-8484-1ACB7849DA54}" />
 				<Child Name="labelShippingOrder" Owner="{C26E412E-6C3D-4EDF-9830-E73996F7CD70}" />
@@ -20238,6 +20232,8 @@
 				<Child Name="panelCompanyDescription" Owner="{A637052D-5578-485B-BA3D-5649C8EAD097}" />
 				<Child Name="textnodeCollect2" Owner="{F5D3B1E4-0B68-421F-AD0B-BA312879A65A}" />
 				<Child Name="textnodeOrigin2" Owner="{B555F9B1-1A07-4D2D-AB51-4B203B391E8C}" />
+				<Child Name="cell" Owner="{B13EE34C-9C9F-4DBA-B706-2708C0467DE2}" />
+				<Child Name="cell2" Owner="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">

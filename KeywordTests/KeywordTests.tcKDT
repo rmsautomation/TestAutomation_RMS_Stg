@@ -17,6 +17,7 @@
 					<child name="TC_7_QMS_4224_Single_API_ONE" key="{F04F423A-373C-4DD9-BC66-515D6BB844EC}" path="TC_7_QMS_4224_Single_API_ONE.tcKDTest" />
 					<child name="TC_8_QMS_9992_Search_FT_OFF_ON" key="{977EDCA0-67B6-486E-8139-818B0A7D50C7}" path="TC_8_QMS_9992_Search_FT_OFF_ON.tcKDTest" />
 					<child name="TC_74_QMS_5651_Search_Transit_time" key="{99664BAB-01C2-4DC7-8FE8-0AE52ABAF639}" path="TC_74_QMS_5651_Search_Transit_time.tcKDTest" />
+					<child name="TC_QMS_9958_SearchCustomCarrier_VerifyDisableOverride" key="{6303765D-B802-49C2-B6A0-45E56D293BCE}" path="TC_QMS_9958_SearchCustomCarrier_VerifyDisableOverride.tcKDTest" />
 				</folder>
 				<folder name="XENETA">
 					<child name="TC_40_QMS_6409_XenetaGraph" key="{B3F0BC97-D633-409D-9AF0-2D8313F28642}" path="TC_40_QMS_6409_XenetaGraph.tcKDTest" />
@@ -194,6 +195,7 @@
 					<child name="SearchVerifyLCLForm" key="{372D0CE4-3265-4C60-800D-36D21FDBF0A1}" path="SearchVerifyLCLForm.tcKDTest" />
 					<child name="SearchVerifyAIRForm" key="{EFAB6F6D-585D-4AB9-B221-A962591A5B84}" path="SearchVerifyAIRForm.tcKDTest" />
 					<child name="SearchVerifyGroundForm" key="{A93260CB-1484-44FD-B514-1FB4B7DCEAF1}" path="SearchVerifyGroundForm.tcKDTest" />
+					<child name="CustomAndOriginalCarrier" key="{78363674-3B4E-4DB9-BED9-4DE88E6F2305}" path="CustomAndOriginalCarrier.tcKDTest" />
 				</folder>
 				<child name="SearchAndVerifyFCLQuoteForm" key="{03727DDC-3131-40EF-9EBE-DC45CF7823C1}" path="SearchAndVerifyFCLQuoteForm.tcKDTest" />
 				<child name="RejectQuote" key="{C6F74037-0D20-4BAD-8B1C-03F0A7169C4B}" path="RejectQuote.tcKDTest" />

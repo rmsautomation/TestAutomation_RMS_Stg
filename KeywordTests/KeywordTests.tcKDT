@@ -16,6 +16,9 @@
 					<child name="TC_6_QMS_4597_Search_by_Contract_ID_FCL" key="{76A15CAB-1E1E-4E75-AE3C-C01AB536CA8D}" path="TC_6_QMS_4597_Search_by_Contract_ID_FCL.tcKDTest" />
 					<child name="TC_7_QMS_4224_Single_API_ONE" key="{F04F423A-373C-4DD9-BC66-515D6BB844EC}" path="TC_7_QMS_4224_Single_API_ONE.tcKDTest" />
 					<child name="TC_8_QMS_9992_Search_FT_OFF_ON" key="{977EDCA0-67B6-486E-8139-818B0A7D50C7}" path="TC_8_QMS_9992_Search_FT_OFF_ON.tcKDTest" />
+					<child name="TC_74_QMS_5651_Search_Transit_time" key="{99664BAB-01C2-4DC7-8FE8-0AE52ABAF639}" path="TC_74_QMS_5651_Search_Transit_time.tcKDTest" />
+					<child name="TC_QMS_9958_SearchCustomCarrier_VerifyDisableOverride" key="{6303765D-B802-49C2-B6A0-45E56D293BCE}" path="TC_QMS_9958_SearchCustomCarrier_VerifyDisableOverride.tcKDTest" />
+					<child name="TC_11860_Search__Verify_surcharges_fromFT_Template" key="{752FCB50-6EEB-4DC0-A594-9EE0C08AF57E}" path="TC_11860_Search__Verify_surcharges_fromFT_Template.tcKDTest" />
 				</folder>
 				<folder name="XENETA">
 					<child name="TC_40_QMS_6409_XenetaGraph" key="{B3F0BC97-D633-409D-9AF0-2D8313F28642}" path="TC_40_QMS_6409_XenetaGraph.tcKDTest" />
@@ -43,6 +46,7 @@
 					<child name="TC_21_QMS_5581_ETF_Add__LCL_Min_Max" key="{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" path="TC_21_QMS_5581_ETF_Add__LCL_Min_Max.tcKDTest" />
 					<child name="TC_7728_EFT_Admin_USER__Destination_LCL" key="{9D7B85C4-0147-4935-94A6-5C3E0862C9F3}" path="TC_7728_EFT_Admin_USER__Destination_LCL.tcKDTest" />
 					<child name="TC_7729__EFT_Freight_AIR" key="{B49F8179-9CD7-4917-9C9A-04DEC8287388}" path="TC_7729__EFT_Freight_AIR.tcKDTest" />
+					<child name="TC_78_QMS_14205_EFT_GROUND_Origin_IMS_ITG" key="{53DBFAF6-2525-4F5B-8E9D-B598BAC3487F}" path="TC_78_QMS_14205_EFT_GROUND_Origin_IMS_ITG.tcKDTest" />
 				</folder>
 				<folder name="Contracts">
 					<child name="TC_20_QMS_5579_Contract_Self_Serve_Upload" key="{4B7F805D-1B10-4499-8A67-9EEF560DB1D8}" path="TC_20_QMS_5579_Contract_Self_Serve_Upload.tcKDTest" />
@@ -98,6 +102,10 @@
 				<child name="TC_65_QMS_4984CreateDisclaimer" key="{FB5217FF-FA33-4116-ABBC-3BE1EFDA45A5}" path="TC_65_QMS_4984CreateDisclaimer.tcKDTest" />
 				<child name="TC_66_QMS_4933_Grid_Settings_CustomizeSingle_FCL" key="{9B2B161D-2D06-413C-A004-129FDBFC1B02}" path="TC_66_QMS_4933_Grid_Settings_CustomizeSingle_FCL.tcKDTest" />
 				<child name="TC_68_QMS_4960_Profile_Edit_Account_Details" key="{CBD758A8-FE7D-4956-BEA8-3673DD5AC5A5}" path="TC_68_QMS_4960_Profile_Edit_Account_Details.tcKDTest" />
+				<child name="TC_71_QMS_4973_CreateDepartment" key="{46B0DD8F-B9E5-40AB-A826-4C0E9D4E85C5}" path="TC_71_QMS_4973_CreateDepartment.tcKDTest" />
+				<child name="TC_67_QMS_4997Email_Settings_enabled" key="{11FB52FA-9AFC-4C17-B0A8-BB2F42DFFED3}" path="TC_67_QMS_4997Email_Settings_enabled.tcKDTest" />
+				<child name="TC_70_QMS_5583_Alerts___Tariff" key="{D719942C-D107-4667-BE0C-A073459700DD}" path="TC_70_QMS_5583_Alerts___Tariff.tcKDTest" />
+				<child name="TC_69_QMS_5582_Alerts___Rate_Uploads" key="{36273595-5535-437A-B160-CD9C7B72B8CF}" path="TC_69_QMS_5582_Alerts___Rate_Uploads.tcKDTest" />
 			</folder>
 			<folder name="Allocation">
 				<folder name="Booking">
@@ -117,6 +125,10 @@
 			<folder name="SSO">
 				<child name="TC_41_QMS_9837_Login_SSO_Send_quote" key="{7786A4B6-FC27-4FFD-98DE-40DE15B940F3}" path="TC_41_QMS_9837_Login_SSO_Send_quote.tcKDTest" />
 			</folder>
+			<folder name="Menu">
+				<child name="TC_72_QMS_5577_Reports" key="{4E0CED6F-BFF0-418A-8AE1-CA5C6E77783B}" path="TC_72_QMS_5577_Reports.tcKDTest" />
+				<child name="TC_73_QMS_5576_AddCompanyAndContactUpload" key="{73807839-80B9-4D9F-9196-4E0BCD183AC4}" path="TC_73_QMS_5576_AddCompanyAndContactUpload.tcKDTest" />
+			</folder>
 		</folder>
 		<folder name="Utils">
 			<folder name="ContractManagement">
@@ -127,6 +139,7 @@
 					<child name="AddEFTDestinationLCL" key="{4D561E7F-F51B-448F-AF84-8615ED6B7246}" path="AddEFTDestinationLCL.tcKDTest" />
 					<child name="AddEFTAIR_Freigth" key="{CE2F3F65-4A4E-4344-9606-49856F504866}" path="AddEFTAIR_Freigth.tcKDTest" />
 					<child name="EditSurchargePercentageAndVerify" key="{F1E838DB-6561-419A-9510-E3AE2B5C577B}" path="EditSurchargePercentageAndVerify.tcKDTest" />
+					<child name="AddEFT_GroundOrigin" key="{A94D940C-8685-495C-81DB-322267197DCF}" path="AddEFT_GroundOrigin.tcKDTest" />
 				</folder>
 				<folder name="Contracts">
 					<child name="ViewContract" key="{6FDB8768-D5E6-4750-8898-9C658CB594DF}" path="ViewContract.tcKDTest" />
@@ -168,6 +181,21 @@
 					<child name="VerifyGroupOrg" key="{0AE028AF-C0E6-4D32-BDD4-AF58881861BB}" path="VerifyGroupOrg.tcKDTest" />
 					<child name="GroupOrgEXIST" key="{128C9AC9-13A0-40EF-8F7C-94DF69D3031D}" path="GroupOrgEXIST.tcKDTest" />
 					<child name="GroupOrgNOTEXIST" key="{C5401BE3-5566-4CC8-9D88-8BA3D8A31460}" path="GroupOrgNOTEXIST.tcKDTest" />
+					<child name="VerifyEFT_Ground" key="{3CA480EC-41D6-4B16-90DB-9F490AFEFCB2}" path="VerifyEFT_Ground.tcKDTest" />
+					<child name="ADENChargeFreight" key="{C3784D13-E5AF-49B5-B66B-DFEE8C4ED4DE}" path="ADENChargeFreight.tcKDTest" />
+					<child name="CSFChargeOrigin_PSSFreight" key="{2EE55719-9E88-4FD3-BB5E-23C73E083938}" path="CSFChargeOrigin_PSSFreight.tcKDTest" />
+					<child name="ARBDChargeFreight" key="{5EF1AECB-F124-4990-ADF6-24A704069AF2}" path="ARBDChargeFreight.tcKDTest" />
+					<child name="HAZChargePrepaid" key="{D0B90C3F-C253-4F91-B4E8-88E1E76A3A3C}" path="HAZChargePrepaid.tcKDTest" />
+					<child name="NBCFreight" key="{5ED9B15B-07B7-4827-9E13-152E48CD4776}" path="NBCFreight.tcKDTest" />
+					<child name="ARBOFreightVia" key="{408CF4FC-9F5F-4B55-9844-59AF28BD401C}" path="ARBOFreightVia.tcKDTest" />
+					<child name="AMSFreight" key="{F58E2C2A-C061-43B3-868B-8B632D85A53B}" path="AMSFreight.tcKDTest" />
+					<child name="BAFFreight" key="{EFA684A7-522E-41A1-BD83-B226928289AF}" path="BAFFreight.tcKDTest" />
+					<child name="BUCFreight" key="{C7911806-4F89-43B2-94B8-96CBF1045E4B}" path="BUCFreight.tcKDTest" />
+					<child name="CCCDestination" key="{9A7DC100-5E09-4006-AD5B-DEBB6A25D481}" path="CCCDestination.tcKDTest" />
+					<child name="LSF1Freight" key="{CC1C4A57-3334-4CA7-9D67-C4041B60A48F}" path="LSF1Freight.tcKDTest" />
+					<child name="SCSFreigth" key="{318D2A3E-7CAD-4F79-8C7A-F3103F082F80}" path="SCSFreigth.tcKDTest" />
+					<child name="WRSFreight" key="{F989FD07-66F8-415A-98DE-9AB31889AC66}" path="WRSFreight.tcKDTest" />
+					<child name="SubjectToHaz" key="{74293B03-66FB-471E-BC73-CF469368A187}" path="SubjectToHaz.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -184,6 +212,7 @@
 					<child name="SearchVerifyLCLForm" key="{372D0CE4-3265-4C60-800D-36D21FDBF0A1}" path="SearchVerifyLCLForm.tcKDTest" />
 					<child name="SearchVerifyAIRForm" key="{EFAB6F6D-585D-4AB9-B221-A962591A5B84}" path="SearchVerifyAIRForm.tcKDTest" />
 					<child name="SearchVerifyGroundForm" key="{A93260CB-1484-44FD-B514-1FB4B7DCEAF1}" path="SearchVerifyGroundForm.tcKDTest" />
+					<child name="CustomAndOriginalCarrier" key="{78363674-3B4E-4DB9-BED9-4DE88E6F2305}" path="CustomAndOriginalCarrier.tcKDTest" />
 				</folder>
 				<child name="SearchAndVerifyFCLQuoteForm" key="{03727DDC-3131-40EF-9EBE-DC45CF7823C1}" path="SearchAndVerifyFCLQuoteForm.tcKDTest" />
 				<child name="RejectQuote" key="{C6F74037-0D20-4BAD-8B1C-03F0A7169C4B}" path="RejectQuote.tcKDTest" />
@@ -249,6 +278,7 @@
 				<child name="UploadTariffAndVerify" key="{8AA0D6E4-6995-4A8E-872E-9EF92F21ECDD}" path="UploadTariffAndVerify.tcKDTest" />
 				<child name="UploadBookingAndVerify" key="{0DEED2B2-E856-4651-8A33-CBED62D9E6FB}" path="UploadBookingAndVerify.tcKDTest" />
 				<child name="AddMessagge" key="{EE60140B-2FB9-4E43-A6E0-2846844E777C}" path="AddMessagge.tcKDTest" />
+				<child name="UploadContactAndCompany" key="{6C34CB39-37FC-40E8-A71B-C0F58D21FC96}" path="UploadContactAndCompany.tcKDTest" />
 			</folder>
 			<folder name="ControlPanel">
 				<folder name="MAC">
@@ -314,6 +344,7 @@
 				<child name="AddCollectPrepaidSurchargeAndVerify" key="{5F6E6AAE-784F-4742-8FB3-C10BB3D089A2}" path="AddCollectPrepaidSurchargeAndVerify.tcKDTest" />
 				<child name="AddCityLinkingAndVerify" key="{EAC0F94E-D7B4-48E5-9458-83755B49ACDE}" path="AddCityLinkingAndVerify.tcKDTest" />
 				<child name="AddTradeLane" key="{C5B7A7E2-2514-4D42-9BB7-2C50737A6F22}" path="AddTradeLane.tcKDTest" />
+				<child name="DeleteDepartment" key="{F2AB3D09-39AA-42A9-B05F-157AC589C758}" path="DeleteDepartment.tcKDTest" />
 			</folder>
 			<folder name="Hooks">
 				<child name="Hooks_OnStartTest" key="{A523E07A-FB3A-4014-9FE9-44573491223C}" path="Hooks_OnStartTest.tcKDTest" />
@@ -326,6 +357,12 @@
 			</folder>
 			<folder name="SSO">
 				<child name="LoginSSO" key="{C4A55F06-B533-453C-9AEE-49D506A6CDA4}" path="LoginSSO.tcKDTest" />
+			</folder>
+			<folder name="Menu">
+				<child name="AddCompanyAndContact" key="{DD972EE0-8273-4D4E-8422-442C59FB8D3F}" path="AddCompanyAndContact.tcKDTest" />
+			</folder>
+			<folder name="EmailGmail">
+				<child name="CheckAlertEmail" key="{855BC883-4E65-4966-AF39-F5F9ADE0A183}" path="CheckAlertEmail.tcKDTest" />
 			</folder>
 			<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 			<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />

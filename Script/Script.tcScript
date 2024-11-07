@@ -12,6 +12,7 @@
 			<child name="VerifyNumberOfQuotes" key="{B086B066-763D-4660-B058-9FAFB7CA5FCA}" path="VerifyNumberOfQuotes.js" />
 			<child name="VerifyOriginCityLinking" key="{A627B075-CDEE-499F-AC7D-ED23678CBAA8}" path="VerifyOriginCityLinking.js" />
 			<child name="SelectAPI" key="{0B61B32C-02D2-48AB-B87D-462099F4CFEE}" path="SelectAPI.js" />
+			<child name="VerifyTransitTime" key="{3630AF00-7F91-4755-805F-88A5D984B482}" path="VerifyTransitTime.js" />
 		</folder>
 		<folder name="History">
 			<child name="verifyQuotePermissionSetting" key="{AD0C519E-6758-4B53-A2FD-1D832D9F6A75}" path="verifyQuotePermissionSetting.js" />

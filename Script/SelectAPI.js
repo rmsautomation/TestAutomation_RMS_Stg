@@ -2,8 +2,16 @@
   SelectAPI("Carotrans LCL", "Vanguard LCL", "ECU Worldwide", "Shipco WWA");
 }
 
+function SelectECU(){
+  SelectAPI("ECU Worldwide");
+}
+
 function SelectGroundAPIs(){
   SelectAPI("ITG", "Xenon");
+}
+
+function SelectGroundEFTAPIs(){
+  SelectAPI("ITG", "IMS");
 }
 
 function SelectFirstGroundAndFCLAPIs(){

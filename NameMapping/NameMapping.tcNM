@@ -3606,21 +3606,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelGroundTruck" Key="{454586A6-3428-4067-90EC-21BAEA16AE54}">
+									<Child Name="panelADEN" Key="{454586A6-3428-4067-90EC-21BAEA16AE54}">
 										<Image FileName="1796974431" Left="1785" Top="330" Right="1880" Bottom="346" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Ground - TRUCK&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[2]/div[contains(@class, &apos;link&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//rate-search-info-header/div/div/div/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//rate-search-info-header/div/div/div/div" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;ADEN&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6985,6 +6976,9 @@
 										<Image FileName="1288198124" Left="670" Top="676" Right="674" Bottom="676" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;justify-content-center&apos;)]//label[text()=&apos;Hazardous&apos;]/following-sibling::mat-slide-toggle//button[@role=&apos;switch&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="xpath=(//div[@class=&apos;mdc-switch__ripple&apos;])[6]" />
 											</Selector>
@@ -12539,21 +12533,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelBookinguploadMonOct07202422" Key="{7CF60AEF-6666-426A-AD9D-F490593B3080}">
+									<Child Name="panelHAZ" Key="{7CF60AEF-6666-426A-AD9D-F490593B3080}">
 										<Image FileName="706619900" Left="592" Top="554" Right="746" Bottom="594" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;BookingUpload_Mon_Oct_07_2024_210644_&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-cell[6]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-2-0&apos;]//mat-cell[6]/shared-grid-cell/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-cell[6]/shared-grid-cell/div" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;HAZ&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14660,12 +14645,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="cell2" Key="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}">
+									<Child Name="panelBUC" Key="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}">
 										<Image FileName="1164764207" Left="481" Top="400" Right="544" Bottom="431" />
 										<TypeInfo Item0="{1C620272-A0E1-4E5E-B9AE-803C6739C04E}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//td[contains(text(), &apos;MSCAUTO&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;BUC&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14720,6 +14705,24 @@
 											</Selector>
 											<Selector>
 												<Value Value="//mat-form-field[contains(@class, &apos;ng-tns-c1205077789-256&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSubjectTo" Key="{82A99E8C-E79E-4D98-AA50-AAC17E7A7649}">
+										<Image FileName="864765952" Left="1347" Top="622" Right="1858" Bottom="674" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-form-field[.=&apos;Subject To&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-charge-form/mat-form-field[contains(@class, &apos;mat-mdc-form-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//search-charges-result-charge-form/mat-form-field" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-charge-form/mat-form-field" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15745,7 +15748,7 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=css=//div[contains(text(), &apos;HAZ02&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;HAZ02&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15782,12 +15785,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel3" Key="{C8588B63-1AE5-4932-B527-AE542EDE40A8}">
+									<Child Name="manila" Key="{C8588B63-1AE5-4932-B527-AE542EDE40A8}">
 										<Image FileName="1774541359" Left="95" Top="851" Right="1863" Bottom="1332" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[2]/div/div/div[3]" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and normalize-space(text())=&apos;Manila&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15886,7 +15889,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="css=//div[contains(text(), &apos;WRS&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;WRS&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15976,7 +15979,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;ARBD&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;ARBD&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16036,7 +16039,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;LSF1&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;LSF1&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16307,7 +16310,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;AMS&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;AMS&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16394,7 +16397,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;PSS&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;PSS&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16511,7 +16514,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;NBC&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;NBC&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16532,7 +16535,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;BAF&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;BAF&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16766,7 +16769,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=css=//div[contains(text(), &apos;HAZ03&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;HAZ03&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16775,7 +16778,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="css=//div[contains(text(), &apos;SCS&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;SCS&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16784,7 +16787,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;ARBO&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;ARBO&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16915,7 +16918,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;CCC&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;CCC&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16936,7 +16939,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;CSF&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;CSF&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -19611,7 +19614,7 @@
 				<Child Name="vg6" Owner="{1D18FB65-77AF-45DD-ADF8-1EED946E912A}" />
 				<Child Name="panelOcean40Dry" Owner="{56DB3EFD-C63D-45CB-B127-48E109BA2C88}" />
 				<Child Name="panelLclDry" Owner="{70A73ED7-5CD2-4A58-9FAD-3ABCF54F4D88}" />
-				<Child Name="panelGroundTruck" Owner="{454586A6-3428-4067-90EC-21BAEA16AE54}" />
+				<Child Name="panelADEN" Owner="{454586A6-3428-4067-90EC-21BAEA16AE54}" />
 				<Child Name="panelAirAll" Owner="{821AF659-4BCC-4480-AC14-5EEF49F6379D}" />
 				<Child Name="textnodeCell" Owner="{16F5081D-D1BF-4E65-B8C3-109094475334}" />
 				<Child Name="textnodeCell2" Owner="{D616A385-CDE2-4AFA-AEDE-938CDCFA4ECF}" />
@@ -20236,7 +20239,7 @@
 				<Child Name="radiobuttonApplyToBaseRate" Owner="{852A83F4-C792-4805-9F3B-6EC48741C87B}" />
 				<Child Name="radiobuttonApplyMarginOnSellRate" Owner="{29D81616-B1E3-41A3-ADF6-973BB585AC85}" />
 				<Child Name="disclaimerForm" Owner="{F3D42342-14F8-4014-9DDF-77279CD82F43}" />
-				<Child Name="panelBookinguploadMonOct07202422" Owner="{7CF60AEF-6666-426A-AD9D-F490593B3080}" />
+				<Child Name="panelHAZ" Owner="{7CF60AEF-6666-426A-AD9D-F490593B3080}" />
 				<Child Name="directionOption" Owner="{485221A9-E493-4ECA-B7E5-16F883F6ED17}" />
 				<Child Name="textnodeContract3" Owner="{8E4824DF-66C2-4AD6-94B0-B040ECAEDAE7}" />
 				<Child Name="panel11Of1" Owner="{82354EF3-DB4C-4942-871C-02FF32FB107B}" />
@@ -20410,11 +20413,12 @@
 				<Child Name="textnodeCollect2" Owner="{F5D3B1E4-0B68-421F-AD0B-BA312879A65A}" />
 				<Child Name="textnodeOrigin2" Owner="{B555F9B1-1A07-4D2D-AB51-4B203B391E8C}" />
 				<Child Name="emailTariff" Owner="{B13EE34C-9C9F-4DBA-B706-2708C0467DE2}" />
-				<Child Name="cell2" Owner="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}" />
+				<Child Name="panelBUC" Owner="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}" />
 				<Child Name="textnodePrepaid3" Owner="{8F7788E8-8ACC-4E18-A553-2DAA7874802A}" />
 				<Child Name="textnodeOrigin3" Owner="{076553EA-150C-45E3-85BF-705EE28F12C6}" />
 				<Child Name="textnodePrepaid4" Owner="{788065B9-C2C7-4305-9F21-C11B9869C299}" />
 				<Child Name="textnodeFreight2" Owner="{29EA8B97-FFF9-40B2-99BC-A3423404A014}" />
+				<Child Name="textnodeSubjectTo" Owner="{82A99E8C-E79E-4D98-AA50-AAC17E7A7649}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -20523,7 +20527,7 @@
 				<Child Name="panelHAZ02" Owner="{8A20B864-A7BF-41A1-A252-6EEC73BE12A0}" />
 				<Child Name="checkboxMatMdcCheckbox121Input" Owner="{493029EB-E305-4FD1-BB23-197BDB00729D}" />
 				<Child Name="checkbox45" Owner="{FCEF13BC-9C6A-4AF3-975E-A462030801E9}" />
-				<Child Name="panel3" Owner="{C8588B63-1AE5-4932-B527-AE542EDE40A8}" />
+				<Child Name="manila" Owner="{C8588B63-1AE5-4932-B527-AE542EDE40A8}" />
 				<Child Name="textbox" Owner="{5E8A59CA-DC7C-46EC-A8F4-09BB54FC5985}" />
 				<Child Name="labelOrigin" Owner="{9977ECB9-2390-41FE-BF82-83FEA6BD2E00}" />
 				<Child Name="panelNewBooking" Owner="{940D872D-AA2A-4E42-ADF2-853C0877E0DD}" />

@@ -184,13 +184,12 @@
 					<child name="VerifyEFT_Ground" key="{3CA480EC-41D6-4B16-90DB-9F490AFEFCB2}" path="VerifyEFT_Ground.tcKDTest" />
 					<child name="ADENChargeFreight" key="{C3784D13-E5AF-49B5-B66B-DFEE8C4ED4DE}" path="ADENChargeFreight.tcKDTest" />
 					<child name="CSFChargeOrigin_PSSFreight" key="{2EE55719-9E88-4FD3-BB5E-23C73E083938}" path="CSFChargeOrigin_PSSFreight.tcKDTest" />
-					<child name="ARBDChargeFreight" key="{5EF1AECB-F124-4990-ADF6-24A704069AF2}" path="ARBDChargeFreight.tcKDTest" />
-					<child name="HAZChargePrepaid" key="{D0B90C3F-C253-4F91-B4E8-88E1E76A3A3C}" path="HAZChargePrepaid.tcKDTest" />
+					<child name="ARBDChargeFreightDestVia" key="{5EF1AECB-F124-4990-ADF6-24A704069AF2}" path="ARBDChargeFreightDestVia.tcKDTest" />
 					<child name="NBCFreight" key="{5ED9B15B-07B7-4827-9E13-152E48CD4776}" path="NBCFreight.tcKDTest" />
-					<child name="ARBOFreightVia" key="{408CF4FC-9F5F-4B55-9844-59AF28BD401C}" path="ARBOFreightVia.tcKDTest" />
+					<child name="ARBOFreightOriginVia" key="{408CF4FC-9F5F-4B55-9844-59AF28BD401C}" path="ARBOFreightOriginVia.tcKDTest" />
 					<child name="AMSFreight" key="{F58E2C2A-C061-43B3-868B-8B632D85A53B}" path="AMSFreight.tcKDTest" />
 					<child name="BAFFreight" key="{EFA684A7-522E-41A1-BD83-B226928289AF}" path="BAFFreight.tcKDTest" />
-					<child name="BUCFreight" key="{C7911806-4F89-43B2-94B8-96CBF1045E4B}" path="BUCFreight.tcKDTest" />
+					<child name="BUCFreightAndHAZ" key="{C7911806-4F89-43B2-94B8-96CBF1045E4B}" path="BUCFreightAndHAZ.tcKDTest" />
 					<child name="CCCDestination" key="{9A7DC100-5E09-4006-AD5B-DEBB6A25D481}" path="CCCDestination.tcKDTest" />
 					<child name="LSF1Freight" key="{CC1C4A57-3334-4CA7-9D67-C4041B60A48F}" path="LSF1Freight.tcKDTest" />
 					<child name="SCSFreigth" key="{318D2A3E-7CAD-4F79-8C7A-F3103F082F80}" path="SCSFreigth.tcKDTest" />

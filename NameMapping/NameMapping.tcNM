@@ -3606,21 +3606,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelGroundTruck" Key="{454586A6-3428-4067-90EC-21BAEA16AE54}">
+									<Child Name="panelADEN" Key="{454586A6-3428-4067-90EC-21BAEA16AE54}">
 										<Image FileName="1796974431" Left="1785" Top="330" Right="1880" Bottom="346" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Ground - TRUCK&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[2]/div[contains(@class, &apos;link&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//rate-search-info-header/div/div/div/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//rate-search-info-header/div/div/div/div" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;ADEN&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3843,9 +3834,6 @@
 										<Selectors>
 											<Selector>
 												<Value Value="xpath=//*[@class=&quot;text-right font-weight-bold text-dark&quot;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[contains(text(), &apos;6,506.87 USD&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;font-weight-bold&apos;)]" />
@@ -5103,12 +5091,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelContractIdItga2937" Key="{2B11163A-2F45-4323-930D-5F9EC799CED6}">
+									<Child Name="panelITG" Key="{2B11163A-2F45-4323-930D-5F9EC799CED6}">
 										<Image FileName="233197337" Left="1560" Top="549" Right="1720" Bottom="565" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Contract ID: ITGA_2937&apos;)]" />
+												<Value Value="xpath=//mat-cell//div[contains(text(), &apos;ITGA&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5180,12 +5168,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="select_Xenon" Key="{CEF55FC7-441B-4CF2-8084-2A8302C6E23A}">
+									<Child Name="xenonAPI" Key="{CEF55FC7-441B-4CF2-8084-2A8302C6E23A}">
 										<Image FileName="43831219" Left="775" Top="532" Right="873" Bottom="556" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//h5[contains(@class, &apos;d-inline-block&apos;) and normalize-space(text())=&apos;Search&apos;]" />
+												<Value Value="xpath=//mat-cell[contains(., &apos;XENON_API&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -6985,6 +6973,9 @@
 										<Image FileName="1288198124" Left="670" Top="676" Right="674" Bottom="676" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;justify-content-center&apos;)]//label[text()=&apos;Hazardous&apos;]/following-sibling::mat-slide-toggle//button[@role=&apos;switch&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="xpath=(//div[@class=&apos;mdc-switch__ripple&apos;])[6]" />
 											</Selector>
@@ -12539,21 +12530,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelBookinguploadMonOct07202422" Key="{7CF60AEF-6666-426A-AD9D-F490593B3080}">
+									<Child Name="panelHAZ" Key="{7CF60AEF-6666-426A-AD9D-F490593B3080}">
 										<Image FileName="706619900" Left="592" Top="554" Right="746" Bottom="594" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;BookingUpload_Mon_Oct_07_2024_210644_&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-cell[6]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-2-0&apos;]//mat-cell[6]/shared-grid-cell/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-cell[6]/shared-grid-cell/div" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;HAZ&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14660,12 +14642,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="cell2" Key="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}">
+									<Child Name="panelBUC" Key="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}">
 										<Image FileName="1164764207" Left="481" Top="400" Right="544" Bottom="431" />
 										<TypeInfo Item0="{1C620272-A0E1-4E5E-B9AE-803C6739C04E}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//td[contains(text(), &apos;MSCAUTO&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;BUC&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14720,6 +14702,24 @@
 											</Selector>
 											<Selector>
 												<Value Value="//mat-form-field[contains(@class, &apos;ng-tns-c1205077789-256&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSubjectTo" Key="{82A99E8C-E79E-4D98-AA50-AAC17E7A7649}">
+										<Image FileName="864765952" Left="1347" Top="622" Right="1858" Bottom="674" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-form-field[.=&apos;Subject To&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-charge-form/mat-form-field[contains(@class, &apos;mat-mdc-form-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//search-charges-result-charge-form/mat-form-field" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-charge-form/mat-form-field" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15745,7 +15745,7 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=css=//div[contains(text(), &apos;HAZ02&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;HAZ02&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15782,12 +15782,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel3" Key="{C8588B63-1AE5-4932-B527-AE542EDE40A8}">
+									<Child Name="manila" Key="{C8588B63-1AE5-4932-B527-AE542EDE40A8}">
 										<Image FileName="1774541359" Left="95" Top="851" Right="1863" Bottom="1332" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[2]/div/div/div[3]" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and normalize-space(text())=&apos;Manila&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15886,7 +15886,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="css=//div[contains(text(), &apos;WRS&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;WRS&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15976,7 +15976,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;ARBD&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;ARBD&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16036,7 +16036,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;LSF1&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;LSF1&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16073,18 +16073,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelYantianCngd" Key="{4690606D-FD86-4799-B32A-DBF48B63F59C}">
+									<Child Name="chargeGRI" Key="{4690606D-FD86-4799-B32A-DBF48B63F59C}">
 										<Image FileName="1540436700" Left="229" Top="565" Right="363" Bottom="585" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//mat-row[3]/mat-cell[2]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-2-0&apos;]//mat-row[3]/mat-cell[2]/shared-grid-cell/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-row[3]/mat-cell[2]/shared-grid-cell/div" />
+												<Value Value="xpath=//div[contains(text(), &apos;GRI&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16307,7 +16301,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;AMS&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;AMS&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16394,7 +16388,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;PSS&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;PSS&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16511,7 +16505,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;NBC&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;NBC&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16532,7 +16526,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;BAF&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;BAF&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16766,7 +16760,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=css=//div[contains(text(), &apos;HAZ03&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;HAZ03&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16775,7 +16769,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="css=//div[contains(text(), &apos;SCS&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;SCS&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16784,7 +16778,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;ARBO&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;ARBO&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16915,7 +16909,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(text(), &apos;CCC&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;CCC&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16936,7 +16930,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;CSF&apos;)]" />
+												<Value Value="xpath=//div[normalize-space(text()) = &apos;CSF&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16946,6 +16940,68 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[4]/div/mat-form-field/div[contains(@class, &apos;mat-mdc-text-field-wrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonOrganizationLevel" Key="{1EAF5513-395F-460D-A487-D1E783DCEE91}">
+										<Image FileName="1914399043" Left="86" Top="492" Right="122" Bottom="528" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Organization Level&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;ORG&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-19-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group/div[2]/mat-radio-button//input[@name=&apos;mat-radio-group-10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group[@role=&apos;radiogroup&apos;]/div[2]/mat-radio-button//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonNA" Key="{D84A22E9-58E1-45B7-ADF6-44CA21B23FBD}">
+										<Image FileName="-1495325513" Left="86" Top="396" Right="122" Bottom="432" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;N/A&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;N/A&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-18-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group/div/mat-radio-button//input[@name=&apos;mat-radio-group-10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group[@role=&apos;radiogroup&apos;]//mat-radio-button//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonHtml" Key="{E18F8430-84D2-46EB-97CD-CC54E111B97D}">
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;HTML&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;html&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-9-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-quote-ouput-form-options//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-9&apos;]//input[@name=&apos;mat-radio-group-7&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-quote-ouput-form-options//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-9&apos;]//input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16987,6 +17043,116 @@
 										</Selectors>
 									</Child>
 								</Children>
+							</Child>
+							<Child Name="pageLogin3" Key="{143503DB-4FF5-4893-BC58-25C5AF047474}">
+								<Image FileName="1411069050" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://prod.gocatapult.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formUsernameEmail" Key="{BF5AF4EA-4D8C-404F-8099-1008EED44B46}">
+										<Image FileName="1411069050" Left="1557" Top="626" Right="1837" Bottom="822" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Username/Email&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{6E4652B7-A8C1-4579-BCCB-E3BABB111738}">
+										<Image FileName="1411069050" Left="1557" Top="649" Right="1837" Bottom="690" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;new-custom-input-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formUsernameEmail2" Key="{01640088-B3AA-42D4-A36D-8FF00C567C50}">
+										<Image FileName="1824865113" Left="1557" Top="626" Right="1837" Bottom="822" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Username/Email&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNext" Key="{BBE3C1FA-868C-4AD4-AAD8-97C78D7B2ACB}">
+										<Image FileName="-1971102682" Left="1747" Top="779" Right="1837" Bottom="817" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Next&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;mcf__btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{2ECF800A-F930-4A42-9733-7B13D6DA5F2C}">
+										<Image FileName="-153883584" Left="1557" Top="660" Right="1837" Bottom="701" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input[contains(@class, &apos;new-custom-input-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagayaQadfpQwykportalsCom" Key="{B9DCE6CA-38F5-4745-B361-897B34589486}">
+								<Image FileName="1411069050" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magaya-qadfp.qwykportals.com/" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -18398,18 +18564,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelPleaseSelectMembersFromThe" Key="{8570F58F-7F5E-4917-AA16-17AC80C452A3}">
+									<Child Name="panelArrow" Key="{8570F58F-7F5E-4917-AA16-17AC80C452A3}">
 										<Image FileName="-727527259" Left="385" Top="332" Right="882" Bottom="346" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Please select members from the panel on the right&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[contains(@class, &apos;italic-text&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//named-account-groups-member-item/div" />
+												<Value Value="xpath=//div[contains(@class, &apos;control--increase&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -18464,21 +18624,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonAdd2" Key="{32D773E3-1308-4EF3-9AE6-792903883D93}">
+									<Child Name="buttonDoneInfo" Key="{32D773E3-1308-4EF3-9AE6-792903883D93}">
 										<Image FileName="1946568464" Left="1135" Top="645" Right="1166" Bottom="672" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-58&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-1&apos;]//shared-icon-button/button" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button" />
+												<Value Value="xpath=//button[contains(., &apos;done&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -19173,6 +19324,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonQ2tms" Key="{08B2E4AA-9E2B-44E3-80A0-99BDBACD1149}">
+										<Image FileName="548316736" Left="1785" Top="954" Right="1843" Bottom="981" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Q2TMS&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -19368,6 +19528,793 @@
 												<Value Value="//shared-spinner/div" />
 											</Selector>
 										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{A9A6B3D3-801A-4A72-89D4-1FF8B5159CD6}">
+										<Image FileName="1492146197" Left="18" Top="233" Right="38" Bottom="253" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/a/div[contains(@class, &apos;link-icon&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelOrigin" Key="{AD4C437A-BD83-4654-B7B5-AD5878BD0506}">
+										<Image FileName="-1212902680" Left="80" Top="296" Right="147" Bottom="313" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Origin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-location-options//div//label[contains(@class, &apos;location-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-location-options//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{28648E6C-84EF-4F46-8483-6F1C6671B074}">
+										<Image FileName="-1212902680" Left="122" Top="292" Right="147" Bottom="314" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//label//i[contains(@class, &apos;custom-icon-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//label//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelDestination" Key="{E4891855-9E8D-4483-AC22-8137C11351F8}">
+										<Image FileName="-1902695387" Left="80" Top="520" Right="181" Bottom="537" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[text()=&apos;Destination&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-location-options//div[4]//label[contains(@class, &apos;location-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-location-options//div[4]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{E82EBE73-48A8-4F7C-8D5F-8577920F45B2}">
+										<Image FileName="-1902695387" Left="156" Top="516" Right="181" Bottom="538" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//i[contains(@class, &apos;custom-icon-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//label//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNumber" Key="{6BDBC9BC-F932-4A61-A8D5-97F21B2BF078}">
+										<Image FileName="991875500" Left="80" Top="325" Right="360" Bottom="355" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-4" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-autocomplete-form-md//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKobeJp" Key="{72B9A3E0-C2FF-4CEE-BFF6-E4D70E4C0E08}">
+										<Image FileName="865259144" Left="96" Top="366" Right="153" Bottom="390" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;KOBE,&#32;&#32;JP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-370&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-370&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNumber2" Key="{388AE17B-54A2-48EE-9834-5C2E6C457D7F}">
+										<Image FileName="1724576863" Left="80" Top="549" Right="360" Bottom="579" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-5" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLosAngelesCaUs" Key="{F7AF5F4A-2FDA-4F5C-86D5-1BD343BF06AF}">
+										<Image FileName="-686601815" Left="96" Top="590" Right="228" Bottom="614" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;LOS ANGELES, CA US&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-393&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-393&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNumber3" Key="{649EAA3A-68BE-4CBE-8532-04253E043563}">
+										<Image FileName="-1538089036" Left="400" Top="554" Right="680" Bottom="584" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-9" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//search-form-removable-autocomplete//search-form-autocomplete-form-md//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHmmDanhmmflctest01" Key="{D7988781-C0A0-4833-93EF-D5C4592433FE}">
+										<Image FileName="-1367703729" Left="416" Top="595" Right="585" Bottom="619" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;HMM-DANHMMFLCTEST01&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-420&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{B06B60C8-478D-4294-BA05-461440D502FB}">
+										<Image FileName="1803741703" Left="837" Top="947" Right="901" Bottom="977" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-search-form//mat-card//search-form-search-panel//button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-search-panel/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContract" Key="{DADD34A1-727C-4F17-9D85-F59270761742}">
+										<Image FileName="-62861544" Left="240" Top="541" Right="302" Bottom="561" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-cell[2]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-cell[2]/shared-grid-cell/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-cell[2]/shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCharges" Key="{1415C83C-0A8A-4905-B6A9-69879C3ED734}">
+										<Image FileName="1077460498" Left="1606" Top="457" Right="1660" Bottom="487" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Charges&apos;]/@id)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRigthArrow" Key="{265A97A5-FF36-490F-BC75-0F999F9D9BB8}">
+										<Image FileName="191872332" Left="1827" Top="962" Right="1844" Bottom="982" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//i[.=&apos;arrow_right&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{062AF315-4132-495B-B384-B9C971663735}">
+										<Image FileName="-344054180" Left="1827" Top="660" Right="1844" Bottom="680" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;control--increase&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//shared-info-panel/mat-card/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-info-panel/mat-card/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navKobeToLosAngeles" Key="{0644A31C-A027-4F0B-BC8A-DDF17B55DAF4}">
+										<Image FileName="1349553571" Left="129" Top="181" Right="1813" Bottom="336" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Kobe to Los Angeles&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;mat-mdc-tab-nav-bar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card[@id=&apos;rate-header-container&apos;]//nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelKobeToLosAngeles" Key="{DE65451E-8AFE-4868-8869-5FB7FF8216AF}">
+										<Image FileName="1349553571" Left="129" Top="181" Right="1813" Bottom="336" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;mat-mdc-tab-link-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel11Of1" Key="{2E89F05D-67F1-436E-814A-73EF18D50BCD}">
+										<Image FileName="1349553571" Left="1127" Top="638" Right="1182" Bottom="658" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//rate-search-grid-view//div[3]/mat-paginator//div[contains(@class, &apos;mat-mdc-paginator-range-label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="prodTotal" Key="{132413ED-7917-4744-8AB4-F8E75148FC50}">
+										<Image FileName="1349553571" Left="1777" Top="372" Right="1872" Bottom="388" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@class=&quot;text-right font-weight-bold text-dark&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-info-panel-content//rate-search-info-header//div[contains(@class, &apos;font-weight-bold&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{595ED91B-CFC5-4EDB-929E-3AC8E8980EC6}">
+										<Image FileName="625432239" Left="1801" Top="573" Right="1833" Bottom="603" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-search-info-header//search-info-header-carrier-form//shared-icon-button[2]/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//rate-search-info-header//search-info-header-carrier-form//shared-icon-button[2]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-search-info-header//search-info-header-carrier-form//shared-icon-button[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelArrow" Key="{54B983B8-B52E-4A6A-8644-81C1748BF50B}">
+										<Image FileName="1349553571" Left="85" Top="351" Right="1318" Bottom="396" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;control--increase&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonQ2tms" Key="{6352EBA4-775F-4E0D-9478-288B786936D5}">
+										<Image FileName="-1138529321" Left="1671" Top="944" Right="1735" Bottom="974" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[normalize-space(text()) = &apos;Q2TMS&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Q2TMS&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDone" Key="{3E390E2B-178D-43B1-AACB-E15453139ACC}">
+										<Image FileName="-1072755101" Left="454" Top="718" Right="478" Bottom="742" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-icon[.=&apos;done&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-icon[@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-icon[contains(@class, &apos;mat-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//div[2]/mat-icon" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/mat-icon" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="filezilla" Key="{BD74AECE-8164-4E52-87D2-048957A5C583}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="filezilla" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndFileZilla" Key="{6E13FB96-77C8-46B2-BC34-45D2E51F49A7}">
+								<Image FileName="1741975823" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="wxWindowNR" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="FileZilla" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{6A21F7C2-CDDC-4FF5-9924-ED6C81DC9C7D}">
+										<Image FileName="1741975823" Left="0" Top="71" Right="1920" Bottom="104" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="wxWindowNR" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="panel" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btnQuickconnect" Key="{BA2AF3F1-0F31-4510-B065-02DCC553C77A}">
+												<Image FileName="1741975823" Left="611" Top="77" Right="706" Bottom="100" />
+												<TypeInfo Item0="{CA0FF9B7-4C49-47BB-A0CF-DE4403AA05DF}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="&amp;Quickconnect" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="editHost" Key="{4624EE93-B39F-45F0-A210-F11D3C9D1FD8}">
+												<Image FileName="529588907" Left="38" Top="77" Right="148" Bottom="100" />
+												<TypeInfo Item0="{26812133-1EB6-4458-9314-F6EF015A20FE}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Edit" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="editUsername" Key="{357E9B76-8287-4AD4-86EB-E3E7E02A0B35}">
+												<Image FileName="-1251195747" Left="221" Top="77" Right="331" Bottom="100" />
+												<TypeInfo Item0="{26812133-1EB6-4458-9314-F6EF015A20FE}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Edit" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="editPassword" Key="{15254C35-7AF4-439D-B312-56E11FF9D9A7}">
+												<Image FileName="1239517084" Left="401" Top="77" Right="511" Bottom="100" />
+												<TypeInfo Item0="{26812133-1EB6-4458-9314-F6EF015A20FE}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Edit" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="3" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="splitterWindow" Key="{CDEB589B-5F3E-4387-9CAD-D0AA9D6BE73D}">
+										<Image FileName="1020064556" Left="0" Top="104" Right="1920" Bottom="1017" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="wxWindowNR" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="splitterWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="splitterWindow" Key="{380258E9-EC98-45E6-B6C2-91048C86C010}">
+												<Image FileName="-29578685" Left="0" Top="205" Right="1920" Bottom="1017" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="wxWindowNR" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="splitterWindow" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="splitter" Key="{E5FB98C3-F14B-4500-8695-3ADED412D4A9}">
+														<Image FileName="-29578685" Left="0" Top="205" Right="1920" Bottom="882" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="wxWindowNR" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="splitter" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="splitterWindow" Key="{1CD8BFB9-8B30-4714-8769-B4EDA5BCAC1C}">
+																<Image FileName="-29578685" Left="0" Top="205" Right="1920" Bottom="882" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="wxWindowNR" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="splitterWindow" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="splitterWindow" Key="{09F0EC5D-E428-4709-924A-8A5F768E4DB5}">
+																		<Image FileName="-29578685" Left="964" Top="205" Right="1920" Bottom="882" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="wxWindowNR" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="splitterWindow" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{351B593F-A2CC-4410-AEB4-986BEACD20C4}">
+																				<Image FileName="-29578685" Left="964" Top="205" Right="1920" Bottom="433" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="wxWindowNR" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="panel" />
+																					</Property>
+																					<Property Name="Index">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="TreeView" Key="{B693D600-A26B-4DBF-B842-A2EF14FA08B3}">
+																						<Image FileName="-29578685" Left="966" Top="230" Right="1918" Bottom="431" />
+																						<TypeInfo Item0="{FC72594D-3C31-4F37-9AD2-2850AD582FB5}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value Value="SysTreeView32" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="panel2" Key="{F1205E60-66F7-4C98-A1D9-8A833CA56F3D}">
+																				<Image FileName="1126515885" Left="964" Top="437" Right="1920" Bottom="882" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="wxWindowNR" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="panel" />
+																					</Property>
+																					<Property Name="Index">
+																						<Value Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="ListView" Key="{20FB3B39-3026-495A-BE37-F7CCD7AC7D4A}">
+																						<Image FileName="1126515885" Left="966" Top="439" Right="1918" Bottom="857" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value Value="SysListView32" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Header" Key="{8B9F90C5-14C4-4F4F-9E02-3B46E27E2511}">
+																								<Image FileName="1126515885" Left="966" Top="439" Right="1901" Bottom="463" />
+																								<TypeInfo Item0="{08F24845-8E61-4B74-95A5-C76FDCA429AF}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="SysHeader32" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSyntaxError" Key="{4F6C3D69-EB43-4900-A27F-E2231D0BAB92}">
+								<Image FileName="-1095683102" Left="0" Top="0" Right="366" Bottom="140" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Syntax error" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Syntax_error" Key="{7D1D5D64-2C0C-4D1A-962C-758F3224440E}">
+										<Image FileName="-1095683102" Left="8" Top="31" Right="358" Bottom="132" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="DirectUI" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="TaskDialog" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Syntax_error" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{7EEA8334-B7B8-4C6D-BF62-92CC18AB33DB}">
+												<Image FileName="-1095683102" Left="280" Top="100" Right="348" Bottom="123" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="CtrlNotifySink" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="7" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnOK" Key="{B6B3E2D3-A676-4F3E-9898-25F64D662F39}">
+														<Image FileName="-1095683102" Left="280" Top="100" Right="348" Bottom="123" />
+														<TypeInfo Item0="{CA0FF9B7-4C49-47BB-A0CF-DE4403AA05DF}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="OK" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndwxWindowNR" Key="{A3CCFB10-030E-4176-AB91-A6DF34C4DA15}">
+								<Image FileName="-476008810" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="wxWindowNR" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="CebuSFTP@ftp.gocatapult.com - FileZilla" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="splitterWindow" Key="{512F58A5-3140-4177-B0ED-5F33676B8467}">
+										<Image FileName="-476008810" Left="0" Top="104" Right="1920" Bottom="1017" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="wxWindowNR" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="splitterWindow" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="splitterWindow" Key="{586B5CA7-0EAE-493C-9164-94EB9D9A455C}">
+												<Image FileName="-476008810" Left="0" Top="205" Right="1920" Bottom="1017" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="wxWindowNR" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="splitterWindow" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="splitter" Key="{81DD44F3-20E0-403C-BF56-130E5AB6DD17}">
+														<Image FileName="-476008810" Left="0" Top="205" Right="1920" Bottom="882" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="wxWindowNR" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="splitter" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="splitterWindow" Key="{82586C9D-7843-446A-B3AA-F9228244F9B4}">
+																<Image FileName="-476008810" Left="0" Top="205" Right="1920" Bottom="882" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="wxWindowNR" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="splitterWindow" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="splitterWindow" Key="{1C2DAE56-90A4-4713-8AB7-DD51F73AF320}">
+																		<Image FileName="-476008810" Left="964" Top="205" Right="1920" Bottom="882" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="wxWindowNR" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="splitterWindow" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{34D96A07-7B02-41C1-B97D-F44C73E91E32}">
+																				<Image FileName="-476008810" Left="964" Top="205" Right="1920" Bottom="433" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="wxWindowNR" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="panel" />
+																					</Property>
+																					<Property Name="Index">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="TreeView" Key="{D8337122-1F37-4A49-BF79-6A55A31CE98B}">
+																						<Image FileName="-476008810" Left="966" Top="230" Right="1918" Bottom="431" />
+																						<TypeInfo Item0="{FC72594D-3C31-4F37-9AD2-2850AD582FB5}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value Value="SysTreeView32" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="panel2" Key="{3C7C5DC0-DCEF-47DC-83E3-251E988F2FF6}">
+																				<Image FileName="454213714" Left="964" Top="437" Right="1920" Bottom="882" />
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value Value="wxWindowNR" />
+																					</Property>
+																					<Property Name="WndCaption">
+																						<Value Value="panel" />
+																					</Property>
+																					<Property Name="Index">
+																						<Value Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="ListView" Key="{13805B3F-D7BA-4E13-A2E7-434B9817A9F8}">
+																						<Image FileName="454213714" Left="966" Top="439" Right="1918" Bottom="857" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value Value="SysListView32" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Header" Key="{23EDE98A-3840-4215-AEF4-C9F49140ACFB}">
+																								<Image FileName="454213714" Left="966" Top="439" Right="1901" Bottom="463" />
+																								<TypeInfo Item0="{08F24845-8E61-4B74-95A5-C76FDCA429AF}" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="SysHeader32" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
 									</Child>
 								</Children>
 							</Child>
@@ -19611,7 +20558,7 @@
 				<Child Name="vg6" Owner="{1D18FB65-77AF-45DD-ADF8-1EED946E912A}" />
 				<Child Name="panelOcean40Dry" Owner="{56DB3EFD-C63D-45CB-B127-48E109BA2C88}" />
 				<Child Name="panelLclDry" Owner="{70A73ED7-5CD2-4A58-9FAD-3ABCF54F4D88}" />
-				<Child Name="panelGroundTruck" Owner="{454586A6-3428-4067-90EC-21BAEA16AE54}" />
+				<Child Name="panelADEN" Owner="{454586A6-3428-4067-90EC-21BAEA16AE54}" />
 				<Child Name="panelAirAll" Owner="{821AF659-4BCC-4480-AC14-5EEF49F6379D}" />
 				<Child Name="textnodeCell" Owner="{16F5081D-D1BF-4E65-B8C3-109094475334}" />
 				<Child Name="textnodeCell2" Owner="{D616A385-CDE2-4AFA-AEDE-938CDCFA4ECF}" />
@@ -19719,7 +20666,7 @@
 				<Child Name="textnodeMatOption16" Owner="{98D85CDA-9511-492D-80E7-A8504207D6A7}" />
 				<Child Name="panel17" Owner="{67F3EE17-B22A-4DCE-9978-F680CD4F63EE}" />
 				<Child Name="panel18" Owner="{5417F410-8C6D-4333-A622-C862DBC7FD5A}" />
-				<Child Name="panelContractIdItga2937" Owner="{2B11163A-2F45-4323-930D-5F9EC799CED6}" />
+				<Child Name="panelITG" Owner="{2B11163A-2F45-4323-930D-5F9EC799CED6}" />
 				<Child Name="panelContractIdItga29372" Owner="{44DAC8ED-59F3-4E8D-A147-63CCDAB8C9B5}" />
 				<Child Name="textnodeGround4" Owner="{0C9E831B-1D5A-4F4E-991D-B10F8FBCF9AC}" />
 				<Child Name="labelMatMdcSlideToggle16Label" Owner="{B59CD2B1-B3E7-4045-AFFB-B695CF73F2DC}">
@@ -19728,7 +20675,7 @@
 				</Child>
 				<Child Name="vg9" Owner="{ED876EEF-FB8B-4EC7-8263-A9346B57BF62}" />
 				<Child Name="contactsIcon" Owner="{513B2243-4E91-4C35-B93B-8576DEA1CFBD}" />
-				<Child Name="select_Xenon" Owner="{CEF55FC7-441B-4CF2-8084-2A8302C6E23A}" />
+				<Child Name="xenonAPI" Owner="{CEF55FC7-441B-4CF2-8084-2A8302C6E23A}" />
 				<Child Name="panelItgTransportationServices" Owner="{455F48FB-5C31-4F15-801F-B3113EA0F265}" />
 				<Child Name="linkSurchargeOrigin" Owner="{96603986-DA53-43D6-B9D7-C0BCCB07AA65}" />
 				<Child Name="panelSearchRateDetailsWrapper" Owner="{FB032C7E-6C3B-4D01-AC17-97247F1E4D32}" />
@@ -20236,7 +21183,7 @@
 				<Child Name="radiobuttonApplyToBaseRate" Owner="{852A83F4-C792-4805-9F3B-6EC48741C87B}" />
 				<Child Name="radiobuttonApplyMarginOnSellRate" Owner="{29D81616-B1E3-41A3-ADF6-973BB585AC85}" />
 				<Child Name="disclaimerForm" Owner="{F3D42342-14F8-4014-9DDF-77279CD82F43}" />
-				<Child Name="panelBookinguploadMonOct07202422" Owner="{7CF60AEF-6666-426A-AD9D-F490593B3080}" />
+				<Child Name="panelHAZ" Owner="{7CF60AEF-6666-426A-AD9D-F490593B3080}" />
 				<Child Name="directionOption" Owner="{485221A9-E493-4ECA-B7E5-16F883F6ED17}" />
 				<Child Name="textnodeContract3" Owner="{8E4824DF-66C2-4AD6-94B0-B040ECAEDAE7}" />
 				<Child Name="panel11Of1" Owner="{82354EF3-DB4C-4942-871C-02FF32FB107B}" />
@@ -20410,11 +21357,12 @@
 				<Child Name="textnodeCollect2" Owner="{F5D3B1E4-0B68-421F-AD0B-BA312879A65A}" />
 				<Child Name="textnodeOrigin2" Owner="{B555F9B1-1A07-4D2D-AB51-4B203B391E8C}" />
 				<Child Name="emailTariff" Owner="{B13EE34C-9C9F-4DBA-B706-2708C0467DE2}" />
-				<Child Name="cell2" Owner="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}" />
+				<Child Name="panelBUC" Owner="{5F1DA620-AE95-4921-90A8-1F7C4E9597CE}" />
 				<Child Name="textnodePrepaid3" Owner="{8F7788E8-8ACC-4E18-A553-2DAA7874802A}" />
 				<Child Name="textnodeOrigin3" Owner="{076553EA-150C-45E3-85BF-705EE28F12C6}" />
 				<Child Name="textnodePrepaid4" Owner="{788065B9-C2C7-4305-9F21-C11B9869C299}" />
 				<Child Name="textnodeFreight2" Owner="{29EA8B97-FFF9-40B2-99BC-A3423404A014}" />
+				<Child Name="textnodeSubjectTo" Owner="{82A99E8C-E79E-4D98-AA50-AAC17E7A7649}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -20523,7 +21471,7 @@
 				<Child Name="panelHAZ02" Owner="{8A20B864-A7BF-41A1-A252-6EEC73BE12A0}" />
 				<Child Name="checkboxMatMdcCheckbox121Input" Owner="{493029EB-E305-4FD1-BB23-197BDB00729D}" />
 				<Child Name="checkbox45" Owner="{FCEF13BC-9C6A-4AF3-975E-A462030801E9}" />
-				<Child Name="panel3" Owner="{C8588B63-1AE5-4932-B527-AE542EDE40A8}" />
+				<Child Name="manila" Owner="{C8588B63-1AE5-4932-B527-AE542EDE40A8}" />
 				<Child Name="textbox" Owner="{5E8A59CA-DC7C-46EC-A8F4-09BB54FC5985}" />
 				<Child Name="labelOrigin" Owner="{9977ECB9-2390-41FE-BF82-83FEA6BD2E00}" />
 				<Child Name="panelNewBooking" Owner="{940D872D-AA2A-4E42-ADF2-853C0877E0DD}" />
@@ -20544,7 +21492,7 @@
 				<Child Name="panelLSF1" Owner="{90B67DCD-A39C-4A30-B951-D748B94FEA20}" />
 				<Child Name="panelYantianCngdChina" Owner="{83955F68-160B-48EA-9DC4-D24348B539DA}" />
 				<Child Name="panelYantianCngdChina2" Owner="{4BDF27B0-CA27-421B-B951-327EBC66053B}" />
-				<Child Name="panelYantianCngd" Owner="{4690606D-FD86-4799-B32A-DBF48B63F59C}" />
+				<Child Name="chargeGRI" Owner="{4690606D-FD86-4799-B32A-DBF48B63F59C}" />
 				<Child Name="panelFcl" Owner="{AEFC9BD2-CE3E-4D6C-B62D-6C78E7BFA885}" />
 				<Child Name="textnodeFcl" Owner="{9F282794-7A8C-4399-A0FA-29180E102DAE}" />
 				<Child Name="panelFcl2" Owner="{A57B709B-9FEB-46E6-BDD2-BA1336D93CF2}" />
@@ -20615,11 +21563,24 @@
 				<Child Name="panelCCC" Owner="{1F1B1F41-D477-4F06-9709-3B65E7753E3C}" />
 				<Child Name="panelCsf" Owner="{6513631F-D6CA-459D-BA4B-14392773EAF2}" />
 				<Child Name="panel5" Owner="{3A4AF2CD-6123-4F21-A63D-D5C4BD6F9DF8}" />
+				<Child Name="radiobuttonOrganizationLevel" Owner="{1EAF5513-395F-460D-A487-D1E783DCEE91}" />
+				<Child Name="radiobuttonNA" Owner="{D84A22E9-58E1-45B7-ADF6-44CA21B23FBD}" />
+				<Child Name="radiobuttonHtml" Owner="{E18F8430-84D2-46EB-97CD-CC54E111B97D}" />
 			</Child>
 			<Child Name="pageInbox1Rmsautomation24GmailCo" Owner="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
 				<Child Name="textnodeQmsAlertNewTariffUpload" Owner="{416D8EE6-4131-48E1-A9AC-0B587458E79F}" />
 				<Child Name="emailText" Owner="{E801A9BC-5577-4819-81FC-FADC95F1210F}" />
 			</Child>
+			<Child Name="pageLogin3" Owner="{143503DB-4FF5-4893-BC58-25C5AF047474}">
+				<Child Name="formUsernameEmail" Owner="{BF5AF4EA-4D8C-404F-8099-1008EED44B46}">
+					<Child Name="textboxUsername" Owner="{6E4652B7-A8C1-4579-BCCB-E3BABB111738}" />
+				</Child>
+				<Child Name="formUsernameEmail2" Owner="{01640088-B3AA-42D4-A36D-8FF00C567C50}">
+					<Child Name="buttonNext" Owner="{BBE3C1FA-868C-4AD4-AAD8-97C78D7B2ACB}" />
+					<Child Name="passwordboxPassword" Owner="{2ECF800A-F930-4A42-9733-7B13D6DA5F2C}" />
+				</Child>
+			</Child>
+			<Child Name="pageMagayaQadfpQwykportalsCom" Owner="{B9DCE6CA-38F5-4745-B361-897B34589486}" />
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
 			<Child Name="wndShell_TrayWnd" Owner="{34B3F312-D042-4EE5-A71D-1A40C67A49FC}">
@@ -20758,12 +21719,12 @@
 				<Child Name="textnodeGroupName2" Owner="{CA2D9BBF-C7C6-43DD-96C6-FB8604C6C7B5}" />
 				<Child Name="textnodeMatMdcHint0" Owner="{F844FE21-08CB-434F-AEEB-6DC2D6A56096}" />
 				<Child Name="panelGroupName" Owner="{F6BFDCBF-2F33-410E-B59F-4606C8109028}" />
-				<Child Name="panelPleaseSelectMembersFromThe" Owner="{8570F58F-7F5E-4917-AA16-17AC80C452A3}" />
+				<Child Name="panelArrow" Owner="{8570F58F-7F5E-4917-AA16-17AC80C452A3}" />
 				<Child Name="textbox3" Owner="{43D8B4B0-16F3-481B-8383-B0DD661453A3}" />
 				<Child Name="checkboxSelectAll" Owner="{61997A1C-C3CD-4F88-B818-FE0D0D40099C}" />
 				<Child Name="uploadContact" Owner="{C1758F11-C509-445E-B331-DF13E98CD31E}" />
 				<Child Name="textnodeCatapultTest" Owner="{95945FD0-B7F5-4FAA-9B05-950D769ED25C}" />
-				<Child Name="buttonAdd2" Owner="{32D773E3-1308-4EF3-9AE6-792903883D93}" />
+				<Child Name="buttonDoneInfo" Owner="{32D773E3-1308-4EF3-9AE6-792903883D93}" />
 				<Child Name="panel" Owner="{D98D14C3-7603-4B3D-BEEC-DE65684C5B6C}" />
 				<Child Name="textnodeQuotationsCreated" Owner="{46440831-6403-450D-977F-0D79487B4A2C}" />
 				<Child Name="emailContact" Owner="{54073247-9F45-4685-B969-A7874F5F29CD}" />
@@ -20818,6 +21779,7 @@
 				<Child Name="textnodeFullServeUploads" Owner="{F8672BA2-1124-4D1F-8745-7602DAD24FD4}" />
 				<Child Name="panel2" Owner="{0C4E85E8-6175-49F0-86EE-90E5363CA580}" />
 				<Child Name="textnodeAus" Owner="{A93F653C-3AD5-4808-8196-AEADD9AA7ACA}" />
+				<Child Name="buttonQ2tms" Owner="{08B2E4AA-9E2B-44E3-80A0-99BDBACD1149}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}" />
 			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}">
@@ -20840,6 +21802,88 @@
 			</Child>
 			<Child Name="pageQms2" Owner="{FE0D44EF-5280-486F-A03A-95F193329338}">
 				<Child Name="panel" Owner="{BB60C083-0BEB-429C-B787-675DEE107ABF}" />
+				<Child Name="panel2" Owner="{A9A6B3D3-801A-4A72-89D4-1FF8B5159CD6}" />
+				<Child Name="labelOrigin" Owner="{AD4C437A-BD83-4654-B7B5-AD5878BD0506}">
+					<Child Name="textnode" Owner="{28648E6C-84EF-4F46-8483-6F1C6671B074}" />
+				</Child>
+				<Child Name="labelDestination" Owner="{E4891855-9E8D-4483-AC22-8137C11351F8}">
+					<Child Name="textnode2" Owner="{E82EBE73-48A8-4F7C-8D5F-8577920F45B2}" />
+				</Child>
+				<Child Name="textboxNumber" Owner="{6BDBC9BC-F932-4A61-A8D5-97F21B2BF078}" />
+				<Child Name="textnodeKobeJp" Owner="{72B9A3E0-C2FF-4CEE-BFF6-E4D70E4C0E08}" />
+				<Child Name="textboxNumber2" Owner="{388AE17B-54A2-48EE-9834-5C2E6C457D7F}" />
+				<Child Name="textnodeLosAngelesCaUs" Owner="{F7AF5F4A-2FDA-4F5C-86D5-1BD343BF06AF}" />
+				<Child Name="textboxNumber3" Owner="{649EAA3A-68BE-4CBE-8532-04253E043563}" />
+				<Child Name="textnodeHmmDanhmmflctest01" Owner="{D7988781-C0A0-4833-93EF-D5C4592433FE}" />
+				<Child Name="buttonSearch" Owner="{B06B60C8-478D-4294-BA05-461440D502FB}" />
+				<Child Name="panelContract" Owner="{DADD34A1-727C-4F17-9D85-F59270761742}" />
+				<Child Name="buttonCharges" Owner="{1415C83C-0A8A-4905-B6A9-69879C3ED734}" />
+				<Child Name="panelRigthArrow" Owner="{265A97A5-FF36-490F-BC75-0F999F9D9BB8}" />
+				<Child Name="panel3" Owner="{062AF315-4132-495B-B384-B9C971663735}" />
+				<Child Name="navKobeToLosAngeles" Owner="{0644A31C-A027-4F0B-BC8A-DDF17B55DAF4}">
+					<Child Name="panelKobeToLosAngeles" Owner="{DE65451E-8AFE-4868-8869-5FB7FF8216AF}" />
+				</Child>
+				<Child Name="panel11Of1" Owner="{2E89F05D-67F1-436E-814A-73EF18D50BCD}" />
+				<Child Name="prodTotal" Owner="{132413ED-7917-4744-8AB4-F8E75148FC50}" />
+				<Child Name="buttonClose" Owner="{595ED91B-CFC5-4EDB-929E-3AC8E8980EC6}" />
+				<Child Name="panelArrow" Owner="{54B983B8-B52E-4A6A-8644-81C1748BF50B}" />
+				<Child Name="buttonQ2tms" Owner="{6352EBA4-775F-4E0D-9478-288B786936D5}" />
+				<Child Name="textnodeDone" Owner="{3E390E2B-178D-43B1-AACB-E15453139ACC}" />
+			</Child>
+		</Child>
+		<Child Name="filezilla" Owner="{BD74AECE-8164-4E52-87D2-048957A5C583}">
+			<Child Name="wndFileZilla" Owner="{6E13FB96-77C8-46B2-BC34-45D2E51F49A7}">
+				<Child Name="panel" Owner="{6A21F7C2-CDDC-4FF5-9924-ED6C81DC9C7D}">
+					<Child Name="btnQuickconnect" Owner="{BA2AF3F1-0F31-4510-B065-02DCC553C77A}" />
+					<Child Name="editHost" Owner="{4624EE93-B39F-45F0-A210-F11D3C9D1FD8}" />
+					<Child Name="editUsername" Owner="{357E9B76-8287-4AD4-86EB-E3E7E02A0B35}" />
+					<Child Name="editPassword" Owner="{15254C35-7AF4-439D-B312-56E11FF9D9A7}" />
+				</Child>
+				<Child Name="splitterWindow" Owner="{CDEB589B-5F3E-4387-9CAD-D0AA9D6BE73D}">
+					<Child Name="splitterWindow" Owner="{380258E9-EC98-45E6-B6C2-91048C86C010}">
+						<Child Name="splitter" Owner="{E5FB98C3-F14B-4500-8695-3ADED412D4A9}">
+							<Child Name="splitterWindow" Owner="{1CD8BFB9-8B30-4714-8769-B4EDA5BCAC1C}">
+								<Child Name="splitterWindow" Owner="{09F0EC5D-E428-4709-924A-8A5F768E4DB5}">
+									<Child Name="panel" Owner="{351B593F-A2CC-4410-AEB4-986BEACD20C4}">
+										<Child Name="TreeView" Owner="{B693D600-A26B-4DBF-B842-A2EF14FA08B3}" />
+									</Child>
+									<Child Name="panel2" Owner="{F1205E60-66F7-4C98-A1D9-8A833CA56F3D}">
+										<Child Name="ListView" Owner="{20FB3B39-3026-495A-BE37-F7CCD7AC7D4A}">
+											<Child Name="Header" Owner="{8B9F90C5-14C4-4F4F-9E02-3B46E27E2511}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="dlgSyntaxError" Owner="{4F6C3D69-EB43-4900-A27F-E2231D0BAB92}">
+				<Child Name="Syntax_error" Owner="{7D1D5D64-2C0C-4D1A-962C-758F3224440E}">
+					<Child Name="CtrlNotifySink" Owner="{7EEA8334-B7B8-4C6D-BF62-92CC18AB33DB}">
+						<Child Name="btnOK" Owner="{B6B3E2D3-A676-4F3E-9898-25F64D662F39}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndwxWindowNR" Owner="{A3CCFB10-030E-4176-AB91-A6DF34C4DA15}">
+				<Child Name="splitterWindow" Owner="{512F58A5-3140-4177-B0ED-5F33676B8467}">
+					<Child Name="splitterWindow" Owner="{586B5CA7-0EAE-493C-9164-94EB9D9A455C}">
+						<Child Name="splitter" Owner="{81DD44F3-20E0-403C-BF56-130E5AB6DD17}">
+							<Child Name="splitterWindow" Owner="{82586C9D-7843-446A-B3AA-F9228244F9B4}">
+								<Child Name="splitterWindow" Owner="{1C2DAE56-90A4-4713-8AB7-DD51F73AF320}">
+									<Child Name="panel" Owner="{34D96A07-7B02-41C1-B97D-F44C73E91E32}">
+										<Child Name="TreeView" Owner="{D8337122-1F37-4A49-BF79-6A55A31CE98B}" />
+									</Child>
+									<Child Name="panel2" Owner="{3C7C5DC0-DCEF-47DC-83E3-251E988F2FF6}">
+										<Child Name="ListView" Owner="{13805B3F-D7BA-4E13-A2E7-434B9817A9F8}">
+											<Child Name="Header" Owner="{23EDE98A-3840-4215-AEF4-C9F49140ACFB}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>

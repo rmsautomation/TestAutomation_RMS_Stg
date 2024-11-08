@@ -18,16 +18,13 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="CSFChargeOrigin_PSSFreight" />
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="ARBDChargeFreight" />
+				<Data Description="Runs a keyword test." TestName="ADENChargeFreight" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="NBCFreight" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="ARBOFreightVia" />
+				<Data Description="Runs a keyword test." TestName="CSFChargeOrigin_PSSFreight" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="AMSFreight" />
@@ -48,16 +45,16 @@
 				<Data Description="Runs a keyword test." TestName="LSF1Freight" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="ARBDChargeFreightDestVia" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="ARBOFreightOriginVia" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="BUCFreightAndHAZ" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="SubjectToHaz" />
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="ADENChargeFreight" />
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="BUCFreight" />
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="HAZChargePrepaid" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Logout" />

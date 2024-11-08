@@ -130,6 +130,9 @@
 				<child name="TC_72_QMS_5577_Reports" key="{4E0CED6F-BFF0-418A-8AE1-CA5C6E77783B}" path="TC_72_QMS_5577_Reports.tcKDTest" />
 				<child name="TC_73_QMS_5576_AddCompanyAndContactUpload" key="{73807839-80B9-4D9F-9196-4E0BCD183AC4}" path="TC_73_QMS_5576_AddCompanyAndContactUpload.tcKDTest" />
 			</folder>
+			<folder name="Q2TMS">
+				<child name="TC_79_QMS_14585_VerifyQ2TMSValid_ID_FTP" key="{A161028E-85AE-4125-AB5A-F37D46B5E8A2}" path="TC_79_QMS_14585_VerifyQ2TMSValid_ID_FTP.tcKDTest" />
+			</folder>
 		</folder>
 		<folder name="Utils">
 			<folder name="ContractManagement">

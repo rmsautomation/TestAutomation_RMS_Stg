@@ -6,6 +6,7 @@
 		<child name="KeywordTests" key="{D998B906-4F9D-435F-B88E-887A61597F09}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="Stores" key="{93F43393-2E9C-46B9-BE07-DC1FB8551A28}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="Hooks" key="{CE17AC6A-49DD-496D-9684-202FEC178E91}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Hooks\Hooks.tcAX" />
+		<child name="TestedApps" key="{1DC23935-1F5E-426B-814F-AC2442A6C6F3}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{44319FF5-25E5-4FA9-923D-3098F2579641}" version="14">
@@ -513,6 +514,21 @@
 				<Variable Name="origin" Type="String" Local="False">
 					<DefValue />
 				</Variable>
+				<Variable Name="countGRIStaging" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="countGRIProd" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="countGRIStagingMSC" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="countGRIProdMSC" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310044003300440031004600340044003800410042004600370041004300390042004100370039003100340032004600450033004200370042003400450031004100460041003700440033003400300032003900340030003800350045004400430046004400340037003300430043004500370034004300330038003100340038003800320034003100310044004400380044003300430036004300350038003400" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
@@ -796,7 +812,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -814,10 +830,11 @@
 				<row val0="True" val1="XTPTaskPanel" />
 				<row val0="True" val1="XTPReport" />
 				<row val0="True" val1="XTPPopupBar" />
+				<row val0="True" val1="FileZilla" />
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
-		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="15" colIndex="0">
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>

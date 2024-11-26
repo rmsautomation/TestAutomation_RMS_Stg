@@ -250,6 +250,7 @@
 				<child name="TariffReferenceFilter" key="{67B2B480-39D6-4AA4-BE83-5CDFB68C4D83}" path="TariffReferenceFilter.tcKDTest" />
 				<child name="BookingManualFilter" key="{24271A35-E5E0-4FCD-A2AC-8EDB5257BD07}" path="BookingManualFilter.tcKDTest" />
 				<child name="BookingOriginFilter" key="{B8BCA01F-F9AC-411A-96FF-94D6AC45B74B}" path="BookingOriginFilter.tcKDTest" />
+				<child name="HistoryFilterByCreator" key="{BED4C58E-146C-46A8-9658-799A49F97E12}" path="HistoryFilterByCreator.tcKDTest" />
 			</folder>
 			<folder name="SendQuote">
 				<child name="SendSingleQuote" key="{019C9354-5D8B-40DA-B5AA-77BE321F873E}" path="SendSingleQuote.tcKDTest" />

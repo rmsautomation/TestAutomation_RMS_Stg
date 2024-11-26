@@ -6467,10 +6467,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//span[@class=&apos;mdc-list-item__primary-text&apos; and contains(text(), &apos;Quoted By&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-410&apos;]/span" />
+												<Value Value="xpath=//span[@class=&apos;mdc-list-item__primary-text&apos; and contains(normalize-space(text()), &apos;Quoted By&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -19333,6 +19330,17 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeQuotedBy" Key="{A04271AC-64C6-4A09-B4D9-894B7802521B}">
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-421&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-421&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -21780,6 +21788,7 @@
 				<Child Name="panel2" Owner="{0C4E85E8-6175-49F0-86EE-90E5363CA580}" />
 				<Child Name="textnodeAus" Owner="{A93F653C-3AD5-4808-8196-AEADD9AA7ACA}" />
 				<Child Name="buttonQ2tms" Owner="{08B2E4AA-9E2B-44E3-80A0-99BDBACD1149}" />
+				<Child Name="textnodeQuotedBy" Owner="{A04271AC-64C6-4A09-B4D9-894B7802521B}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}" />
 			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}">

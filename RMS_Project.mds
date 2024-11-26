@@ -76,12 +76,12 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_14_QMS_7727_Contract_ManagementEFT_SurchargeSUPER_USER_Add_Origin_FCL" key="{454633D6-2B11-496C-988C-4DB81C329B41}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C8570CA5-7AEA-467E-B37D-3B78F920368E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_14_QMS_7727_Contract_ManagementEFT_SurchargeSUPER_USER_Add_Origin_FCL" key="{454633D6-2B11-496C-988C-4DB81C329B41}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C8570CA5-7AEA-467E-B37D-3B78F920368E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_15_QMS_11323_EFT_FCL_No_city_linking_Standard_user" key="{CCF3D36F-AFF6-4AA5-82AB-67726EB1D10D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{155C5CA6-F4A4-4CC7-9A92-0A538A2B94DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_15_QMS_11323_EFT_FCL_No_city_linking_Standard_user" key="{CCF3D36F-AFF6-4AA5-82AB-67726EB1D10D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{155C5CA6-F4A4-4CC7-9A92-0A538A2B94DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -111,7 +111,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_21_QMS_5581_Contract_Management___Add__LCL_rule_Min_and_Max" key="{5698BCAE-DC5A-4AC5-9AA6-3BAD65E362F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_21_QMS_5581_Contract_Management___Add__LCL_rule_Min_and_Max" key="{5698BCAE-DC5A-4AC5-9AA6-3BAD65E362F7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -156,7 +156,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_30_QMS_5584_Region_Management___Create_a_Region___Default_Forms" key="{702D524D-1FCF-4EE3-9EA4-5CDA896BD2CB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{17B7D940-2AFB-4616-8D8D-86FC4005EAB1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_30_QMS_5584_Region_Management___Create_a_Region___Default_Forms" key="{702D524D-1FCF-4EE3-9EA4-5CDA896BD2CB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{17B7D940-2AFB-4616-8D8D-86FC4005EAB1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -166,7 +166,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_32_QMS_5272_Add_trade_lane" key="{9091966D-A40A-4EF5-A9A4-37C443985B7C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{ABC61E1C-BBBA-484D-A49F-EE802677BE19}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_32_QMS_5272_Add_trade_lane" key="{9091966D-A40A-4EF5-A9A4-37C443985B7C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{ABC61E1C-BBBA-484D-A49F-EE802677BE19}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -196,7 +196,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_38_QMS_4746_Multi_Rate_Selection" key="{7E4DCC40-0FFA-4D90-AFD9-8712775CC88A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DC68FEA6-DA13-4ED4-A117-3DC503A98E63}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_38_QMS_4746_Multi_Rate_Selection" key="{7E4DCC40-0FFA-4D90-AFD9-8712775CC88A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{DC68FEA6-DA13-4ED4-A117-3DC503A98E63}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -211,12 +211,12 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_41_QMS_9837_Login_SSO_Valid_password_and_send_quote" key="{D91923E0-B738-4818-848E-319F78A6EBC3}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7786A4B6-FC27-4FFD-98DE-40DE15B940F3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_41_QMS_9837_Login_SSO_Valid_password_and_send_quote" key="{D91923E0-B738-4818-848E-319F78A6EBC3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7786A4B6-FC27-4FFD-98DE-40DE15B940F3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_42_QMS_12257_Zip_to_Port_Incomplete_Linked_rates_missing_ground_Check_Uncheck" key="{F8341B96-B621-4C7E-874B-1DE1FC58F395}" group="False" parallel="False" enabled="True" testMoniker="KDT\{134D9103-FBE6-4819-83F1-21FC3A9DF64F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_42_QMS_12257_Zip_to_Port_Incomplete_Linked_rates_missing_ground_Check_Uncheck" key="{F8341B96-B621-4C7E-874B-1DE1FC58F395}" group="False" parallel="False" enabled="False" testMoniker="KDT\{134D9103-FBE6-4819-83F1-21FC3A9DF64F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -295,6 +295,101 @@
 				<children />
 			</testItem>
 			<testItem name="TC_57_QMS_5586_Surcharge_List_Manager___Freeform" key="{9E57ECDF-2FA4-4865-967A-D1BDF5F1DED8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BC3130B9-43B8-4402-AFD3-555B551E84E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_58_QMS_5219_Rate_PrioritizationAmendments_Progress" key="{3F8A0877-9D17-45E6-B7CE-A46DF7D32951}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BB72219E-C0A9-4F76-BF5F-714EF40B6BAC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_59_QMS_5218_Rate_Prioritization_UnreleasedContracts" key="{55F996BA-E682-4B64-99D8-E8F5111ADB9B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1F045BAF-705E-4B4C-910E-DA8A8FD22C40}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_60_QMS_5140_QFBCreateGrid_Client" key="{7A3691C4-78A4-47A2-BCD8-D5F121384FBA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{21F750A7-3E27-4DB6-B0B5-05D1958A0468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_61_QMS_5181_QFB_ContractNotesAndCommodity" key="{6304F157-6214-4583-BF28-C97CA2CAD3FD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{25104BED-5938-4BDB-9894-3F3FF08EFD44}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_62_QMS_5252_Region_Management_Quote_Form" key="{982792D4-89BB-4EAD-8211-236D827ED87C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DF8DEF88-EB36-4243-B4EF-01A7D2FBD32B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_63_QMS_5253_Region_Management_Disclaimers" key="{94ADA965-E34B-452E-9218-B6F349DCC176}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BAB37D91-A3D1-4384-BA4D-CF0E4323A07B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_64_QMS_5024CreateNamedAccount" key="{C0A1FF65-0ED0-432D-8FF6-073581E46C57}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4C1EAF46-BDB2-4A66-BFCF-61C34422A30F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_65_QMS_4984CreateDisclaimer" key="{9CFAB56D-2529-47FA-973D-77DD1FA95DB4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FB5217FF-FA33-4116-ABBC-3BE1EFDA45A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_66_QMS_4933_Grid_Settings_CustomizeSingle_FCL" key="{5A6E58D4-DC27-49F0-A04C-5963F160ED5A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9B2B161D-2D06-413C-A004-129FDBFC1B02}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_67_QMS_4997Email_Settings_enabled" key="{F9A54373-5EA6-4839-BB63-D7FBC4837ECB}" group="False" parallel="False" enabled="True" testMoniker="KDT\{11FB52FA-9AFC-4C17-B0A8-BB2F42DFFED3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_68_QMS_4960_Profile_Edit_Account_Details" key="{53DA958C-43AA-4452-A49B-055621C2E592}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CBD758A8-FE7D-4956-BEA8-3673DD5AC5A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_69_QMS_5582_Alerts___Rate_Uploads" key="{18DF64C9-FDD5-435D-9BC0-CB9612C6A889}" group="False" parallel="False" enabled="True" testMoniker="KDT\{36273595-5535-437A-B160-CD9C7B72B8CF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_70_QMS_5583_Alerts___Tariff" key="{A00250E9-FD86-45F5-A369-A9AC168BCE4D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D719942C-D107-4667-BE0C-A073459700DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_71_QMS_4973_CreateDepartment" key="{3FB16FEB-6793-47C3-8C7E-168F5635BBB9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{46B0DD8F-B9E5-40AB-A826-4C0E9D4E85C5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_72_QMS_5577_Reports" key="{649BD207-5602-4486-9EF8-B9B6D63DA3AE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4E0CED6F-BFF0-418A-8AE1-CA5C6E77783B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_73_QMS_5576_AddCompanyAndContactUpload" key="{830FD311-E7B2-4063-A8A9-A2E5326598DA}" group="False" parallel="False" enabled="True" testMoniker="KDT\{73807839-80B9-4D9F-9196-4E0BCD183AC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_74_QMS_5651_Search_Transit_time" key="{4E9415F9-1670-4D4D-91F3-923AF6FF0B52}" group="False" parallel="False" enabled="True" testMoniker="KDT\{99664BAB-01C2-4DC7-8FE8-0AE52ABAF639}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_78_QMS_14205_EFT_GROUND_Origin_IMS_ITG" key="{FFDEE0AA-06AA-4428-AC66-8155D5E25F78}" group="False" parallel="False" enabled="True" testMoniker="KDT\{53DBFAF6-2525-4F5B-8E9D-B598BAC3487F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
+			<testItem name="TC_79_QMS_14585_VerifyQ2TMSValid_ID_FTP" key="{26541957-837C-474A-B71E-65A3E2709B3C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A161028E-85AE-4125-AB5A-F37D46B5E8A2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />

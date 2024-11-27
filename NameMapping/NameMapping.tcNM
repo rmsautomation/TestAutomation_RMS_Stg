@@ -14561,15 +14561,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="canvas3" Key="{32E1D1A4-B778-426E-B356-FF50C45EC940}">
+									<Child Name="tariffMenu" Key="{32E1D1A4-B778-426E-B356-FF50C45EC940}">
 										<Image FileName="290717785" Left="1471" Top="489" Right="1917" Bottom="714" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//canvas[@type=&apos;doughnut&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//reports-quotations-by-mode/canvas" />
+												<Value Value="xpath=//a[@routerlink=&apos;/tariff&apos; and .//div[contains(@class, &apos;link-icon&apos;)] and .//span[normalize-space(text())=&apos;Tariff&apos;]]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17150,6 +17147,97 @@
 										<Value Value="https://magaya-qadfp.qwykportals.com/" />
 									</Property>
 								</Properties>
+							</Child>
+							<Child Name="pageProdGocatapultComQmsDashboar" Key="{32ED8C60-DD7D-4405-BC83-D1C1F6EF7938}">
+								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://prod.gocatapult.com/qms/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeT" Key="{DFED4B72-966C-4F3E-8C81-860CE0604544}">
+										<Image FileName="333395584" Left="19" Top="449" Right="34" Bottom="478" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a//div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-side-nav//div[7]/a//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOpenCalendar" Key="{BCDDE389-EFAC-48CF-A20F-8956A4356F6B}">
+										<Image FileName="781536202" Left="362" Top="214" Right="386" Bottom="238" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-datepicker-toggle/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-datepicker-toggle/button[contains(@class, &apos;mdc-icon-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-wrapper&apos;]//mat-datepicker-toggle/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-datepicker-toggle/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNovember222024" Key="{01C3BCB9-AB5E-4122-AAB5-F577C6A725EF}">
+										<Image FileName="1152800719" Left="386" Top="466" Right="426" Bottom="506" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;22&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-month-view//tr[4]/td[6]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar//mat-month-view//tr[4]/td[6]/button[contains(@class, &apos;mat-calendar-body-cell&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-calendar[@id=&apos;mat-datepicker-4&apos;]//tr[4]/td[6]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/mat-calendar/div/mat-month-view//tr[4]/td[6]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{F6CFE5DF-D4DE-4DE1-8544-F4643546A57D}">
+										<Image FileName="-1923742158" Left="401" Top="204" Right="465" Bottom="234" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ml-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-wrapper&apos;]//div/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel125Of492" Key="{E1062720-C10F-4E6A-92D4-41913DFE1FB6}">
+										<Image FileName="-1986543280" Left="1366" Top="949" Right="1442" Bottom="969" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//search-grid-rate//div[4]/mat-paginator//div[contains(@class, &apos;mat-mdc-paginator-range-label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
 							</Child>
 						</Children>
 					</Child>
@@ -21358,7 +21446,7 @@
 				<Child Name="textnodeTop5Carriers" Owner="{729710E7-F922-4BE4-A430-9241F2D63B64}" />
 				<Child Name="textnodeTop5Customers" Owner="{5275192C-71AD-4658-988A-E3B748FF69EE}" />
 				<Child Name="removeEmail" Owner="{74F89FEE-E4D4-4805-87C2-242082926314}" />
-				<Child Name="canvas3" Owner="{32E1D1A4-B778-426E-B356-FF50C45EC940}" />
+				<Child Name="tariffMenu" Owner="{32E1D1A4-B778-426E-B356-FF50C45EC940}" />
 				<Child Name="panelAutomationupload" Owner="{A20F7320-F241-4FB0-AF20-62710C653837}" />
 				<Child Name="ecuAPI" Owner="{ADFF680A-7851-4702-9087-31F6ADC00CDD}" />
 				<Child Name="panelCompanyDescription" Owner="{A637052D-5578-485B-BA3D-5649C8EAD097}" />
@@ -21589,6 +21677,13 @@
 				</Child>
 			</Child>
 			<Child Name="pageMagayaQadfpQwykportalsCom" Owner="{B9DCE6CA-38F5-4745-B361-897B34589486}" />
+			<Child Name="pageProdGocatapultComQmsDashboar" Owner="{32ED8C60-DD7D-4405-BC83-D1C1F6EF7938}">
+				<Child Name="textnodeT" Owner="{DFED4B72-966C-4F3E-8C81-860CE0604544}" />
+				<Child Name="buttonOpenCalendar" Owner="{BCDDE389-EFAC-48CF-A20F-8956A4356F6B}" />
+				<Child Name="buttonNovember222024" Owner="{01C3BCB9-AB5E-4122-AAB5-F577C6A725EF}" />
+				<Child Name="buttonSearch" Owner="{F6CFE5DF-D4DE-4DE1-8544-F4643546A57D}" />
+				<Child Name="panel125Of492" Owner="{E1062720-C10F-4E6A-92D4-41913DFE1FB6}" />
+			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
 			<Child Name="wndShell_TrayWnd" Owner="{34B3F312-D042-4EE5-A71D-1A40C67A49FC}">

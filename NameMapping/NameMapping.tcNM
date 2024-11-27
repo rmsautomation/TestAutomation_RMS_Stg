@@ -3158,7 +3158,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-155&apos;)]" />
+												<Value Value="xpath=//span[contains(@class, &apos;mat-mdc-select-min-line&apos;) and normalize-space(text())=&apos;AylenBeta2&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//mat-select[@id=&apos;mat-select-56&apos;]//*[name()=&apos;svg&apos;]" />

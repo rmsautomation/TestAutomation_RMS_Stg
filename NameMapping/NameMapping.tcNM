@@ -15853,9 +15853,6 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-option-622" />
-											</Selector>
-											<Selector>
 												<Value Value="//mat-option[contains(., &apos;MSCPR&apos;)]" />
 											</Selector>
 										</Selectors>

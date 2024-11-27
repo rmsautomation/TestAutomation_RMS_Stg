@@ -76,7 +76,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_14_QMS_7727_Contract_ManagementEFT_SurchargeSUPER_USER_Add_Origin_FCL" key="{454633D6-2B11-496C-988C-4DB81C329B41}" group="False" parallel="False" enabled="True" testMoniker="KDT\{C8570CA5-7AEA-467E-B37D-3B78F920368E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_14_QMS_7727_Contract_ManagementEFT_SurchargeSUPER_USER_Add_Origin_FCL" key="{454633D6-2B11-496C-988C-4DB81C329B41}" group="False" parallel="False" enabled="False" testMoniker="KDT\{C8570CA5-7AEA-467E-B37D-3B78F920368E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -111,7 +111,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_21_QMS_5581_Contract_Management___Add__LCL_rule_Min_and_Max" key="{5698BCAE-DC5A-4AC5-9AA6-3BAD65E362F7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_21_QMS_5581_Contract_Management___Add__LCL_rule_Min_and_Max" key="{5698BCAE-DC5A-4AC5-9AA6-3BAD65E362F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -211,7 +211,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_41_QMS_9837_Login_SSO_Valid_password_and_send_quote" key="{D91923E0-B738-4818-848E-319F78A6EBC3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7786A4B6-FC27-4FFD-98DE-40DE15B940F3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_41_QMS_9837_Login_SSO_Valid_password_and_send_quote" key="{D91923E0-B738-4818-848E-319F78A6EBC3}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7786A4B6-FC27-4FFD-98DE-40DE15B940F3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -292,7 +292,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_56_QMS_4895_Custom_Surcharge_GroupOrganization" key="{FA31D1C2-7C22-423C-A55D-3659B2DFE124}" group="False" parallel="False" enabled="True" testMoniker="KDT\{445FA5A5-0449-499C-88C8-48DE1216DE8E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_56_QMS_4895_Custom_Surcharge_GroupOrganization" key="{FA31D1C2-7C22-423C-A55D-3659B2DFE124}" group="False" parallel="False" enabled="False" testMoniker="KDT\{445FA5A5-0449-499C-88C8-48DE1216DE8E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />

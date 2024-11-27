@@ -3848,6 +3848,9 @@
 												<Value Value="xpath=//*[@class=&quot;value green&quot;]" />
 											</Selector>
 											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;value&apos;) and contains(text(), &apos;USD&apos;)])[3]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=(//div[contains(@class, &apos;value&apos;)])[6]" />
 											</Selector>
 										</Selectors>

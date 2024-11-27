@@ -7356,7 +7356,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//button[contains(@class, &apos;mdc-switch&apos;) and contains(@class, &apos;mdc-switch--unselected&apos;) and contains(@class, &apos;mdc-switch--disabled&apos;)]" />
+												<Value Value="xpath=//button[contains(@class, &apos;mdc-switch&apos;) and contains(@class, &apos;mdc-switch--unselected&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>

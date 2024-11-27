@@ -292,6 +292,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_56_QMS_4895_Custom_Surcharge_GroupOrganization" key="{FA31D1C2-7C22-423C-A55D-3659B2DFE124}" group="False" parallel="False" enabled="True" testMoniker="KDT\{445FA5A5-0449-499C-88C8-48DE1216DE8E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_57_QMS_5586_Surcharge_List_Manager___Freeform" key="{9E57ECDF-2FA4-4865-967A-D1BDF5F1DED8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BC3130B9-43B8-4402-AFD3-555B551E84E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />

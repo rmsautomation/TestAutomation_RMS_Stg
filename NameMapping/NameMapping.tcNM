@@ -4097,10 +4097,10 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//rate-quote-form-preview//rate-quote-form-preview-area[2]//div//div[contains(@class, &apos;text&apos;)]" />
+												<Value Value="xpath=//div[contains(@class, &apos;text&apos;) and contains(text(), &apos;aylin.rodriguez@magaya.com&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[text()=&apos;q5675823&apos;]" />
+												<Value Value="//rate-quote-form-preview//rate-quote-form-preview-area[2]//div//div[contains(@class, &apos;text&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;preview&apos;]//rate-quote-form-preview-area[2]/div/div/div/div" />

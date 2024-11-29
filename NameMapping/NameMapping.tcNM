@@ -647,10 +647,10 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Currency Adjustment Factor (CAF)&apos;)]" />
+												<Value Value="//mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;Currency Adjustment Factor (CAF)&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//shared-grid-cell/div" />
@@ -6660,15 +6660,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelHazNotes" Key="{F512E5F9-DFC2-4CBA-B8C8-752F99FB98F7}">
+									<Child Name="hazToggleSelected" Key="{F512E5F9-DFC2-4CBA-B8C8-752F99FB98F7}">
 										<Image FileName="-533425427" Left="958" Top="766" Right="1509" Bottom="903" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[.=&apos;Haz Notes&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//div[2]/ft-surcharge-pricing/div[contains(@class, &apos;container&apos;)]/div/div[contains(@class, &apos;container&apos;)]" />
+												<Value Value="xpath=//div[label[contains(text(), &apos;Hazardous&apos;)]]//button[@role=&apos;switch&apos; and contains(@class, &apos;mdc-switch mdc-switch--selected mdc-switch--checked&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -20879,7 +20876,7 @@
 				<Child Name="textnodeAtLeastOnePricingIs" Owner="{96C4DC81-C4EA-438E-9714-CDB33380CDA7}" />
 				<Child Name="radiobuttonOrigin" Owner="{1E62257C-6641-4488-A733-12AE8EE2515F}" />
 				<Child Name="cutomizeOptions" Owner="{FC6F7273-3518-4472-A35E-CED7B2F9837E}" />
-				<Child Name="panelHazNotes" Owner="{F512E5F9-DFC2-4CBA-B8C8-752F99FB98F7}" />
+				<Child Name="hazToggleSelected" Owner="{F512E5F9-DFC2-4CBA-B8C8-752F99FB98F7}" />
 				<Child Name="button9" Owner="{E75E091A-B850-431A-823A-384E6C1D6561}" />
 				<Child Name="panelSurchargeRuleSuccessfully" Owner="{F7D88392-8AC6-4249-88A0-F9CC2E490660}" />
 				<Child Name="textnodeMatOption632" Owner="{ABF99776-EAC6-4138-B027-2853F651CEA6}" />

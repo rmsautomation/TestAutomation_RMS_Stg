@@ -14240,21 +14240,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="labelOriginCountry" Key="{F25C6195-085C-43A0-B85D-9F00999B0DF7}">
+									<Child Name="surchargeCell" Key="{F25C6195-085C-43A0-B85D-9F00999B0DF7}">
 										<Image FileName="887636797" Left="1725" Top="385" Right="1812" Bottom="400" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//label[.=&apos;Origin Country&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-174&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-checkbox[@id=&apos;mat-mdc-checkbox-174&apos;]//label" />
-											</Selector>
-											<Selector>
-												<Value Value="//shared-checkbox-group//mat-checkbox[@id=&apos;mat-mdc-checkbox-174&apos;]//label" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and contains(@class, &apos;ng-star-inserted&apos;) and normalize-space(text())=&apos;AutomationLCL_MIN_MAX&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -21419,7 +21410,7 @@
 				<Child Name="labelDestination2" Owner="{0105FE8E-4500-4565-A0F0-EB5E4BCA006C}">
 					<Child Name="textnodeDestination" Owner="{F4113F1F-0AAB-49D6-B249-309D69506D20}" />
 				</Child>
-				<Child Name="labelOriginCountry" Owner="{F25C6195-085C-43A0-B85D-9F00999B0DF7}">
+				<Child Name="surchargeCell" Owner="{F25C6195-085C-43A0-B85D-9F00999B0DF7}">
 					<Child Name="textnodeOriginCountry" Owner="{213A574B-3384-44DF-A6E1-10CE3A2F036D}" />
 				</Child>
 				<Child Name="labelService" Owner="{2B99130F-B3FC-4817-B4D2-0E71EE2A5648}">

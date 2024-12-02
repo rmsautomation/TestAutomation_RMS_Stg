@@ -6329,7 +6329,7 @@
 												<Value Value="xpath=(//button[@role=&apos;switch&apos;])[5]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=css=(//div[@class=&apos;mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator&apos;])[5]" />
+												<Value Value="xpath=(//div[@class=&apos;mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator&apos;])[5]" />
 											</Selector>
 											<Selector>
 												<Value Value="xpath=//button[@aria-labelledby=&apos;mat-mdc-slide-toggle-16-label&apos;]" />
@@ -6665,7 +6665,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[label[contains(text(), &apos;Hazardous&apos;)]]//button[@role=&apos;switch&apos; and contains(@class, &apos;mdc-switch mdc-switch--selected mdc-switch--checked&apos;)]" />
+												<Value Value="xpath=//div[contains(@class, &apos;d-flex&apos;) and .//label[normalize-space(text())=&apos;Hazardous&apos;]]//button[contains(@class, &apos;mdc-switch&apos;) and contains(@class, &apos;mdc-switch--checked&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>

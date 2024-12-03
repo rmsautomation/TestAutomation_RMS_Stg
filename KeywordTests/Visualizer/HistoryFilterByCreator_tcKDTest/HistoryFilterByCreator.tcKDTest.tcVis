@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{BED4C58E-146C-46A8-9658-799A49F97E12}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45622.9272106482" objectName="Aliases.browser.pageQms.buttonAddFilter_PrepaidCollect" objectLeft="77" objectTop="382" objectRight="145" objectBottom="409" clickPointX="126" clickPointY="397" imageFileName="tcvi-509791109163160.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45622.9272337963" objectName="Aliases.browser.pageQms.textnodeSelectColumn" objectLeft="94" objectTop="379" objectRight="193" objectBottom="397" clickPointX="132" clickPointY="390" imageFileName="tcvi-509789921163161.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45622.9272453704" objectName="Aliases.browser.pageQms.panelMatSelect50Panel" objectLeft="77" objectTop="404" objectRight="268" objectBottom="651" clickPointX="256" clickPointY="432" imageFileName="tcvi-509788000163162.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45622.9315046296" objectName="Aliases.chrome.pageQms.quotedByOptionFilter" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-509420578163160.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

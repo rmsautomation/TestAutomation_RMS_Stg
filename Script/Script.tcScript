@@ -50,5 +50,6 @@
 		<child name="Event_OnLogWarningObjectReplaced" key="{8CD8A48C-4CB2-4EB2-B62B-C2CFA778AD6B}" path="Event_OnLogWarningObjectReplaced.js" />
 		<child name="CheckColumnsHeader_PDF" key="{C0023010-7759-40F9-AE7B-F59AC2E61DDA}" path="CheckColumnsHeader_PDF.js" />
 		<child name="BookingPDF" key="{8656F3C1-AF12-473C-BC24-9E0CEFFCD4DA}" path="BookingPDF.js" />
+		<child name="VerifyFTP" key="{14EBB53B-11A9-468E-9D90-784D42594AD8}" path="VerifyFTP.js" />
 	</children>
 </Root>

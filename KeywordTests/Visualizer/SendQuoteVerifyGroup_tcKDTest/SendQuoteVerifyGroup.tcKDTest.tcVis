@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{DDB0571B-67E5-4CB2-BB5C-66C76BA0E400}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="45579.6734606481" objectName="Aliases.browser.pageQms.panelEmail" objectLeft="167" objectTop="234" objectRight="1889" objectBottom="982" clickPointX="1879" clickPointY="259" imageFileName="tcvi4816451531283.png" storageFileName="" needUpdate="False" rectColor="255" />
-	</data>
+	<data key="{DDB0571B-67E5-4CB2-BB5C-66C76BA0E400}" />
 </Root>

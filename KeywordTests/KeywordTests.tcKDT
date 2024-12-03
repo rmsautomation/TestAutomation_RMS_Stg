@@ -130,6 +130,9 @@
 				<child name="TC_72_QMS_5577_Reports" key="{4E0CED6F-BFF0-418A-8AE1-CA5C6E77783B}" path="TC_72_QMS_5577_Reports.tcKDTest" />
 				<child name="TC_73_QMS_5576_AddCompanyAndContactUpload" key="{73807839-80B9-4D9F-9196-4E0BCD183AC4}" path="TC_73_QMS_5576_AddCompanyAndContactUpload.tcKDTest" />
 			</folder>
+			<folder name="Q2TMS">
+				<child name="TC_79_QMS_14585_VerifyQ2TMSValid_ID_FTP" key="{A161028E-85AE-4125-AB5A-F37D46B5E8A2}" path="TC_79_QMS_14585_VerifyQ2TMSValid_ID_FTP.tcKDTest" />
+			</folder>
 		</folder>
 		<folder name="Utils">
 			<folder name="ContractManagement">
@@ -247,6 +250,7 @@
 				<child name="TariffReferenceFilter" key="{67B2B480-39D6-4AA4-BE83-5CDFB68C4D83}" path="TariffReferenceFilter.tcKDTest" />
 				<child name="BookingManualFilter" key="{24271A35-E5E0-4FCD-A2AC-8EDB5257BD07}" path="BookingManualFilter.tcKDTest" />
 				<child name="BookingOriginFilter" key="{B8BCA01F-F9AC-411A-96FF-94D6AC45B74B}" path="BookingOriginFilter.tcKDTest" />
+				<child name="HistoryFilterByCreator" key="{BED4C58E-146C-46A8-9658-799A49F97E12}" path="HistoryFilterByCreator.tcKDTest" />
 			</folder>
 			<folder name="SendQuote">
 				<child name="SendSingleQuote" key="{019C9354-5D8B-40DA-B5AA-77BE321F873E}" path="SendSingleQuote.tcKDTest" />

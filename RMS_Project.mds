@@ -6,6 +6,7 @@
 		<child name="KeywordTests" key="{D998B906-4F9D-435F-B88E-887A61597F09}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
 		<child name="Stores" key="{93F43393-2E9C-46B9-BE07-DC1FB8551A28}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="Hooks" key="{CE17AC6A-49DD-496D-9684-202FEC178E91}" type="Events" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" pluginName="" path="Hooks\Hooks.tcAX" />
+		<child name="TestedApps" key="{1DC23935-1F5E-426B-814F-AC2442A6C6F3}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{44319FF5-25E5-4FA9-923D-3098F2579641}" version="14">
@@ -220,7 +221,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_11860_Search__Verify_surcharges_fromFT_Template" key="{291138A5-1580-4273-A498-A0BD52F95A77}" group="False" parallel="False" enabled="True" testMoniker="KDT\{752FCB50-6EEB-4DC0-A594-9EE0C08AF57E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_11860_Search__Verify_surcharges_fromFT_Template" key="{4B3B54DF-BB60-4C16-9409-80D6EF5FEFA7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{752FCB50-6EEB-4DC0-A594-9EE0C08AF57E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -313,104 +314,119 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_56_QMS_4895_Custom_Surcharge_GroupOrganization" key="{7906093C-7F5E-404D-9C0D-915B46C97A34}" group="False" parallel="False" enabled="True" testMoniker="KDT\{445FA5A5-0449-499C-88C8-48DE1216DE8E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_56_QMS_4895_Custom_Surcharge_GroupOrganization" key="{FA31D1C2-7C22-423C-A55D-3659B2DFE124}" group="False" parallel="False" enabled="False" testMoniker="KDT\{445FA5A5-0449-499C-88C8-48DE1216DE8E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_57_QMS_5586_Surcharge_List_Manager___Freeform" key="{9E57ECDF-2FA4-4865-967A-D1BDF5F1DED8}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BC3130B9-43B8-4402-AFD3-555B551E84E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_57_QMS_5586_Surcharge_List_Manager___Freeform" key="{9E57ECDF-2FA4-4865-967A-D1BDF5F1DED8}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BC3130B9-43B8-4402-AFD3-555B551E84E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_58_QMS_5219_Rate_PrioritizationAmendments_Progress" key="{A3BECB40-CA4E-43C9-8383-747C24F1CFE1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BB72219E-C0A9-4F76-BF5F-714EF40B6BAC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_59_QMS_5218_Rate_Prioritization_UnreleasedContracts" key="{37CDE43C-5CEC-4743-8D52-8405531E4EA3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{1F045BAF-705E-4B4C-910E-DA8A8FD22C40}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_60_QMS_5140_QFBCreateGrid_Client" key="{470A34F3-D173-4EBA-97A2-48E360008ED5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{21F750A7-3E27-4DB6-B0B5-05D1958A0468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_61_QMS_5181_QFB_ContractNotesAndCommodity" key="{9CBAC3FB-C69F-4611-A6D1-98AB69753422}" group="False" parallel="False" enabled="True" testMoniker="KDT\{25104BED-5938-4BDB-9894-3F3FF08EFD44}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_62_QMS_5252_Region_Management_Quote_Form" key="{99BB553E-0A7A-4033-8468-7A721C64CBCE}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DF8DEF88-EB36-4243-B4EF-01A7D2FBD32B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_63_QMS_5253_Region_Management_Disclaimers" key="{B9F4A6BA-A5F6-4C4B-AFD0-9E1B1C95C92D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BAB37D91-A3D1-4384-BA4D-CF0E4323A07B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_64_QMS_5024CreateNamedAccount" key="{0DAF2C1A-3128-4F3B-A9D0-BE7BE1B5505A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4C1EAF46-BDB2-4A66-BFCF-61C34422A30F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_65_QMS_4984CreateDisclaimer" key="{5D6BCA5F-A6F6-4799-B42E-AB126094A3BF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{FB5217FF-FA33-4116-ABBC-3BE1EFDA45A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_66_QMS_4933_Grid_Settings_CustomizeSingle_FCL" key="{ECF492FD-C355-4BF0-8FC3-64BF7EB97B3B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9B2B161D-2D06-413C-A004-129FDBFC1B02}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_67_QMS_4997Email_Settings_enabled" key="{5C899A6D-9D70-4A2A-BC7B-F30C48AB9D24}" group="False" parallel="False" enabled="True" testMoniker="KDT\{11FB52FA-9AFC-4C17-B0A8-BB2F42DFFED3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_68_QMS_4960_Profile_Edit_Account_Details" key="{CB9C35D6-CC92-43F7-B820-6F671C149CE5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CBD758A8-FE7D-4956-BEA8-3673DD5AC5A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_69_QMS_5582_Alerts___Rate_Uploads" key="{50EFBE4C-0B13-4521-8476-DFE57CF8B772}" group="False" parallel="False" enabled="True" testMoniker="KDT\{36273595-5535-437A-B160-CD9C7B72B8CF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_70_QMS_5583_Alerts___Tariff" key="{739348C9-3B93-4CB2-9A1C-82F2A0BF4175}" group="False" parallel="False" enabled="True" testMoniker="KDT\{D719942C-D107-4667-BE0C-A073459700DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_71_QMS_4973_CreateDepartment" key="{A8E05987-BC17-4993-8435-9F9B4DC20ACC}" group="False" parallel="False" enabled="True" testMoniker="KDT\{46B0DD8F-B9E5-40AB-A826-4C0E9D4E85C5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_72_QMS_5577_Reports" key="{E1DC3F31-3DA0-4AAC-A711-57276DDE051B}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4E0CED6F-BFF0-418A-8AE1-CA5C6E77783B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_73_QMS_5576_AddCompanyAndContactUpload" key="{B4202879-3C67-48B2-B44B-9E7F013FD1E4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{73807839-80B9-4D9F-9196-4E0BCD183AC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="TC_74_QMS_5651_Search_Transit_time" key="{B306BD21-A886-4AB7-A6FA-7353730E8989}" group="False" parallel="False" enabled="True" testMoniker="KDT\{99664BAB-01C2-4DC7-8FE8-0AE52ABAF639}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_58_QMS_5219_Rate_PrioritizationAmendments_Progress" key="{3F8A0877-9D17-45E6-B7CE-A46DF7D32951}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BB72219E-C0A9-4F76-BF5F-714EF40B6BAC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_78_QMS_14205_EFT_GROUND_Origin_IMS_ITG" key="{1590FED8-C9D6-454C-97D0-8F766987465C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{53DBFAF6-2525-4F5B-8E9D-B598BAC3487F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_59_QMS_5218_Rate_Prioritization_UnreleasedContracts" key="{55F996BA-E682-4B64-99D8-E8F5111ADB9B}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1F045BAF-705E-4B4C-910E-DA8A8FD22C40}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_60_QMS_5140_QFBCreateGrid_Client" key="{7A3691C4-78A4-47A2-BCD8-D5F121384FBA}" group="False" parallel="False" enabled="False" testMoniker="KDT\{21F750A7-3E27-4DB6-B0B5-05D1958A0468}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_61_QMS_5181_QFB_ContractNotesAndCommodity" key="{6304F157-6214-4583-BF28-C97CA2CAD3FD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{25104BED-5938-4BDB-9894-3F3FF08EFD44}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_62_QMS_5252_Region_Management_Quote_Form" key="{982792D4-89BB-4EAD-8211-236D827ED87C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{DF8DEF88-EB36-4243-B4EF-01A7D2FBD32B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_63_QMS_5253_Region_Management_Disclaimers" key="{94ADA965-E34B-452E-9218-B6F349DCC176}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BAB37D91-A3D1-4384-BA4D-CF0E4323A07B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_64_QMS_5024CreateNamedAccount" key="{C0A1FF65-0ED0-432D-8FF6-073581E46C57}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4C1EAF46-BDB2-4A66-BFCF-61C34422A30F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_65_QMS_4984CreateDisclaimer" key="{9CFAB56D-2529-47FA-973D-77DD1FA95DB4}" group="False" parallel="False" enabled="False" testMoniker="KDT\{FB5217FF-FA33-4116-ABBC-3BE1EFDA45A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_66_QMS_4933_Grid_Settings_CustomizeSingle_FCL" key="{5A6E58D4-DC27-49F0-A04C-5963F160ED5A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{9B2B161D-2D06-413C-A004-129FDBFC1B02}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_67_QMS_4997Email_Settings_enabled" key="{F9A54373-5EA6-4839-BB63-D7FBC4837ECB}" group="False" parallel="False" enabled="False" testMoniker="KDT\{11FB52FA-9AFC-4C17-B0A8-BB2F42DFFED3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_68_QMS_4960_Profile_Edit_Account_Details" key="{53DA958C-43AA-4452-A49B-055621C2E592}" group="False" parallel="False" enabled="False" testMoniker="KDT\{CBD758A8-FE7D-4956-BEA8-3673DD5AC5A5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_69_QMS_5582_Alerts___Rate_Uploads" key="{18DF64C9-FDD5-435D-9BC0-CB9612C6A889}" group="False" parallel="False" enabled="False" testMoniker="KDT\{36273595-5535-437A-B160-CD9C7B72B8CF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_70_QMS_5583_Alerts___Tariff" key="{A00250E9-FD86-45F5-A369-A9AC168BCE4D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{D719942C-D107-4667-BE0C-A073459700DD}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_71_QMS_4973_CreateDepartment" key="{3FB16FEB-6793-47C3-8C7E-168F5635BBB9}" group="False" parallel="False" enabled="False" testMoniker="KDT\{46B0DD8F-B9E5-40AB-A826-4C0E9D4E85C5}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_72_QMS_5577_Reports" key="{649BD207-5602-4486-9EF8-B9B6D63DA3AE}" group="False" parallel="False" enabled="False" testMoniker="KDT\{4E0CED6F-BFF0-418A-8AE1-CA5C6E77783B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_73_QMS_5576_AddCompanyAndContactUpload" key="{830FD311-E7B2-4063-A8A9-A2E5326598DA}" group="False" parallel="False" enabled="False" testMoniker="KDT\{73807839-80B9-4D9F-9196-4E0BCD183AC4}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_74_QMS_5651_Search_Transit_time" key="{4E9415F9-1670-4D4D-91F3-923AF6FF0B52}" group="False" parallel="False" enabled="False" testMoniker="KDT\{99664BAB-01C2-4DC7-8FE8-0AE52ABAF639}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_78_QMS_14205_EFT_GROUND_Origin_IMS_ITG" key="{FFDEE0AA-06AA-4428-AC66-8155D5E25F78}" group="False" parallel="False" enabled="False" testMoniker="KDT\{53DBFAF6-2525-4F5B-8E9D-B598BAC3487F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_79_QMS_14585_VerifyQ2TMSValid_ID_FTP" key="{26541957-837C-474A-B71E-65A3E2709B3C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A161028E-85AE-4125-AB5A-F37D46B5E8A2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_QMS_8006_CheckNonExpired_GRICompareProd" key="{6A2CB596-B79F-4CB0-A00C-9545D14B5085}" group="False" parallel="False" enabled="False" testMoniker="KDT\{277B2749-167E-45CC-A2C9-1A722DFFB3BB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_QMS_9958_SearchCustomCarrier_VerifyDisableOverride" key="{20D75F8E-2582-43B9-B48F-975E2560B519}" group="False" parallel="False" enabled="False" testMoniker="KDT\{6303765D-B802-49C2-B6A0-45E56D293BCE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
@@ -627,6 +643,27 @@
 				</Variable>
 				<Variable Name="origin" Type="String" Local="False">
 					<DefValue />
+				</Variable>
+				<Variable Name="countGRIStaging" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="countGRIProd" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="countGRIStagingMSC" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="countGRIProdMSC" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310044003300440031004600340044003800410042004600370041004300390042004100370039003100340032004600450033004200370042003400450031004100460041003700440033003400300032003900340030003800350045004400430046004400340037003300430043004500370034004300330038003100340038003800320034003100310044004400380044003300430036004300350038003400" />
+				</Variable>
+				<Variable Name="tariffDateProd" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="tariffDateProd_Numb" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
 				</Variable>
 			</Items>
 		</data>
@@ -911,7 +948,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -929,10 +966,11 @@
 				<row val0="True" val1="XTPTaskPanel" />
 				<row val0="True" val1="XTPReport" />
 				<row val0="True" val1="XTPPopupBar" />
+				<row val0="True" val1="FileZilla" />
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
-		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="15" colIndex="0">
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -1155,7 +1193,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="3" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -1209,10 +1247,10 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
-		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="3" />
 		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
 		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="False" />
 		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />

@@ -231,11 +231,6 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_8_QMS_9992_Search_FT_OFF_ON" key="{B91F1DE4-8915-4308-8AAB-8530579E8601}" group="False" parallel="False" enabled="True" testMoniker="KDT\{977EDCA0-67B6-486E-8139-818B0A7D50C7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
 			<testItem name="TC_7728_EFT_Admin_USER__Destination_LCL" key="{F3809031-B894-446D-8D3A-B19719B44CCF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9D7B85C4-0147-4935-94A6-5C3E0862C9F3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters>
 					<param0 name="surcharge_version" type="1" localVarName="" value="Automation_LCL_Dest" />
@@ -413,16 +408,6 @@
 				<children />
 			</testItem>
 			<testItem name="TC_79_QMS_14585_VerifyQ2TMSValid_ID_FTP" key="{26541957-837C-474A-B71E-65A3E2709B3C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A161028E-85AE-4125-AB5A-F37D46B5E8A2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="TC_QMS_8006_CheckNonExpired_GRICompareProd" key="{6A2CB596-B79F-4CB0-A00C-9545D14B5085}" group="False" parallel="False" enabled="True" testMoniker="KDT\{277B2749-167E-45CC-A2C9-1A722DFFB3BB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
-			<testItem name="TC_QMS_9958_SearchCustomCarrier_VerifyDisableOverride" key="{20D75F8E-2582-43B9-B48F-975E2560B519}" group="False" parallel="False" enabled="True" testMoniker="KDT\{6303765D-B802-49C2-B6A0-45E56D293BCE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />

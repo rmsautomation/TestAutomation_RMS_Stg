@@ -100,6 +100,6 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{36F15E42-6FBF-4B28-B80E-D323D893A74A}">
-		<Parameter0 Name="contract_id" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="AutomationTest" Description="" />
+		<Parameter0 Name="contract_id" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="AUTOMATIONTEST" Description="" />
 	</Parameters>
 </Root>

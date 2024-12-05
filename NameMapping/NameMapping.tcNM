@@ -8579,18 +8579,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelSydneyToPortKelang" Key="{30F4F8E5-6EE5-4DCA-A8FE-718EE7034012}">
+									<Child Name="cellAutomationTest" Key="{30F4F8E5-6EE5-4DCA-A8FE-718EE7034012}">
 										<Image FileName="-1037368628" Left="129" Top="199" Right="673" Bottom="354" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(@class, &apos;ng-star-inserted&apos;)]//nav//div[contains(@class, &apos;ng-star-inserted&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-card[@id=&apos;rate-header-container&apos;]//div/div/div/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//nav/div/div/div/div" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and contains(@class, &apos;ng-star-inserted&apos;) and normalize-space(text())=&apos;AUTOMATIONTEST&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -21006,7 +21000,7 @@
 					<Child Name="saveHistory" Owner="{FF9806E4-EE19-4739-8F02-69ED4C505CD8}" />
 					<Child Name="panel85500" Owner="{302C5851-307C-463C-B555-B9466E73E4A1}" />
 					<Child Name="editButton" Owner="{7B5BA3AE-1C8D-4EC1-99E2-314FB698242A}" />
-					<Child Name="panelSydneyToPortKelang" Owner="{30F4F8E5-6EE5-4DCA-A8FE-718EE7034012}" />
+					<Child Name="cellAutomationTest" Owner="{30F4F8E5-6EE5-4DCA-A8FE-718EE7034012}" />
 				</Child>
 				<Child Name="panel41" Owner="{39249D77-E297-4E63-B122-1777E8AED6EC}" />
 				<Child Name="panelTariffSuccessfullyPublished" Owner="{66B7E257-D3F7-4C8A-AA34-2E049B96A39B}" />

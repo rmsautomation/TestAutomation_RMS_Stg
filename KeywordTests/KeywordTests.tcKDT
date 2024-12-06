@@ -362,6 +362,7 @@
 			</folder>
 			<folder name="SSO">
 				<child name="LoginSSO" key="{C4A55F06-B533-453C-9AEE-49D506A6CDA4}" path="LoginSSO.tcKDTest" />
+				<child name="CleanCookies" key="{FFF421C8-5EAB-4983-86DF-7F381B7C1018}" path="CleanCookies.tcKDTest" />
 			</folder>
 			<folder name="Menu">
 				<child name="AddCompanyAndContact" key="{DD972EE0-8273-4D4E-8422-442C59FB8D3F}" path="AddCompanyAndContact.tcKDTest" />

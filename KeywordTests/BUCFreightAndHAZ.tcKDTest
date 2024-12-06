@@ -74,6 +74,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Drags the &apos;%n&apos; object." Action="Drag">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="ClientX" DefVarType="3" VarType="3" ValueType="1" ValueValue="577" />
 						<Parameter Name="ClientY" DefVarType="3" VarType="3" ValueType="1" ValueValue="42" />
@@ -230,6 +231,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Drags the &apos;%n&apos; object." Action="Drag">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="ClientX" DefVarType="3" VarType="3" ValueType="1" ValueValue="577" />
 						<Parameter Name="ClientY" DefVarType="3" VarType="3" ValueType="1" ValueValue="42" />
@@ -320,6 +322,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Drags the &apos;%n&apos; object." Action="Drag">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="ClientX" DefVarType="3" VarType="3" ValueType="1" ValueValue="574" />
 						<Parameter Name="ClientY" DefVarType="3" VarType="3" ValueType="1" ValueValue="248" />

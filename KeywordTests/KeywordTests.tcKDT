@@ -369,11 +369,12 @@
 			</folder>
 			<folder name="EmailGmail">
 				<child name="CheckAlertEmail" key="{855BC883-4E65-4966-AF39-F5F9ADE0A183}" path="CheckAlertEmail.tcKDTest" />
+				<child name="OpenQuoteEmailMagaya" key="{EC3B530A-2BAE-4404-990C-DC2C837253B4}" path="OpenQuoteEmailMagaya.tcKDTest" />
+				<child name="VerifyRejectQuote" key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}" path="VerifyRejectQuote.tcKDTest" />
 			</folder>
 			<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 			<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
 			<child name="CloseChrome" key="{ABE8E178-8225-4C48-BF62-AF135C62BF15}" path="CloseChrome.tcKDTest" />
-			<child name="VerifyRejectQuote" key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}" path="VerifyRejectQuote.tcKDTest" />
 		</folder>
 	</children>
 </Root>

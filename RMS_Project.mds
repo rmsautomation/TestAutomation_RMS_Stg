@@ -651,6 +651,9 @@
 				<Variable Name="Password4" Type="Password" Local="False">
 					<DefValue StrValue="38003900360031004600330044003300460034004400380042003300460037003700340039004600340037003900350036003200460039003000330037003900420036003100380038003200370042004100430030003100320043003000410039004500440045004100350034003300420043004300380036004300410032003100420035003500450042003300350035003400420045004200380041004500330032003400380036004400430032004300460043004500440044003400300039003300310035003300350043003000" />
 				</Variable>
+				<Variable Name="fullServeNow" Type="String" Local="False">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
@@ -1228,7 +1231,7 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="50000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />

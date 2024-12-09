@@ -18644,6 +18644,38 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeQuoteRejection2" Key="{1F865CA2-AD92-447B-91BE-29C9219BEAE0}">
+										<Image FileName="-1781432932" Left="748" Top="189" Right="851" Bottom="207" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//b[normalize-space()=&apos;Quote Rejection&apos;]" />
+												<Value Value="//b[.=&apos;Quote Rejection&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//b" />
+												<Value Value="//b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="progress" Key="{50031887-8FEC-4737-8BEA-CB79B071C613}">
+										<Image FileName="-1836279627" Left="914" Top="534" Right="1007" Bottom="627" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[@aria-hidden=&apos;true&apos; and contains(@class, &apos;mdc-circular-progress__determinate-container&apos;)]//svg//circle" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-0&apos;]//mat-spinner/div[2]//div/*[name()=&apos;svg&apos;]/*[name()=&apos;circle&apos;]" />
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-0&apos;]//mat-spinner/div[2]//div/*[name()=&apos;svg&apos;]/*[name()=&apos;circle&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//shared-spinner//mat-spinner/div[2]//div/*[name()=&apos;svg&apos;]/*[name()=&apos;circle&apos;]" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//shared-spinner//mat-spinner/div[2]//div/*[name()=&apos;svg&apos;]/*[name()=&apos;circle&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin2" Key="{019F615E-5504-4EE0-A8F1-FFCCA83AFA3A}">
@@ -21003,6 +21035,40 @@
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;IjzWp&apos;)]" />
 												<Value Value="//div[contains(@class, &apos;IjzWp&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMailDlDfpRmsOutlook2" Key="{AB786A8F-9AAB-4E80-B6D2-067931DE9545}">
+								<Image FileName="768465066" Left="8" Top="129" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{CA41DE9F-6C38-41BA-9AE2-C703EFF0CEF6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://outlook.office.com/mail/*" />
+										<Value Value="https://outlook.office.com/mail/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeHeader" Key="{EDF33F4D-A60B-4945-9820-E271C425C1D0}">
+										<Image FileName="768465066" Left="645" Top="273" Right="1138" Bottom="294" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@title, &apos;UPS2&apos;)]" />
+												<Value Value="//span[@title=&apos;UPS2&amp;MSC&amp;FullAutoMon_Dec_09_2024_215903_&amp;Automation_MSC&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -24685,10 +24751,14 @@
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="textnodeQuoteIdFirst" Key="{664EDC50-1AEB-48E1-A59C-5E904912F7CF}">
+									<Child Name="firstEmail" Key="{664EDC50-1AEB-48E1-A59C-5E904912F7CF}">
 										<Image FileName="2006990982" Left="338" Top="326" Right="465" Bottom="346" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
+											<Selector>
+												<Value Value="" />
+												<Value Value="" />
+											</Selector>
 											<Selector>
 												<Value Value="xpath=(//div[@id=&apos;MailList&apos;]//div[2]/div/span)[1]" />
 												<Value Value="xpath=(//div[@id=&apos;MailList&apos;]//div[2]/div/span)[1]" />
@@ -24726,6 +24796,126 @@
 											<Selector>
 												<Value Value="//div[@role=&apos;main&apos;]//div[2]//div[@role=&apos;document&apos;]//tr/td/img" />
 												<Value Value="//div[@role=&apos;main&apos;]//div[2]//div[@role=&apos;document&apos;]//tr/td/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{3A7C4F55-D27E-48A9-8257-22A9275ADCD2}">
+										<Image FileName="-1457545040" Left="674" Top="613" Right="1883" Bottom="948" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[794]" />
+												<Value Value="(//div)[794]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNotes" Key="{F60EDA86-1004-493D-8D06-0131017B5E24}">
+										<Image FileName="-1457545040" Left="674" Top="843" Right="720" Bottom="863" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//b[.=&apos;Notes:&apos;]" />
+												<Value Value="//b[.=&apos;Notes:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ConversationReadingPaneContainer&apos;]//div[2]/b" />
+												<Value Value="//div[@id=&apos;ConversationReadingPaneContainer&apos;]//div[2]/b" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/b" />
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailHeading" Key="{60B933B1-E638-4A08-811D-564E31A088BD}">
+										<Image FileName="-1733325389" Left="637" Top="265" Right="871" Bottom="286" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;allowTextSelection&apos;) and @role=&apos;heading&apos;]" />
+												<Value Value="//span[@title=&apos;UPS2&amp;MSC&amp;TestAuto&amp;TestAuto&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFullServeUpload" Key="{5BA3E482-DCF1-432F-90A0-A119E92F0D15}">
+										<Image FileName="1874671044" Left="338" Top="306" Right="449" Bottom="325" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Full Serve Upload&apos;]" />
+												<Value Value="//span[.=&apos;Full Serve Upload&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//span[@title=&apos;FullServeUpload@gocatapult.com&apos;]" />
+												<Value Value="//div[2]//span[@title=&apos;FullServeUpload@gocatapult.com&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNoPreviewIsAvailable" Key="{151FEA1F-D749-41EF-B325-4364BF31D766}">
+										<Image FileName="1874671044" Left="338" Top="346" Right="482" Bottom="366" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;No preview is available.&apos;]" />
+												<Value Value="//span[.=&apos;No preview is available.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//span[contains(@class, &apos;FqgPc&apos;)]" />
+												<Value Value="//div[2]//span[contains(@class, &apos;FqgPc&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MailList&apos;]//div[2]/div[3]//span" />
+												<Value Value="//div[@id=&apos;MailList&apos;]//div[2]/div[3]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFullServeUpload2" Key="{D639A167-8BC7-47DC-8A2A-3461CC75C69C}">
+										<Image FileName="1473066453" Left="338" Top="422" Right="449" Bottom="441" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//span)[207]" />
+												<Value Value="(//span)[207]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinStandardRodriguezPe" Key="{57C93E09-45BB-4554-A9EA-466DB5C06D69}">
+										<Image FileName="-1439363286" Left="338" Top="770" Right="545" Bottom="789" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Aylin STANDARD Rodriguez Perez&apos;]" />
+												<Value Value="//span[.=&apos;Aylin STANDARD Rodriguez Perez&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]//span[@title=&apos;aylin.rodriguez@magaya.com&apos;]" />
+												<Value Value="//div[6]//span[@title=&apos;aylin.rodriguez@magaya.com&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuoteIdHeader" Key="{3B1B5D41-1DF1-4293-AD27-751F4236615E}">
+										<Image FileName="490887418" Left="637" Top="265" Right="782" Bottom="286" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@title, &apos;Quote&apos;)]" />
+												<Value Value="//span[@title=&apos;Quote ID: q6758067&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -26363,6 +26553,8 @@
 				<Child Name="buttonDeny" Owner="{E0D00D78-BE6F-4737-8E62-3477455B8096}" />
 				<Child Name="textnodeQuoteRejection" Owner="{D85EB40C-40A0-40F7-83B9-33791F39422F}" />
 				<Child Name="textnodeThankYou" Owner="{567452A8-C24D-47B0-979C-C4C345E950F4}" />
+				<Child Name="textnodeQuoteRejection2" Owner="{1F865CA2-AD92-447B-91BE-29C9219BEAE0}" />
+				<Child Name="progress" Owner="{50031887-8FEC-4737-8BEA-CB79B071C613}" />
 			</Child>
 			<Child Name="pageLogin2" Owner="{019F615E-5504-4EE0-A8F1-FFCCA83AFA3A}">
 				<Child Name="sectionWelcome" Owner="{04552BD4-66A5-444A-8756-B94CF3BD9FBD}">
@@ -26530,6 +26722,9 @@
 			<Child Name="pageMailDlDfpRmsOutlook" Owner="{7042516A-E26F-4E49-9F71-EF82D7951C95}">
 				<Child Name="panelTest" Owner="{DF89445C-36AD-4171-AF17-83882FA03BE9}" />
 			</Child>
+			<Child Name="pageMailDlDfpRmsOutlook2" Owner="{AB786A8F-9AAB-4E80-B6D2-067931DE9545}">
+				<Child Name="textnodeHeader" Owner="{EDF33F4D-A60B-4945-9820-E271C425C1D0}" />
+			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
 			<Child Name="wndShell_TrayWnd" Owner="{34B3F312-D042-4EE5-A71D-1A40C67A49FC}">
@@ -26604,269 +26799,13 @@
 				<Child Name="scrollBar" Owner="{68DDD347-CC30-49E9-BF77-5EE349E585AD}" />
 				<Child Name="quotedByOptionFilter" Owner="{B4B721F1-CDE2-45B3-B48C-DDC81D12F92D}" />
 				<Child Name="textboxFilter" Owner="{9A5C0C9B-A094-4E02-A403-F95BB044EB41}" />
-				<Child Name="buttonDone" Owner="{AA743C10-74DC-49F4-A264-757182A06ADD}" />
-				<Child Name="panelMatSelectValue77" Owner="{252B2A10-C072-4593-B62C-7D00BF83DCDF}" />
-				<Child Name="textnodeLessThan" Owner="{249581B4-A76C-4074-BA74-D2DDC90642E6}" />
-				<Child Name="buttonOpenCalendar" Owner="{83DFC107-E666-410D-B935-40F0D4E6860F}" />
-				<Child Name="buttonSeptember222024" Owner="{9FA58AC2-8692-4090-828B-B1B3C105119E}" />
-				<Child Name="panelFullServeContractOptions" Owner="{9FBC684D-32BB-45B7-8306-7341BCC335D2}" />
-				<Child Name="textnodeDone" Owner="{AC77E998-E759-4EE8-A09C-29C4100D49F9}" />
-				<Child Name="panelNewBooking" Owner="{BB410644-4441-4687-928F-8CAAD777CC6D}" />
-				<Child Name="selectContractsNotes" Owner="{D782382F-E0D7-4326-8D5B-C2E5108FF04D}" />
-				<Child Name="textnodeFcl" Owner="{4F3BDA61-1108-4D13-AA1A-346370C021EC}" />
-				<Child Name="textbox" Owner="{44CFE6C3-40BE-4D21-BD75-8F9AE3DF3DD4}" />
-				<Child Name="buttonPrint" Owner="{8F30974A-A8CC-4EED-95AE-BC8E8B3FFAC1}" />
-				<Child Name="notesCompany" Owner="{D4ECB128-0A55-41BD-9ED6-5FEF41A67031}">
-					<Child Name="buttonMatMdcSlideToggle5Button" Owner="{9CD50BFC-E6E8-4651-83E8-EBABBCA32F35}" />
-				</Child>
-				<Child Name="buttonAdd" Owner="{13408BF9-F792-494C-9FE9-E8B24288E2A3}" />
-				<Child Name="commodityQFB" Owner="{386C7ECD-1805-4B4E-AA0A-6E9438D9333C}">
-					<Child Name="textnodeGroupName" Owner="{93CC82E9-92C8-4C16-B3C6-462FB918CAAB}" />
-				</Child>
-				<Child Name="textboxGroupName" Owner="{3A202150-3E9D-4E4A-9C02-53E46423FD1A}" />
-				<Child Name="buttonCheck" Owner="{BC924561-C2FC-4288-ABBB-5255B1B19161}" />
-				<Child Name="textbox2" Owner="{851FE434-1FB3-4F6F-91F1-24763AE53776}" />
-				<Child Name="buttonSelectAll" Owner="{3BBD5B67-E102-420D-8133-114A149200DE}" />
-				<Child Name="panelGroupBy" Owner="{139F6C02-B278-487E-A01E-6017E3D5B6EF}" />
-				<Child Name="radiobuttonCustomSurchargeGroups" Owner="{31570535-D50D-45D4-93D4-8E9717E2B935}" />
-				<Child Name="button" Owner="{2D38D327-84FB-4064-A301-54B4BC32E473}" />
-				<Child Name="panelTotalBuyPrice" Owner="{E1849E4C-CA7D-454E-95FF-EAEE62E03C67}" />
-				<Child Name="panelGroupedByType" Owner="{41600ACB-982D-469C-AFE0-26D65D628670}" />
-				<Child Name="companyType" Owner="{5DFAF6AE-CF84-4DDF-862B-47071CA2FFA6}" />
-				<Child Name="panelGroupedByCustomSurcharge" Owner="{0F51C353-84C3-4352-9540-546F85BA9DA1}" />
-				<Child Name="contactCompany" Owner="{3458AE09-C02B-4AD1-9F81-05EFE7FA1BE4}" />
-				<Child Name="textnodeModifyExisting" Owner="{72FC4232-49AA-44FD-B924-0DE3D995DB5C}" />
-				<Child Name="dropdownQF" Owner="{519DDF05-B514-4E22-85B7-379622617D5F}" />
-				<Child Name="textnode000aautomation" Owner="{73A507ED-F9C7-4EC2-B884-715E55DFAA5C}" />
-				<Child Name="buttonDeleteForm" Owner="{33155154-2191-4630-AF30-89845708275D}" />
-				<Child Name="buttonYes" Owner="{0E11E1AB-273A-465C-98F7-750C8268E138}" />
-				<Child Name="uploadCompany" Owner="{0937F741-F746-43F5-A2B9-6CBFCCBDC86C}" />
-				<Child Name="buttonEdit" Owner="{A763F3D3-B76A-4422-A12A-842CA64FBAA1}" />
-				<Child Name="panelRateArea" Owner="{F93CB02D-1649-44BD-92EB-89DE40693873}" />
-				<Child Name="panelQfbRateAreaEditorsContain" Owner="{E23A821B-E2ED-412D-9B99-19C4BE6B14BC}" />
-				<Child Name="textnodeCombinedIntoASingleGrid" Owner="{EDC6F100-A4C1-4398-AF66-FA118999FF4F}" />
-				<Child Name="textnodeCombinedIntoASingleGrid2" Owner="{AA9E6902-BEE6-45BD-9570-56F8ADAF0AEE}" />
-				<Child Name="labelMatMdcSlideToggle62Label" Owner="{85574280-B1D4-4D12-932B-6A002B685D36}">
-					<Child Name="buttonCombinedSurcharges" Owner="{12DE73DD-2950-4788-AE2B-5D8A79BDFF3C}" />
-				</Child>
-				<Child Name="textnodeOrigin" Owner="{8BF2CAFA-B30D-4C49-9A0A-F6B6606D11F8}">
-					<Child Name="textnodeAirTotalPrice" Owner="{58B102D9-58AB-469B-A066-EADBEF3BC003}" />
-				</Child>
-				<Child Name="checkboxContractNotes" Owner="{6B7289D6-AC51-46C1-926B-EE061AC88E03}" />
-				<Child Name="checkboxCommodityBriefDescriptio" Owner="{0FBBB72C-3022-4D6D-A92D-EDD5197319F2}" />
-				<Child Name="buttonSave" Owner="{C18722BE-E067-44A5-A000-BBEED74A848D}" />
-				<Child Name="labelMatMdcSlideToggle57Label" Owner="{4B1D0AA7-E951-4F29-8D63-D20E06B1DDBD}">
-					<Child Name="buttonGridHeader" Owner="{849B72DB-DDB2-4C10-8B79-BA9EDAB8F889}" />
-				</Child>
-				<Child Name="labelMatMdcSlideToggle59Label" Owner="{B2247C88-F60B-421A-B9B4-04E14253928E}">
-					<Child Name="buttonCharges" Owner="{B04770C3-E711-458E-B231-D10C23DB97FF}" />
-				</Child>
-				<Child Name="buttonSave2" Owner="{AAB797B0-EBEF-41B3-9D22-D504C34E530F}" />
-				<Child Name="panelRatesAndCharges" Owner="{C6BB9743-5559-430A-BF20-8DAF445E5CE5}" />
-				<Child Name="contact" Owner="{7627EA8A-36AF-45E1-BEA5-A6F1C713A1C7}" />
-				<Child Name="textnodeNamedAccounts" Owner="{50830ECC-C248-4D86-977C-3E2CEA0F7FA4}" />
-				<Child Name="textnodeGroupName2" Owner="{CA2D9BBF-C7C6-43DD-96C6-FB8604C6C7B5}" />
-				<Child Name="textnodeMatMdcHint0" Owner="{F844FE21-08CB-434F-AEEB-6DC2D6A56096}" />
-				<Child Name="panelGroupName" Owner="{F6BFDCBF-2F33-410E-B59F-4606C8109028}" />
-				<Child Name="panelArrow" Owner="{8570F58F-7F5E-4917-AA16-17AC80C452A3}" />
-				<Child Name="textbox3" Owner="{43D8B4B0-16F3-481B-8383-B0DD661453A3}" />
-				<Child Name="checkboxSelectAll" Owner="{61997A1C-C3CD-4F88-B818-FE0D0D40099C}" />
-				<Child Name="uploadContact" Owner="{C1758F11-C509-445E-B331-DF13E98CD31E}" />
-				<Child Name="textnodeCatapultTest" Owner="{95945FD0-B7F5-4FAA-9B05-950D769ED25C}" />
-				<Child Name="buttonDoneInfo" Owner="{32D773E3-1308-4EF3-9AE6-792903883D93}" />
-				<Child Name="panel" Owner="{D98D14C3-7603-4B3D-BEEC-DE65684C5B6C}" />
-				<Child Name="textnodeQuotationsCreated" Owner="{46440831-6403-450D-977F-0D79487B4A2C}" />
-				<Child Name="emailContact" Owner="{54073247-9F45-4685-B969-A7874F5F29CD}" />
-				<Child Name="buttonOct2024" Owner="{E1538AD5-713D-44E7-97EA-77A14AD02DAE}" />
-				<Child Name="surchargeOrigin" Owner="{E96F9277-B4DD-492E-906B-2C6ADC43437F}" />
-				<Child Name="chooseButton" Owner="{DF3A674A-A903-4334-98BD-DD34EE2F10A9}" />
-				<Child Name="company" Owner="{EA940654-3F59-4C72-BAFB-19F6A2864706}" />
-				<Child Name="buttonSeptember22024" Owner="{91CA64B0-699B-4953-B2B4-1B7A847CA216}" />
-				<Child Name="companyID" Owner="{3867FCF3-8787-46D4-A7D8-929E7699C925}" />
-				<Child Name="buttonOctober12024" Owner="{902CD3CF-051E-4759-8FC1-8C3D163DA333}" />
-				<Child Name="companyNotes" Owner="{1830EB9F-87AE-40C4-90A2-CBCF8E742713}" />
-				<Child Name="contactComp" Owner="{4619101E-D38E-4F01-BA1B-22EAAEB96306}" />
-				<Child Name="panelMatSelectValue5" Owner="{D6849405-79E9-493C-BD3B-9B8F3A383135}" />
-				<Child Name="phoneContact" Owner="{04551767-A243-448A-AA87-96C4C8696CCE}" />
-				<Child Name="panelMatSelectValue9" Owner="{47C3DE30-75F7-429E-9193-E1B82B3DE9E8}" />
-				<Child Name="panelMatSelectValue7" Owner="{71540DE1-CA46-4117-8BCE-E689E4631CAD}" />
-				<Child Name="panelMatSelectValue3" Owner="{33392129-0021-4586-B27F-A2A406A74D68}" />
-				<Child Name="Item" Owner="{A59313E9-AE52-4462-B925-408A749ACFB2}" />
-				<Child Name="buttonUpload" Owner="{1D5DA35D-8AE6-4A01-96D2-A9AB4ED62C4E}" />
-				<Child Name="buttonOk" Owner="{D371B28E-2B20-4F2E-AF16-2948503D9A9D}" />
-				<Child Name="label" Owner="{B780CCDE-03AE-4295-9B17-962166B40DA3}">
-					<Child Name="textnode2" Owner="{CEA4504A-ABBC-4B61-AB81-CE87D09871BA}" />
-				</Child>
-				<Child Name="textbox4" Owner="{C37FE01A-78BE-4979-BE06-D2C380743FB0}" />
-				<Child Name="panelAutomationupload" Owner="{282DC6C4-3739-44AB-8E07-F73EF6DE3CE3}" />
-				<Child Name="panel3" Owner="{6907AA8D-0146-41BB-B284-D3A78E88BE73}" />
-				<Child Name="buttonAdd3" Owner="{3338CE31-85C5-4EC9-B0A4-8A5DFCF82B0C}" />
-				<Child Name="textboxMatInput3" Owner="{91DC0A5D-3213-40F4-B432-276063B0FA95}" />
-				<Child Name="panel4" Owner="{9140DB77-6715-4CED-BBD5-656A838FB5F6}" />
-				<Child Name="textboxMatInput4" Owner="{0E0E892A-2DD2-48DC-B7D4-B4B42F59D1FE}" />
-				<Child Name="textareaMatInput6" Owner="{D303B3B2-8119-40F5-97CE-05598C174C91}" />
-				<Child Name="buttonAdd4" Owner="{D0C525AF-8B5F-4A63-832B-4E16EA74F034}" />
-				<Child Name="titleContact" Owner="{C2598DD1-B77E-4DB0-94A3-C4651C7D9911}" />
-				<Child Name="textboxMatInput8" Owner="{ECB8CA11-D16B-4D57-8293-4E12D2FDDD95}" />
-				<Child Name="textboxMatInput9" Owner="{DD34109E-7F77-4BEC-B2C6-ED55EF0D74D7}" />
-				<Child Name="textboxMatInput10" Owner="{3AC9F441-EB3A-434F-915F-1A801B95307A}" />
-				<Child Name="addressBook" Owner="{B51A4937-8C1F-4CB6-B807-58667F6B35DE}" />
-				<Child Name="textareaMatInput13" Owner="{CC85536A-3C11-49C9-8280-5D44DA846820}" />
-				<Child Name="textnodeNoMatchFound" Owner="{63934727-D362-4A4B-A95C-24C12E8ACCE4}" />
-				<Child Name="panelCompanyuploadNameTesting" Owner="{7A30494A-74FA-4D3A-90FD-A0C472C854B6}" />
-				<Child Name="buttonSchedules" Owner="{9626568D-5ED6-4E16-935C-75CED6BE2D26}" />
-				<Child Name="panelEcuwApi" Owner="{36B5B3DB-F377-45E7-A505-15B52361E926}" />
-				<Child Name="radiobuttonGround" Owner="{21924D0F-7E78-4E4F-8ADC-B4A3FD8DB349}" />
-				<Child Name="labelMatMdcSlideToggle4Label" Owner="{99F3F4EA-5C21-4021-95CA-E570FE990F7F}">
-					<Child Name="buttonMatMdcSlideToggle4Button" Owner="{85EE8687-1AAD-4AEA-AD66-23C6AC8E202B}" />
-				</Child>
-				<Child Name="radiobuttonOrigin" Owner="{9E2805BB-6903-4972-B8FD-834ABA8287EF}" />
-				<Child Name="panelEftV00aautoground" Owner="{0AF9FE64-1A7E-4825-92E9-46C44F94A347}" />
-				<Child Name="panelContractId" Owner="{861D1F92-1993-4A3E-A639-925B9897A74E}" />
-				<Child Name="panelIms" Owner="{60F8E1C4-7D46-4249-9E05-F4DC70409729}" />
-				<Child Name="panelSurchargeOrigin" Owner="{90FA4EA4-D6A9-4E4A-B482-DDD6D6F4AAC0}" />
-				<Child Name="textnodeFullServeUploads" Owner="{F8672BA2-1124-4D1F-8745-7602DAD24FD4}" />
-				<Child Name="panel2" Owner="{0C4E85E8-6175-49F0-86EE-90E5363CA580}" />
-				<Child Name="textnodeAus" Owner="{A93F653C-3AD5-4808-8196-AEADD9AA7ACA}" />
-				<Child Name="buttonQ2tms" Owner="{08B2E4AA-9E2B-44E3-80A0-99BDBACD1149}" />
-				<Child Name="textnodeQuotedBy" Owner="{A04271AC-64C6-4A09-B4D9-894B7802521B}" />
 			</Child>
-			<Child Name="BrowserWindow" Owner="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}" />
-			<Child Name="dlgOpen" Owner="{24CF12C4-409C-4343-8401-8BCCE7667C0C}">
-				<Child Name="cbxFileName" Owner="{1083E94A-533B-4D5E-9844-5CEA92B1C241}">
-					<Child Name="ComboBox" Owner="{4566B49E-0648-4FF9-9A88-2AB27DFDDAC9}">
-						<Child Name="Edit" Owner="{1CEEFD09-C13E-4A1C-9E1F-71CBB2F10C8B}" />
-					</Child>
-				</Child>
-				<Child Name="btnOpen" Owner="{258A4ED8-4CA4-4B78-A65A-EC23E587A725}" />
-			</Child>
-			<Child Name="pageInbox9Rmsautomation24GmailCo" Owner="{B143CE6A-4BDF-4959-89F4-AD738FC612BE}">
-				<Child Name="quoteIDGmail" Owner="{83C20F5C-5DA0-4883-B134-A3E4ADFAC666}" />
-				<Child Name="panelPrintAll" Owner="{12FFCCBE-83D6-459B-8AC0-FCA72CFA9D2C}" />
-				<Child Name="imageImg" Owner="{66D0E3EC-9510-49B0-9733-969B7A949BDE}" />
-				<Child Name="link0" Owner="{6D8A9C16-C397-4C1E-B512-A05333622C3D}">
-					<Child Name="panel" Owner="{659C6C9A-F151-4810-87F3-CE977E4A79D2}" />
-				</Child>
-				<Child Name="panelPage1Of19" Owner="{6ADC9D3C-EDBB-4EFD-9CA6-3BC08BE4A8B1}" />
-				<Child Name="linkReject" Owner="{01D3B287-127D-4814-A83D-33CA56C45E97}" />
-			</Child>
-			<Child Name="pageQms2" Owner="{FE0D44EF-5280-486F-A03A-95F193329338}">
-				<Child Name="panel" Owner="{BB60C083-0BEB-429C-B787-675DEE107ABF}" />
-				<Child Name="panel2" Owner="{A9A6B3D3-801A-4A72-89D4-1FF8B5159CD6}" />
-				<Child Name="labelOrigin" Owner="{AD4C437A-BD83-4654-B7B5-AD5878BD0506}">
-					<Child Name="textnode" Owner="{28648E6C-84EF-4F46-8483-6F1C6671B074}" />
-				</Child>
-				<Child Name="labelDestination" Owner="{E4891855-9E8D-4483-AC22-8137C11351F8}">
-					<Child Name="textnode2" Owner="{E82EBE73-48A8-4F7C-8D5F-8577920F45B2}" />
-				</Child>
-				<Child Name="textboxNumber" Owner="{6BDBC9BC-F932-4A61-A8D5-97F21B2BF078}" />
-				<Child Name="textnodeKobeJp" Owner="{72B9A3E0-C2FF-4CEE-BFF6-E4D70E4C0E08}" />
-				<Child Name="textboxNumber2" Owner="{388AE17B-54A2-48EE-9834-5C2E6C457D7F}" />
-				<Child Name="textnodeLosAngelesCaUs" Owner="{F7AF5F4A-2FDA-4F5C-86D5-1BD343BF06AF}" />
-				<Child Name="textboxNumber3" Owner="{649EAA3A-68BE-4CBE-8532-04253E043563}" />
-				<Child Name="textnodeHmmDanhmmflctest01" Owner="{D7988781-C0A0-4833-93EF-D5C4592433FE}" />
-				<Child Name="buttonSearch" Owner="{B06B60C8-478D-4294-BA05-461440D502FB}" />
-				<Child Name="panelContract" Owner="{DADD34A1-727C-4F17-9D85-F59270761742}" />
-				<Child Name="buttonCharges" Owner="{1415C83C-0A8A-4905-B6A9-69879C3ED734}" />
-				<Child Name="panelRigthArrow" Owner="{265A97A5-FF36-490F-BC75-0F999F9D9BB8}" />
-				<Child Name="panel3" Owner="{062AF315-4132-495B-B384-B9C971663735}" />
-				<Child Name="navKobeToLosAngeles" Owner="{0644A31C-A027-4F0B-BC8A-DDF17B55DAF4}">
-					<Child Name="panelKobeToLosAngeles" Owner="{DE65451E-8AFE-4868-8869-5FB7FF8216AF}" />
-				</Child>
-				<Child Name="panel11Of1" Owner="{2E89F05D-67F1-436E-814A-73EF18D50BCD}" />
-				<Child Name="prodTotal" Owner="{132413ED-7917-4744-8AB4-F8E75148FC50}" />
-				<Child Name="buttonClose" Owner="{595ED91B-CFC5-4EDB-929E-3AC8E8980EC6}" />
-				<Child Name="panelArrow" Owner="{54B983B8-B52E-4A6A-8644-81C1748BF50B}" />
-				<Child Name="buttonQ2tms" Owner="{6352EBA4-775F-4E0D-9478-288B786936D5}" />
-				<Child Name="textnodeDone" Owner="{3E390E2B-178D-43B1-AACB-E15453139ACC}" />
-			</Child>
-			<Child Name="pageMailDlDfpRmsOutlook" Owner="{D9CD2934-432C-4F0A-A5E0-B07DD0AD9E86}">
-				<Child Name="textnodeQuoteIdEmail" Owner="{45625BCD-A8D4-4771-ADD4-442B9262B6A9}" />
-			</Child>
-			<Child Name="pageMailDlDfpRmsOutlook2" Owner="{0F22CFE7-C7B9-4B34-B352-E61401D8FDA5}">
-				<Child Name="imageImg" Owner="{58863B54-27E7-4482-A6C0-44E99DE663D7}" />
-				<Child Name="rejectButton" Owner="{0EF2FE3D-961A-46CF-AFE9-75F12583C2AE}" />
-				<Child Name="panel1Messages" Owner="{A0545B0C-AE87-42F4-A2DC-CB1D5A09C157}" />
-			</Child>
-			<Child Name="pageMailDlDfpRmsOutlook3" Owner="{06277ABB-BA62-4352-8579-A222DD2AF849}">
-				<Child Name="imageImg" Owner="{7B28FD80-59FE-48D8-9E8A-EC6C3AC7489A}" />
-			</Child>
-			<Child Name="pageSignInToOutlook" Owner="{7181BC7E-B1BD-424D-BBCB-3E263D073F0C}" />
-			<Child Name="pageSignInToOutlook2" Owner="{EB41F818-038D-4191-A003-D2C726712291}">
-				<Child Name="submitbuttonNext" Owner="{A090B18B-C226-4795-BB69-A31C53759265}" />
-			</Child>
-			<Child Name="pageSignInToOutlook3" Owner="{3BE34A6B-ECB4-4D1D-A378-044E9B87733E}" />
-			<Child Name="pageMySignInsRegisterMicrosoftCo" Owner="{34E14CBE-49D9-4937-87C4-35C2109B2347}">
-				<Child Name="linkSkipSetup" Owner="{96D61350-BEC3-49F5-932E-F5912A859F6A}" />
-			</Child>
-			<Child Name="pageQuoteAcceptance" Owner="{934B5050-C87C-4E72-9005-66073ECC1A7C}">
-				<Child Name="textnodeYouMayCloseThisWindow" Owner="{F85130C8-9455-48A9-9354-A6DF94BFD7AF}" />
-			</Child>
-			<Child Name="pageMailDlDfpRmsOutlook4" Owner="{F351A050-59FE-4213-BFE0-B4F81FBB075D}">
-				<Child Name="cell" Owner="{7F63A3FB-F360-4508-B3C9-6430DFCF2A8C}" />
-				<Child Name="textnodeQuoteRejectionCustomer" Owner="{85D13339-E91D-48B7-9C04-9130A837DC89}" />
-				<Child Name="textnodeQuoteRejectionCustomer2" Owner="{B6073AB7-54F7-4093-89AA-6217D136BDF3}" />
-				<Child Name="cell2" Owner="{D765EAD9-11CD-4E92-B75F-A569CF92F4D9}" />
-			</Child>
-			<Child Name="pageMailDlDfpRmsOutlook5" Owner="{20DBD4F7-9C3E-4748-9520-64DD5FC5FED9}">
-				<Child Name="textnodeQuoteIdFirst" Owner="{664EDC50-1AEB-48E1-A59C-5E904912F7CF}" />
-				<Child Name="imageImg" Owner="{5EB93AFA-D9FB-432E-9751-56936EA58C55}" />
-			</Child>
-		</Child>
-		<Child Name="filezilla" Owner="{BD74AECE-8164-4E52-87D2-048957A5C583}">
-			<Child Name="wndFileZilla" Owner="{6E13FB96-77C8-46B2-BC34-45D2E51F49A7}">
-				<Child Name="panel" Owner="{6A21F7C2-CDDC-4FF5-9924-ED6C81DC9C7D}">
-					<Child Name="btnQuickconnect" Owner="{BA2AF3F1-0F31-4510-B065-02DCC553C77A}" />
-					<Child Name="editHost" Owner="{4624EE93-B39F-45F0-A210-F11D3C9D1FD8}" />
-					<Child Name="editUsername" Owner="{357E9B76-8287-4AD4-86EB-E3E7E02A0B35}" />
-					<Child Name="editPassword" Owner="{15254C35-7AF4-439D-B312-56E11FF9D9A7}" />
-				</Child>
-				<Child Name="splitterWindow" Owner="{CDEB589B-5F3E-4387-9CAD-D0AA9D6BE73D}">
-					<Child Name="splitterWindow" Owner="{380258E9-EC98-45E6-B6C2-91048C86C010}">
-						<Child Name="splitter" Owner="{E5FB98C3-F14B-4500-8695-3ADED412D4A9}">
-							<Child Name="splitterWindow" Owner="{1CD8BFB9-8B30-4714-8769-B4EDA5BCAC1C}">
-								<Child Name="splitterWindow" Owner="{09F0EC5D-E428-4709-924A-8A5F768E4DB5}">
-									<Child Name="panel" Owner="{351B593F-A2CC-4410-AEB4-986BEACD20C4}">
-										<Child Name="TreeView" Owner="{B693D600-A26B-4DBF-B842-A2EF14FA08B3}" />
-									</Child>
-									<Child Name="panel2" Owner="{F1205E60-66F7-4C98-A1D9-8A833CA56F3D}">
-										<Child Name="ListView" Owner="{20FB3B39-3026-495A-BE37-F7CCD7AC7D4A}">
-											<Child Name="Header" Owner="{8B9F90C5-14C4-4F4F-9E02-3B46E27E2511}" />
-										</Child>
-									</Child>
-								</Child>
-							</Child>
-						</Child>
-					</Child>
-				</Child>
-			</Child>
-			<Child Name="dlgSyntaxError" Owner="{4F6C3D69-EB43-4900-A27F-E2231D0BAB92}">
-				<Child Name="Syntax_error" Owner="{7D1D5D64-2C0C-4D1A-962C-758F3224440E}">
-					<Child Name="CtrlNotifySink" Owner="{7EEA8334-B7B8-4C6D-BF62-92CC18AB33DB}">
-						<Child Name="btnOK" Owner="{B6B3E2D3-A676-4F3E-9898-25F64D662F39}" />
-					</Child>
-				</Child>
-			</Child>
-			<Child Name="wndwxWindowNR" Owner="{A3CCFB10-030E-4176-AB91-A6DF34C4DA15}">
-				<Child Name="splitterWindow" Owner="{512F58A5-3140-4177-B0ED-5F33676B8467}">
-					<Child Name="splitterWindow" Owner="{586B5CA7-0EAE-493C-9164-94EB9D9A455C}">
-						<Child Name="splitter" Owner="{81DD44F3-20E0-403C-BF56-130E5AB6DD17}">
-							<Child Name="splitterWindow" Owner="{82586C9D-7843-446A-B3AA-F9228244F9B4}">
-								<Child Name="splitterWindow" Owner="{1C2DAE56-90A4-4713-8AB7-DD51F73AF320}">
-									<Child Name="panel" Owner="{34D96A07-7B02-41C1-B97D-F44C73E91E32}">
-										<Child Name="TreeView" Owner="{D8337122-1F37-4A49-BF79-6A55A31CE98B}" />
-									</Child>
-									<Child Name="panel2" Owner="{3C7C5DC0-DCEF-47DC-83E3-251E988F2FF6}">
-										<Child Name="ListView" Owner="{13805B3F-D7BA-4E13-A2E7-434B9817A9F8}">
-											<Child Name="Header" Owner="{23EDE98A-3840-4215-AEF4-C9F49140ACFB}" />
-										</Child>
-									</Child>
-								</Child>
-							</Child>
-						</Child>
-					</Child>
-				</Child>
-			</Child>
+			<Child Name="emailHeading" Owner="{60B933B1-E638-4A08-811D-564E31A088BD}" />
+			<Child Name="textnodeFullServeUpload" Owner="{5BA3E482-DCF1-432F-90A0-A119E92F0D15}" />
+			<Child Name="textnodeNoPreviewIsAvailable" Owner="{151FEA1F-D749-41EF-B325-4364BF31D766}" />
+			<Child Name="textnodeFullServeUpload2" Owner="{D639A167-8BC7-47DC-8A2A-3461CC75C69C}" />
+			<Child Name="textnodeAylinStandardRodriguezPe" Owner="{57C93E09-45BB-4554-A9EA-466DB5C06D69}" />
+			<Child Name="textnodeQuoteIdHeader" Owner="{3B1B5D41-1DF1-4293-AD27-751F4236615E}" />
 		</Child>
 	</LogicalNodes>
 </Root>

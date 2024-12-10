@@ -17400,7 +17400,7 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//div[contains(@class, &apos;email&apos;) and .//a[normalize-space(text())=&apos;rmsautomation24@gmail.com&apos;]]//button[contains(@class, &apos;icon-button&apos;) and .//i[contains(@class, &apos;remove_circle&apos;)]])[4]" />
+												<Value Value="xpath=//div[contains(@class, &apos;email&apos;) and .//a[normalize-space()=&apos;dl-dfp_rms@magaya.com&apos;]]&#32;&#32;&#32;/shared-icon-button//button[contains(@class, &apos;icon-button&apos;) and contains(@class, &apos;mdbtn-extra-small&apos;) and .//i[contains(@class, &apos;remove_circle&apos;)]]" />
 												<Value Value="xpath=(//div[contains(@class, &apos;email&apos;) and .//a[normalize-space(text())=&apos;rmsautomation24@gmail.com&apos;]]//button[contains(@class, &apos;icon-button&apos;) and .//i[contains(@class, &apos;remove_circle&apos;)]])[4]" />
 											</Selector>
 										</Selectors>
@@ -17486,8 +17486,8 @@
 										<TypeInfo Item0="{1C620272-A0E1-4E5E-B9AE-803C6739C04E}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//a[contains(@href, &apos;mailto:rmsautomation24@gmail.com&apos;) and text()[normalize-space()=&apos;rmsautomation24@gmail.com&apos;]]" />
-												<Value Value="xpath=//a[contains(@href, &apos;mailto:rmsautomation24@gmail.com&apos;) and text()[normalize-space()=&apos;rmsautomation24@gmail.com&apos;]]" />
+												<Value Value="xpath=//a[contains(@href, &apos;mailto:dl-dfp_rms@magaya.com&apos;) and text()[normalize-space()=&apos;dl-dfp_rms@magaya.com&apos;]]" />
+												<Value Value="Add selector" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -20182,12 +20182,12 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[.=&apos;New Tariff Uploads&apos;]" />
-												<Value Value="//span[.=&apos;New Tariff Uploads&apos;]" />
+												<Value Value="//app-alert-list/div/span" />
+												<Value Value="//app-alert-list/div/span" />
 											</Selector>
 											<Selector>
-												<Value Value="//app-alert-list/div/span" />
-												<Value Value="//app-alert-list/div/span" />
+												<Value Value="//span[.=&apos;New Tariff Uploads&apos;]" />
+												<Value Value="//span[.=&apos;New Tariff Uploads&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -20934,6 +20934,16 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelDlDfpRmsMagayaCom2" Key="{770EB74C-1306-4508-9BCF-7CD795F9FA05}">
+										<Image FileName="-1110280380" Left="840" Top="587" Right="1144" Bottom="635" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//div[contains(@class, &apos;text-left&apos;)]" />
+												<Value Value="//div[@role=&apos;main&apos;]//div//div[contains(@class, &apos;text-left&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin5" Key="{B96145B3-0988-49B7-A2F4-C93D5D1557CA}">
@@ -21091,6 +21101,66 @@
 											<Selector>
 												<Value Value="//div[@role=&apos;main&apos;]//span" />
 												<Value Value="//div[@role=&apos;main&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailAlertFull" Key="{7D4B69A6-8291-4478-A6BD-C2002EB46DB4}">
+										<Image FileName="-1685927739" Left="698" Top="412" Right="1879" Bottom="467" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;AutoAlert&apos;)]" />
+												<Value Value="xpath=//div[contains(text(), &apos;AutoAlert&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{12C44AC0-51AA-473B-8015-C7BC97276DD2}">
+										<Image FileName="1542657124" Left="690" Top="404" Right="1871" Bottom="424" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;UniqueMessageBody_2&apos;]//p" />
+												<Value Value="//div[@id=&apos;UniqueMessageBody_2&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQmsAlertNewFullUploadFul" Key="{0182D8A0-885C-498C-8222-543166378B77}">
+										<Image FileName="-1508914174" Left="346" Top="450" Right="502" Bottom="470" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;QMS Alert: New Full Upload (Full Serve)&apos;]" />
+												<Value Value="//span[.=&apos;QMS Alert: New Full Upload (Full Serve)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MailList&apos;]//div[3]//div[2]/div[2]/div/span" />
+												<Value Value="//div[@id=&apos;MailList&apos;]//div[3]//div[2]/div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQmsAlertNewTariffUpload" Key="{2DFCCB46-405F-4457-8BBE-5F7F046697DD}">
+										<Image FileName="-968146426" Left="346" Top="334" Right="503" Bottom="354" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;QMS Alert: New Tariff Upload&apos;]" />
+												<Value Value="//span[.=&apos;QMS Alert: New Tariff Upload&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//span[contains(@class, &apos;TtcXM&apos;)]" />
+												<Value Value="//div[2]//span[contains(@class, &apos;TtcXM&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MailList&apos;]//div[2]/div/span" />
+												<Value Value="//div[@id=&apos;MailList&apos;]//div[2]/div/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/span" />
+												<Value Value="//div[2]/div[2]/div/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -24899,12 +24969,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeFullServeUpload2" Key="{D639A167-8BC7-47DC-8A2A-3461CC75C69C}">
+									<Child Name="alertTariff" Key="{D639A167-8BC7-47DC-8A2A-3461CC75C69C}">
 										<Image FileName="1473066453" Left="338" Top="422" Right="449" Bottom="441" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="(//span)[207]" />
+												<Value Value="xpath=//span[contains(text(), &apos;QMS Alert: New Tariff Upload&apos;)]" />
 												<Value Value="(//span)[207]" />
 											</Selector>
 										</Selectors>
@@ -24938,6 +25008,66 @@
 											<Selector>
 												<Value Value="//div[@role=&apos;main&apos;]//span" />
 												<Value Value="//div[@role=&apos;main&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQmsAlertNewFullUploadFul" Key="{C2203F26-1D42-495C-A7B9-390764C9C10E}">
+										<Image FileName="813745845" Left="338" Top="442" Right="495" Bottom="462" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;QMS Alert: New Full Upload (Full Serve)&apos;]" />
+												<Value Value="//span[.=&apos;QMS Alert: New Full Upload (Full Serve)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MailList&apos;]//div[3]//div[2]/div[2]/div/span" />
+												<Value Value="//div[@id=&apos;MailList&apos;]//div[3]//div[2]/div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailAutoAlert" Key="{A3180A1C-2DDE-4F3B-B447-15CE0E25309E}">
+										<Image FileName="-1966644725" Left="690" Top="404" Right="1853" Bottom="459" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div//p[contains(normalize-space(), &apos;CAUTION&apos;)]/following-sibling::text()[contains(., &apos;AutoAlert&apos;)]" />
+												<Value Value="//div[text()=&apos;AutoAlertDec1019:36:24&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQmsAlertNewFullUploadFul2" Key="{02C06E45-BEB0-471B-95D5-402E4BC1B7D1}">
+										<Image FileName="-806023988" Left="637" Top="265" Right="926" Bottom="286" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[@title=&apos;QMS Alert: New Tariff Upload&apos;]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;QMS Alert: New Full Upload (Full Serve)&apos;]" />
+												<Value Value="//span[@title=&apos;QMS Alert: New Full Upload (Full Serve)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{C9AC77B5-217E-4D06-B995-B6BEF8B5B9E5}">
+										<Image FileName="-806023988" Left="690" Top="404" Right="1853" Bottom="424" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;UniqueMessageBody_4&apos;]//p" />
+												<Value Value="//div[@id=&apos;UniqueMessageBody_4&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+												<Value Value="//p" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -26648,187 +26778,13 @@
 				<Child Name="panelFormOptions" Owner="{03411D9B-3C47-4F6F-B845-6D773E394180}" />
 				<Child Name="panelMasterQuoteId6x1" Owner="{5C27E8B8-E2B9-472E-8B80-BCCE61496681}" />
 				<Child Name="textnodeMatExpansionPanelHeader4" Owner="{71C59537-ADCD-4654-907B-06EF4E84F36D}" />
-				<Child Name="textnodeMatExpansionPanelHeader8" Owner="{48BF7227-F13E-4740-A136-C696029CF3E9}" />
-				<Child Name="panelNBC" Owner="{DDDD6118-8CF6-4B24-A546-05B4DF748E8D}" />
-				<Child Name="panel" Owner="{79A96443-2CB9-4ADC-A15E-B3D31764C67A}" />
-				<Child Name="panelBAF" Owner="{53CF18E7-5EE6-475C-8EEA-20010514DCB7}" />
-				<Child Name="vg" Owner="{9F3D88D4-6952-4191-9FA1-8ADE49261498}" />
-				<Child Name="panelBorder" Owner="{762E73D1-97BB-495F-A9D1-7B23C27C3D42}" />
-				<Child Name="textnodeDisclaimers" Owner="{B2EB18D4-47F9-4769-8FBD-B685334B9A3C}" />
-				<Child Name="textnodeAdd" Owner="{B08D1BA7-3C0D-4BAE-BB43-4D1E4F94E862}" />
-				<Child Name="puertoCabello" Owner="{C8E65BA7-7B93-4D88-A560-DEDA1A3BD691}" />
-				<Child Name="panel000aautomationdisclaimer" Owner="{1348375F-91D1-4933-95C4-01CCD34708C5}" />
-				<Child Name="textnode000aautomationdisclaimer" Owner="{F66CAE36-1124-43BD-8AAA-7C8053049EF7}" />
-				<Child Name="textnodeGridSettings" Owner="{4D2C797B-49AB-4893-8252-D0F36B926A31}" />
-				<Child Name="checkboxAllocation" Owner="{894E3690-BDB1-4336-9A8E-D69BF03E7246}" />
-				<Child Name="panelContractId" Owner="{247780D3-00C2-41D7-B9E5-C2BCF126F481}" />
-				<Child Name="textnodeProfile" Owner="{3C795552-6C59-4E7E-BDB6-0451FD155A15}" />
-				<Child Name="panelRoleAdmin" Owner="{67A79504-74B2-4C33-BEBC-3C40903D301D}" />
-				<Child Name="textnodeDepartmentManagement" Owner="{8BAE8A97-0D9B-4B42-885B-C34A02F95593}" />
-				<Child Name="textboxCity" Owner="{21EC1FD0-68B3-41F3-AA1B-6AD094ABC38A}" />
-				<Child Name="textboxPrimaryAddress" Owner="{7D32051A-41AA-499B-B69F-49E57091E155}" />
-				<Child Name="textboxSecondaryAddress" Owner="{75C5DFFF-0D7A-4619-9038-CD752BE79023}" />
-				<Child Name="textboxEmail" Owner="{C1EF7064-EADA-48F8-B5F9-07D5B969623F}" />
-				<Child Name="panelDepartment" Owner="{963A827A-8B9E-4882-AA7C-714686188D61}" />
-				<Child Name="panelHAZ03" Owner="{BEE9C101-3FEA-42A4-9B1B-DDC56BB15E2A}" />
-				<Child Name="panelSCS" Owner="{6D42F92D-A45A-404C-BF81-01C59EC85FD5}" />
-				<Child Name="panelARBO" Owner="{7721FA39-C3AC-4AAA-93DA-107F3A7996A0}" />
-				<Child Name="textnodeModeEdit" Owner="{47FA3472-3784-4302-B40F-B923CF0DE4FF}" />
-				<Child Name="textnodeEmailSettings" Owner="{CB175236-F330-4F73-A4B3-BC79E5C7EC16}" />
-				<Child Name="buttonTestConnection" Owner="{BE22EC09-4AB6-458A-B607-86E1EA7DFACA}" />
-				<Child Name="panelAlerts" Owner="{C0C05F7D-15B6-4BAF-A12B-9444C7A28B5C}" />
-				<Child Name="textnodeTariff" Owner="{D3492450-F3BD-4354-A3B1-72B512DD3CAE}" />
-				<Child Name="textnodeNewTariffUploads" Owner="{9FB0B99F-FCDB-4677-AB2C-A79BA9CCFF0A}" />
-				<Child Name="formEmailAddressAlreadyExists" Owner="{3DE76E37-C7D2-4F01-8CD8-B2B2BBA18384}">
-					<Child Name="textnodeMatMdcError1" Owner="{CEC9800C-A86C-4BEB-88C2-D08BCA26D9A4}" />
-					<Child Name="panel4" Owner="{81AD275D-D200-47E9-B24C-90757D81C0B0}" />
-				</Child>
-				<Child Name="linkRmsautomation24GmailCom" Owner="{0878ABEE-B35F-4404-9D51-FFBD7E470B2F}" />
-				<Child Name="panelCCC" Owner="{1F1B1F41-D477-4F06-9709-3B65E7753E3C}" />
-				<Child Name="panelCsf" Owner="{6513631F-D6CA-459D-BA4B-14392773EAF2}" />
-				<Child Name="panel5" Owner="{3A4AF2CD-6123-4F21-A63D-D5C4BD6F9DF8}" />
-				<Child Name="radiobuttonOrganizationLevel" Owner="{1EAF5513-395F-460D-A487-D1E783DCEE91}" />
-				<Child Name="radiobuttonNA" Owner="{D84A22E9-58E1-45B7-ADF6-44CA21B23FBD}" />
-				<Child Name="radiobuttonHtml" Owner="{E18F8430-84D2-46EB-97CD-CC54E111B97D}" />
 			</Child>
-			<Child Name="pageInbox1Rmsautomation24GmailCo" Owner="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
-				<Child Name="textnodeQmsAlertNewTariffUpload" Owner="{416D8EE6-4131-48E1-A9AC-0B587458E79F}" />
-				<Child Name="emailText" Owner="{E801A9BC-5577-4819-81FC-FADC95F1210F}" />
-			</Child>
-			<Child Name="pageLogin3" Owner="{143503DB-4FF5-4893-BC58-25C5AF047474}">
-				<Child Name="formUsernameEmail" Owner="{BF5AF4EA-4D8C-404F-8099-1008EED44B46}">
-					<Child Name="textboxUsername" Owner="{6E4652B7-A8C1-4579-BCCB-E3BABB111738}" />
-				</Child>
-				<Child Name="formUsernameEmail2" Owner="{01640088-B3AA-42D4-A36D-8FF00C567C50}">
-					<Child Name="buttonNext" Owner="{BBE3C1FA-868C-4AD4-AAD8-97C78D7B2ACB}" />
-					<Child Name="passwordboxPassword" Owner="{2ECF800A-F930-4A42-9733-7B13D6DA5F2C}" />
-				</Child>
-			</Child>
-			<Child Name="pageMagayaQadfpQwykportalsCom" Owner="{B9DCE6CA-38F5-4745-B361-897B34589486}" />
-			<Child Name="pageProdGocatapultComQmsDashboar" Owner="{32ED8C60-DD7D-4405-BC83-D1C1F6EF7938}">
-				<Child Name="textnodeT" Owner="{DFED4B72-966C-4F3E-8C81-860CE0604544}" />
-				<Child Name="buttonOpenCalendar" Owner="{BCDDE389-EFAC-48CF-A20F-8956A4356F6B}" />
-				<Child Name="buttonNovember222024" Owner="{01C3BCB9-AB5E-4122-AAB5-F577C6A725EF}" />
-				<Child Name="buttonSearch" Owner="{F6CFE5DF-D4DE-4DE1-8544-F4643546A57D}" />
-				<Child Name="panel125Of492" Owner="{E1062720-C10F-4E6A-92D4-41913DFE1FB6}" />
-			</Child>
-			<Child Name="pageMicrosoftOutlookFormerlyHotm" Owner="{F3429DAF-5DB5-41D5-BBA1-C427312C2390}">
-				<Child Name="headerMicrosoft" Owner="{9B3CD3E8-B7DC-4FC8-8DD0-35BBBC823CE2}">
-					<Child Name="navAllMicrosoftMenu" Owner="{756199FB-541F-4CF6-8D3D-48D520ACCC3F}">
-						<Child Name="textnodeSignIn" Owner="{F988868D-5310-42D8-BB26-07DE845F898A}">
-							<Child Name="linkCShellmenuCustomOutlineNewt" Owner="{5E39EF0F-DCAD-49FC-AC77-3F6C65013CAD}" />
-						</Child>
-					</Child>
-				</Child>
-			</Child>
-			<Child Name="pageLogin4" Owner="{1D0C8134-5A13-4592-8270-64C507747026}">
-				<Child Name="emailinputSignIn" Owner="{1D1FF2BF-05DA-4B28-AA39-369CAF90BD9B}" />
-				<Child Name="buttonIdsibutton9" Owner="{1155E063-3A49-4F5F-A021-A18AA9078C3C}" />
-			</Child>
-			<Child Name="pageAuthorize" Owner="{0FFF0FFF-86DC-44A0-9F7B-E84A2A9BE737}">
-				<Child Name="formF1" Owner="{30AAC300-45B2-4379-B5CC-1D8468F59B90}">
-					<Child Name="passwordboxPasswd" Owner="{98898FF7-5C29-4FF7-910E-F3DFD08C9938}" />
-					<Child Name="submitbuttonSignIn" Owner="{1524DC9C-5C9E-4E91-BF14-89FD1677DB29}" />
-					<Child Name="panelDlDfpRmsMagayaCom" Owner="{8231EFF9-5CFD-43F5-ADB8-2C3F89792A1B}" />
-					<Child Name="passwordboxPasswd2" Owner="{DE5DC9DF-0C5A-4BB6-ACE2-82D74110E941}" />
-					<Child Name="submitbuttonSignIn2" Owner="{3097C40F-CDD4-4679-BE3A-A55E6C6A8B4C}" />
-				</Child>
-				<Child Name="submitbuttonNext" Owner="{BF006A66-A565-42EA-89CF-1209511FB15F}" />
-			</Child>
-			<Child Name="pageLogin5" Owner="{B96145B3-0988-49B7-A2F4-C93D5D1557CA}">
-				<Child Name="submitbuttonNext" Owner="{E54C541F-FD63-4269-BF72-52D7B93FF756}" />
-			</Child>
-			<Child Name="pageSecurityinfo" Owner="{49B6CB92-6381-4FE7-BEF3-E4DA97C4836F}" />
-			<Child Name="pageMySignInsRegisterMicrosoftCo" Owner="{09E34C9B-E918-476C-9103-3A37B82840FF}">
-				<Child Name="linkSkipSetup" Owner="{8E518383-B5D2-42A4-9258-B7E209BAB350}" />
-			</Child>
-			<Child Name="pageMailDlDfpRmsOutlook" Owner="{7042516A-E26F-4E49-9F71-EF82D7951C95}">
-				<Child Name="panelTest" Owner="{DF89445C-36AD-4171-AF17-83882FA03BE9}" />
-			</Child>
-			<Child Name="pageMailDlDfpRmsOutlook2" Owner="{AB786A8F-9AAB-4E80-B6D2-067931DE9545}">
-				<Child Name="textnodeHeader" Owner="{EDF33F4D-A60B-4945-9820-E271C425C1D0}" />
-			</Child>
+			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
+			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />
+			<Child Name="textnodeQmsAlertNewTariffUpload" Owner="{2DFCCB46-405F-4457-8BBE-5F7F046697DD}" />
 		</Child>
-		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
-			<Child Name="wndShell_TrayWnd" Owner="{34B3F312-D042-4EE5-A71D-1A40C67A49FC}">
-				<Child Name="ReBarWindow32" Owner="{DB6AF756-B2A4-4BBB-BCAB-03A8F69CB2C7}">
-					<Child Name="MSTaskSwWClass" Owner="{96FE58BD-5974-49AB-8CBF-63BB003910EF}">
-						<Child Name="MSTaskListWClass" Owner="{7BAF4185-9024-45B9-BA9B-86B9521D4C9D}" />
-					</Child>
-				</Child>
-			</Child>
-			<Child Name="wndTaskListThumbnailWnd" Owner="{45F7B98F-F001-47DF-A353-B1D0B8194C50}" />
-			<Child Name="wndDownloads" Owner="{7C988EAC-BF05-4E48-BC87-A722A76D905B}">
-				<Child Name="Downloads" Owner="{AC9A3F01-0514-4413-933F-4066E38EE5C2}">
-					<Child Name="DUIViewWndClassName" Owner="{C539D78A-2EE4-4A4F-8FF9-2A1C6AD484EB}">
-						<Child Name="Explorer_Pane" Owner="{16519E16-2327-48B9-9E21-C69BB01E3955}">
-							<Child Name="CtrlNotifySink" Owner="{E26A8A5B-36F8-4C9D-BD0F-5DC677551503}">
-								<Child Name="ShellView" Owner="{85A1C1CA-CB41-4A90-9E15-14692A9737D8}">
-									<Child Name="Items_View" Owner="{6917365C-1F7E-436E-8150-929D408F8093}">
-										<Child Name="Allocation_Agreement_AutomationTest_08_16_2024" Owner="{FBA8DB3C-DC76-49AF-80AF-7A9092C6C3DB}">
-											<Child Name="Name" Owner="{656FB661-FB31-4708-A64F-302D835CCF2C}" />
-										</Child>
-									</Child>
-								</Child>
-							</Child>
-						</Child>
-					</Child>
-				</Child>
-			</Child>
-			<Child Name="wndShell_LightDismissOverlay" Owner="{2E62FB28-645B-4A10-85C3-0916B5170C79}" />
-		</Child>
-		<Child Name="EXCEL" Owner="{6606321D-9CF9-4136-9DF6-4179B97FC214}">
-			<Child Name="wndXLMAIN" Owner="{D62D4246-F633-4471-8715-AC4A43D5B282}">
-				<Child Name="XLDESK" Owner="{5620C083-DB2F-4CAB-A1C1-011BD12746C8}">
-					<Child Name="EXCEL7" Owner="{71EA8380-103E-4EFA-AC8C-078A5C272F8A}">
-						<Child Name="OPHPreviewerParentWindow" Owner="{16EA02C5-81A9-4171-B93B-3BBDFAD71FF3}">
-							<Child Name="OPHPreviewerWindow" Owner="{35B38C84-182B-4DB9-82EB-052F454FE638}">
-								<Child Name="EXCEL9" Owner="{68702DDF-D1CD-4F8E-ADC6-C84BE59F9124}">
-									<Child Name="EXCEL7" Owner="{E1C489FF-6419-4BE2-A416-8D9CE03037B8}" />
-								</Child>
-							</Child>
-						</Child>
-					</Child>
-				</Child>
-			</Child>
-			<Child Name="wndXLMAIN2" Owner="{39EA6216-C03A-46DB-A0E5-92B34A13013A}">
-				<Child Name="XLDESK" Owner="{CC97C7DC-163B-4A0E-B585-09E7DA3905AB}">
-					<Child Name="EXCEL7" Owner="{C419F5AC-315F-4C9D-9F43-FD1367F706B9}" />
-				</Child>
-			</Child>
-			<Child Name="wndXLMAIN3" Owner="{3A415772-6559-45DD-B82A-BBAC83A876F7}">
-				<Child Name="EXCEL2" Owner="{BDC9D28A-42CE-40A5-B607-86FA2B54BA6A}">
-					<Child Name="toolbar" Owner="{367246CD-7A4C-43AD-8E45-5A48AB330627}">
-						<Child Name="MsoWorkPane" Owner="{B5CFFBAA-15E5-4A61-8B78-49F555E2A136}">
-							<Child Name="NUIPane" Owner="{0EFF2ADE-CE41-4CA9-8A77-99986F981010}">
-								<Child Name="NetUIHWND" Owner="{F4CA4EB7-474F-4387-8C5A-890CB9EF00BF}" />
-							</Child>
-						</Child>
-					</Child>
-				</Child>
-			</Child>
-		</Child>
-		<Child Name="chrome" Owner="{128C4C2B-79B0-49EA-BE91-286E73FBA72F}">
-			<Child Name="pageQms" Owner="{A6E1DCDF-D08A-4F08-B469-2A98722D818E}">
-				<Child Name="contactNotes" Owner="{1C28DC33-E9B7-4C3D-9B56-23C204F8E98C}" />
-				<Child Name="panelSearchPanelValuesHaveBeen" Owner="{5C03ACD6-89F9-4458-883E-DA6ED75679CA}" />
-				<Child Name="buttonSearch" Owner="{87E64485-FE3D-4C7E-9418-0A74FE853933}" />
-				<Child Name="saveContact" Owner="{854B9E49-D65F-4C31-B106-AECA5CE57879}" />
-				<Child Name="companyDescription" Owner="{E4EC5619-9CDC-47F7-8FD7-CB629916AD6B}" />
-				<Child Name="quoteCreator" Owner="{B93B5EC6-2CD4-49D5-BDA9-5862ADAF9660}" />
-				<Child Name="panelGridView" Owner="{1945502E-EA57-4E1F-ACC6-70FE89F45EB5}" />
-				<Child Name="buttonAddFilter" Owner="{5D9B7D9E-7028-4FEC-8DE6-3678D9527540}" />
-				<Child Name="textnodeSelectColumn" Owner="{1FD67A00-A615-4D80-9862-BBFFDF8D295E}" />
-				<Child Name="scrollBar" Owner="{68DDD347-CC30-49E9-BF77-5EE349E585AD}" />
-				<Child Name="quotedByOptionFilter" Owner="{B4B721F1-CDE2-45B3-B48C-DDC81D12F92D}" />
-				<Child Name="textboxFilter" Owner="{9A5C0C9B-A094-4E02-A403-F95BB044EB41}" />
-			</Child>
-			<Child Name="emailHeading" Owner="{60B933B1-E638-4A08-811D-564E31A088BD}" />
-			<Child Name="textnodeFullServeUpload" Owner="{5BA3E482-DCF1-432F-90A0-A119E92F0D15}" />
-			<Child Name="textnodeNoPreviewIsAvailable" Owner="{151FEA1F-D749-41EF-B325-4364BF31D766}" />
-			<Child Name="textnodeFullServeUpload2" Owner="{D639A167-8BC7-47DC-8A2A-3461CC75C69C}" />
-			<Child Name="textnodeAylinStandardRodriguezPe" Owner="{57C93E09-45BB-4554-A9EA-466DB5C06D69}" />
-			<Child Name="textnodeQuoteIdHeader" Owner="{3B1B5D41-1DF1-4293-AD27-751F4236615E}" />
-		</Child>
+		<Child Name="textnodeQmsAlertNewFullUploadFul2" Owner="{02C06E45-BEB0-471B-95D5-402E4BC1B7D1}" />
+		<Child Name="textnode" Owner="{C9AC77B5-217E-4D06-B995-B6BEF8B5B9E5}" />
+		<Child Name="alertTariff" Owner="{D639A167-8BC7-47DC-8A2A-3461CC75C69C}" />
 	</LogicalNodes>
 </Root>

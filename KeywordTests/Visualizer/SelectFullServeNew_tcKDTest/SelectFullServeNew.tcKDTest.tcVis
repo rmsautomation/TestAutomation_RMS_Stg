@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{6441D903-8C47-4D9C-B64E-56BB143DBCCB}" />
+	<data key="{6441D903-8C47-4D9C-B64E-56BB143DBCCB}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="12" kind="0" dateTime="45636.8726273148" objectName="NameMapping.Sys.chrome.pageQms.panelFullServeContractOptions" objectLeft="206" objectTop="293" objectRight="1897" objectBottom="985" clickPointX="1884" clickPointY="379" imageFileName="tcvi340982578129960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="45636.872650463" objectName="NameMapping.Sys.chrome.pageQms.panelFullServeContractOptions" objectLeft="206" objectTop="293" objectRight="1897" objectBottom="985" clickPointX="1885" clickPointY="670" imageFileName="tcvi340984890129961.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

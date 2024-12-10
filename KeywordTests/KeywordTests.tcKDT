@@ -373,6 +373,10 @@
 				<child name="VerifyRejectQuote" key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}" path="VerifyRejectQuote.tcKDTest" />
 				<child name="VerifyFullServeEmail" key="{0E9D64D2-1065-49C6-99EA-101D8F892B88}" path="VerifyFullServeEmail.tcKDTest" />
 				<child name="VerifyQuoteEmailMagaya" key="{90D4EB0A-CF93-4792-A90A-CEC9EF739C94}" path="VerifyQuoteEmailMagaya.tcKDTest" />
+				<child name="CheckAlertMagayaEmail" key="{77570916-5538-4B4E-8CB4-E11C785E66B0}" path="CheckAlertMagayaEmail.tcKDTest" />
+				<child name="CheckFullServeAlert" key="{8B4D320D-DC6C-4D2B-97B8-51BC43D14046}" path="CheckFullServeAlert.tcKDTest" />
+				<child name="CheckAlertTariffMagaya" key="{B1B678BB-4358-4910-A69D-55B523F09B5B}" path="CheckAlertTariffMagaya.tcKDTest" />
+				<child name="CheckNewTariffAlert" key="{BEDFEBA6-75F0-44D5-B3D1-2013FBA070EE}" path="CheckNewTariffAlert.tcKDTest" />
 			</folder>
 			<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 			<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />

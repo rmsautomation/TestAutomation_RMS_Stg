@@ -14048,6 +14048,10 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//div[contains(@class, &quot;mdc-circular-progress__spinner-layer&quot;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//div[@aria-hidden=&quot;true&quot; and contains(@class, &quot;mdc-circular-progress__indeterminate-container&quot;)]" />
 												<Value Value="xpath=//div[@aria-hidden=&quot;true&quot; and contains(@class, &quot;mdc-circular-progress__indeterminate-container&quot;)]" />
 											</Selector>
@@ -18673,6 +18677,24 @@
 											<Selector>
 												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//shared-spinner//mat-spinner/div[2]//div/*[name()=&apos;svg&apos;]/*[name()=&apos;circle&apos;]" />
 												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//shared-spinner//mat-spinner/div[2]//div/*[name()=&apos;svg&apos;]/*[name()=&apos;circle&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRejectedBy" Key="{B1A3221C-01C0-433A-B08E-8AE13467AE53}">
+										<Image FileName="1012669765" Left="853" Top="270" Right="941" Bottom="308" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[normalize-space(.)=&apos;Rejected by:&apos;]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[.=&apos;Rejected by:&apos;]" />
+												<Value Value="//span[.=&apos;Rejected by:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span" />
+												<Value Value="//div/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -26555,6 +26577,7 @@
 				<Child Name="textnodeThankYou" Owner="{567452A8-C24D-47B0-979C-C4C345E950F4}" />
 				<Child Name="textnodeQuoteRejection2" Owner="{1F865CA2-AD92-447B-91BE-29C9219BEAE0}" />
 				<Child Name="progress" Owner="{50031887-8FEC-4737-8BEA-CB79B071C613}" />
+				<Child Name="textnodeRejectedBy" Owner="{B1A3221C-01C0-433A-B08E-8AE13467AE53}" />
 			</Child>
 			<Child Name="pageLogin2" Owner="{019F615E-5504-4EE0-A8F1-FFCCA83AFA3A}">
 				<Child Name="sectionWelcome" Owner="{04552BD4-66A5-444A-8756-B94CF3BD9FBD}">

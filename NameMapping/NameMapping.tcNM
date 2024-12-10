@@ -9026,12 +9026,12 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;0 of 0&apos;)]" />
-												<Value Value="//div[contains(text(), &apos;0 of 0&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;mat-mdc-paginator-range-label&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;mat-mdc-paginator-range-label&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[contains(@class, &apos;mat-mdc-paginator-range-label&apos;)]" />
-												<Value Value="//div[contains(@class, &apos;mat-mdc-paginator-range-label&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;0 of 0&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;0 of 0&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>

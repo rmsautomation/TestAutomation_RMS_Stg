@@ -372,6 +372,7 @@
 				<child name="OpenQuoteEmailMagaya" key="{EC3B530A-2BAE-4404-990C-DC2C837253B4}" path="OpenQuoteEmailMagaya.tcKDTest" />
 				<child name="VerifyRejectQuote" key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}" path="VerifyRejectQuote.tcKDTest" />
 				<child name="VerifyFullServeEmail" key="{0E9D64D2-1065-49C6-99EA-101D8F892B88}" path="VerifyFullServeEmail.tcKDTest" />
+				<child name="VerifyQuoteEmailMagaya" key="{90D4EB0A-CF93-4792-A90A-CEC9EF739C94}" path="VerifyQuoteEmailMagaya.tcKDTest" />
 			</folder>
 			<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 			<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />

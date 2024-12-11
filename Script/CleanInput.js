@@ -4,7 +4,7 @@ textbox.SetText("");
 }
 
 function CleanInputQuoteCreator(){
-  var textbox = Aliases.chrome.pageQms.quoteCreator;  
+  var textbox = NameMapping.Sys.chrome.pageQms.creatorSearch;  
 textbox.SetText("");
 }
 

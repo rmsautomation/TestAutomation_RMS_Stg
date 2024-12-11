@@ -21817,10 +21817,14 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textboxMatInput87" Key="{B93B5EC6-2CD4-49D5-BDA9-5862ADAF9660}">
+									<Child Name="creatorSearch" Key="{B93B5EC6-2CD4-49D5-BDA9-5862ADAF9660}">
 										<Image FileName="-681978877" Left="91" Top="619" Right="349" Bottom="643" />
 										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;quote-form__field&apos;) and contains(text(), &apos;Quotation Creator&apos;)]//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
 											<Selector>
 												<Value Value="//div[4]/mat-form-field//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
 												<Value Value="//div[4]/mat-form-field//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />

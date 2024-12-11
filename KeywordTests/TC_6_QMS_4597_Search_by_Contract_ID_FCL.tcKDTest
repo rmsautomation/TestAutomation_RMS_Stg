@@ -118,6 +118,9 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Logout" />
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyQuoteEmailMagaya" />
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="4" Key="{B05F1510-636F-4DB0-865E-693DB672F712}">

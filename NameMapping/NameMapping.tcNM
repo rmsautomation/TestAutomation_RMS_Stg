@@ -17587,6 +17587,20 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeAutomationtest2" Key="{CBC2D8DA-3A85-4ACA-BA0A-63DB41973B4E}">
+										<Image FileName="-1979600541" Left="210" Top="510" Right="306" Bottom="523" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[@aria-describedby=(//div[.=&apos;AUTOMATIONTEST&apos;]/@id)]" />
+												<Value Value="//span[@aria-describedby=(//div[.=&apos;AUTOMATIONTEST&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;AUTOMATIONTEST&apos;)]" />
+												<Value Value="//span[contains(text(), &apos;AUTOMATIONTEST&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}">
@@ -20376,6 +20390,24 @@
 											<Selector>
 												<Value Value="//app-quote-ouput-form-options//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-9&apos;]//input" />
 												<Value Value="//app-quote-ouput-form-options//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-9&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContractManagement" Key="{A6EAD696-0B1F-4DA5-95E1-F819B1499423}">
+										<Image FileName="1633162817" Left="77" Top="198" Right="221" Bottom="229" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[contains(text(), &apos;Contract Management&apos;)]" />
+												<Value Value="//h6[contains(text(), &apos;Contract Management&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/h6[contains(@class, &apos;header-label&apos;)]" />
+												<Value Value="//div[2]/h6[contains(@class, &apos;header-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/h6" />
+												<Value Value="//div[2]/h6" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -26662,6 +26694,7 @@
 				<Child Name="textnodePrepaid4" Owner="{788065B9-C2C7-4305-9F21-C11B9869C299}" />
 				<Child Name="textnodeFreight2" Owner="{29EA8B97-FFF9-40B2-99BC-A3423404A014}" />
 				<Child Name="textnodeSubjectTo" Owner="{82A99E8C-E79E-4D98-AA50-AAC17E7A7649}" />
+				<Child Name="textnodeAutomationtest2" Owner="{CBC2D8DA-3A85-4ACA-BA0A-63DB41973B4E}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -26829,6 +26862,7 @@
 				<Child Name="panelFormOptions" Owner="{03411D9B-3C47-4F6F-B845-6D773E394180}" />
 				<Child Name="panelMasterQuoteId6x1" Owner="{5C27E8B8-E2B9-472E-8B80-BCCE61496681}" />
 				<Child Name="textnodeMatExpansionPanelHeader4" Owner="{71C59537-ADCD-4654-907B-06EF4E84F36D}" />
+				<Child Name="textnodeContractManagement" Owner="{A6EAD696-0B1F-4DA5-95E1-F819B1499423}" />
 			</Child>
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />

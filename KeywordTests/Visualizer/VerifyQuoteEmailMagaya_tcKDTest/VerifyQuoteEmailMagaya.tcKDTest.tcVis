@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{90D4EB0A-CF93-4792-A90A-CEC9EF739C94}" />
+	<data key="{90D4EB0A-CF93-4792-A90A-CEC9EF739C94}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45637.6464814815" objectName="Aliases.textnodeAylinRodriguezMagayaCom" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi407841828150760.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45637.6465162037" objectName="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook5.textnodeQuoteIdHeader" objectLeft="637" objectTop="265" objectRight="783" objectBottom="286" clickPointX="659" clickPointY="279" imageFileName="tcvi407844500150761.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

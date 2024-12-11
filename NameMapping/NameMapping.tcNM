@@ -18698,6 +18698,20 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeQuoteRejection3" Key="{58980549-6D65-4D08-87C2-EAB112543CC4}">
+										<Image FileName="688351912" Left="748" Top="189" Right="1188" Bottom="417" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//quote-acceptance-landing[contains(., &apos;Quote Rejection&apos;)]" />
+												<Value Value="//quote-acceptance-landing[contains(., &apos;Quote Rejection&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//quote-acceptance-landing" />
+												<Value Value="//quote-acceptance-landing" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageLogin2" Key="{019F615E-5504-4EE0-A8F1-FFCCA83AFA3A}">
@@ -21084,6 +21098,14 @@
 										<Value Value="https://outlook.office.com/mail/*" />
 										<Value Value="https://outlook.office.com/mail/*" />
 									</Property>
+									<Property Name="Name">
+										<Value Value="Page(&quot;https://outlook.office.com/mail/*)" />
+										<Value Value="Page(&quot;https://outlook.office.com/mail/*)" />
+									</Property>
+									<Property Name="FullName">
+										<Value Value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://outlook.office.com/mail/*&quot;)" />
+										<Value Value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://outlook.office.com/mail/*&quot;)" />
+									</Property>
 								</Properties>
 								<Children>
 									<Child Name="textnodeHeader" Key="{EDF33F4D-A60B-4945-9820-E271C425C1D0}">
@@ -21161,6 +21183,20 @@
 											<Selector>
 												<Value Value="//div[2]/div[2]/div/span" />
 												<Value Value="//div[2]/div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinStandardRodriguezPe" Key="{42144E06-8480-466E-B76D-7DC5F0DA3C86}">
+										<Image FileName="-99827781" Left="346" Top="314" Right="560" Bottom="333" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Aylin STANDARD Rodriguez Perez&apos;]" />
+												<Value Value="//span[.=&apos;Aylin STANDARD Rodriguez Perez&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//span[@title=&apos;aylin.rodriguez@magaya.com&apos;]" />
+												<Value Value="//div[2]//span[@title=&apos;aylin.rodriguez@magaya.com&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -25071,6 +25107,20 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeAylinRodriguezMagayaCom" Key="{A56E5BBE-0A3E-4053-A4A2-444E6F2B637A}">
+										<Image FileName="682933747" Left="338" Top="750" Right="524" Bottom="769" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Aylin_UPS Rodriguez Magaya&apos;]" />
+												<Value Value="//span[.=&apos;Aylin_UPS Rodriguez Magaya&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]//span[@title=&apos;aylin.rodriguez@magaya.com&apos;]" />
+												<Value Value="//div[6]//span[@title=&apos;aylin.rodriguez@magaya.com&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -26708,6 +26758,7 @@
 				<Child Name="textnodeQuoteRejection2" Owner="{1F865CA2-AD92-447B-91BE-29C9219BEAE0}" />
 				<Child Name="progress" Owner="{50031887-8FEC-4737-8BEA-CB79B071C613}" />
 				<Child Name="textnodeRejectedBy" Owner="{B1A3221C-01C0-433A-B08E-8AE13467AE53}" />
+				<Child Name="textnodeQuoteRejection3" Owner="{58980549-6D65-4D08-87C2-EAB112543CC4}" />
 			</Child>
 			<Child Name="pageLogin2" Owner="{019F615E-5504-4EE0-A8F1-FFCCA83AFA3A}">
 				<Child Name="sectionWelcome" Owner="{04552BD4-66A5-444A-8756-B94CF3BD9FBD}">
@@ -26782,9 +26833,12 @@
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />
 			<Child Name="textnodeQmsAlertNewTariffUpload" Owner="{2DFCCB46-405F-4457-8BBE-5F7F046697DD}" />
+			<Child Name="textnodeAylinStandardRodriguezPe" Owner="{42144E06-8480-466E-B76D-7DC5F0DA3C86}" />
 		</Child>
 		<Child Name="textnodeQmsAlertNewFullUploadFul2" Owner="{02C06E45-BEB0-471B-95D5-402E4BC1B7D1}" />
 		<Child Name="textnode" Owner="{C9AC77B5-217E-4D06-B995-B6BEF8B5B9E5}" />
 		<Child Name="alertTariff" Owner="{D639A167-8BC7-47DC-8A2A-3461CC75C69C}" />
+		<Child Name="textnodeHeader" Owner="{EDF33F4D-A60B-4945-9820-E271C425C1D0}" />
+		<Child Name="textnodeAylinRodriguezMagayaCom" Owner="{A56E5BBE-0A3E-4053-A4A2-444E6F2B637A}" />
 	</LogicalNodes>
 </Root>

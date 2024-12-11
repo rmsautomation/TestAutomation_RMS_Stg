@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45635.7880092593" objectName="Aliases.chrome.pageMailDlDfpRmsOutlook4.textnodeQuoteRejectionCustomer" objectLeft="338" objectTop="326" objectRight="514" objectBottom="346" clickPointX="450" clickPointY="341" imageFileName="tcvi24727432876160.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45635.7881365741" objectName="Aliases.chrome.pageMailDlDfpRmsOutlook4.cell" objectLeft="984" objectTop="450" objectRight="1053" objectBottom="474" clickPointX="997" clickPointY="463" imageFileName="tcvi24728557876165.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45637.6401041667" objectName="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook4.textnodeQuoteRejectionCustomer" objectLeft="338" objectTop="407" objectRight="491" objectBottom="427" clickPointX="391" clickPointY="417" imageFileName="tcvi407290453142720.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45637.640162037" objectName="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook4.cell" objectLeft="993" objectTop="820" objectRight="1062" objectBottom="844" clickPointX="1014" clickPointY="832" imageFileName="tcvi407295265142721.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45637.6401851852" objectName="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook4.cell2" objectLeft="993" objectTop="872" objectRight="1062" objectBottom="932" clickPointX="1019" clickPointY="899" imageFileName="tcvi407297468142722.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

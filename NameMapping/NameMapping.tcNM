@@ -20472,8 +20472,8 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://prod.gocatapult.com/" />
-										<Value Value="https://prod.gocatapult.com/" />
+										<Value Value="https://prod.gocatapult.com/*" />
+										<Value Value="https://prod.gocatapult.com/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -20701,6 +20701,164 @@
 											<Selector>
 												<Value Value="xpath=//search-grid-rate//div[4]/mat-paginator//div[contains(@class, &apos;mat-mdc-paginator-range-label&apos;)]" />
 												<Value Value="xpath=//search-grid-rate//div[4]/mat-paginator//div[contains(@class, &apos;mat-mdc-paginator-range-label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeArrowRight" Key="{362A2E8F-E7EE-4E24-A282-967D0BA97737}">
+										<Image FileName="-1346267179" Left="1886" Top="970" Right="1910" Bottom="994" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//i[.=&apos;arrow_right&apos;]" />
+												<Value Value="//i[.=&apos;arrow_right&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{0E6FF6EB-E831-4C6E-B0BE-8B6CFA277D87}">
+										<Image FileName="1398560814" Left="26" Top="241" Right="46" Bottom="261" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/a/div[contains(@class, &apos;link-icon&apos;)]" />
+												<Value Value="//div[2]/a/div[contains(@class, &apos;link-icon&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNumber" Key="{4C7B8B67-49A1-4974-865B-02727EE3A260}">
+										<Image FileName="-1367825381" Left="88" Top="333" Right="368" Bottom="363" />
+										<TypeInfo Item0="{BBBAA152-0C67-4627-9640-035D0F27D795}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-4" />
+												<Value Value="#mat-input-4" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+												<Value Value="//div//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+												<Value Value="//div//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+												<Value Value="//div//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+												<Value Value="//div//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-autocomplete-form-md//input" />
+												<Value Value="//search-form-autocomplete-form-md//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeKobeJp" Key="{B9313373-DCDC-4C48-97AA-9EFC0EABDFE9}">
+										<Image FileName="-1904845024" Left="104" Top="374" Right="161" Bottom="398" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//mat-option/span" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;KOBE,&#32;&#32;JP&apos;)]" />
+												<Value Value="//span[contains(text(), &apos;KOBE,&#32;&#32;JP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-370&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+												<Value Value="//mat-option[@id=&apos;mat-option-370&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-370&apos;]/span" />
+												<Value Value="//mat-option[@id=&apos;mat-option-370&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option/span" />
+												<Value Value="//mat-option/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNumber2" Key="{0A6C7D21-1422-471F-860A-AE3232F6B272}">
+										<Image FileName="-455649094" Left="88" Top="557" Right="368" Bottom="587" />
+										<TypeInfo Item0="{BBBAA152-0C67-4627-9640-035D0F27D795}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-5" />
+												<Value Value="#mat-input-5" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNumber3" Key="{51C6C4B0-2D5F-48F0-BD35-398B54F43853}">
+										<Image FileName="1799476960" Left="408" Top="562" Right="688" Bottom="592" />
+										<TypeInfo Item0="{BBBAA152-0C67-4627-9640-035D0F27D795}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-9" />
+												<Value Value="#mat-input-9" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//div/search-form-removable-autocomplete//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//search-form-removable-autocomplete//search-form-autocomplete-form-md//input" />
+												<Value Value="//search-form-carrier-and-contract-options/div[2]//search-form-removable-autocomplete//search-form-autocomplete-form-md//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHmmDanhmmflctest01" Key="{D9438B28-C1C4-4AD4-A426-02A68FA2D273}">
+										<Image FileName="-1823038685" Left="408" Top="600" Right="688" Bottom="630" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-option[@aria-describedby=(//div[.=&apos;HMM-DANHMMFLCTEST01&apos;]/@id)]" />
+												<Value Value="//mat-option[@aria-describedby=(//div[.=&apos;HMM-DANHMMFLCTEST01&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[contains(., &apos;HMM-DANHMMFLCTEST01&apos;)]" />
+												<Value Value="//mat-option[contains(., &apos;HMM-DANHMMFLCTEST01&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-option-419" />
+												<Value Value="#mat-option-419" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option" />
+												<Value Value="//mat-option" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -24161,6 +24319,10 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//mat-option/span" />
+												<Value Value="//mat-option/span" />
+											</Selector>
+											<Selector>
 												<Value Value="//span[contains(text(), &apos;KOBE,&#32;&#32;JP&apos;)]" />
 												<Value Value="//span[contains(text(), &apos;KOBE,&#32;&#32;JP&apos;)]" />
 											</Selector>
@@ -24171,10 +24333,6 @@
 											<Selector>
 												<Value Value="//mat-option[@id=&apos;mat-option-370&apos;]/span" />
 												<Value Value="//mat-option[@id=&apos;mat-option-370&apos;]/span" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option/span" />
-												<Value Value="//mat-option/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -24510,6 +24668,16 @@
 											<Selector>
 												<Value Value="//shared-grid-cell/div" />
 												<Value Value="//shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCurrentValue" Key="{C907AA07-041C-4597-8C1E-3D62685850C5}">
+										<Image FileName="-1816814328" Left="469" Top="181" Right="686" Bottom="336" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[contains(@class, &apos;price-container&apos;)]" />
+												<Value Value="//div/div[contains(@class, &apos;price-container&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -26902,6 +27070,13 @@
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />
 			<Child Name="textnodeQmsAlertNewTariffUpload" Owner="{2DFCCB46-405F-4457-8BBE-5F7F046697DD}" />
 			<Child Name="textnodeAylinStandardRodriguezPe" Owner="{42144E06-8480-466E-B76D-7DC5F0DA3C86}" />
+			<Child Name="textnodeArrowRight" Owner="{362A2E8F-E7EE-4E24-A282-967D0BA97737}" />
+			<Child Name="panel" Owner="{0E6FF6EB-E831-4C6E-B0BE-8B6CFA277D87}" />
+			<Child Name="textboxNumber" Owner="{4C7B8B67-49A1-4974-865B-02727EE3A260}" />
+			<Child Name="textnodeKobeJp" Owner="{B9313373-DCDC-4C48-97AA-9EFC0EABDFE9}" />
+			<Child Name="textboxNumber2" Owner="{0A6C7D21-1422-471F-860A-AE3232F6B272}" />
+			<Child Name="textboxNumber3" Owner="{51C6C4B0-2D5F-48F0-BD35-398B54F43853}" />
+			<Child Name="textnodeHmmDanhmmflctest01" Owner="{D9438B28-C1C4-4AD4-A426-02A68FA2D273}" />
 		</Child>
 		<Child Name="textnodeQmsAlertNewFullUploadFul2" Owner="{02C06E45-BEB0-471B-95D5-402E4BC1B7D1}" />
 		<Child Name="textnode" Owner="{C9AC77B5-217E-4D06-B995-B6BEF8B5B9E5}" />
@@ -26909,5 +27084,6 @@
 		<Child Name="textnodeHeader" Owner="{EDF33F4D-A60B-4945-9820-E271C425C1D0}" />
 		<Child Name="textnodeAylinRodriguezMagayaCom" Owner="{A56E5BBE-0A3E-4053-A4A2-444E6F2B637A}" />
 		<Child Name="panelDanhmmflctest01" Owner="{B1028A68-FDE9-46BB-AE35-2F800C622777}" />
+		<Child Name="panelCurrentValue" Owner="{C907AA07-041C-4597-8C1E-3D62685850C5}" />
 	</LogicalNodes>
 </Root>

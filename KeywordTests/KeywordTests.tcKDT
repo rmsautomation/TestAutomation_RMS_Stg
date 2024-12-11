@@ -381,6 +381,7 @@
 			<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 			<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
 			<child name="CloseChrome" key="{ABE8E178-8225-4C48-BF62-AF135C62BF15}" path="CloseChrome.tcKDTest" />
+			<child name="LoginProd" key="{ACC11E9F-F431-40FB-B09D-2C82B8168DCC}" path="LoginProd.tcKDTest" />
 		</folder>
 	</children>
 </Root>

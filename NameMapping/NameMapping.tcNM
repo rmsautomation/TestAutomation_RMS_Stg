@@ -21398,6 +21398,20 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeFullServeUpload" Key="{35AB3B95-B55D-482A-ACC6-F0BFB40D19D6}">
+										<Image FileName="-1143655171" Left="346" Top="314" Right="457" Bottom="333" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Full Serve Upload&apos;]" />
+												<Value Value="//span[.=&apos;Full Serve Upload&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//span[@title=&apos;FullServeUpload@gocatapult.com&apos;]" />
+												<Value Value="//div[2]//span[@title=&apos;FullServeUpload@gocatapult.com&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -27077,6 +27091,7 @@
 			<Child Name="textboxNumber2" Owner="{0A6C7D21-1422-471F-860A-AE3232F6B272}" />
 			<Child Name="textboxNumber3" Owner="{51C6C4B0-2D5F-48F0-BD35-398B54F43853}" />
 			<Child Name="textnodeHmmDanhmmflctest01" Owner="{D9438B28-C1C4-4AD4-A426-02A68FA2D273}" />
+			<Child Name="textnodeFullServeUpload" Owner="{35AB3B95-B55D-482A-ACC6-F0BFB40D19D6}" />
 		</Child>
 		<Child Name="textnodeQmsAlertNewFullUploadFul2" Owner="{02C06E45-BEB0-471B-95D5-402E4BC1B7D1}" />
 		<Child Name="textnode" Owner="{C9AC77B5-217E-4D06-B995-B6BEF8B5B9E5}" />

@@ -17400,8 +17400,12 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(@class, &apos;email&apos;) and .//a[normalize-space()=&apos;dl-dfp_rms@magaya.com&apos;]]&#32;&#32;&#32;/shared-icon-button//button[contains(@class, &apos;icon-button&apos;) and contains(@class, &apos;mdbtn-extra-small&apos;) and .//i[contains(@class, &apos;remove_circle&apos;)]]" />
+												<Value Value="xpath=//div[contains(@class, &apos;email&apos;) and .//a[normalize-space()=&apos;rmsautomation24@gmail.com&apos;]]&#32;&#32;&#32;/shared-icon-button//button[contains(@class, &apos;icon-button&apos;) and contains(@class, &apos;mdbtn-extra-small&apos;) and .//i[contains(@class, &apos;remove_circle&apos;)]]" />
 												<Value Value="xpath=(//div[contains(@class, &apos;email&apos;) and .//a[normalize-space(text())=&apos;rmsautomation24@gmail.com&apos;]]//button[contains(@class, &apos;icon-button&apos;) and .//i[contains(@class, &apos;remove_circle&apos;)]])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;email&apos;) and .//a[normalize-space()=&apos;dl-dfp_rms@magaya.com&apos;]]&#32;&#32;&#32;/shared-icon-button//button[contains(@class, &apos;icon-button&apos;) and contains(@class, &apos;mdbtn-extra-small&apos;) and .//i[contains(@class, &apos;remove_circle&apos;)]]" />
+												<Value Value="Add selector" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17485,6 +17489,10 @@
 										<Image FileName="-1815637767" Left="481" Top="-203" Right="544" Bottom="1298" />
 										<TypeInfo Item0="{1C620272-A0E1-4E5E-B9AE-803C6739C04E}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[contains(@href, &apos;mailto:rmsautomation24@gmail.com&apos;) and text()[normalize-space()=&apos;rmsautomation24@gmail.com&apos;]]" />
+												<Value Value="Add selector" />
+											</Selector>
 											<Selector>
 												<Value Value="xpath=//a[contains(@href, &apos;mailto:dl-dfp_rms@magaya.com&apos;) and text()[normalize-space()=&apos;dl-dfp_rms@magaya.com&apos;]]" />
 												<Value Value="Add selector" />
@@ -24483,6 +24491,28 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelDanhmmflctest01" Key="{B1028A68-FDE9-46BB-AE35-2F800C622777}">
+										<Image FileName="-1437015100" Left="91" Top="541" Right="239" Bottom="561" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DANHMMFLCTEST01&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;DANHMMFLCTEST01&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+												<Value Value="//mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//shared-grid-cell/div" />
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//shared-grid-cell/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid-cell/div" />
+												<Value Value="//shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMailDlDfpRmsOutlook" Key="{D9CD2934-432C-4F0A-A5E0-B07DD0AD9E86}">
@@ -26878,5 +26908,6 @@
 		<Child Name="alertTariff" Owner="{D639A167-8BC7-47DC-8A2A-3461CC75C69C}" />
 		<Child Name="textnodeHeader" Owner="{EDF33F4D-A60B-4945-9820-E271C425C1D0}" />
 		<Child Name="textnodeAylinRodriguezMagayaCom" Owner="{A56E5BBE-0A3E-4053-A4A2-444E6F2B637A}" />
+		<Child Name="panelDanhmmflctest01" Owner="{B1028A68-FDE9-46BB-AE35-2F800C622777}" />
 	</LogicalNodes>
 </Root>

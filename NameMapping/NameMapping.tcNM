@@ -22479,7 +22479,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonCheck" Key="{BC924561-C2FC-4288-ABBB-5255B1B19161}">
+									<Child Name="buttonCheckOk" Key="{BC924561-C2FC-4288-ABBB-5255B1B19161}">
 										<Image FileName="-1533202556" Left="777" Top="298" Right="828" Bottom="322" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
@@ -23141,7 +23141,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textbox3" Key="{43D8B4B0-16F3-481B-8383-B0DD661453A3}">
+									<Child Name="textbox3Account" Key="{43D8B4B0-16F3-481B-8383-B0DD661453A3}">
 										<Image FileName="-1576964017" Left="932" Top="238" Right="1672" Bottom="263" />
 										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
 										<Selectors>
@@ -27422,5 +27422,10 @@
 		<Child Name="buttonGridHeader" Owner="{849B72DB-DDB2-4C10-8B79-BA9EDAB8F889}" />
 		<Child Name="buttonChargesQFB" Owner="{B04770C3-E711-458E-B231-D10C23DB97FF}" />
 		<Child Name="buttonSave2QFB" Owner="{AAB797B0-EBEF-41B3-9D22-D504C34E530F}" />
+		<Child Name="textnodeNamedAccounts" Owner="{50830ECC-C248-4D86-977C-3E2CEA0F7FA4}" />
+		<Child Name="textbox3Account" Owner="{43D8B4B0-16F3-481B-8383-B0DD661453A3}" />
+		<Child Name="checkboxSelectAll" Owner="{61997A1C-C3CD-4F88-B818-FE0D0D40099C}" />
+		<Child Name="buttonCheckOk" Owner="{BC924561-C2FC-4288-ABBB-5255B1B19161}" />
+		<Child Name="textboxFilter" Owner="{9A5C0C9B-A094-4E02-A403-F95BB044EB41}" />
 	</LogicalNodes>
 </Root>

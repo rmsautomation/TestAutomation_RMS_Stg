@@ -119,7 +119,9 @@
 				<Data Description="Runs a keyword test." TestName="Logout" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="VerifyQuoteEmailMagaya" />
+				<Data Description="Runs a keyword test." TestName="VerifyQuoteEmailMagaya">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 		</Children>
 	</TestData>

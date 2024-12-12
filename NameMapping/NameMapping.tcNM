@@ -23211,10 +23211,22 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel" Key="{D98D14C3-7603-4B3D-BEEC-DE65684C5B6C}">
+									<Child Name="panelReports" Key="{D98D14C3-7603-4B3D-BEEC-DE65684C5B6C}">
 										<Image FileName="1973588717" Left="16" Top="342" Right="34" Bottom="360" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//div[@class=&apos;link-style ng-star-inserted&apos;])[5]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//div[@class=&apos;link-style ng-star-inserted&apos;]/a[@routerlink=&apos;/reports&apos;])[1]" />
+												<Value Value="Add selector" />
+											</Selector>
 											<Selector>
 												<Value Value="//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
 												<Value Value="//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
@@ -27372,7 +27384,9 @@
 			<Child Name="textnodeQmsAlertNewTariffUpload" Owner="{2DFCCB46-405F-4457-8BBE-5F7F046697DD}" />
 			<Child Name="textnodeAylinStandardRodriguezPe" Owner="{42144E06-8480-466E-B76D-7DC5F0DA3C86}" />
 			<Child Name="textnodeArrowRight" Owner="{362A2E8F-E7EE-4E24-A282-967D0BA97737}" />
-			<Child Name="panel" Owner="{0E6FF6EB-E831-4C6E-B0BE-8B6CFA277D87}" />
+			<Child Name="panel" Owner="{0E6FF6EB-E831-4C6E-B0BE-8B6CFA277D87}">
+				<Child Name="panelReports" Owner="{D98D14C3-7603-4B3D-BEEC-DE65684C5B6C}" />
+			</Child>
 			<Child Name="textboxNumber" Owner="{4C7B8B67-49A1-4974-865B-02727EE3A260}" />
 			<Child Name="textnodeKobeJp" Owner="{B9313373-DCDC-4C48-97AA-9EFC0EABDFE9}" />
 			<Child Name="textboxNumber2" Owner="{0A6C7D21-1422-471F-860A-AE3232F6B272}" />

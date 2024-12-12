@@ -56,7 +56,7 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.textnodeModifyExisting;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.addContactAylinRodriguez.textnodeModifyExisting;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -73,22 +73,44 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.dropdownQF;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.addContactAylinRodriguez.dropdownQF;" />
 				</Data>
 			</Operation>
 			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
 				<Data>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.textnode000aautomation;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textnode000aautomation.textnode000aautomation;" />
 				</Data>
 				<Children>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.textnode000aautomation;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textnode000aautomation.textnode000aautomation;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.buttonEdit;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.addContactAylinRodriguez.buttonEditQF;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates a left-button double click in a window or control as specified (relative position, shift keys)." Action="DblClick">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.panelRateArea;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.textnode3;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -105,51 +127,17 @@
 									</Values>
 								</Parameter>
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.panelRateArea;" />
-						</Data>
-					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-									<Values IsEnum="True">
-										<Value Type="1" Value="0" Text="skNoShift" />
-										<Value Type="1" Value="8192" Text="skShift" />
-										<Value Type="1" Value="32768" Text="skAlt" />
-										<Value Type="1" Value="16384" Text="skCtrl" />
-									</Values>
-								</Parameter>
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.textnodeCombinedIntoASingleGrid;" />
-						</Data>
-					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
-									<Values IsEnum="True">
-										<Value Type="1" Value="0" Text="skNoShift" />
-										<Value Type="1" Value="8192" Text="skShift" />
-										<Value Type="1" Value="32768" Text="skAlt" />
-										<Value Type="1" Value="16384" Text="skCtrl" />
-									</Values>
-								</Parameter>
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.textnodeCombinedIntoASingleGrid2;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.textnodeCombinedIntoASingleGrid2;" />
 						</Data>
 					</Operation>
 					<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
 						<Data>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.labelMatMdcSlideToggle62Label.buttonCombinedSurcharges;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.buttonCombinedSurcharges;" />
 						</Data>
 						<Children>
 							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 								<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.labelMatMdcSlideToggle62Label.buttonCombinedSurcharges;" />
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.buttonCombinedSurcharges;" />
 								</Data>
 							</Operation>
 						</Children>
@@ -168,12 +156,12 @@
 									</Values>
 								</Parameter>
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.textnodeOrigin.textnodeAirTotalPrice;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.textnodeOrigin2;" />
 						</Data>
 					</Operation>
 					<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
 						<Data CheckMode="{73E6B7BF-A94B-4A3F-A056-5E3B503110A3}">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.checkboxContractNotes;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.checkboxContractNotes;" />
 						</Data>
 						<Children>
 							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -190,14 +178,14 @@
 											</Values>
 										</Parameter>
 									</Parameters>
-									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.selectContractsNotes;" />
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.selectContractsNotes;" />
 								</Data>
 							</Operation>
 						</Children>
 					</Operation>
 					<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
 						<Data CheckMode="{73E6B7BF-A94B-4A3F-A056-5E3B503110A3}">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.checkboxCommodityBriefDescriptio;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.checkboxCommodityBriefDescriptio;" />
 						</Data>
 						<Children>
 							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -214,34 +202,34 @@
 											</Values>
 										</Parameter>
 									</Parameters>
-									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.commodityQFB;" />
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.commodityQFB;" />
 								</Data>
 							</Operation>
 						</Children>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.buttonSave;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.buttonSaveQFB;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.labelMatMdcSlideToggle57Label.buttonGridHeader;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.buttonGridHeader;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.labelMatMdcSlideToggle59Label.buttonCharges;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.buttonChargesQFB;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.buttonSave2;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.buttonSave2QFB;" />
 						</Data>
 					</Operation>
 					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 						<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome.pageQms.buttonSave2;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.buttonSave2QFB;" />
 						</Data>
 					</Operation>
 				</Children>

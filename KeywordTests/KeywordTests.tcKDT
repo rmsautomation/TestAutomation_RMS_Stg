@@ -17,7 +17,7 @@
 					<child name="TC_7_QMS_4224_Single_API_ONE" key="{F04F423A-373C-4DD9-BC66-515D6BB844EC}" path="TC_7_QMS_4224_Single_API_ONE.tcKDTest" />
 					<child name="TC_8_QMS_9992_Search_FT_OFF_ON" key="{977EDCA0-67B6-486E-8139-818B0A7D50C7}" path="TC_8_QMS_9992_Search_FT_OFF_ON.tcKDTest" />
 					<child name="TC_74_QMS_5651_Search_Transit_time" key="{99664BAB-01C2-4DC7-8FE8-0AE52ABAF639}" path="TC_74_QMS_5651_Search_Transit_time.tcKDTest" />
-					<child name="TC_QMS_9958_SearchCustomCarrier_VerifyDisableOverride" key="{6303765D-B802-49C2-B6A0-45E56D293BCE}" path="TC_QMS_9958_SearchCustomCarrier_VerifyDisableOverride.tcKDTest" />
+					<child name="TC_QMS_9958CustomCarrierDisableOverride" key="{6303765D-B802-49C2-B6A0-45E56D293BCE}" path="TC_QMS_9958CustomCarrierDisableOverride.tcKDTest" />
 					<child name="TC_11860_Search__Verify_surcharges_fromFT_Template" key="{752FCB50-6EEB-4DC0-A594-9EE0C08AF57E}" path="TC_11860_Search__Verify_surcharges_fromFT_Template.tcKDTest" />
 					<child name="TC_QMS_8006_CheckNonExpired_GRICompareProd" key="{277B2749-167E-45CC-A2C9-1A722DFFB3BB}" path="TC_QMS_8006_CheckNonExpired_GRICompareProd.tcKDTest" />
 				</folder>
@@ -31,11 +31,11 @@
 			</folder>
 			<folder name="Search_Multi">
 				<child name="TC_9_QMS_4610_MultiOption_Lane" key="{3BB8B479-11A4-4418-99E6-BE0351F1D5AB}" path="TC_9_QMS_4610_MultiOption_Lane.tcKDTest" />
-				<child name="TC_39_QMS_4606_Multi_Upload_Verify_Existing_templates" key="{49863928-9681-48A3-80AC-34A337D5D007}" path="TC_39_QMS_4606_Multi_Upload_Verify_Existing_templates.tcKDTest" />
+				<child name="TC_39_QMS_4606MultiUpload_ExistingTemplates" key="{49863928-9681-48A3-80AC-34A337D5D007}" path="TC_39_QMS_4606MultiUpload_ExistingTemplates.tcKDTest" />
 			</folder>
 			<folder name="History">
 				<child name="TC_10_QMS_4635_Refreshed_Master_Resend_Master" key="{A1988351-567A-4DAE-A76F-13CF4AB2E8AF}" path="TC_10_QMS_4635_Refreshed_Master_Resend_Master.tcKDTest" />
-				<child name="TC_11_QMS_5968_Refresh_Custom_Carrier_Duplicate_Quote" key="{41BC16A6-4E9F-4D84-8FD5-248B6018E73C}" path="TC_11_QMS_5968_Refresh_Custom_Carrier_Duplicate_Quote.tcKDTest" />
+				<child name="TC_11_QMS_5968_RefreshCustomCarrierDuplicate" key="{41BC16A6-4E9F-4D84-8FD5-248B6018E73C}" path="TC_11_QMS_5968_RefreshCustomCarrierDuplicate.tcKDTest" />
 				<child name="TC_12_QMS_5969_Refresh_and_Duplicate_LCL_Quote" key="{A105F01F-DB97-47FB-80CC-E0DAFA31D62F}" path="TC_12_QMS_5969_Refresh_and_Duplicate_LCL_Quote.tcKDTest" />
 				<child name="TC_13_QMS_5200_Quote_Permissions_Everyone" key="{A0B843F6-A479-4183-8A17-81FC43EA0549}" path="TC_13_QMS_5200_Quote_Permissions_Everyone.tcKDTest" />
 				<child name="TC_45_QMS_4640_History_Search_Quote_Details" key="{7021ECAF-2918-418C-A276-FA1946CC2AD5}" path="TC_45_QMS_4640_History_Search_Quote_Details.tcKDTest" />
@@ -72,8 +72,8 @@
 					</folder>
 				</folder>
 				<folder name="RatePrioritization">
-					<child name="TC_59_QMS_5218_Rate_Prioritization_UnreleasedContracts" key="{1F045BAF-705E-4B4C-910E-DA8A8FD22C40}" path="TC_59_QMS_5218_Rate_Prioritization_UnreleasedContracts.tcKDTest" />
-					<child name="TC_58_QMS_5219_Rate_PrioritizationAmendments_Progress" key="{BB72219E-C0A9-4F76-BF5F-714EF40B6BAC}" path="TC_58_QMS_5219_Rate_PrioritizationAmendments_Progress.tcKDTest" />
+					<child name="TC_59_QMS_5218_PrioritizationUnreleased" key="{1F045BAF-705E-4B4C-910E-DA8A8FD22C40}" path="TC_59_QMS_5218_PrioritizationUnreleased.tcKDTest" />
+					<child name="TC_58_QMS_5219_PrioritizationAmendments" key="{BB72219E-C0A9-4F76-BF5F-714EF40B6BAC}" path="TC_58_QMS_5219_PrioritizationAmendments.tcKDTest" />
 					<child name="TC_31_QMS_5198_Rate_Prioritization" key="{CE498149-536D-4267-B604-AB59C4F307DF}" path="TC_31_QMS_5198_Rate_Prioritization.tcKDTest" />
 				</folder>
 				<folder name="CustomSurchargeGroup">
@@ -94,7 +94,7 @@
 				<child name="TC_29_QMS_4967_City_Linking_Search_withLinking" key="{72878ABA-40F6-4697-86B6-AEB39D2ACDF1}" path="TC_29_QMS_4967_City_Linking_Search_withLinking.tcKDTest" />
 				<child name="TC_33_QMS_5585_Surcharge_List_ManagerCatapult" key="{621A01D8-C276-4704-8233-02407EA802C3}" path="TC_33_QMS_5585_Surcharge_List_ManagerCatapult.tcKDTest" />
 				<child name="TC_22_QMS_5095Settings_Contract_Management" key="{7B2B05CA-2FEF-41F2-9C40-FB46C7BCB778}" path="TC_22_QMS_5095Settings_Contract_Management.tcKDTest" />
-				<child name="TC_28_QMS_4932_Commodity_Mapping_Search_WithCommodity" key="{89EC30E9-72EB-4EC7-B299-6B0BE6D2D21B}" path="TC_28_QMS_4932_Commodity_Mapping_Search_WithCommodity.tcKDTest" />
+				<child name="TC_28_QMS_4932_CommodityMappingSearchWithCom" key="{89EC30E9-72EB-4EC7-B299-6B0BE6D2D21B}" path="TC_28_QMS_4932_CommodityMappingSearchWithCom.tcKDTest" />
 				<child name="TC_35_QMS_5587_Role_Management" key="{09AE79BE-A902-410E-949A-8F4DAF207C47}" path="TC_35_QMS_5587_Role_Management.tcKDTest" />
 				<child name="TC_34_QMS_4974_External_Mappings_New_group" key="{6DA1FF92-9D2A-4F9F-982C-C24C69B58AA3}" path="TC_34_QMS_4974_External_Mappings_New_group.tcKDTest" />
 				<child name="TC_25_QMS_5135_Price_Settings" key="{005CB1D6-2D09-4F41-8F45-2F9E58FD530E}" path="TC_25_QMS_5135_Price_Settings.tcKDTest" />

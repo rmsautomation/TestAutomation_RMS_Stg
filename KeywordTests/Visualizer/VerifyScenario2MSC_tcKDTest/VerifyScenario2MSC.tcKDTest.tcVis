@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{BDCA9B9B-7EEF-4995-8A1B-3DD87E47B552}" />
+	<data key="{BDCA9B9B-7EEF-4995-8A1B-3DD87E47B552}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="54" kind="0" dateTime="45638.6887731481" objectName="NameMapping.Sys.chrome.pageQms2.panel3" objectLeft="1827" objectTop="962" objectRight="1844" objectBottom="982" clickPointX="1838" clickPointY="966" imageFileName="tcvi497893125114800.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="55" kind="0" dateTime="45638.6888425926" objectName="NameMapping.Sys.chrome.pageQms2.panel3" objectLeft="1827" objectTop="962" objectRight="1844" objectBottom="982" clickPointX="1838" clickPointY="966" imageFileName="tcvi497898734114801.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="56" kind="0" dateTime="45638.6888773148" objectName="Aliases.panelCurrentValue" objectLeft="469" objectTop="181" objectRight="686" objectBottom="336" clickPointX="555" clickPointY="262" imageFileName="tcvi497901968114802.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

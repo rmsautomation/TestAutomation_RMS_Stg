@@ -39,7 +39,7 @@ function countGRIElementsStagingMSC() {
 
 function countGRIElementsProdMSC() {
 
-  var griElements = Aliases.chrome.pageQms2.FindElements("//div[contains(text(), 'GRI')]");
+  var griElements = NameMapping.Sys.chrome.pageQms2.FindElements("//div[contains(text(), 'GRI')]");
 
   var griCountProdMSC = griElements.length;
 

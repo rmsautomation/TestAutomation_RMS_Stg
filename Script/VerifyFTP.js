@@ -1,6 +1,6 @@
 ﻿function verifyAndClickFileStartingWithQuoteId() { 
   let quoteId = Project.Variables.quote_ID.replace("Quote ID: ", "");  
-  let listView = Aliases.filezilla.wndwxWindowNR.splitterWindow.splitterWindow.splitter.splitterWindow.splitterWindow.panel2.ListView;  
+  let listView = NameMapping.Sys.filezilla.wndwxWindowNR.splitterWindow.splitterWindow.splitter.splitterWindow.splitterWindow.panel2.ListView;  
 
   if (!listView.Exists) {
     Log.Error("Folders in FileZilla not found.");

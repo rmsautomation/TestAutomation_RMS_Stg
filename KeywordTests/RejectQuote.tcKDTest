@@ -132,43 +132,85 @@
 							</Parameters>
 						</Data>
 					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook2.panel1Messages;" />
-						</Data>
-					</Operation>
-					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-						<Data Description="Drags the &apos;%n&apos; object." Action="Drag" InvokeKind="-1" Initialized="True">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="1289" />
-								<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="34" />
-								<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-38" />
-								<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="317" />
-							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook2.panel1Messages;" />
-						</Data>
-					</Operation>
-					<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
-						<Data Action="Click" TBlockIntType="0">
-							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Reject All" />
-								<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-11">
-									<Values>
-										<Value Type="1" Value="-10" Text="spNone" />
-										<Value Type="1" Value="-11" Text="spNearestToCenter" />
-										<Value Type="1" Value="-12" Text="spLeftMost" />
-										<Value Type="1" Value="-13" Text="spRightMost" />
-										<Value Type="1" Value="-14" Text="spTopMost" />
-										<Value Type="1" Value="-15" Text="spBottomMost" />
-										<Value Type="1" Value="-16" Text="spLargest" />
-										<Value Type="1" Value="-17" Text="spSmallest" />
-									</Values>
-								</Parameter>
-							</Parameters>
-							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook5.imageImg;" />
-						</Data>
-					</Operation>
 				</Children>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<CommonData Disabled="True" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook2.panel1Messages;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags the &apos;%n&apos; object." Action="Drag" InvokeKind="-1" Initialized="True">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="1289" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="34" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="-38" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="317" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook2.panel1Messages;" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Reject All" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-11">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook5.imageImg;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags the &apos;%n&apos; object." Action="Drag">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" VarType="3" ValueType="1" ValueValue="1286" />
+						<Parameter Name="ClientY" DefVarType="3" VarType="3" ValueType="1" ValueValue="40" />
+						<Parameter Name="toX" DefVarType="3" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="toY" DefVarType="3" VarType="3" ValueType="1" ValueValue="335" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook2.panel1Messages;" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Reject All" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-11">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="NameMapping.Sys.chrome.pageMailDlDfpRmsOutlook5.imageImg;" />
+				</Data>
 			</Operation>
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 				<Data Description="Delays the test execution for the specified time period.">

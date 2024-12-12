@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{8B7561DF-43A5-40E9-A34A-C675161F025A}" />
+	<data key="{8B7561DF-43A5-40E9-A34A-C675161F025A}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45637.943287037" objectName="NameMapping.Sys.chrome.pageQms.panelGroupedByType" objectLeft="1587" objectTop="601" objectRight="1677" objectBottom="615" clickPointX="1617" clickPointY="606" imageFileName="tcvi433484359127320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45637.9449305556" objectName="NameMapping.Sys.chrome.pageQms.radiobuttonCustomSurchargeGroups" objectLeft="1614" objectTop="737" objectRight="1650" objectBottom="773" clickPointX="1632" clickPointY="752" imageFileName="tcvi433627187127320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45637.9455439815" objectName="Aliases.browser.pageQms.padlock" objectLeft="1799" objectTop="894" objectRight="1830" objectBottom="921" clickPointX="1811" clickPointY="905" imageFileName="tcvi433679375127320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="45637.9435069444" objectName="NameMapping.Sys.chrome.pageQms.panelTotalBuyPrice" objectLeft="1587" objectTop="456" objectRight="1875" objectBottom="977" clickPointX="1860" clickPointY="518" imageFileName="tcvi433503906127325.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="45637.9435648148" objectName="Aliases.textnodeAutomationuserCharges" objectLeft="1587" objectTop="824" objectRight="1720" objectBottom="838" clickPointX="1638" clickPointY="833" imageFileName="tcvi433509031127326.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

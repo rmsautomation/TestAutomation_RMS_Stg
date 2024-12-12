@@ -20663,6 +20663,28 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelMscDemoFcl" Key="{60C7C3DD-DE56-4836-BE30-D97BB16CA68D}">
+										<Image FileName="1235719152" Left="99" Top="549" Right="208" Bottom="569" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;MSC_DEMO_FCL&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;MSC_DEMO_FCL&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+												<Value Value="//mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//shared-grid-cell/div" />
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//shared-grid-cell/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid-cell/div" />
+												<Value Value="//shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaQadfpQwykportalsCom" Key="{B9DCE6CA-38F5-4745-B361-897B34589486}">
@@ -27423,6 +27445,7 @@
 			<Child Name="textboxNumber3" Owner="{51C6C4B0-2D5F-48F0-BD35-398B54F43853}" />
 			<Child Name="textnodeHmmDanhmmflctest01" Owner="{D9438B28-C1C4-4AD4-A426-02A68FA2D273}" />
 			<Child Name="textnodeFullServeUpload" Owner="{35AB3B95-B55D-482A-ACC6-F0BFB40D19D6}" />
+			<Child Name="panelMscDemoFcl" Owner="{60C7C3DD-DE56-4836-BE30-D97BB16CA68D}" />
 		</Child>
 		<Child Name="textnodeQmsAlertNewFullUploadFul2" Owner="{02C06E45-BEB0-471B-95D5-402E4BC1B7D1}" />
 		<Child Name="textnode" Owner="{C9AC77B5-217E-4D06-B995-B6BEF8B5B9E5}" />

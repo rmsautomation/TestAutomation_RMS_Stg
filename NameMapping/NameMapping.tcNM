@@ -2093,10 +2093,6 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-input-39" />
-												<Value Value="#mat-input-39" />
-											</Selector>
-											<Selector>
 												<Value Value="//tariff-rate-details//mat-form-field[4]//textarea[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
 												<Value Value="//tariff-rate-details//mat-form-field[4]//textarea[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
 											</Selector>
@@ -17631,6 +17627,38 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="link2" Key="{A0D4984A-3FB6-4E51-B33B-4A7931A788AF}">
+										<Image FileName="-429350389" Left="24" Top="270" Right="47" Bottom="293" />
+										<TypeInfo Item0="{631957E0-E6E9-4AB9-AD38-6DC8505DBF42}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;cat-slideout-menu&apos;]//div[3]/a" />
+												<Value Value="//div[@id=&apos;cat-slideout-menu&apos;]//div[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/a" />
+												<Value Value="//div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNoMatchFound" Key="{F1A5E439-DA81-4A0B-BC70-286815710440}">
+										<Image FileName="476480845" Left="85" Top="293" Right="163" Bottom="306" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;No match found&apos;]" />
+												<Value Value="//span[.=&apos;No match found&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+												<Value Value="//div/div/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ft-contacts//mat-card/address-book//span" />
+												<Value Value="//ft-contacts//mat-card/address-book//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}">
@@ -23596,7 +23624,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonAdd3" Key="{3338CE31-85C5-4EC9-B0A4-8A5DFCF82B0C}">
+									<Child Name="buttonAddCompany" Key="{3338CE31-85C5-4EC9-B0A4-8A5DFCF82B0C}">
 										<Image FileName="-1562236383" Left="289" Top="230" Right="323" Bottom="266" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
@@ -27208,6 +27236,8 @@
 				<Child Name="textnodeSubjectTo" Owner="{82A99E8C-E79E-4D98-AA50-AAC17E7A7649}" />
 				<Child Name="textnodeAutomationtest2" Owner="{CBC2D8DA-3A85-4ACA-BA0A-63DB41973B4E}" />
 				<Child Name="panelAutomationorg" Owner="{4A487069-3DDD-40EB-9C38-B387C0B96237}" />
+				<Child Name="link2" Owner="{A0D4984A-3FB6-4E51-B33B-4A7931A788AF}" />
+				<Child Name="textnodeNoMatchFound" Owner="{F1A5E439-DA81-4A0B-BC70-286815710440}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -27441,5 +27471,7 @@
 		<Child Name="checkboxSelectAll" Owner="{61997A1C-C3CD-4F88-B818-FE0D0D40099C}" />
 		<Child Name="buttonCheckOk" Owner="{BC924561-C2FC-4288-ABBB-5255B1B19161}" />
 		<Child Name="textboxFilter" Owner="{9A5C0C9B-A094-4E02-A403-F95BB044EB41}" />
+		<Child Name="buttonAddCompany" Owner="{3338CE31-85C5-4EC9-B0A4-8A5DFCF82B0C}" />
+		<Child Name="textboxMatInput3" Owner="{91DC0A5D-3213-40F4-B432-276063B0FA95}" />
 	</LogicalNodes>
 </Root>

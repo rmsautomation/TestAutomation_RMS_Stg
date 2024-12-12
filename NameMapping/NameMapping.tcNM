@@ -17609,6 +17609,28 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelAutomationorg" Key="{4A487069-3DDD-40EB-9C38-B387C0B96237}">
+										<Image FileName="-319658465" Left="229" Top="612" Right="1298" Bottom="627" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;AutomationOrg&apos;]" />
+												<Value Value="//div[.=&apos;AutomationOrg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-star-inserted&apos;)]//div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/rate-quote-form-preview-grid[2]/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;ng-star-inserted&apos;)]//div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/rate-quote-form-preview-grid[2]/div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;preview&apos;]//rate-quote-form-preview-grid[2]/div" />
+												<Value Value="//div[@id=&apos;preview&apos;]//rate-quote-form-preview-grid[2]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-quote-form-preview-grid[2]/div" />
+												<Value Value="//rate-quote-form-preview-grid[2]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}">
@@ -27109,6 +27131,7 @@
 				<Child Name="textnodeFreight2" Owner="{29EA8B97-FFF9-40B2-99BC-A3423404A014}" />
 				<Child Name="textnodeSubjectTo" Owner="{82A99E8C-E79E-4D98-AA50-AAC17E7A7649}" />
 				<Child Name="textnodeAutomationtest2" Owner="{CBC2D8DA-3A85-4ACA-BA0A-63DB41973B4E}" />
+				<Child Name="panelAutomationorg" Owner="{4A487069-3DDD-40EB-9C38-B387C0B96237}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">

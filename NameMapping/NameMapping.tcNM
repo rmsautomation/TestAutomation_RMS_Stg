@@ -22729,7 +22729,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonEdit" Key="{A763F3D3-B76A-4422-A12A-842CA64FBAA1}">
+									<Child Name="buttonEditQF" Key="{A763F3D3-B76A-4422-A12A-842CA64FBAA1}">
 										<Image FileName="2105300291" Left="520" Top="361" Right="548" Bottom="388" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
@@ -22913,7 +22913,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonSave" Key="{C18722BE-E067-44A5-A000-BBEED74A848D}">
+									<Child Name="buttonSaveQFB" Key="{C18722BE-E067-44A5-A000-BBEED74A848D}">
 										<Image FileName="1909511310" Left="1262" Top="190" Right="1298" Bottom="222" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
@@ -23003,7 +23003,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonCharges" Key="{B04770C3-E711-458E-B231-D10C23DB97FF}">
+									<Child Name="buttonChargesQFB" Key="{B04770C3-E711-458E-B231-D10C23DB97FF}">
 										<Image FileName="1550221232" Left="701" Top="542" Right="733" Bottom="555" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
@@ -23021,7 +23021,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonSave2" Key="{AAB797B0-EBEF-41B3-9D22-D504C34E530F}">
+									<Child Name="buttonSave2QFB" Key="{AAB797B0-EBEF-41B3-9D22-D504C34E530F}">
 										<Image FileName="2120459412" Left="1824" Top="248" Right="1860" Bottom="280" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
@@ -24139,6 +24139,64 @@
 											<Selector>
 												<Value Value="//div[2]/shared-icon-button/button" />
 												<Value Value="//div[2]/shared-icon-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{11D22940-9441-4875-B449-0517E959EB37}">
+										<Image FileName="1622021690" Left="1074" Top="299" Right="1096" Bottom="321" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-81&apos;)]" />
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-81&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;mat-select-32&apos;]//*[name()=&apos;svg&apos;]" />
+												<Value Value="//mat-select[@id=&apos;mat-select-32&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-body//mat-select//*[name()=&apos;svg&apos;]" />
+												<Value Value="//mat-tab-body//mat-select//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{6C38D0CE-F66D-4C9E-838D-C17DCB007B2B}">
+										<Image FileName="1622021690" Left="1080" Top="308" Right="1089" Bottom="312" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;mat-mdc-select-arrow-wrapper&apos;)])[2]" />
+												<Value Value="//*[name()=&apos;path&apos;][contains(@class, &apos;ng-tns-c3393473648-81&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{F095E23F-F49D-479A-A48D-29012A8A703A}">
+										<Image FileName="927674897" Left="0" Top="121" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;cdk-overlay-backdrop&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;cdk-overlay-backdrop&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOrigin2" Key="{EE451CF2-3E20-44F1-A4C3-9D2172E15CAE}">
+										<Image FileName="1622021690" Left="718" Top="375" Right="759" Bottom="393" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(text(), &apos;Origin&apos;)]" />
+												<Value Value="//li[contains(text(), &apos;Origin&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDestination" Key="{F87A3057-057B-42D6-9372-4CC2B97B956A}">
+										<Image FileName="1622021690" Left="759" Top="375" Right="835" Bottom="393" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(text(), &apos;Destination&apos;)]" />
+												<Value Value="//li[contains(text(), &apos;Destination&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -26189,6 +26247,7 @@
 				<Child Name="addContactAylinRodriguez" Owner="{697681C7-80E7-42E1-9370-0406CA9B0F50}">
 					<Child Name="textnodeModifyExisting" Owner="{72FC4232-49AA-44FD-B924-0DE3D995DB5C}" />
 					<Child Name="dropdownQF" Owner="{519DDF05-B514-4E22-85B7-379622617D5F}" />
+					<Child Name="buttonEditQF" Owner="{A763F3D3-B76A-4422-A12A-842CA64FBAA1}" />
 				</Child>
 				<Child Name="textnodeArrowForward2" Owner="{5C0BF645-0D58-49A3-AF2E-ACC8D4D45654}" />
 				<Child Name="panelEmail" Owner="{8C3FA213-EF61-4F84-92DE-E4853B48B09E}" />
@@ -27346,5 +27405,22 @@
 			<Child Name="buttonDeleteForm" Owner="{33155154-2191-4630-AF30-89845708275D}" />
 		</Child>
 		<Child Name="buttonYes" Owner="{D1FF8E32-70F3-4F52-9575-79B960DE638E}" />
+		<Child Name="panelRateArea" Owner="{F93CB02D-1649-44BD-92EB-89DE40693873}" />
+		<Child Name="textnodeCombinedIntoASingleGrid" Owner="{EDC6F100-A4C1-4398-AF66-FA118999FF4F}" />
+		<Child Name="textnodeCombinedIntoASingleGrid2" Owner="{AA9E6902-BEE6-45BD-9570-56F8ADAF0AEE}" />
+		<Child Name="buttonCombinedSurcharges" Owner="{12DE73DD-2950-4788-AE2B-5D8A79BDFF3C}" />
+		<Child Name="vg" Owner="{11D22940-9441-4875-B449-0517E959EB37}" />
+		<Child Name="textnode3" Owner="{6C38D0CE-F66D-4C9E-838D-C17DCB007B2B}" />
+		<Child Name="panel5" Owner="{F095E23F-F49D-479A-A48D-29012A8A703A}" />
+		<Child Name="textnodeOrigin2" Owner="{EE451CF2-3E20-44F1-A4C3-9D2172E15CAE}" />
+		<Child Name="textnodeDestination" Owner="{F87A3057-057B-42D6-9372-4CC2B97B956A}" />
+		<Child Name="selectContractsNotes" Owner="{D782382F-E0D7-4326-8D5B-C2E5108FF04D}" />
+		<Child Name="checkboxContractNotes" Owner="{6B7289D6-AC51-46C1-926B-EE061AC88E03}" />
+		<Child Name="checkboxCommodityBriefDescriptio" Owner="{0FBBB72C-3022-4D6D-A92D-EDD5197319F2}" />
+		<Child Name="commodityQFB" Owner="{386C7ECD-1805-4B4E-AA0A-6E9438D9333C}" />
+		<Child Name="buttonSaveQFB" Owner="{C18722BE-E067-44A5-A000-BBEED74A848D}" />
+		<Child Name="buttonGridHeader" Owner="{849B72DB-DDB2-4C10-8B79-BA9EDAB8F889}" />
+		<Child Name="buttonChargesQFB" Owner="{B04770C3-E711-458E-B231-D10C23DB97FF}" />
+		<Child Name="buttonSave2QFB" Owner="{AAB797B0-EBEF-41B3-9D22-D504C34E530F}" />
 	</LogicalNodes>
 </Root>

@@ -40,6 +40,10 @@
 			<child name="ClickDeleteBooking" key="{AC7094CA-AAC8-47EB-A315-B3F9849C14E2}" path="ClickDeleteBooking.js" />
 			<child name="verifyOriginLocation" key="{7C8EE165-37B0-4DDF-B6D5-872E44E52393}" path="verifyOriginLocation.js" />
 		</folder>
+		<folder name="CacheCookies">
+			<child name="CleanCookies" key="{814055CF-7F1B-4255-B121-B983DA270E6A}" path="CleanCookies.js" />
+			<child name="CleanCookiesNew" key="{93437C1F-6BF8-4609-910D-28469A07BC91}" path="CleanCookiesNew.js" />
+		</folder>
 		<child name="CleanInput" key="{1DFBBBC8-C67E-4B4C-8394-E7410F05BE3C}" path="CleanInput.js" />
 		<child name="AddText" key="{7B2165DD-3406-42F2-A66E-7AA14A654BF2}" path="AddText.js" />
 		<child name="XenetaText" key="{AB1BE4C1-BA6E-4DE5-A2F8-D482889C7D0F}" path="XenetaText.js" />
@@ -51,6 +55,5 @@
 		<child name="CheckColumnsHeader_PDF" key="{C0023010-7759-40F9-AE7B-F59AC2E61DDA}" path="CheckColumnsHeader_PDF.js" />
 		<child name="BookingPDF" key="{8656F3C1-AF12-473C-BC24-9E0CEFFCD4DA}" path="BookingPDF.js" />
 		<child name="VerifyFTP" key="{14EBB53B-11A9-468E-9D90-784D42594AD8}" path="VerifyFTP.js" />
-		<child name="CleanCookies" key="{814055CF-7F1B-4255-B121-B983DA270E6A}" path="CleanCookies.js" />
 	</children>
 </Root>

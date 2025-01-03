@@ -6415,12 +6415,12 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[contains(text(), &apos;Variance of Bunker&apos;)]" />
-												<Value Value="//span[contains(text(), &apos;Variance of Bunker&apos;)]" />
+												<Value Value="//span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+												<Value Value="//span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-												<Value Value="//span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+												<Value Value="//span[contains(text(), &apos;Variance of Bunker&apos;)]" />
+												<Value Value="//span[contains(text(), &apos;Variance of Bunker&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[@id=&apos;mat-autocomplete-28&apos;]//span" />
@@ -23266,20 +23266,20 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
+												<Value Value="//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
-												<Value Value="Add selector" />
+												<Value Value="xpath=//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="xpath=(//div[@class=&apos;link-style ng-star-inserted&apos;])[5]" />
-												<Value Value="Add selector" />
+												<Value Value="xpath=(//div[@class=&apos;link-style ng-star-inserted&apos;])[5]" />
 											</Selector>
 											<Selector>
 												<Value Value="xpath=(//div[@class=&apos;link-style ng-star-inserted&apos;]/a[@routerlink=&apos;/reports&apos;])[1]" />
-												<Value Value="Add selector" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
-												<Value Value="//div[5]/a/div[contains(@class, &apos;link-icon&apos;)]" />
+												<Value Value="xpath=(//div[@class=&apos;link-style ng-star-inserted&apos;]/a[@routerlink=&apos;/reports&apos;])[1]" />
 											</Selector>
 										</Selectors>
 									</Child>

@@ -5338,18 +5338,6 @@
 												<Value Value="//div[contains(text(), &apos;ECUW_API&apos;)]" />
 												<Value Value="//div[contains(text(), &apos;ECUW_API&apos;)]" />
 											</Selector>
-											<Selector>
-												<Value Value="//mat-row[4]/mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
-												<Value Value="//mat-row[4]/mat-cell/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-row[4]/mat-cell/shared-grid-cell/div" />
-												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-row[4]/mat-cell/shared-grid-cell/div" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-row[4]/mat-cell/shared-grid-cell/div" />
-												<Value Value="//mat-row[4]/mat-cell/shared-grid-cell/div" />
-											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="baseRate" Key="{08CD3A90-767F-447C-8925-CED2178648CD}">
@@ -5433,12 +5421,12 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-input-54" />
-												<Value Value="#mat-input-54" />
+												<Value Value="//div[5]/mat-form-field//input[@type=&apos;number&apos;]" />
+												<Value Value="//div[5]/mat-form-field//input[@type=&apos;number&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[5]/mat-form-field//input[@type=&apos;number&apos;]" />
-												<Value Value="//div[5]/mat-form-field//input[@type=&apos;number&apos;]" />
+												<Value Value="#mat-input-54" />
+												<Value Value="#mat-input-54" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[5]/mat-form-field//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
@@ -25672,6 +25660,50 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeDlDfpRms" Key="{386993EF-762B-4C93-8A33-1A4F96C938FE}">
+										<Image FileName="829410150" Left="714" Top="397" Right="795" Bottom="416" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//span[contains(@class, &apos;pU1YL&apos;)]" />
+												<Value Value="//div[@role=&apos;main&apos;]//div//span[contains(@class, &apos;pU1YL&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;focused&apos;]//span/span/span/span" />
+												<Value Value="//div[@id=&apos;focused&apos;]//span/span/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/span/span/span/span" />
+												<Value Value="//div[@role=&apos;main&apos;]//div/span/span/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{4C51A022-64BF-4F86-99A1-01BFF61BAB57}">
+										<Image FileName="289442307" Left="1349" Top="200" Right="1377" Bottom="228" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;Close&apos;]" />
+												<Value Value="//button[@aria-label=&apos;Close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Close&apos;]" />
+												<Value Value="//button[@title=&apos;Close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//lpc-card[@role=&apos;dialog&apos;]/div/div/div[3]/button[contains(@class, &apos;ms-Button&apos;)]" />
+												<Value Value="//lpc-card[@role=&apos;dialog&apos;]/div/div/div[3]/button[contains(@class, &apos;ms-Button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;LivePersonaCardRootElement&apos;]//div[3]/button" />
+												<Value Value="//div[@id=&apos;LivePersonaCardRootElement&apos;]//div[3]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//lpc-card[@role=&apos;dialog&apos;]/div/div/div[3]/button" />
+												<Value Value="//lpc-card[@role=&apos;dialog&apos;]/div/div/div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="wndChrome_WidgetWin_0" Key="{97858EFD-6541-4A86-BD64-C98AB7AC0C27}">
@@ -27807,5 +27839,7 @@
 				</Child>
 			</Child>
 		</Child>
+		<Child Name="textnodeDlDfpRms" Owner="{386993EF-762B-4C93-8A33-1A4F96C938FE}" />
+		<Child Name="buttonClose" Owner="{4C51A022-64BF-4F86-99A1-01BFF61BAB57}" />
 	</LogicalNodes>
 </Root>

@@ -25981,6 +25981,61 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageGmailPrivateAndSecureEmailAt" Key="{47505D66-13D9-477B-8307-DEF3C4DD6C6E}">
+								<Image FileName="709973663" Left="0" Top="87" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://workspace.google.com/intl/en-US/gmail/*" />
+										<Value Value="https://workspace.google.com/intl/en-US/gmail/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerGmail" Key="{FBA38445-53E3-49A5-8AE3-26DA41469A90}">
+										<Image FileName="709973663" Left="0" Top="87" Right="1903" Bottom="151" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Gmail&apos;)]" />
+												<Value Value="//header[contains(., &apos;Gmail&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;header&apos;)]" />
+												<Value Value="//header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIntoGmail" Key="{1F2AD91F-85C8-4477-A90C-7D4E83AA46D6}">
+										<Image FileName="709973663" Left="1587" Top="96" Right="1685" Bottom="140" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/a[contains(@class, &apos;button--medium&apos;)]" />
+												<Value Value="//div[5]/a[contains(@class, &apos;button--medium&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn" Key="{8413789A-C5E8-4E21-95F4-4537385058C1}">
+										<Image FileName="709973663" Left="1615" Top="109" Right="1657" Bottom="127" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[2]/span[contains(@class, &apos;button__label&apos;)]" />
+												<Value Value="//a[2]/span[contains(@class, &apos;button__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/a[2]/span" />
+												<Value Value="//div[5]/a[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="filezilla" Key="{BD74AECE-8164-4E52-87D2-048957A5C583}">
@@ -27841,5 +27896,12 @@
 		</Child>
 		<Child Name="textnodeDlDfpRms" Owner="{386993EF-762B-4C93-8A33-1A4F96C938FE}" />
 		<Child Name="buttonClose" Owner="{4C51A022-64BF-4F86-99A1-01BFF61BAB57}" />
+		<Child Name="pageGmailPrivateAndSecureEmailAt" Owner="{47505D66-13D9-477B-8307-DEF3C4DD6C6E}">
+			<Child Name="headerGmail" Owner="{FBA38445-53E3-49A5-8AE3-26DA41469A90}">
+				<Child Name="linkSignIntoGmail" Owner="{1F2AD91F-85C8-4477-A90C-7D4E83AA46D6}">
+					<Child Name="textnodeSignIn" Owner="{8413789A-C5E8-4E21-95F4-4537385058C1}" />
+				</Child>
+			</Child>
+		</Child>
 	</LogicalNodes>
 </Root>

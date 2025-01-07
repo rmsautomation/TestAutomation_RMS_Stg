@@ -25158,6 +25158,45 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formF1" Key="{8002DE5B-E752-48A1-8395-12CA46CC109C}">
+										<Image FileName="193195756" Left="0" Top="121" Right="1920" Bottom="122" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign in&apos;)]" />
+												<Value Value="//form[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputSomeoneExampleCom" Key="{28D482CC-B42A-4B8D-AC2B-ABF0FBE7A714}">
+										<Image FileName="193195756" Left="786" Top="504" Right="1134" Bottom="540" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;loginfmt&apos;]" />
+												<Value Value="//input[@name=&apos;loginfmt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook2" Key="{EB41F818-038D-4191-A003-D2C726712291}">
@@ -27496,5 +27535,8 @@
 		<Child Name="textboxFilter" Owner="{9A5C0C9B-A094-4E02-A403-F95BB044EB41}" />
 		<Child Name="buttonAddCompany" Owner="{3338CE31-85C5-4EC9-B0A4-8A5DFCF82B0C}" />
 		<Child Name="textboxMatInput3" Owner="{91DC0A5D-3213-40F4-B432-276063B0FA95}" />
+		<Child Name="formF1" Owner="{8002DE5B-E752-48A1-8395-12CA46CC109C}">
+			<Child Name="emailinputSomeoneExampleCom" Owner="{28D482CC-B42A-4B8D-AC2B-ABF0FBE7A714}" />
+		</Child>
 	</LogicalNodes>
 </Root>

@@ -25206,16 +25206,16 @@
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="#idSubmit_ProofUp_Redirect" />
 												<Value Value="#idSubmit_ProofUp_Redirect" />
 											</Selector>
 											<Selector>
 												<Value Value="//input[@value=&apos;Next&apos;]" />
 												<Value Value="//input[@value=&apos;Next&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//input[@type=&apos;submit&apos;]" />
-												<Value Value="//input[@type=&apos;submit&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" />

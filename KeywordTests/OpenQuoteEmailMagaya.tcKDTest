@@ -229,7 +229,7 @@
 									</Values>
 								</Parameter>
 							</Parameters>
-							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageMySignInsRegisterMicrosoftCo.linkSkipSetup;" />
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.buttonSkipSetup;" />
 						</Data>
 					</Operation>
 				</Children>

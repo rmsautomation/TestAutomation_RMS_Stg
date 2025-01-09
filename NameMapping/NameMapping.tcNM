@@ -21331,17 +21331,15 @@
 												<Value Value="//a[.=&apos;Skip setup&apos;]" />
 												<Value Value="//a[.=&apos;Skip setup&apos;]" />
 											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSkipSetup" Key="{50966A4F-F5AA-456D-A3AB-6CE6E65A50D9}">
+										<Image FileName="-1905357450" Left="1216" Top="608" Right="1312" Bottom="628" />
+										<TypeInfo Item0="{D7D5E02F-2B17-41C9-8249-64D39AAC8613}" />
+										<Selectors>
 											<Selector>
-												<Value Value="//div[2]/a[@role=&apos;link&apos;]" />
-												<Value Value="//div[2]/a[@role=&apos;link&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//a[contains(@class, &apos;L0g5CbGcDigQv3yxT1b_&apos;)]" />
-												<Value Value="//a[contains(@class, &apos;L0g5CbGcDigQv3yxT1b_&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[2]/a" />
-												<Value Value="//div[2]/a" />
+												<Value Value="//button[.=&apos;Skip setup&apos;]" />
+												<Value Value="//button[.=&apos;Skip setup&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -27820,6 +27818,7 @@
 			<Child Name="textnodeHmmDanhmmflctest01" Owner="{D9438B28-C1C4-4AD4-A426-02A68FA2D273}" />
 			<Child Name="textnodeFullServeUpload" Owner="{35AB3B95-B55D-482A-ACC6-F0BFB40D19D6}" />
 			<Child Name="panelMscDemoFcl" Owner="{60C7C3DD-DE56-4836-BE30-D97BB16CA68D}" />
+			<Child Name="buttonSkipSetup" Owner="{50966A4F-F5AA-456D-A3AB-6CE6E65A50D9}" />
 		</Child>
 		<Child Name="textnodeQmsAlertNewFullUploadFul2" Owner="{02C06E45-BEB0-471B-95D5-402E4BC1B7D1}" />
 		<Child Name="textnode" Owner="{C9AC77B5-217E-4D06-B995-B6BEF8B5B9E5}" />

@@ -45,9 +45,11 @@
 					<child name="TC_16_QMS_7727_ContractEFT_SUPER_USER_Origin_FCL" key="{C8570CA5-7AEA-467E-B37D-3B78F920368E}" path="TC_16_QMS_7727_ContractEFT_SUPER_USER_Origin_FCL.tcKDTest" />
 					<child name="TC_19_QMS_11323_EFT_FCL_NoLlinking_Standard_user" key="{155C5CA6-F4A4-4CC7-9A92-0A538A2B94DB}" path="TC_19_QMS_11323_EFT_FCL_NoLlinking_Standard_user.tcKDTest" />
 					<child name="TC_26_QMS_5581_ETF_Add__LCL_Min_Max" key="{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" path="TC_26_QMS_5581_ETF_Add__LCL_Min_Max.tcKDTest" />
-					<child name="TC_17_7728_EFT_AdminDestinationLCL" key="{9D7B85C4-0147-4935-94A6-5C3E0862C9F3}" path="TC_17_7728_EFT_AdminDestinationLCL.tcKDTest" />
-					<child name="TC_18_7729__EFT_Freight_AIR" key="{B49F8179-9CD7-4917-9C9A-04DEC8287388}" path="TC_18_7729__EFT_Freight_AIR.tcKDTest" />
+					<child name="TC_17_7728_EFT_AdminDestinationLCLOLD" key="{9D7B85C4-0147-4935-94A6-5C3E0862C9F3}" path="TC_17_7728_EFT_AdminDestinationLCLOLD.tcKDTest" />
+					<child name="TC_18_7729__EFT_Freight_AIROLD" key="{B49F8179-9CD7-4917-9C9A-04DEC8287388}" path="TC_18_7729__EFT_Freight_AIROLD.tcKDTest" />
 					<child name="TC_78_QMS_14205_EFT_GROUND_Origin_IMS_ITG" key="{53DBFAF6-2525-4F5B-8E9D-B598BAC3487F}" path="TC_78_QMS_14205_EFT_GROUND_Origin_IMS_ITG.tcKDTest" />
+					<child name="TC_17_7728_EFT_AdminDestinationLCL" key="{DEC1EF91-66D1-44C7-8752-9D7BC8977241}" path="TC_17_7728_EFT_AdminDestinationLCL.tcKDTest" />
+					<child name="TC_18_7729__EFT_Freight_AIR" key="{4AADDE38-BBE0-45F4-A3F7-DB695FE96EC3}" path="TC_18_7729__EFT_Freight_AIR.tcKDTest" />
 				</folder>
 				<folder name="Contracts">
 					<child name="TC_25_QMS_5579_Contract_Self_Serve_Upload" key="{4B7F805D-1B10-4499-8A67-9EEF560DB1D8}" path="TC_25_QMS_5579_Contract_Self_Serve_Upload.tcKDTest" />

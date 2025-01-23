@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{2FD1BDAC-993D-41B8-9962-3CB110DBA130}" Tags="@onlyStaging @eft" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{30DB1384-88C0-40D4-91A9-7A4329B16746}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -20,7 +20,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="SurchargeFilter">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="surcharge_version" DefVarType="8" DefValueType="6" DefValueValue="AutomationFCLOrigin" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="surcharge_version" />
+						<Parameter Name="surcharge_version" DefVarType="8" DefValueType="6" DefValueValue="AutomationFCLOrigin" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="surcharge_version" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -30,9 +30,9 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="AddEFTAIR_Freigth">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="surcharge_version" DefVarType="8" DefValueType="6" DefValueValue="Automation_AIR_Freigth" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="surcharge_version" />
+						<Parameter Name="surcharge_version" DefVarType="8" DefValueType="6" DefValueValue="Automation_AIR_Freigth" VarType="8" ValueType="6" ValueValue="Automation_AIR_Freigth" />
 						<Parameter Name="price" DefVarType="8" DefValueType="6" DefValueValue="1780" VarType="8" ValueType="6" ValueValue="1780" />
-						<Parameter Name="surcharge_name" DefVarType="8" DefValueType="6" DefValueValue="a" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="surcharge_name" />
+						<Parameter Name="surcharge_name" DefVarType="8" DefValueType="6" DefValueValue="a" VarType="8" ValueType="6" ValueValue="a" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -183,7 +183,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="SurchargeFilter">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="surcharge_version" DefVarType="8" DefValueType="6" DefValueValue="AutomationFCLOrigin" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="surcharge_version" />
+						<Parameter Name="surcharge_version" DefVarType="8" DefValueType="6" DefValueValue="AutomationFCLOrigin" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="surcharge_version" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -195,15 +195,8 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="4" Key="{58325301-773D-4C9C-B6BD-FBCEBDC1007C}">
-		<Items>
-			<Variable Name="surcharge_version" Type="String" Local="False">
-				<DefValue StrValue="Automation_AIR_Freigth" />
-			</Variable>
-			<Variable Name="surcharge_name" Type="String" Local="False">
-				<DefValue StrValue="a" />
-			</Variable>
-		</Items>
-	</Variables>
-	<Parameters Key="{D05E1920-1C8B-45AC-B134-5D6029E70F53}" />
+	<Parameters Key="{3289CFC6-6BEE-4FF9-9D24-8A72EF2D4D77}">
+		<Parameter0 Name="surcharge_version" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Automation_AIR_Freigth" Description="" />
+		<Parameter1 Name="surcharge_name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="a" Description="" />
+	</Parameters>
 </Root>

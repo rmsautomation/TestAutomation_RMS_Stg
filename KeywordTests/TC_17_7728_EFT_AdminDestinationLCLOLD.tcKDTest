@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{1E18A97A-7D2A-4466-B84B-D8158CD32FFD}" Tags="@onlyStaging @eft" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{84CE86DE-0E5C-45C8-9D8B-C838B16B8633}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -117,7 +117,7 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="4" Key="{013A7684-D05C-4E14-91BC-994C22DC0F50}">
+	<Variables Version="4" Key="{69DADF74-1855-4CE5-ADA8-12F9B2C876CF}">
 		<Items>
 			<Variable Name="surcharge_version" Type="String" Local="False">
 				<DefValue StrValue="Automation_LCL_Dest" />
@@ -127,5 +127,8 @@
 			</Variable>
 		</Items>
 	</Variables>
-	<Parameters Key="{A165EDAA-113B-4183-BF30-B3ABC55C71B2}" />
+	<Parameters Key="{7FF4FADB-0887-46A1-AB08-1703BE77BA7F}">
+		<Parameter0 Name="surcharge_version" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Automation_LCL_Dest" Description="" />
+		<Parameter1 Name="surcharge_name" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="a" Description="" />
+	</Parameters>
 </Root>

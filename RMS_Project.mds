@@ -91,19 +91,13 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_17_7728_EFT_Admin_USER__Destination_LCL" key="{F3809031-B894-446D-8D3A-B19719B44CCF}" group="False" parallel="False" enabled="True" testMoniker="KDT\{9D7B85C4-0147-4935-94A6-5C3E0862C9F3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="surcharge_version" type="1" localVarName="" value="Automation_LCL_Dest" />
-					<param1 name="surcharge_name" type="1" localVarName="" value="a" />
-				</testParameters>
+			<testItem name="TC_17_7728_EFT_AdminDestinationLCL" key="{8E865656-EE81-4F82-958C-1AC4376A7B5F}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DEC1EF91-66D1-44C7-8752-9D7BC8977241}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_18_7729__EFT_Freight_AIR" key="{220D0DEC-CAAA-4307-962C-44EE44940993}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B49F8179-9CD7-4917-9C9A-04DEC8287388}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="surcharge_version" type="1" localVarName="" value="Automation_AIR_Freigth" />
-					<param1 name="surcharge_name" type="1" localVarName="" value="a" />
-				</testParameters>
+			<testItem name="TC_18_7729__EFT_Freight_AIR" key="{52AD161F-782E-4929-97DA-7CF7383856A9}" group="False" parallel="False" enabled="True" testMoniker="KDT\{4AADDE38-BBE0-45F4-A3F7-DB695FE96EC3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>

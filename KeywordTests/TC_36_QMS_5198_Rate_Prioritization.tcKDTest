@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{72889415-0627-4840-AD5D-0EEAA905C76A}" Tags="@production @ratePrioritization @demo" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{72889415-0627-4840-AD5D-0EEAA905C76A}" Tags="@production @ratePrioritization @demo @largeTest" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>

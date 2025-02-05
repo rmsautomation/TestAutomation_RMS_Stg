@@ -24248,6 +24248,82 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeCompanyQualifiers" Key="{2696ADFA-E270-4946-9A04-80D81D8A8ED6}">
+										<Image FileName="732843971" Left="1646" Top="404" Right="1768" Bottom="418" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" />
+												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-2-4&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" />
+												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-2-4&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-tab-label-2-4&apos;]/span/span" />
+												<Value Value="//div[@id=&apos;mat-tab-label-2-4&apos;]/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAdd2" Key="{4BD15205-1595-49F4-9C45-34885C080B18}">
+										<Image FileName="-474732745" Left="1784" Top="451" Right="1848" Bottom="481" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Add&apos;)]" />
+												<Value Value="//button[contains(., &apos;Add&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+												<Value Value="//div/button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-2-4&apos;]//cp-company-qualifier/div/button" />
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-2-4&apos;]//cp-company-qualifier/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-company-qualifier/div/button" />
+												<Value Value="//cp-company-qualifier/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxAllCompany" Key="{700E99A0-18EB-463C-802E-25DA259E5BCA}">
+										<Image FileName="72071971" Left="897" Top="355" Right="937" Bottom="395" />
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;All Company (*)&apos;]/@for)]" />
+												<Value Value="//input[@id=(//label[.=&apos;All Company (*)&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-checkbox-139-input" />
+												<Value Value="#mat-mdc-checkbox-139-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;checkbox&apos;]" />
+												<Value Value="//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-company-dialog-qualifier//mat-checkbox[@id=&apos;mat-mdc-checkbox-139&apos;]//input" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-company-dialog-qualifier//mat-checkbox[@id=&apos;mat-mdc-checkbox-139&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAdd3" Key="{A986A0B6-731E-427D-9A87-3DB0E98EC17B}">
+										<Image FileName="2004010483" Left="1248" Top="816" Right="1312" Bottom="846" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Add&apos;]" />
+												<Value Value="//button[.=&apos;Add&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-company-dialog-qualifier//button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-company-dialog-qualifier//button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -27902,5 +27978,9 @@
 				</Child>
 			</Child>
 		</Child>
+		<Child Name="textnodeCompanyQualifiers" Owner="{2696ADFA-E270-4946-9A04-80D81D8A8ED6}" />
+		<Child Name="buttonAdd2" Owner="{4BD15205-1595-49F4-9C45-34885C080B18}" />
+		<Child Name="checkboxAllCompany" Owner="{700E99A0-18EB-463C-802E-25DA259E5BCA}" />
+		<Child Name="buttonAdd3" Owner="{A986A0B6-731E-427D-9A87-3DB0E98EC17B}" />
 	</LogicalNodes>
 </Root>

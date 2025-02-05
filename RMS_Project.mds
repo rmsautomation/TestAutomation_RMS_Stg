@@ -11,27 +11,27 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{44319FF5-25E5-4FA9-923D-3098F2579641}" version="14">
 		<children>
-			<testItem name="TC_1_QMS_4315_STANDARD_USER_Generate_FCL_Single_Quote" key="{41719166-E10B-49F6-9B17-451A61A72426}" group="False" parallel="False" enabled="True" testMoniker="KDT\{7617E95B-BE28-47CD-AD41-8B9130B5290D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_1_QMS_4315_STANDARD_USER_Generate_FCL_Single_Quote" key="{41719166-E10B-49F6-9B17-451A61A72426}" group="False" parallel="False" enabled="False" testMoniker="KDT\{7617E95B-BE28-47CD-AD41-8B9130B5290D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_2_QMS_4322_STANDARD_USER_LCL_Single_APIs" key="{F0C12FF3-BF0A-45AF-8533-A00BC6D7C0BD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{BC88BBCC-7BDF-41F5-99F9-9A97A5446EB1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_2_QMS_4322_STANDARD_USER_LCL_Single_APIs" key="{F0C12FF3-BF0A-45AF-8533-A00BC6D7C0BD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{BC88BBCC-7BDF-41F5-99F9-9A97A5446EB1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_3_QMS_4325_Single_Generate_a_Single_AIR_Quote" key="{56EBBF3E-6E11-4ED2-B2F0-BEB86CD410F4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B86F44A7-C37C-4D84-8603-17F3F6E53203}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_3_QMS_4325_Single_Generate_a_Single_AIR_Quote" key="{56EBBF3E-6E11-4ED2-B2F0-BEB86CD410F4}" group="False" parallel="False" enabled="False" testMoniker="KDT\{B86F44A7-C37C-4D84-8603-17F3F6E53203}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_4_QMS_4336_Ground_Single_Quote_ITG_API" key="{C83D13CD-5109-49EF-85DF-6C376502926A}" group="False" parallel="False" enabled="True" testMoniker="KDT\{EE1E4DDE-0B04-4690-8946-0BEFB942BDBB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_4_QMS_4336_Ground_Single_Quote_ITG_API" key="{C83D13CD-5109-49EF-85DF-6C376502926A}" group="False" parallel="False" enabled="False" testMoniker="KDT\{EE1E4DDE-0B04-4690-8946-0BEFB942BDBB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_5_QMS_4345_Linked_Master_Quote" key="{5791543D-1BC0-4DCA-AECE-CC67D3998070}" group="False" parallel="False" enabled="True" testMoniker="KDT\{0D894A58-2534-470E-A373-077F63F4FB6C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_5_QMS_4345_Linked_Master_Quote" key="{5791543D-1BC0-4DCA-AECE-CC67D3998070}" group="False" parallel="False" enabled="False" testMoniker="KDT\{0D894A58-2534-470E-A373-077F63F4FB6C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -61,12 +61,12 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_11_QMS_4610_MultiOption_Lane" key="{50EC114C-7694-453F-A833-B1D12BEA7D1E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{3BB8B479-11A4-4418-99E6-BE0351F1D5AB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_11_QMS_4610_MultiOption_Lane" key="{50EC114C-7694-453F-A833-B1D12BEA7D1E}" group="False" parallel="False" enabled="False" testMoniker="KDT\{3BB8B479-11A4-4418-99E6-BE0351F1D5AB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_12_QMS_4635_History_Refreshed_Master_Quote_and_Resend_Master_quote" key="{42E876EB-A480-47E7-B728-E8E897D989B3}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A1988351-567A-4DAE-A76F-13CF4AB2E8AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_12_QMS_4635_History_Refreshed_Master_Quote_and_Resend_Master_quote" key="{42E876EB-A480-47E7-B728-E8E897D989B3}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A1988351-567A-4DAE-A76F-13CF4AB2E8AF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -76,12 +76,12 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_14_QMS_5969_Refresh_and_Duplicate_LCL_Quote" key="{1C59E7AA-E11D-42EB-A74B-61DED3471FDD}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A105F01F-DB97-47FB-80CC-E0DAFA31D62F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_14_QMS_5969_Refresh_and_Duplicate_LCL_Quote" key="{1C59E7AA-E11D-42EB-A74B-61DED3471FDD}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A105F01F-DB97-47FB-80CC-E0DAFA31D62F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_15_QMS_5200_Quote_History_Permissions_Everyone_can_view_everyone_quotes" key="{0346DA1E-3B43-4D67-89E3-626783253CF6}" group="False" parallel="False" enabled="True" testMoniker="KDT\{A0B843F6-A479-4183-8A17-81FC43EA0549}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_15_QMS_5200_Quote_History_Permissions_Everyone_can_view_everyone_quotes" key="{0346DA1E-3B43-4D67-89E3-626783253CF6}" group="False" parallel="False" enabled="False" testMoniker="KDT\{A0B843F6-A479-4183-8A17-81FC43EA0549}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -101,7 +101,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_19_QMS_11323_EFT_FCL_No_city_linking_Standard_user" key="{CCF3D36F-AFF6-4AA5-82AB-67726EB1D10D}" group="False" parallel="False" enabled="True" testMoniker="KDT\{155C5CA6-F4A4-4CC7-9A92-0A538A2B94DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_19_QMS_11323_EFT_FCL_No_city_linking_Standard_user" key="{CCF3D36F-AFF6-4AA5-82AB-67726EB1D10D}" group="False" parallel="False" enabled="False" testMoniker="KDT\{155C5CA6-F4A4-4CC7-9A92-0A538A2B94DB}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -111,7 +111,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_21_QMS_4655_Tariff_Add_New_Tariff" key="{F59396F6-A206-4E0E-BE69-9D3B03978E12}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2A922607-3B6B-4E2A-85E5-9B33E493D047}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_21_QMS_4655_Tariff_Add_New_Tariff" key="{F59396F6-A206-4E0E-BE69-9D3B03978E12}" group="False" parallel="False" enabled="False" testMoniker="KDT\{2A922607-3B6B-4E2A-85E5-9B33E493D047}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -136,7 +136,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_26_QMS_5581_Contract_Management___Add__LCL_rule_Min_and_Max" key="{5698BCAE-DC5A-4AC5-9AA6-3BAD65E362F7}" group="False" parallel="False" enabled="True" testMoniker="KDT\{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_26_QMS_5581_Contract_Management___Add__LCL_rule_Min_and_Max" key="{5698BCAE-DC5A-4AC5-9AA6-3BAD65E362F7}" group="False" parallel="False" enabled="False" testMoniker="KDT\{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -146,7 +146,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_28_QMS_5163_Contract_Access_Select_a_User_and_a_Named_Account" key="{9AA7C00C-3BEF-4A40-861E-984F690AD403}" group="False" parallel="False" enabled="True" testMoniker="KDT\{07D04661-D9F3-40C8-B2E9-2D81B9B92BC2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_28_QMS_5163_Contract_Access_Select_a_User_and_a_Named_Account" key="{9AA7C00C-3BEF-4A40-861E-984F690AD403}" group="False" parallel="False" enabled="False" testMoniker="KDT\{07D04661-D9F3-40C8-B2E9-2D81B9B92BC2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -156,7 +156,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_30_QMS_5135_Price_Settings___Greater_option" key="{4C6DDF5B-6505-49EF-9DBB-71A639AE7DB4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{005CB1D6-2D09-4F41-8F45-2F9E58FD530E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_30_QMS_5135_Price_Settings___Greater_option" key="{4C6DDF5B-6505-49EF-9DBB-71A639AE7DB4}" group="False" parallel="False" enabled="False" testMoniker="KDT\{005CB1D6-2D09-4F41-8F45-2F9E58FD530E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -176,7 +176,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_34_QMS_4967_City_Linking_Do_a_search_with_City_Linking" key="{98D16E55-F447-463D-AEAE-F631A2641172}" group="False" parallel="False" enabled="True" testMoniker="KDT\{72878ABA-40F6-4697-86B6-AEB39D2ACDF1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_34_QMS_4967_City_Linking_Do_a_search_with_City_Linking" key="{98D16E55-F447-463D-AEAE-F631A2641172}" group="False" parallel="False" enabled="False" testMoniker="KDT\{72878ABA-40F6-4697-86B6-AEB39D2ACDF1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -186,7 +186,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_36_QMS_5198_Rate_Prioritization___Create_a_Rate_Prioritization_rule" key="{15AB1903-A195-40B6-B53D-9127A27C58F4}" group="False" parallel="False" enabled="True" testMoniker="KDT\{CE498149-536D-4267-B604-AB59C4F307DF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="TC_36_QMS_5198_Rate_Prioritization___Create_a_Rate_Prioritization_rule" key="{15AB1903-A195-40B6-B53D-9127A27C58F4}" group="False" parallel="False" enabled="False" testMoniker="KDT\{CE498149-536D-4267-B604-AB59C4F307DF}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -655,7 +655,7 @@
 		</data>
 	</variables>
 	<settings key="{4F415261-26CA-4EF4-B348-91213EE63239}">
-		<settingsVersion value="15.65" />
+		<settingsVersion value="15.67" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>

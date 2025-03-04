@@ -89,7 +89,7 @@
 						<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 							<CommonData WaitTimeout="50000" />
 							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-								<Parameter Name="Text" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Password4" />
+								<Parameter Name="Text" DefVarType="8" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqEnvironment.GetEnvironmentVariable(&quot;MAGAYA_EMAIL&quot;)" />
 							</Parameters>
 							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="NameMapping.Sys.chrome.pageSignInToOutlook.passwordboxPasswd;" />
 						</Data>

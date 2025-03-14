@@ -24217,6 +24217,10 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//label[contains(text(), &apos;Display Combined Rates As:&apos;)]/following::div[contains(@class, &apos;mat-mdc-select-arrow-wrapper&apos;)][1]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=(//div[contains(@class, &apos;mat-mdc-select-arrow-wrapper&apos;)])[2]" />
 												<Value Value="//*[name()=&apos;path&apos;][contains(@class, &apos;ng-tns-c3393473648-81&apos;)]" />
 											</Selector>

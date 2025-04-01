@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{DF8DEF88-EB36-4243-B4EF-01A7D2FBD32B}" />
+	<data key="{DF8DEF88-EB36-4243-B4EF-01A7D2FBD32B}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="25" kind="0" dateTime="45748.8881018519" objectName="Aliases.browser.pageQms.typeDropdown1" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-746338906201360.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="26" kind="0" dateTime="45748.8881365741" objectName="Aliases.browser.pageQms.textnodeCurrencyAdjustmentFactor" objectLeft="736" objectTop="602" objectRight="756" objectBottom="626" clickPointX="749" clickPointY="614" imageFileName="tcvi-746335390201363.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="27" kind="0" dateTime="45748.8881597222" objectName="Aliases.browser.pageQms.buttonSearch" objectLeft="895" objectTop="947" objectRight="959" objectBottom="977" clickPointX="915" clickPointY="970" imageFileName="tcvi-746333234201364.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

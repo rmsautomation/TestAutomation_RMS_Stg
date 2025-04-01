@@ -2884,6 +2884,10 @@
 												<Value Value="//search-form-api-options//mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
 												<Value Value="//search-form-api-options//mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
 											</Selector>
+											<Selector>
+												<Value Value="xpath=(//label[normalize-space()=&apos;Type&apos;]/following::mat-form-field//mat-select)[1]" />
+												<Value Value="Add selector" />
+											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="textnodeMatOption570" Key="{20B6AFC3-2698-45F9-A076-07AA4B8813C4}">
@@ -3274,29 +3278,13 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="numberinputMatInput56" Key="{BB38ED46-68E8-47AC-BCD1-B0EEFA130AC3}">
+									<Child Name="typeDropdown" Key="{BB38ED46-68E8-47AC-BCD1-B0EEFA130AC3}">
 										<Image FileName="-1586283832" Left="552" Top="862" Right="602" Bottom="892" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=(//label[normalize-space()=&apos;Type&apos;]/following::mat-form-field//mat-select)[1]" />
 												<Value Value="#mat-input-56" />
-												<Value Value="#mat-input-56" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[4]//search-removable-location-and-shipment-form//search-air-wm-form//div[2]/div/input[@value=&apos;0&apos;]" />
-												<Value Value="//div[4]//search-removable-location-and-shipment-form//search-air-wm-form//div[2]/div/input[@value=&apos;0&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[4]//search-air-wm-form/div/div[2]/div/input[@type=&apos;number&apos;]" />
-												<Value Value="//div[4]//search-air-wm-form/div/div[2]/div/input[@type=&apos;number&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[4]//search-air-wm-form/div/div[2]/div/input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
-												<Value Value="//div[4]//search-air-wm-form/div/div[2]/div/input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[4]//search-air-wm-form/div/div[2]/div/input" />
-												<Value Value="//div[4]//search-air-wm-form/div/div[2]/div/input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -24226,12 +24214,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel5" Key="{F095E23F-F49D-479A-A48D-29012A8A703A}">
+									<Child Name="dryDropdown" Key="{F095E23F-F49D-479A-A48D-29012A8A703A}">
 										<Image FileName="927674897" Left="0" Top="121" Right="1920" Bottom="1040" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(@class, &apos;cdk-overlay-backdrop&apos;)]" />
+												<Value Value="xpath=(//div[contains(@class, &apos;mat-mdc-select-value&apos;)]//span[contains(text(), &apos;Dry&apos;)])[3]" />
 												<Value Value="//div[contains(@class, &apos;cdk-overlay-backdrop&apos;)]" />
 											</Selector>
 										</Selectors>
@@ -24329,6 +24317,82 @@
 											<Selector>
 												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-company-dialog-qualifier//button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
 												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-company-dialog-qualifier//button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAllTypes" Key="{300A91A1-6294-4044-B5F2-1D1B335FE129}">
+										<Image FileName="-92157672" Left="274" Top="927" Right="343" Bottom="951" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;All Types&apos;]" />
+												<Value Value="//span[.=&apos;All Types&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span" />
+												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAllTypes2" Key="{C8B67A12-9848-4748-8CBF-84448A55D6C5}">
+										<Image FileName="-137116599" Left="278" Top="670" Right="339" Bottom="687" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;All Types&apos;]" />
+												<Value Value="//span[text()=&apos;All Types&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//search-removable-location-and-shipment-form//div[2]/mat-form-field//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" Enabled="False" />
+												<Value Value="//div[3]//search-removable-location-and-shipment-form//div[2]/mat-form-field//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-select-value-49&apos;]//span/span" Enabled="False" />
+												<Value Value="//div[@id=&apos;mat-select-value-49&apos;]//span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTrailer" Key="{39CCB815-5A1F-48FD-AE81-2758117DE9E1}">
+										<Image FileName="-464224457" Left="274" Top="887" Right="322" Bottom="911" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Trailer&apos;]" />
+												<Value Value="//span[.=&apos;Trailer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-754&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+												<Value Value="//mat-option[@id=&apos;mat-option-754&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-754&apos;]/span" />
+												<Value Value="//mat-option[@id=&apos;mat-option-754&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTrailer2" Key="{654B678A-9693-4F3A-9614-EF343468DF56}">
+										<Image FileName="-1789248892" Left="274" Top="661" Right="389" Bottom="696" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-select[.=&apos;Trailer&apos;]" />
+												<Value Value="//mat-select[.=&apos;Trailer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[.=&apos;Trailer&apos;]" />
+												<Value Value="//mat-select[.=&apos;Trailer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-select-48" />
+												<Value Value="#mat-select-48" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//search-removable-location-and-shipment-form//div[2]/mat-form-field//mat-select" />
+												<Value Value="//div[3]//search-removable-location-and-shipment-form//div[2]/mat-form-field//mat-select" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -26851,7 +26915,7 @@
 				<Child Name="panelOrigin2" Owner="{1AFDA8ED-1A7D-48CE-904D-E71B22EEB6B5}" />
 				<Child Name="textboxNumber16" Owner="{A25C5EDF-6A8C-4641-854F-6530C1D2AE7E}" />
 				<Child Name="panelDestination2" Owner="{97360C43-1B4A-4C39-A994-AAEC867329D7}" />
-				<Child Name="numberinputMatInput56" Owner="{BB38ED46-68E8-47AC-BCD1-B0EEFA130AC3}" />
+				<Child Name="typeDropdown" Owner="{BB38ED46-68E8-47AC-BCD1-B0EEFA130AC3}" />
 				<Child Name="messageFilter" Owner="{A8F02453-DF72-4A9F-8620-B374CE476E92}" />
 				<Child Name="panelSearch" Owner="{7956FE28-1A50-4B1A-A360-F863FFAEE80E}" />
 				<Child Name="panelLosAngelesCa" Owner="{0D34A090-81A2-4B00-8CB5-B7BDF8BCC8BF}" />
@@ -27320,6 +27384,7 @@
 				<Child Name="labelChooseFile" Owner="{FEB1024C-A6A7-49F0-8CD4-17217FBF5F9A}" />
 				<Child Name="label" Owner="{3007518D-439F-4DA0-B9A7-420CD76BB935}">
 					<Child Name="textnode12" Owner="{98AC764C-FD05-482A-B48C-79494B290131}" />
+					<Child Name="dryDropdown" Owner="{F095E23F-F49D-479A-A48D-29012A8A703A}" />
 				</Child>
 				<Child Name="textboxNumber27" Owner="{09F67069-74F2-44C7-8F61-54F33F7A98E1}" />
 				<Child Name="panel115Of29" Owner="{9BF6DA6C-DCBB-41C0-BCC4-A171E8D041CA}" />
@@ -27716,6 +27781,7 @@
 				<Child Name="panelAutomationorg" Owner="{4A487069-3DDD-40EB-9C38-B387C0B96237}" />
 				<Child Name="link2" Owner="{A0D4984A-3FB6-4E51-B33B-4A7931A788AF}" />
 				<Child Name="textnodeNoMatchFound" Owner="{F1A5E439-DA81-4A0B-BC70-286815710440}" />
+				<Child Name="typeDropdown1" Owner="{BB38ED46-68E8-47AC-BCD1-B0EEFA130AC3}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -27935,7 +28001,7 @@
 		<Child Name="buttonCombinedSurcharges" Owner="{12DE73DD-2950-4788-AE2B-5D8A79BDFF3C}" />
 		<Child Name="vg" Owner="{11D22940-9441-4875-B449-0517E959EB37}" />
 		<Child Name="textnode3" Owner="{6C38D0CE-F66D-4C9E-838D-C17DCB007B2B}" />
-		<Child Name="panel5" Owner="{F095E23F-F49D-479A-A48D-29012A8A703A}" />
+		<Child Name="dryDropdown" Owner="{F095E23F-F49D-479A-A48D-29012A8A703A}" />
 		<Child Name="textnodeOrigin2" Owner="{EE451CF2-3E20-44F1-A4C3-9D2172E15CAE}" />
 		<Child Name="textnodeDestination" Owner="{F87A3057-057B-42D6-9372-4CC2B97B956A}" />
 		<Child Name="selectContractsNotes" Owner="{D782382F-E0D7-4326-8D5B-C2E5108FF04D}" />
@@ -27990,5 +28056,9 @@
 		<Child Name="buttonAdd2" Owner="{4BD15205-1595-49F4-9C45-34885C080B18}" />
 		<Child Name="checkboxAllCompany" Owner="{700E99A0-18EB-463C-802E-25DA259E5BCA}" />
 		<Child Name="buttonAdd3" Owner="{A986A0B6-731E-427D-9A87-3DB0E98EC17B}" />
+		<Child Name="textnodeAllTypes" Owner="{300A91A1-6294-4044-B5F2-1D1B335FE129}" />
+		<Child Name="textnodeAllTypes2" Owner="{C8B67A12-9848-4748-8CBF-84448A55D6C5}" />
+		<Child Name="textnodeTrailer" Owner="{39CCB815-5A1F-48FD-AE81-2758117DE9E1}" />
+		<Child Name="textnodeTrailer2" Owner="{654B678A-9693-4F3A-9614-EF343468DF56}" />
 	</LogicalNodes>
 </Root>

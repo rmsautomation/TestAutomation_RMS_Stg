@@ -15,9 +15,6 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="EnableAmendment" />
 			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="Logout" />
-			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{135CC1ED-F5A5-4947-8B9F-A8C5BDFC4360}" />

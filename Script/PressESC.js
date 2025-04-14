@@ -21,3 +21,12 @@ function PerssEscQF(baseUrl) {
   // Send the ESC key to the page
   page.Keys("[Esc]");
 }
+
+function PerssEscAccessRule(baseUrl) {
+  var browser = Sys.Browser("chrome");
+  var page = browser.Page(baseUrl + "qms/#/control-panel/contract-access-management");
+  
+  // Send the ESC key to the page
+  page.Keys("[Esc]");
+}
+

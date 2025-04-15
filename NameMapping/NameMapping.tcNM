@@ -13709,7 +13709,11 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//mat-slide-toggle[@id=&apos;mat-mdc-slide-toggle-15&apos;]//button[contains(@class, &apos;mdc-switch&apos;)]" />
+												<Value Value="xpath=(//button[@role=&apos;switch&apos;])[2]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//mat-slide-toggle[@id=&apos;mat-mdc-slide-toggle-15&apos;]//button[contains(@class, &apos;mdc-switch&apos;)]" Enabled="False" />
 												<Value Value="xpath=//mat-slide-toggle[@id=&apos;mat-mdc-slide-toggle-15&apos;]//button[contains(@class, &apos;mdc-switch&apos;)]" />
 											</Selector>
 										</Selectors>
@@ -24329,11 +24333,11 @@
 												<Value Value="//span[.=&apos;All Types&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" Enabled="False" />
 												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span" />
+												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span" Enabled="False" />
 												<Value Value="//mat-option[@id=&apos;mat-option-755&apos;]/span" />
 											</Selector>
 										</Selectors>

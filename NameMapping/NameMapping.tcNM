@@ -25432,6 +25432,20 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonSkipSetup" Key="{3EEBE60A-C9BB-4C6F-9543-98284DC43F49}">
+										<Image FileName="1599596052" Left="1208" Top="566" Right="1304" Bottom="586" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Skip setup&apos;]" />
+												<Value Value="//button[.=&apos;Skip setup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;L0g5CbGcDigQv3yxT1b_&apos;)]" />
+												<Value Value="//button[contains(@class, &apos;L0g5CbGcDigQv3yxT1b_&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageQuoteAcceptance" Key="{934B5050-C87C-4E72-9005-66073ECC1A7C}">
@@ -26181,6 +26195,230 @@
 											<Selector>
 												<Value Value="//div[5]/a[2]/span" />
 												<Value Value="//div[5]/a[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInToYourAccount" Key="{55B86564-F7CC-42B3-9FF3-50C6D99CC771}">
+								<Image FileName="-1934958525" Left="0" Top="87" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize*" />
+										<Value Value="https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF1" Key="{3FE939AF-026A-488A-9B37-C6635C1BE3C0}">
+										<Image FileName="-1934958525" Left="0" Top="87" Right="1920" Bottom="88" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;dl-dfp_rms@magaya.com&apos;)]" />
+												<Value Value="//form[contains(., &apos;dl-dfp_rms@magaya.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDisplayname" Key="{D0A0A14E-CFC6-435E-B586-45CFF7E491D2}">
+										<Image FileName="-1934958525" Left="810" Top="465" Right="1136" Bottom="489" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#displayName" Enabled="False" />
+												<Value Value="#displayName" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;dl-dfp_rms@magaya.com&apos;]" />
+												<Value Value="//div[.=&apos;dl-dfp_rms@magaya.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@title=&apos;dl-dfp_rms@magaya.com&apos;]" />
+												<Value Value="//div[@title=&apos;dl-dfp_rms@magaya.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;identity&apos;)]/div[contains(@class, &apos;identity&apos;)]" Enabled="False" />
+												<Value Value="//div[contains(@class, &apos;identity&apos;)]/div[contains(@class, &apos;identity&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div/div/div/div/div/div" Enabled="False" />
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd" Key="{423EDA93-AB82-4D59-A771-2AA5E14EC353}">
+										<Image FileName="-1843305480" Left="786" Top="541" Right="1134" Bottom="577" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;passwd&apos;]" />
+												<Value Value="//input[@name=&apos;passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" Enabled="False" />
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]//input" Enabled="False" />
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" Enabled="False" />
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSignIn" Key="{538F1FA4-5AF4-49B3-8A77-86E28E3AF395}">
+										<Image FileName="1726544969" Left="1028" Top="639" Right="1136" Bottom="671" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#idSIButton9" />
+												<Value Value="#idSIButton9" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Sign in&apos;]" />
+												<Value Value="//input[@value=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" />
+												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[5]//input" />
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[5]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[5]//input" />
+												<Value Value="//div[@role=&apos;main&apos;]//div[5]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInToYourAccount2" Key="{4470AC7F-01E5-4463-A69A-08CC7B5289C5}">
+								<Image FileName="1881310059" Left="0" Top="87" Right="1920" Bottom="750" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/common/oauth2/v2.0/authorize*" />
+										<Value Value="https://login.microsoftonline.com/common/oauth2/v2.0/authorize*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF1" Key="{36902E4F-84FE-41E5-9B0D-EC68800DB3B8}">
+										<Image FileName="1881310059" Left="0" Top="87" Right="1920" Bottom="88" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Pick an account&apos;)]" />
+												<Value Value="//form[contains(., &apos;Pick an account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDlDfpRmsMagayaCom" Key="{001BE251-0B69-44DE-A289-CEFF102BA6AF}">
+										<Image FileName="1881310059" Left="844" Top="388" Right="1124" Bottom="404" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;DL-DFP_RMS@magaya.com&apos;]" />
+												<Value Value="//div[.=&apos;DL-DFP_RMS@magaya.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tilesHolder&apos;]//div/div/div/div/div/div" />
+												<Value Value="//div[@id=&apos;tilesHolder&apos;]//div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd" Key="{F004CF40-E534-4762-9450-FDB2D3CF4B78}">
+										<Image FileName="-1871949920" Left="786" Top="396" Right="1134" Bottom="432" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;passwd&apos;]" />
+												<Value Value="//input[@name=&apos;passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]//input" />
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" />
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSignIn" Key="{62494AB8-5378-4733-8AE6-B3EF232BF894}">
+										<Image FileName="-1401163731" Left="1028" Top="494" Right="1136" Bottom="526" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#idSIButton9" />
+												<Value Value="#idSIButton9" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Sign in&apos;]" />
+												<Value Value="//input[@value=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" />
+												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[5]//input" />
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[5]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[5]//input" />
+												<Value Value="//div[@role=&apos;main&apos;]//div[5]//input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -28064,5 +28302,20 @@
 		<Child Name="textnodeAllTypes2" Owner="{C8B67A12-9848-4748-8CBF-84448A55D6C5}" />
 		<Child Name="textnodeTrailer" Owner="{39CCB815-5A1F-48FD-AE81-2758117DE9E1}" />
 		<Child Name="textnodeTrailer2" Owner="{654B678A-9693-4F3A-9614-EF343468DF56}" />
+		<Child Name="pageSignInToYourAccount" Owner="{55B86564-F7CC-42B3-9FF3-50C6D99CC771}">
+			<Child Name="formF1" Owner="{3FE939AF-026A-488A-9B37-C6635C1BE3C0}">
+				<Child Name="panelDisplayname" Owner="{D0A0A14E-CFC6-435E-B586-45CFF7E491D2}" />
+				<Child Name="passwordboxPasswd" Owner="{423EDA93-AB82-4D59-A771-2AA5E14EC353}" />
+				<Child Name="submitbuttonSignIn" Owner="{538F1FA4-5AF4-49B3-8A77-86E28E3AF395}" />
+			</Child>
+		</Child>
+		<Child Name="buttonSkipSetup" Owner="{3EEBE60A-C9BB-4C6F-9543-98284DC43F49}" />
+		<Child Name="pageSignInToYourAccount2" Owner="{4470AC7F-01E5-4463-A69A-08CC7B5289C5}">
+			<Child Name="formF1" Owner="{36902E4F-84FE-41E5-9B0D-EC68800DB3B8}">
+				<Child Name="panelDlDfpRmsMagayaCom" Owner="{001BE251-0B69-44DE-A289-CEFF102BA6AF}" />
+				<Child Name="passwordboxPasswd" Owner="{F004CF40-E534-4762-9450-FDB2D3CF4B78}" />
+				<Child Name="submitbuttonSignIn" Owner="{62494AB8-5378-4733-8AE6-B3EF232BF894}" />
+			</Child>
+		</Child>
 	</LogicalNodes>
 </Root>

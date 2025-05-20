@@ -12445,15 +12445,15 @@
 												<Value Value="//div[contains(text(), &apos;Surcharge Origin&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//search-charges-result-grid-view/shared-grid//mat-table/mat-header-row/mat-header-cell[5]//div[contains(@class, &apos;mat-sort-header-content&apos;)]" />
+												<Value Value="//search-charges-result-grid-view/shared-grid//mat-table/mat-header-row/mat-header-cell[5]//div[contains(@class, &apos;mat-sort-header-content&apos;)]" Enabled="False" />
 												<Value Value="//search-charges-result-grid-view/shared-grid//mat-table/mat-header-row/mat-header-cell[5]//div[contains(@class, &apos;mat-sort-header-content&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//search-charges-result-grid-view//mat-header-cell[5]/div/div/div" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//search-charges-result-grid-view//mat-header-cell[5]/div/div/div" Enabled="False" />
 												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//search-charges-result-grid-view//mat-header-cell[5]/div/div/div" />
 											</Selector>
 											<Selector>
-												<Value Value="//search-charges-result-grid-view//mat-header-row/mat-header-cell[5]/div/div/div" />
+												<Value Value="//search-charges-result-grid-view//mat-header-row/mat-header-cell[5]/div/div/div" Enabled="False" />
 												<Value Value="//search-charges-result-grid-view//mat-header-row/mat-header-cell[5]/div/div/div" />
 											</Selector>
 										</Selectors>
@@ -20485,6 +20485,42 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel2" Key="{79F367E5-783E-49A5-BAB8-B0A9BC8D23C2}">
+										<Image FileName="284388383" Left="1554" Top="690" Right="1860" Bottom="712" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//search-charges-result-edit/search-charges-result-charge-form/div[7]//mat-form-field/div[contains(@class, &apos;mat-mdc-form-field-subscript-wrapper&apos;)]" />
+												<Value Value="//search-charges-result-edit/search-charges-result-charge-form/div[7]//mat-form-field/div[contains(@class, &apos;mat-mdc-form-field-subscript-wrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAutoSurcharge" Key="{527CEA9E-1542-4706-9D56-4050350B6ECF}">
+										<Image FileName="-534969177" Left="1554" Top="819" Right="1645" Bottom="835" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Auto Surcharge&apos;)]" />
+												<Value Value="//a[contains(text(), &apos;Auto Surcharge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@aria-describedby=&apos;cdk-describedby-message-ng-1-109&apos;]" Enabled="False" />
+												<Value Value="//a[@aria-describedby=&apos;cdk-describedby-message-ng-1-109&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[21]//a[contains(@class, &apos;mat-tooltip-trigger&apos;)]" Enabled="False" />
+												<Value Value="//div[21]//a[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//div[21]//a" Enabled="False" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//div[21]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[21]//a" Enabled="False" />
+												<Value Value="//div[21]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox1Rmsautomation24GmailCo" Key="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
@@ -24400,6 +24436,73 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel" Key="{965B986B-7287-4BC7-A20F-3525BEB46CA3}">
+										<Image FileName="365146648" Left="176" Top="199" Right="1876" Bottom="365" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//shopping-cart-component//mat-tab-group/mat-tab-header/div[contains(@class, &apos;mat-mdc-tab-label-container&apos;)]" />
+												<Value Value="//shopping-cart-component//mat-tab-group/mat-tab-header/div[contains(@class, &apos;mat-mdc-tab-label-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-header/div" />
+												<Value Value="//mat-tab-header/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionAddMargin" Key="{60198DD9-6368-4423-AC7B-7B2235ED5522}">
+										<Image FileName="365146648" Left="1554" Top="580" Right="1875" Bottom="654" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Add Margin&apos;)]" />
+												<Value Value="//section[contains(., &apos;Add Margin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;ng-star-inserted&apos;)]" />
+												<Value Value="//section[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//section" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAddMargin" Key="{8F7D2CB6-9460-4743-ADB3-033BC2F0A094}">
+										<Image FileName="365146648" Left="1561" Top="580" Right="1633" Bottom="597" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Add Margin&apos;]" />
+												<Value Value="//a[.=&apos;Add Margin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;link&apos;)]" />
+												<Value Value="//li/a[contains(@class, &apos;link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//li/a" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link11220Usd" Key="{442E5F71-ACFF-41E1-9A37-EE0272A6DFA5}">
+										<Image FileName="-190774471" Left="1804" Top="764" Right="1874" Bottom="780" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//i[contains(@class, &apos;material-icons&apos;) and contains(@class, &apos;link&apos;) and normalize-space(text())=&apos;cancel&apos;]" />
+												<Value Value="//a[contains(text(), &apos;112.20 USD&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -28194,6 +28297,8 @@
 				<Child Name="textnodeContractManagement" Owner="{A6EAD696-0B1F-4DA5-95E1-F819B1499423}" />
 				<Child Name="panelGroupName" Owner="{E3A9681F-F5CC-4B9D-A5D4-B3CAA3FE3D65}" />
 				<Child Name="textbox4" Owner="{0CCF5436-A34C-4E9E-AAFD-E3AB882C2DDF}" />
+				<Child Name="panel2" Owner="{79F367E5-783E-49A5-BAB8-B0A9BC8D23C2}" />
+				<Child Name="linkAutoSurcharge" Owner="{527CEA9E-1542-4706-9D56-4050350B6ECF}" />
 			</Child>
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />
@@ -28317,5 +28422,10 @@
 				<Child Name="submitbuttonSignIn" Owner="{62494AB8-5378-4733-8AE6-B3EF232BF894}" />
 			</Child>
 		</Child>
+		<Child Name="panel" Owner="{965B986B-7287-4BC7-A20F-3525BEB46CA3}" />
+		<Child Name="sectionAddMargin" Owner="{60198DD9-6368-4423-AC7B-7B2235ED5522}">
+			<Child Name="linkAddMargin" Owner="{8F7D2CB6-9460-4743-ADB3-033BC2F0A094}" />
+		</Child>
+		<Child Name="closePEW" Owner="{442E5F71-ACFF-41E1-9A37-EE0272A6DFA5}" />
 	</LogicalNodes>
 </Root>

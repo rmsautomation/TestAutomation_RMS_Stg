@@ -294,6 +294,7 @@
 					<child name="MAC_CreateRestrictsContract" key="{7BEFBBF0-2579-4AEE-94FC-763D96448ACD}" path="MAC_CreateRestrictsContract.tcKDTest" />
 					<child name="DeleteMarginRule" key="{5EE49D1A-AB19-4712-B8F4-0547957D41A8}" path="DeleteMarginRule.tcKDTest" />
 					<child name="AddMarginRuleDepartement" key="{31E77DF7-1EC6-43AE-BBF8-38B52379DED4}" path="AddMarginRuleDepartement.tcKDTest" />
+					<child name="VerifyCustomerEnabled" key="{C4C18E3E-CE8D-4BE0-8230-D7BE862E13BF}" path="VerifyCustomerEnabled.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />
@@ -352,6 +353,7 @@
 				<child name="AddCityLinkingAndVerify" key="{EAC0F94E-D7B4-48E5-9458-83755B49ACDE}" path="AddCityLinkingAndVerify.tcKDTest" />
 				<child name="AddTradeLane" key="{C5B7A7E2-2514-4D42-9BB7-2C50737A6F22}" path="AddTradeLane.tcKDTest" />
 				<child name="DeleteDepartment" key="{F2AB3D09-39AA-42A9-B05F-157AC589C758}" path="DeleteDepartment.tcKDTest" />
+				<child name="EnabledCustomerOption" key="{8FA323A3-4C2E-43F0-B1E0-8E4DF9EBA832}" path="EnabledCustomerOption.tcKDTest" />
 			</folder>
 			<folder name="Hooks">
 				<child name="Hooks_OnStartTest" key="{A523E07A-FB3A-4014-9FE9-44573491223C}" path="Hooks_OnStartTest.tcKDTest" />

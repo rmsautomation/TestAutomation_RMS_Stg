@@ -20521,6 +20521,27 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="checkboxMatMdcCheckbox17Input" Key="{E215DF9C-123F-4747-B213-182510B0BEF0}">
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Display Customer Selection Dropdown in Rate Search&apos;)]/@for)]" />
+												<Value Value="//input[@id=(//label[contains(.,&apos;Display Customer Selection Dropdown in Rate Search&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-checkbox-17-input" Enabled="False" />
+												<Value Value="#mat-mdc-checkbox-17-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[16]//mat-checkbox//input[@type=&apos;checkbox&apos;]" Enabled="False" />
+												<Value Value="//div[16]//mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[16]//mat-checkbox//input" Enabled="False" />
+												<Value Value="//div[16]//mat-checkbox//input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox1Rmsautomation24GmailCo" Key="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
@@ -24293,11 +24314,11 @@
 												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-2-4&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" />
+												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-2-4&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" Enabled="False" />
 												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-2-4&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;mat-tab-label-2-4&apos;]/span/span" />
+												<Value Value="//div[@id=&apos;mat-tab-label-2-4&apos;]/span/span" Enabled="False" />
 												<Value Value="//div[@id=&apos;mat-tab-label-2-4&apos;]/span/span" />
 											</Selector>
 										</Selectors>
@@ -28299,6 +28320,7 @@
 				<Child Name="textbox4" Owner="{0CCF5436-A34C-4E9E-AAFD-E3AB882C2DDF}" />
 				<Child Name="panel2" Owner="{79F367E5-783E-49A5-BAB8-B0A9BC8D23C2}" />
 				<Child Name="linkAutoSurcharge" Owner="{527CEA9E-1542-4706-9D56-4050350B6ECF}" />
+				<Child Name="checkboxCustomerSelect" Owner="{E215DF9C-123F-4747-B213-182510B0BEF0}" />
 			</Child>
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />

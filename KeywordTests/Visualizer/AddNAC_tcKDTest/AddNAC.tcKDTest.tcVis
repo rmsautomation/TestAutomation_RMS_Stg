@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{7A46478C-01DA-49EA-82B4-71A6F0736B6A}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45831.6378703704" objectName="Aliases.browser.pageQms.radiobuttonNamedAccount" objectLeft="1009" objectTop="533" objectRight="1049" objectBottom="573" clickPointX="1032" clickPointY="550" imageFileName="tcvi-1999143359188481.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45831.6387152778" objectName="Aliases.browser.pageQms.textnodeAllNamedAccounts" objectLeft="754" objectTop="602" objectRight="899" objectBottom="617" clickPointX="870" clickPointY="610" imageFileName="tcvi-1999071093188480.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45831.6387384259" objectName="Aliases.browser.pageQms2.textnode10" objectLeft="750" objectTop="744" objectRight="765" objectBottom="768" clickPointX="759" clickPointY="759" imageFileName="tcvi-1999069093188481.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

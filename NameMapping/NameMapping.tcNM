@@ -17344,6 +17344,10 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//span[contains(text(), &apos;Top 5 Carriers&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
 												<Value Value="//span[.=&apos;Top 5 Carriers&apos;]" />
 												<Value Value="//span[.=&apos;Top 5 Carriers&apos;]" />
 											</Selector>
@@ -20539,6 +20543,60 @@
 											<Selector>
 												<Value Value="//div[16]//mat-checkbox//input" Enabled="False" />
 												<Value Value="//div[16]//mat-checkbox//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxSelectRow" Key="{63754BAD-14CB-4D34-9F72-D0F81CD32C6C}">
+										<Image FileName="2079811718" Left="553" Top="637" Right="593" Bottom="677" />
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-table/mat-row/mat-cell/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+												<Value Value="//mat-table/mat-row/mat-cell/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-cell/mat-checkbox/div/div/input" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-cell/mat-checkbox/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{1D526B30-24FC-4944-B055-9BFBFB40381F}">
+										<Image FileName="1192974223" Left="1134" Top="598" Right="1158" Bottom="622" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-121&apos;)]" />
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-121&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;mat-select-66&apos;]//*[name()=&apos;svg&apos;]" />
+												<Value Value="//mat-select[@id=&apos;mat-select-66&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//app-carrier-contract-named-account-dialog//mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//app-carrier-contract-named-account-dialog//mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10" Key="{6A86A6FF-C680-4FC6-A886-046EDE52E3D8}">
+										<Image FileName="1704290775" Left="750" Top="744" Right="765" Bottom="768" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;10&apos;]" />
+												<Value Value="//span[.=&apos;10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[3]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+												<Value Value="//mat-option[3]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-overlay-31&apos;]//mat-option[3]/span" />
+												<Value Value="//div[@id=&apos;cdk-overlay-31&apos;]//mat-option[3]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[3]/span" />
+												<Value Value="//mat-option[3]/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -24524,6 +24582,28 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonAdd5" Key="{C9CB5122-B368-49B4-97CD-9F7BC2915E54}">
+										<Image FileName="1894305370" Left="1266" Top="912" Right="1300" Bottom="942" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-108&apos;]" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-108&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-6&apos;]//div[2]/shared-icon-button/button" />
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-6&apos;]//div[2]/shared-icon-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -28321,6 +28401,9 @@
 				<Child Name="panel2" Owner="{79F367E5-783E-49A5-BAB8-B0A9BC8D23C2}" />
 				<Child Name="linkAutoSurcharge" Owner="{527CEA9E-1542-4706-9D56-4050350B6ECF}" />
 				<Child Name="checkboxCustomerSelect" Owner="{E215DF9C-123F-4747-B213-182510B0BEF0}" />
+				<Child Name="checkboxSelectRow" Owner="{63754BAD-14CB-4D34-9F72-D0F81CD32C6C}" />
+				<Child Name="vg2" Owner="{1D526B30-24FC-4944-B055-9BFBFB40381F}" />
+				<Child Name="textnode10" Owner="{6A86A6FF-C680-4FC6-A886-046EDE52E3D8}" />
 			</Child>
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />
@@ -28449,5 +28532,6 @@
 			<Child Name="linkAddMargin" Owner="{8F7D2CB6-9460-4743-ADB3-033BC2F0A094}" />
 		</Child>
 		<Child Name="closePEW" Owner="{442E5F71-ACFF-41E1-9A37-EE0272A6DFA5}" />
+		<Child Name="buttonAdd5" Owner="{C9CB5122-B368-49B4-97CD-9F7BC2915E54}" />
 	</LogicalNodes>
 </Root>

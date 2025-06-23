@@ -295,6 +295,11 @@
 					<child name="DeleteMarginRule" key="{5EE49D1A-AB19-4712-B8F4-0547957D41A8}" path="DeleteMarginRule.tcKDTest" />
 					<child name="AddMarginRuleDepartement" key="{31E77DF7-1EC6-43AE-BBF8-38B52379DED4}" path="AddMarginRuleDepartement.tcKDTest" />
 					<child name="VerifyCustomerEnabled" key="{C4C18E3E-CE8D-4BE0-8230-D7BE862E13BF}" path="VerifyCustomerEnabled.tcKDTest" />
+					<child name="AddFilterByUsername" key="{6D3AD90E-417A-426B-9881-390AD881A420}" path="AddFilterByUsername.tcKDTest" />
+					<child name="AddAllContractCarrier" key="{7E98B1D0-6B93-4FB9-9592-2B0C999DCD5B}" path="AddAllContractCarrier.tcKDTest" />
+					<child name="AddallLocations" key="{2CBADD46-0D9A-43CF-9C81-A5CCF39B052A}" path="AddallLocations.tcKDTest" />
+					<child name="SaveRule" key="{53357EBD-4792-4893-A527-8240B3611BC1}" path="SaveRule.tcKDTest" />
+					<child name="AddNAC" key="{7A46478C-01DA-49EA-82B4-71A6F0736B6A}" path="AddNAC.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />

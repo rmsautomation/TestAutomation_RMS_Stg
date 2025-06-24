@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{DBDAC172-22A4-4E5D-92E9-412A640854BF}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{827AD92F-6BF1-41AC-B1EE-F04F81AED3A5}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -10,6 +10,16 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonAdd2;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; radio button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms2.radiobuttonDepartmentDescription;" />
+				</Data>
+			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -41,7 +51,7 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textnodeUsername;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms2.textnodeDepartment;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -58,20 +68,32 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.tradeLane_name;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textboxMatInput5;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="username" />
+						<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="department" />
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.tradeLane_name;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textboxMatInput5;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonSaveCommodity;" />
+				<Data Description="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonDone_SaveFilterPrepaid;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -89,7 +111,7 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{E12FC024-9DBA-4ECF-8D09-FB37FC79655C}">
-		<Parameter0 Name="username" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="AYLINADMIN@TEST.COM" Description="" />
+	<Parameters Key="{84BD8400-E83C-4D94-A3B9-AB868F18D951}">
+		<Parameter0 Name="department" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="UPS2-Main" Description="" />
 	</Parameters>
 </Root>

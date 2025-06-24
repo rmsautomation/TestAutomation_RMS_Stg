@@ -20600,50 +20600,6 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="radiobuttonDepartmentDescription" Key="{4A2F2C77-5497-4412-8F9C-578B3405CAE8}">
-										<Image FileName="-358260742" Left="604" Top="275" Right="644" Bottom="315" />
-										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//input[@id=(//label[.=&apos;Department Description&apos;]/@for)]" />
-												<Value Value="//input[@id=(//label[.=&apos;Department Description&apos;]/@for)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Department Description&apos;]" />
-												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Department Description&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="#mat-radio-37-input" />
-												<Value Value="#mat-radio-37-input" />
-											</Selector>
-											<Selector>
-												<Value Value="//input[@name=&apos;mat-radio-group-35&apos;]" />
-												<Value Value="//input[@name=&apos;mat-radio-group-35&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//mat-radio-group/mat-radio-button//input" />
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//mat-radio-group/mat-radio-button//input" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="textnodeDepartment" Key="{EAA15501-AA8F-460A-850F-6089F1AF73FA}">
-										<Image FileName="-424778611" Left="589" Top="458" Right="678" Bottom="482" />
-										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//mat-option[2]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-												<Value Value="//mat-option[2]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;cdk-overlay-24&apos;]//mat-option[2]/span" />
-												<Value Value="//div[@id=&apos;cdk-overlay-24&apos;]//mat-option[2]/span" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[2]/span" />
-												<Value Value="//mat-option[2]/span" />
-											</Selector>
-										</Selectors>
-									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox1Rmsautomation24GmailCo" Key="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
@@ -23792,6 +23748,10 @@
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=(//button[./i[contains(@class, &apos;material-icons&apos;) and text()=&apos; add &apos;]])[1]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
 												<Value Value="//button[contains(., &apos;add&apos;)]" />
 												<Value Value="//button[contains(., &apos;add&apos;)]" />
 											</Selector>
@@ -24631,23 +24591,19 @@
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//button[./div[contains(@class, &apos;QMS_Icon__Save&apos;)]]" />
-												<Value Value="Add selector" />
-											</Selector>
-											<Selector>
 												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
 												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-108&apos;]" Enabled="False" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-108&apos;]" />
 												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-108&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-6&apos;]//div[2]/shared-icon-button/button" Enabled="False" />
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-6&apos;]//div[2]/shared-icon-button/button" />
 												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-6&apos;]//div[2]/shared-icon-button/button" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" Enabled="False" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" />
 												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" />
 											</Selector>
 										</Selectors>
@@ -28452,8 +28408,6 @@
 				<Child Name="checkboxSelectRow" Owner="{63754BAD-14CB-4D34-9F72-D0F81CD32C6C}" />
 				<Child Name="vg2" Owner="{1D526B30-24FC-4944-B055-9BFBFB40381F}" />
 				<Child Name="textnode10" Owner="{6A86A6FF-C680-4FC6-A886-046EDE52E3D8}" />
-				<Child Name="radiobuttonDepartmentDescription" Owner="{4A2F2C77-5497-4412-8F9C-578B3405CAE8}" />
-				<Child Name="textnodeDepartment" Owner="{EAA15501-AA8F-460A-850F-6089F1AF73FA}" />
 			</Child>
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />
@@ -28580,8 +28534,8 @@
 		<Child Name="panel" Owner="{965B986B-7287-4BC7-A20F-3525BEB46CA3}" />
 		<Child Name="sectionAddMargin" Owner="{60198DD9-6368-4423-AC7B-7B2235ED5522}">
 			<Child Name="linkAddMargin" Owner="{8F7D2CB6-9460-4743-ADB3-033BC2F0A094}" />
-			<Child Name="buttonAdd5" Owner="{C9CB5122-B368-49B4-97CD-9F7BC2915E54}" />
 		</Child>
 		<Child Name="closePEW" Owner="{442E5F71-ACFF-41E1-9A37-EE0272A6DFA5}" />
+		<Child Name="buttonAdd5" Owner="{C9CB5122-B368-49B4-97CD-9F7BC2915E54}" />
 	</LogicalNodes>
 </Root>

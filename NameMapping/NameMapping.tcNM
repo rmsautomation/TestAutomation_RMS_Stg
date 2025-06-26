@@ -23748,6 +23748,10 @@
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=(//button[./i[contains(@class, &apos;material-icons&apos;) and text()=&apos; add &apos;]])[1]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
 												<Value Value="//button[contains(., &apos;add&apos;)]" />
 												<Value Value="//button[contains(., &apos;add&apos;)]" />
 											</Selector>

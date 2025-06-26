@@ -300,6 +300,7 @@
 					<child name="AddallLocations" key="{2CBADD46-0D9A-43CF-9C81-A5CCF39B052A}" path="AddallLocations.tcKDTest" />
 					<child name="SaveRule" key="{53357EBD-4792-4893-A527-8240B3611BC1}" path="SaveRule.tcKDTest" />
 					<child name="AddNAC" key="{7A46478C-01DA-49EA-82B4-71A6F0736B6A}" path="AddNAC.tcKDTest" />
+					<child name="AddFilterByDepartement" key="{3311209F-7D1B-41C6-84D6-F395CBCFC8ED}" path="AddFilterByDepartement.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />

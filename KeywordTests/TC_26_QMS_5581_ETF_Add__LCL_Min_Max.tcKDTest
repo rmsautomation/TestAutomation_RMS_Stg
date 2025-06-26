@@ -96,11 +96,11 @@
 			<Variable Name="surcharge_name" Type="String" Local="False">
 				<DefValue StrValue="AAI DG charge" />
 			</Variable>
-			<Variable Name="min" Type="String" Local="False">
-				<DefValue StrValue="50" />
+			<Variable Name="min" Type="Double" Local="False">
+				<DefValue FloatValue="50" />
 			</Variable>
-			<Variable Name="max" Type="String" Local="False">
-				<DefValue StrValue="200" />
+			<Variable Name="max" Type="Double" Local="False">
+				<DefValue FloatValue="200" />
 			</Variable>
 		</Items>
 	</Variables>

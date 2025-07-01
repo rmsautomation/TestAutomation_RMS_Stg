@@ -179,11 +179,11 @@
 												<Value Value="//button[contains(., &apos;done&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+												<Value Value="//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" Enabled="False" />
 												<Value Value="//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//shared-icon-button/button" />
+												<Value Value="//shared-icon-button/button" Enabled="False" />
 												<Value Value="//shared-icon-button/button" />
 											</Selector>
 										</Selectors>
@@ -6555,23 +6555,27 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;location-info-input&apos;) and contains(@class, &apos;origin&apos;) and .//label[normalize-space(.)=&apos;Origin&apos;]]//mat-icon[normalize-space(.)=&apos;local_shipping&apos;]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
 												<Value Value="//mat-icon[.=&apos;local_shipping&apos;]" />
 												<Value Value="//mat-icon[.=&apos;local_shipping&apos;]" />
 											</Selector>
 											<Selector>
+												<Value Value="//mat-icon[@aria-describedby=&apos;cdk-describedby-message-ng-1-46&apos;]" Enabled="False" />
 												<Value Value="//mat-icon[@aria-describedby=&apos;cdk-describedby-message-ng-1-46&apos;]" />
-												<Value Value="//mat-icon[@aria-describedby=&apos;cdk-describedby-message-ng-1-46&apos;]" />
 											</Selector>
 											<Selector>
+												<Value Value="//search-form-location-options//div//mat-icon[@role=&apos;img&apos;]" Enabled="False" />
 												<Value Value="//search-form-location-options//div//mat-icon[@role=&apos;img&apos;]" />
-												<Value Value="//search-form-location-options//div//mat-icon[@role=&apos;img&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//search-form-location-options//div//mat-icon[contains(@class, &apos;mat-icon&apos;)]" />
+												<Value Value="//search-form-location-options//div//mat-icon[contains(@class, &apos;mat-icon&apos;)]" Enabled="False" />
 												<Value Value="//search-form-location-options//div//mat-icon[contains(@class, &apos;mat-icon&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//search-form-location-options//div//mat-icon" />
+												<Value Value="//search-form-location-options//div//mat-icon" Enabled="False" />
 												<Value Value="//search-form-location-options//div//mat-icon" />
 											</Selector>
 										</Selectors>
@@ -24608,6 +24612,27 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeApplyAutoRoutingOn" Key="{1B3090B8-558D-4E1E-BF08-984FCF6A2947}">
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;dest&apos;) and .//label[normalize-space(.)=&apos;Destination&apos;]]//mat-icon[normalize-space(.)=&apos;local_shipping&apos;]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//mat-icon[@role=&apos;img&apos;]" Enabled="False" />
+												<Value Value="//div[4]//mat-icon[@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//mat-icon[contains(@class, &apos;mat-icon&apos;)]" Enabled="False" />
+												<Value Value="//div[4]//mat-icon[contains(@class, &apos;mat-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//mat-icon" Enabled="False" />
+												<Value Value="//div[4]//mat-icon" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -25302,6 +25327,28 @@
 											<Selector>
 												<Value Value="//div/div[contains(@class, &apos;price-container&apos;)]" />
 												<Value Value="//div/div[contains(@class, &apos;price-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeApplyAutoRoutingOn" Key="{19E1943E-8C00-4CB5-9AE9-7503D76DE336}">
+										<Image FileName="-1668989060" Left="276" Top="533" Right="300" Bottom="557" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;dest&apos;) and .//label[normalize-space(.)=&apos;Destination&apos;]]//mat-icon[normalize-space(.)=&apos;local_shipping&apos;]" />
+												<Value Value="//mat-icon[@aria-describedby=&apos;cdk-describedby-message-ng-1-24&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//mat-icon[@role=&apos;img&apos;]" Enabled="False" />
+												<Value Value="//div[4]//mat-icon[@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//mat-icon[contains(@class, &apos;mat-icon&apos;)]" Enabled="False" />
+												<Value Value="//div[4]//mat-icon[contains(@class, &apos;mat-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//mat-icon" Enabled="False" />
+												<Value Value="//div[4]//mat-icon" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -28456,7 +28503,9 @@
 		<Child Name="textnodeCombinedIntoASingleGrid2" Owner="{AA9E6902-BEE6-45BD-9570-56F8ADAF0AEE}" />
 		<Child Name="buttonCombinedSurcharges" Owner="{12DE73DD-2950-4788-AE2B-5D8A79BDFF3C}" />
 		<Child Name="vg" Owner="{11D22940-9441-4875-B449-0517E959EB37}" />
-		<Child Name="textnode3" Owner="{6C38D0CE-F66D-4C9E-838D-C17DCB007B2B}" />
+		<Child Name="textnode3" Owner="{6C38D0CE-F66D-4C9E-838D-C17DCB007B2B}">
+			<Child Name="truckDestination" Owner="{1B3090B8-558D-4E1E-BF08-984FCF6A2947}" />
+		</Child>
 		<Child Name="dryDropdown" Owner="{F095E23F-F49D-479A-A48D-29012A8A703A}" />
 		<Child Name="textnodeOrigin2" Owner="{EE451CF2-3E20-44F1-A4C3-9D2172E15CAE}" />
 		<Child Name="textnodeDestination" Owner="{F87A3057-057B-42D6-9372-4CC2B97B956A}" />
@@ -28537,5 +28586,6 @@
 		</Child>
 		<Child Name="closePEW" Owner="{442E5F71-ACFF-41E1-9A37-EE0272A6DFA5}" />
 		<Child Name="buttonAdd5" Owner="{C9CB5122-B368-49B4-97CD-9F7BC2915E54}" />
+		<Child Name="textnodeApplyAutoRoutingOn" Owner="{19E1943E-8C00-4CB5-9AE9-7503D76DE336}" />
 	</LogicalNodes>
 </Root>

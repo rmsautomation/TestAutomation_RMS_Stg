@@ -6,6 +6,10 @@ function SelectECU(){
   SelectAPI("ECU Worldwide");
 }
 
+function Select7LPortal(){
+  SelectAPI("7L Portal");
+}
+
 function SelectGroundAPIs(){
   SelectAPI("ITG", "Xenon");
 }

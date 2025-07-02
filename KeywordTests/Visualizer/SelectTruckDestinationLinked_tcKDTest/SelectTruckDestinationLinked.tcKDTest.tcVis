@@ -2,5 +2,6 @@
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{2A3146AC-AA2E-4E78-8D13-C6EEDC5769E0}">
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45839.9359722222" objectName="Aliases.textnodeApplyAutoRoutingOn" objectLeft="276" objectTop="533" objectRight="300" objectBottom="557" clickPointX="289" clickPointY="552" imageFileName="tcvi24422296112400.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45840.6412962963" objectName="Aliases.browser.pageQms2.linkedDestination" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi8535878122241.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

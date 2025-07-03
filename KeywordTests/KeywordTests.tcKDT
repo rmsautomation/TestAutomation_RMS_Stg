@@ -74,6 +74,7 @@
 					</folder>
 					<folder name="Add Margin">
 						<child name="TC_50_QMS_5080_Margin_Rule_Select_Department" key="{5D8D7277-AC3C-4823-A4DC-A1A3C93A886B}" path="TC_50_QMS_5080_Margin_Rule_Select_Department.tcKDTest" />
+						<child name="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{D1BD16C7-152F-4023-B7CC-BCDE382D37CE}" path="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule.tcKDTest" />
 					</folder>
 				</folder>
 				<folder name="RatePrioritization">
@@ -212,6 +213,8 @@
 					<child name="VerifyTotalRatesLinked7L" key="{AB0A0A43-AD80-4113-9D8F-F0A06DBED458}" path="VerifyTotalRatesLinked7L.tcKDTest" />
 					<child name="CheckPopUpInfoPanel" key="{250A03CA-6C1B-4143-AF23-301460808580}" path="CheckPopUpInfoPanel.tcKDTest" />
 					<child name="AddQuoteToCart" key="{55903B67-A847-42FA-8694-90D866BB3604}" path="AddQuoteToCart.tcKDTest" />
+					<child name="PressButtonCharges" key="{CEE01BB1-C2C5-4A40-AAF7-FF4DEF49A91A}" path="PressButtonCharges.tcKDTest" />
+					<child name="SaveInitialValuesFCL" key="{7FF54DA3-D8AD-4744-8A15-AC194A30BA6F}" path="SaveInitialValuesFCL.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -318,6 +321,9 @@
 					<child name="AddallLocations" key="{2CBADD46-0D9A-43CF-9C81-A5CCF39B052A}" path="AddallLocations.tcKDTest" />
 					<child name="SaveRule" key="{53357EBD-4792-4893-A527-8240B3611BC1}" path="SaveRule.tcKDTest" />
 					<child name="AddNAC" key="{7A46478C-01DA-49EA-82B4-71A6F0736B6A}" path="AddNAC.tcKDTest" />
+					<child name="GoToMarginManagement" key="{1C1CB297-BED4-41D3-9BA2-7450C1707CA0}" path="GoToMarginManagement.tcKDTest" />
+					<child name="SelectMACDropdown" key="{FA52EA62-EA07-4596-BCE5-6A4EEF195DFE}" path="SelectMACDropdown.tcKDTest" />
+					<child name="DeleteGenericMAC" key="{D67EC387-DACD-43F1-A9BF-B2EE09607176}" path="DeleteGenericMAC.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />
@@ -338,6 +344,8 @@
 					<child name="EnableAmendment" key="{0F11D621-39B8-48C1-917D-50F7FD6C597B}" path="EnableAmendment.tcKDTest" />
 					<child name="VerifyEnableAmendment" key="{B7BA2368-8659-48E7-B2A5-271D97544B79}" path="VerifyEnableAmendment.tcKDTest" />
 					<child name="VerifyDisableAmendment" key="{CBECF930-BE22-4605-A5A1-92BFB61597CA}" path="VerifyDisableAmendment.tcKDTest" />
+					<child name="GoToOrganizationSettings" key="{08E70737-9C82-4A2A-AF10-78E7A96845BC}" path="GoToOrganizationSettings.tcKDTest" />
+					<child name="Disabled_EnabledCustomerOptions" key="{FDE65AEF-DBC1-4047-81C7-0D6676E2F9C2}" path="Disabled_EnabledCustomerOptions.tcKDTest" />
 				</folder>
 				<folder name="SurchargeGroup">
 					<child name="DeleteOrganizationGroup" key="{D772E15C-C4DC-4729-9F9C-BC6AFB8AE62C}" path="DeleteOrganizationGroup.tcKDTest" />
@@ -377,6 +385,7 @@
 				<child name="AddTradeLane" key="{C5B7A7E2-2514-4D42-9BB7-2C50737A6F22}" path="AddTradeLane.tcKDTest" />
 				<child name="DeleteDepartment" key="{F2AB3D09-39AA-42A9-B05F-157AC589C758}" path="DeleteDepartment.tcKDTest" />
 				<child name="EnabledCustomerOption" key="{8FA323A3-4C2E-43F0-B1E0-8E4DF9EBA832}" path="EnabledCustomerOption.tcKDTest" />
+				<child name="GoToControlPanel" key="{8501571B-A1AD-421B-BD86-E9751362533E}" path="GoToControlPanel.tcKDTest" />
 			</folder>
 			<folder name="Hooks">
 				<child name="Hooks_OnStartTest" key="{A523E07A-FB3A-4014-9FE9-44573491223C}" path="Hooks_OnStartTest.tcKDTest" />

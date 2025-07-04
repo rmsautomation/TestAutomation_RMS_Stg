@@ -215,6 +215,8 @@
 					<child name="AddQuoteToCart" key="{55903B67-A847-42FA-8694-90D866BB3604}" path="AddQuoteToCart.tcKDTest" />
 					<child name="PressButtonCharges" key="{CEE01BB1-C2C5-4A40-AAF7-FF4DEF49A91A}" path="PressButtonCharges.tcKDTest" />
 					<child name="SaveInitialValuesFCL" key="{7FF54DA3-D8AD-4744-8A15-AC194A30BA6F}" path="SaveInitialValuesFCL.tcKDTest" />
+					<child name="SaveFinalValuesFCL" key="{66BC1BBF-6172-4906-B081-C6716364DE1B}" path="SaveFinalValuesFCL.tcKDTest" />
+					<child name="VerifyAddedMarginFCLOriginalRule" key="{835DAC4F-D8AA-47EA-B64C-FDD6AA492F02}" path="VerifyAddedMarginFCLOriginalRule.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -324,6 +326,14 @@
 					<child name="GoToMarginManagement" key="{1C1CB297-BED4-41D3-9BA2-7450C1707CA0}" path="GoToMarginManagement.tcKDTest" />
 					<child name="SelectMACDropdown" key="{FA52EA62-EA07-4596-BCE5-6A4EEF195DFE}" path="SelectMACDropdown.tcKDTest" />
 					<child name="DeleteGenericMAC" key="{D67EC387-DACD-43F1-A9BF-B2EE09607176}" path="DeleteGenericMAC.tcKDTest" />
+					<child name="AddNewMACRule" key="{9392B19A-2852-4790-8D84-AACC1DEDB85A}" path="AddNewMACRule.tcKDTest" />
+					<child name="AddUserMAC" key="{C4095F11-02C2-4476-9C4E-FE165AE6595B}" path="AddUserMAC.tcKDTest" />
+					<child name="AddAllModes" key="{06BA3C1A-9B61-43E6-A1EB-05B59CF4C4AC}" path="AddAllModes.tcKDTest" />
+					<child name="SelectApplyToBaseRate" key="{351EC486-F2EB-44CD-AA64-F7956B165F85}" path="SelectApplyToBaseRate.tcKDTest" />
+					<child name="SelectApplyMarginOnSell" key="{416A22FE-3E1F-40AB-8503-4FD4184B7A31}" path="SelectApplyMarginOnSell.tcKDTest" />
+					<child name="InputMarginFlat" key="{923CD6E6-A8B8-47EC-BE84-5157F1727930}" path="InputMarginFlat.tcKDTest" />
+					<child name="ButtonSaveNewRule" key="{63852AE2-5413-42DF-BAEB-25F042F17105}" path="ButtonSaveNewRule.tcKDTest" />
+					<child name="PressButtonYes" key="{62E821D7-490E-4DB9-95E6-64BF8388141C}" path="PressButtonYes.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />

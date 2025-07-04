@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{1DD4AB90-CF0B-4FAE-A2F2-F2B97EEF25AE}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{91776EEF-8D59-4D7B-A9A5-2347D9206816}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -11,10 +11,24 @@
 		<Children>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonCharges;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonAdd2;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; radio button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.radiobuttonUser;" />
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="AddFilterByUsername">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="AYLINADMIN@TEST.COM" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="user" />
+					</Parameters>
 				</Data>
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{5B612C8E-8500-4467-864E-9CC005C657BA}" />
+	<Parameters Key="{6EE8D8D8-E3D8-449C-ADE5-CA71710FB430}">
+		<Parameter0 Name="user" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" Description="" />
+	</Parameters>
 </Root>

@@ -519,7 +519,7 @@
 												<Value Value="xpath=//input[@formcontrolname=&apos;filterValueText&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//input[@formcontrolname=&apos;filterValueText&apos; or @id=&apos;mat-input-5&apos;]" />
+												<Value Value="xpath=//input[@formcontrolname=&apos;filterValueText&apos; or @id=&apos;mat-input-5&apos;]" Enabled="False" />
 												<Value Value="xpath=//input[@formcontrolname=&apos;filterValueText&apos; or @id=&apos;mat-input-5&apos;]" />
 											</Selector>
 											<Selector>
@@ -873,7 +873,7 @@
 												<Value Value="//input[@id=(//label[.=&apos;Rate&apos;]/@for)]" />
 											</Selector>
 											<Selector>
-												<Value Value="#mat-input-6" />
+												<Value Value="#mat-input-6" Enabled="False" />
 												<Value Value="#mat-input-6" />
 											</Selector>
 											<Selector>
@@ -20640,6 +20640,28 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="button" Key="{DA407CB6-97E9-4D71-A9CD-9317C85A07C4}">
+										<Image FileName="-242332426" Left="1277" Top="737" Right="1311" Bottom="767" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-345&apos;]" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-345&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-2&apos;]//div[2]/shared-icon-button/button" />
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-2&apos;]//div[2]/shared-icon-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox1Rmsautomation24GmailCo" Key="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
@@ -24773,6 +24795,148 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelDepartmentDescriptionUser" Key="{71932E44-375A-46D4-9706-ED6F3929DE08}">
+										<Image FileName="188119043" Left="110" Top="448" Right="1850" Bottom="493" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;mat-mdc-tab-labels&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;mat-mdc-tab-labels&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-header/div/div/div" />
+												<Value Value="//mat-tab-header/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSelectAMarginRuleTo" Key="{9839D82B-0F33-49A6-8A93-C2AA76344F6B}">
+										<Image FileName="188119043" Left="117" Top="293" Right="314" Bottom="308" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;mdc-tab mat-mdc-tab mat-mdc-focus-indicator mat-mdc-tab-disabled ng-star-inserted&apos;)]/span/span[text()=&apos;Company Qualifiers&apos;]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[.=&apos;Select a Margin Rule to edit/view&apos;]" Enabled="False" />
+												<Value Value="//label[.=&apos;Select a Margin Rule to edit/view&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label[contains(@class, &apos;step-label&apos;)]" Enabled="False" />
+												<Value Value="//div/label[contains(@class, &apos;step-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div/label" Enabled="False" />
+												<Value Value="//mat-card//div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel1" Key="{0368DD95-FF59-45AB-BAEC-6E92D4F5AE8D}">
+										<Image FileName="188119043" Left="70" Top="275" Right="1880" Bottom="1424" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;col-12&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;col-12&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel22" Key="{B2FEC8F1-1D9E-4A09-B5AB-D68D096A151B}">
+										<Image FileName="188119043" Left="95" Top="399" Right="1865" Bottom="842" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div/div[2]" />
+												<Value Value="//div[2]/div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel12" Key="{19614468-956A-4F32-A3B2-36ADEED7EAD6}">
+										<Image FileName="188119043" Left="85" Top="278" Right="1865" Bottom="1427" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;m-0&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;m-0&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelHowDoesThisRuleApply" Key="{E0CF4853-A40A-4660-B2B4-2E92337A5D83}">
+										<Image FileName="188119043" Left="117" Top="414" Right="272" Bottom="429" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;How does this rule apply?&apos;]" />
+												<Value Value="//label[.=&apos;How does this rule apply?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label[contains(@class, &apos;step-label&apos;)]" />
+												<Value Value="//div[2]/label[contains(@class, &apos;step-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div[2]/label" />
+												<Value Value="//mat-card//div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel6" Key="{FFDD55DE-5B64-4AA2-BD22-3DE74209D1F9}">
+										<Image FileName="320786603" Left="0" Top="139" Right="1905" Bottom="1040" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;cdk-overlay-transparent-backdrop&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;cdk-overlay-transparent-backdrop&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonUser" Key="{9FA8F3A3-5169-49E2-8118-B9242F50732B}">
+										<Image FileName="-1868747915" Left="816" Top="275" Right="856" Bottom="315" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;User&apos;]/@for)]" />
+												<Value Value="//input[@id=(//label[.=&apos;User&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;User&apos;]" />
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;User&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-29-input" />
+												<Value Value="#mat-radio-29-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;mat-radio-group-27&apos;]" />
+												<Value Value="//input[@name=&apos;mat-radio-group-27&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//mat-radio-group[2]/mat-radio-button//input" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//mat-radio-group[2]/mat-radio-button//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button3" Key="{BF88F2EC-ACBE-4CF8-804F-2596D14C2F44}">
+										<Image FileName="1705233111" Left="1277" Top="737" Right="1311" Bottom="767" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-246&apos;]" Enabled="False" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-246&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-1&apos;]//div[2]/shared-icon-button/button" />
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-1&apos;]//div[2]/shared-icon-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -28597,6 +28761,7 @@
 				<Child Name="textnode10" Owner="{6A86A6FF-C680-4FC6-A886-046EDE52E3D8}" />
 				<Child Name="linkedDestination" Owner="{8A3000A0-BA2B-4CAB-AC76-BD803A4E0FAF}" />
 				<Child Name="customerOptions" Owner="{733447F5-0562-4A63-8293-F00DE3157AAF}" />
+				<Child Name="button" Owner="{DA407CB6-97E9-4D71-A9CD-9317C85A07C4}" />
 			</Child>
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />
@@ -28735,5 +28900,14 @@
 		<Child Name="textnode0000tc88Now" Owner="{63C560EB-A205-4D70-B016-362F1AA5D8EB}" />
 		<Child Name="textnode0000tc88Now2" Owner="{C3ED55F9-0568-4BB1-8ECB-0C83642BB5A6}" />
 		<Child Name="panel5" Owner="{C7025F4C-91F9-4816-A6D8-BC9CACAD51D6}" />
+		<Child Name="panelDepartmentDescriptionUser" Owner="{71932E44-375A-46D4-9706-ED6F3929DE08}" />
+		<Child Name="disabledCompanyQualifiers" Owner="{9839D82B-0F33-49A6-8A93-C2AA76344F6B}" />
+		<Child Name="panel1" Owner="{0368DD95-FF59-45AB-BAEC-6E92D4F5AE8D}" />
+		<Child Name="panel22" Owner="{B2FEC8F1-1D9E-4A09-B5AB-D68D096A151B}" />
+		<Child Name="panel12" Owner="{19614468-956A-4F32-A3B2-36ADEED7EAD6}" />
+		<Child Name="labelHowDoesThisRuleApply" Owner="{E0CF4853-A40A-4660-B2B4-2E92337A5D83}" />
+		<Child Name="panel6" Owner="{FFDD55DE-5B64-4AA2-BD22-3DE74209D1F9}" />
+		<Child Name="radiobuttonUser" Owner="{9FA8F3A3-5169-49E2-8118-B9242F50732B}" />
+		<Child Name="button3" Owner="{BF88F2EC-ACBE-4CF8-804F-2596D14C2F44}" />
 	</LogicalNodes>
 </Root>

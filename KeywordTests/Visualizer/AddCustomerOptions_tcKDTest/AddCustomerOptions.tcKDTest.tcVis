@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{01418077-D079-40A4-8248-1577291A00E0}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45842.8068287037" objectName="Aliases.browser.pageQms.companyOptionsInput" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi272449984118280.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45842.8068518518" objectName="Aliases.browser.pageQms.companyOptionsInput" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi272451828118282.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45842.8069097222" objectName="Aliases.browser.pageQms.textnodeCurrencyAdjustmentFactor" objectLeft="1376" objectTop="890" objectRight="1624" objectBottom="938" clickPointX="1412" clickPointY="911" imageFileName="tcvi272456968118283.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -411,6 +411,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_86_QMS_14625_SearchCustomerOptionsAddExisting" key="{1BABEC4B-93DE-4513-BE8F-F1FA2A5F9826}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{2931036B-9C3B-4F9F-9845-EBCDF7A81093}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{B8A2D297-D76C-4103-9488-71BF04692FCE}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{D1BD16C7-152F-4023-B7CC-BCDE382D37CE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />

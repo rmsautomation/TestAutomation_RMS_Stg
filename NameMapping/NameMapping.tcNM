@@ -919,10 +919,6 @@
 												<Value Value="xpath=(//input[@placeholder=&quot;All&quot;])[2]" />
 											</Selector>
 											<Selector>
-												<Value Value="#mat-input-9" Enabled="False" />
-												<Value Value="#mat-input-9" Enabled="False" />
-											</Selector>
-											<Selector>
 												<Value Value="//shared-autocomplete//mat-form-field//input[@aria-label=&apos;Number&apos;]" />
 												<Value Value="//shared-autocomplete//mat-form-field//input[@aria-label=&apos;Number&apos;]" />
 											</Selector>
@@ -1213,19 +1209,19 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-input-17" />
-												<Value Value="#mat-input-17" />
+												<Value Value="xpath=//label[normalize-space(.)=&apos;Company Name or ID&apos;]/following-sibling::search-form-autocomplete-form-md//input" />
+												<Value Value="Add selector" />
 											</Selector>
 											<Selector>
+												<Value Value="//tariff-rate-details//mat-form-field[4]//textarea[contains(@class, &apos;mat-mdc-input-element&apos;)]" Enabled="False" />
 												<Value Value="//tariff-rate-details//mat-form-field[4]//textarea[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
-												<Value Value="//tariff-rate-details//mat-form-field[4]//textarea[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;search-rate-wrapper&apos;]//tariff-rate-details//mat-form-field[4]//textarea" />
+												<Value Value="//div[@id=&apos;search-rate-wrapper&apos;]//tariff-rate-details//mat-form-field[4]//textarea" Enabled="False" />
 												<Value Value="//div[@id=&apos;search-rate-wrapper&apos;]//tariff-rate-details//mat-form-field[4]//textarea" />
 											</Selector>
 											<Selector>
-												<Value Value="//tariff-rate-details//mat-form-field[4]//textarea" />
+												<Value Value="//tariff-rate-details//mat-form-field[4]//textarea" Enabled="False" />
 												<Value Value="//tariff-rate-details//mat-form-field[4]//textarea" />
 											</Selector>
 										</Selectors>
@@ -2913,12 +2909,16 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//search-form-fcl//div[contains(@class, &apos;pl-0&apos;)]" />
+												<Value Value="//search-form-fcl//div[contains(@class, &apos;pl-0&apos;)]" Enabled="False" />
 												<Value Value="//search-form-fcl//div[contains(@class, &apos;pl-0&apos;)]" />
 											</Selector>
 											<Selector>
+												<Value Value="//search-form-fcl/div/div" Enabled="False" />
 												<Value Value="//search-form-fcl/div/div" />
-												<Value Value="//search-form-fcl/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[text()=&apos;Dry&apos;]" />
+												<Value Value="Add selector" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13880,15 +13880,19 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[.=&apos;Search&apos;]" />
+												<Value Value="xpath=//span[text()=&apos;Dry&apos;]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Search&apos;]" Enabled="False" />
 												<Value Value="//div[.=&apos;Search&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[contains(@class, &apos;rate-search-header&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;rate-search-header&apos;)]" Enabled="False" />
 												<Value Value="//div[contains(@class, &apos;rate-search-header&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//search-form-header-panel/div" />
+												<Value Value="//search-form-header-panel/div" Enabled="False" />
 												<Value Value="//search-form-header-panel/div" />
 											</Selector>
 										</Selectors>
@@ -20662,6 +20666,67 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeAll" Key="{BEFA1341-22A7-4CB6-B3EC-5C8B5E301C8D}">
+										<Image FileName="-959224747" Left="740" Top="556" Right="762" Bottom="573" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//mat-option[contains(., &apos;All&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[text()=&apos;All&apos;]" Enabled="False" />
+												<Value Value="//span[text()=&apos;Dry&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-shipment-options//div[2]//dropdown-select/mat-form-field//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" Enabled="False" />
+												<Value Value="//search-form-shipment-options//div[2]//dropdown-select/mat-form-field//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-select-value-15&apos;]//span/span" Enabled="False" />
+												<Value Value="//div[@id=&apos;mat-select-value-15&apos;]//span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelMatMdcSlideToggle11Label" Key="{179BD615-D233-4F75-BE1B-EB705C7CDC43}">
+										<Image FileName="-116644950" Left="1316" Top="685" Right="1320" Bottom="685" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-mdc-slide-toggle-11-label" />
+												<Value Value="#mat-mdc-slide-toggle-11-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-multi-lane-data-options//input-toggle-switch//mat-slide-toggle//label[contains(@class, &apos;mdc-label&apos;)]" />
+												<Value Value="//search-form-multi-lane-data-options//input-toggle-switch//mat-slide-toggle//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-slide-toggle[@id=&apos;mat-mdc-slide-toggle-11&apos;]//label" />
+												<Value Value="//mat-slide-toggle[@id=&apos;mat-mdc-slide-toggle-11&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-multi-lane-data-options//div//input-toggle-switch//mat-slide-toggle//label" />
+												<Value Value="//search-form-multi-lane-data-options//div//input-toggle-switch//mat-slide-toggle//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMatMdcSlideToggle11Button" Key="{7E5510D6-AE4B-459F-8D47-EF7AB9BA85EB}">
+										<Image FileName="-116644950" Left="1280" Top="830" Right="1316" Bottom="844" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-labelledby=&apos;mat-mdc-slide-toggle-11-label&apos;]" />
+												<Value Value="//button[@aria-labelledby=&apos;mat-mdc-slide-toggle-11-label&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-slide-toggle-11-button" />
+												<Value Value="#mat-mdc-slide-toggle-11-button" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-multi-lane-data-options//input-toggle-switch//mat-slide-toggle//button" />
+												<Value Value="//search-form-multi-lane-data-options//input-toggle-switch//mat-slide-toggle//button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox1Rmsautomation24GmailCo" Key="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
@@ -24937,6 +25002,139 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel7" Key="{0B28DE9E-9367-41BE-9555-A1264C08169D}">
+										<Image FileName="1173296520" Left="1554" Top="647" Right="1860" Bottom="679" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;flex-equal-width&apos;) and contains(normalize-space(.), &apos;Company Name&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Company Name (ID): AYLENCOMPANYTESTINTEGRATION&#32;&#32;(UPS2)&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;Company Name (ID): AYLENCOMPANYTESTINTEGRATION&#32;&#32;(UPS2)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[contains(@class, &apos;flex-equal-width&apos;)]" />
+												<Value Value="//div[4]/div[contains(@class, &apos;flex-equal-width&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAddFilter" Key="{57D34399-AB02-40E2-9D42-0BA955564462}">
+										<Image FileName="1620776376" Left="85" Top="434" Right="1523" Bottom="494" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[contains(@class, &apos;pb-3&apos;)]" />
+												<Value Value="//div/div[contains(@class, &apos;pb-3&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//mat-tab-body/div/div" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//mat-tab-body/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-body/div/div" />
+												<Value Value="//mat-tab-body/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCharges" Key="{33034897-8E68-446C-AC40-56CAD4D97350}">
+										<Image FileName="-738678410" Left="1608" Top="495" Right="1662" Bottom="525" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Charges&apos;]/@id)]" />
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Charges&apos;]/@id)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonSell" Key="{E6763BAE-C226-4086-A2F3-FE4071F7A2C4}">
+										<Image FileName="432713218" Left="1749" Top="734" Right="1789" Bottom="774" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Sell&apos;]/@for)]" />
+												<Value Value="//input[@id=(//label[.=&apos;Sell&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;SELL&apos;]" />
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;SELL&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-10-input" />
+												<Value Value="#mat-radio-10-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-view//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-10&apos;]//input[@name=&apos;mat-radio-group-7&apos;]" />
+												<Value Value="//search-charges-result-view//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-10&apos;]//input[@name=&apos;mat-radio-group-7&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result-view//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-10&apos;]//input" />
+												<Value Value="//search-charges-result-view//mat-radio-group/mat-radio-button[@id=&apos;mat-radio-10&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDetails" Key="{F5C947C4-FFAB-48F1-B288-DC2E6F965A99}">
+										<Image FileName="-273373120" Left="1554" Top="495" Right="1608" Bottom="525" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Details&apos;]/@id)]" />
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Details&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-info-panel-content//rate-search-info-details/rate-search-info-panel-tab-icon//button" />
+												<Value Value="//shared-info-panel-content//rate-search-info-details/rate-search-info-panel-tab-icon//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel8" Key="{C6F01FD4-2C71-424C-9F1C-6B2FB73544C8}">
+										<Image FileName="-99687464" Left="798" Top="300" Right="1113" Bottom="340" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(text(), &apos;Company Name (ID)&apos;)])[2]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Company Name (ID): AYLENCOMPANYTESTINTEGRATION&#32;&#32;(UPS2)&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;Company Name (ID): AYLENCOMPANYTESTINTEGRATION&#32;&#32;(UPS2)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//shopping-cart-dialog//shopping-cart-card/mat-card//div//div[contains(@class, &apos;py-2&apos;)]" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//shopping-cart-dialog//shopping-cart-card/mat-card//div//div[contains(@class, &apos;py-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-0&apos;]//div/div/div/div" />
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-0&apos;]//div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-card/div/div/div/div" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-card/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="companyCart" Key="{AD4C437A-BD83-4654-B7B5-AD5878BD0506}">
+										<Image FileName="-1212902680" Left="80" Top="296" Right="147" Bottom="313" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;company-name&apos;) and contains(normalize-space(.), &apos;Company Name (ID):&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[text()=&apos;Origin&apos;]" Enabled="False" />
+												<Value Value="//label[text()=&apos;Origin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-location-options//div//label[contains(@class, &apos;location-label&apos;)]" Enabled="False" />
+												<Value Value="//search-form-location-options//div//label[contains(@class, &apos;location-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-location-options//label" Enabled="False" />
+												<Value Value="//search-form-location-options//label" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -25172,23 +25370,6 @@
 											<Selector>
 												<Value Value="//div[2]/a/div[contains(@class, &apos;link-icon&apos;)]" />
 												<Value Value="//div[2]/a/div[contains(@class, &apos;link-icon&apos;)]" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="labelOrigin" Key="{AD4C437A-BD83-4654-B7B5-AD5878BD0506}">
-										<Image FileName="-1212902680" Left="80" Top="296" Right="147" Bottom="313" />
-										<Selectors>
-											<Selector>
-												<Value Value="//label[text()=&apos;Origin&apos;]" />
-												<Value Value="//label[text()=&apos;Origin&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//search-form-location-options//div//label[contains(@class, &apos;location-label&apos;)]" />
-												<Value Value="//search-form-location-options//div//label[contains(@class, &apos;location-label&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//search-form-location-options//label" />
-												<Value Value="//search-form-location-options//label" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -27600,7 +27781,7 @@
 				<Child Name="textnodeCommodityDescription" Owner="{500DDF4D-1867-4578-BA3A-14AF7E3F0CE9}" />
 				<Child Name="commodity_Tariff_panel100CottonFabricAnd100Poly" Owner="{5F86747D-96CD-4D7B-BC40-E6E806F7A69C}" />
 				<Child Name="panelJan252021" Owner="{5D73C840-9304-4A21-9FDE-25F2590FEB97}" />
-				<Child Name="textareaMatInput17" Owner="{22F3D396-EC9D-4FB6-B46B-BD7C3032CB09}" />
+				<Child Name="companyOptionsInput" Owner="{22F3D396-EC9D-4FB6-B46B-BD7C3032CB09}" />
 				<Child Name="tariffSearch" Owner="{67A7CF24-2265-4246-BC90-4646CC0F04BA}" />
 				<Child Name="textareaMatInput18" Owner="{D0FB4FDE-7A16-4D55-8D02-66B5E2174997}" />
 				<Child Name="textboxMatInput19" Owner="{CF42532C-AC58-4D51-8C8F-497E28F1BE55}" />
@@ -27695,7 +27876,7 @@
 				<Child Name="panelMatSelectValue15" Owner="{BA79077D-6DA3-4990-AF8A-E2416755F498}" />
 				<Child Name="vg2" Owner="{E5B3E9AE-D56C-4549-B3BA-5DCDBC881BE8}" />
 				<Child Name="textnodeMatOption570" Owner="{20B6AFC3-2698-45F9-A076-07AA4B8813C4}" />
-				<Child Name="panelDataOptions" Owner="{92A0E689-2877-47CD-802F-31F9A68DD094}" />
+				<Child Name="panelDry" Owner="{92A0E689-2877-47CD-802F-31F9A68DD094}" />
 				<Child Name="textnodeMulti" Owner="{2ADF11B5-C05A-462D-8BFB-1E331A865746}" />
 				<Child Name="textboxNumber11" Owner="{CB08EB31-0518-4662-83DD-27F5D7489545}" />
 				<Child Name="checkbox402" Owner="{29905D0D-F74F-46D5-A8C1-13C90EE6B2E4}" />
@@ -28335,7 +28516,6 @@
 				<Child Name="textnodeMatOption691" Owner="{80014C29-DBFE-462D-AB16-E7F59287C1C1}" />
 				<Child Name="checkboxWon" Owner="{3B1ACED1-F427-4453-AFD2-BBE75762DCCA}" />
 				<Child Name="versionAuto" Owner="{E29CB53C-5875-4C56-B869-893F4B31BE4F}" />
-				<Child Name="panelSearch2" Owner="{437B5A56-8094-4F24-8416-C3A11B669427}" />
 				<Child Name="emailLabel" Owner="{4CD64314-286D-41FE-AAFC-09051B450CB5}" />
 				<Child Name="textnodeMatMdcCheckbox76" Owner="{5BB5125A-73C2-47E4-AC3A-4E1FCC428D87}" />
 				<Child Name="vg17" Owner="{FB241601-F4C3-4445-8448-73B53B7C557A}" />
@@ -28762,6 +28942,10 @@
 				<Child Name="linkedDestination" Owner="{8A3000A0-BA2B-4CAB-AC76-BD803A4E0FAF}" />
 				<Child Name="customerOptions" Owner="{733447F5-0562-4A63-8293-F00DE3157AAF}" />
 				<Child Name="button" Owner="{DA407CB6-97E9-4D71-A9CD-9317C85A07C4}" />
+				<Child Name="textnodeAll" Owner="{BEFA1341-22A7-4CB6-B3EC-5C8B5E301C8D}" />
+				<Child Name="labelMatMdcSlideToggle11Label" Owner="{179BD615-D233-4F75-BE1B-EB705C7CDC43}">
+					<Child Name="buttonMatMdcSlideToggle11Button" Owner="{7E5510D6-AE4B-459F-8D47-EF7AB9BA85EB}" />
+				</Child>
 			</Child>
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />
@@ -28779,6 +28963,7 @@
 			<Child Name="textnodeFullServeUpload" Owner="{35AB3B95-B55D-482A-ACC6-F0BFB40D19D6}" />
 			<Child Name="panelMscDemoFcl" Owner="{60C7C3DD-DE56-4836-BE30-D97BB16CA68D}" />
 			<Child Name="buttonSkipSetup" Owner="{50966A4F-F5AA-456D-A3AB-6CE6E65A50D9}" />
+			<Child Name="dryOption" Owner="{437B5A56-8094-4F24-8416-C3A11B669427}" />
 		</Child>
 		<Child Name="textnodeQmsAlertNewFullUploadFul2" Owner="{02C06E45-BEB0-471B-95D5-402E4BC1B7D1}" />
 		<Child Name="textnode" Owner="{C9AC77B5-217E-4D06-B995-B6BEF8B5B9E5}" />
@@ -28909,5 +29094,11 @@
 		<Child Name="panel6" Owner="{FFDD55DE-5B64-4AA2-BD22-3DE74209D1F9}" />
 		<Child Name="radiobuttonUser" Owner="{9FA8F3A3-5169-49E2-8118-B9242F50732B}" />
 		<Child Name="button3" Owner="{BF88F2EC-ACBE-4CF8-804F-2596D14C2F44}" />
+		<Child Name="customerOptionsInfoPanel" Owner="{0B28DE9E-9367-41BE-9555-A1264C08169D}" />
+		<Child Name="panelAddFilter" Owner="{57D34399-AB02-40E2-9D42-0BA955564462}" />
+		<Child Name="buttonCharges" Owner="{33034897-8E68-446C-AC40-56CAD4D97350}" />
+		<Child Name="radiobuttonSell" Owner="{E6763BAE-C226-4086-A2F3-FE4071F7A2C4}" />
+		<Child Name="buttonDetails" Owner="{F5C947C4-FFAB-48F1-B288-DC2E6F965A99}" />
+		<Child Name="companyCart" Owner="{C6F01FD4-2C71-424C-9F1C-6B2FB73544C8}" />
 	</LogicalNodes>
 </Root>

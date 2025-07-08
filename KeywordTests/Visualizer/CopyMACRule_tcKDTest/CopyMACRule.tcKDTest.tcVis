@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{545EC0A6-B1BB-42FD-AA68-B8FEF8E8729E}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45845.7445833333" objectName="Aliases.browser.pageQms.automationCompany.addEmail" objectLeft="1769" objectTop="937" objectRight="1801" objectBottom="967" clickPointX="1776" clickPointY="952" imageFileName="tcvi526256859120440.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45845.7446296296" objectName="Aliases.browser.pageQms.textcommodityMapping" objectLeft="276" objectTop="481" objectRight="955" objectBottom="505" clickPointX="367" clickPointY="500" imageFileName="tcvi526261265120441.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="45845.7446759259" objectName="Aliases.browser.pageQms2.buttonCheckValidity" objectLeft="260" objectTop="543" objectRight="362" objectBottom="573" clickPointX="300" clickPointY="561" imageFileName="tcvi526265531120442.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="45845.8729513889" objectName="Aliases.browser.pageQms.buttonAddCommodity_Tariff" objectLeft="366" objectTop="543" objectRight="430" objectBottom="573" clickPointX="395" clickPointY="557" imageFileName="tcvi53734817171880.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="45845.8730555556" objectName="Aliases.browser.pageQms2.buttonSave" objectLeft="1642" objectTop="843" objectRight="1674" objectBottom="873" clickPointX="1661" clickPointY="861" imageFileName="tcvi53735659371883.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

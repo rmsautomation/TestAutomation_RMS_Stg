@@ -78,6 +78,7 @@
 					<folder name="Add Margin">
 						<child name="TC_50_QMS_5080_Margin_Rule_Select_Department" key="{5D8D7277-AC3C-4823-A4DC-A1A3C93A886B}" path="TC_50_QMS_5080_Margin_Rule_Select_Department.tcKDTest" />
 						<child name="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{D1BD16C7-152F-4023-B7CC-BCDE382D37CE}" path="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule.tcKDTest" />
+						<child name="TC_80_QMS_15022_MarginCopyExisting_NewRules" key="{B2DD11B0-D72F-4440-96BE-6BAB398747DE}" path="TC_80_QMS_15022_MarginCopyExisting_NewRules.tcKDTest" />
 					</folder>
 				</folder>
 				<folder name="RatePrioritization">
@@ -221,6 +222,16 @@
 					<child name="GoToCart" key="{2D0442BE-B6E4-4259-AB7E-61CB53C19467}" path="GoToCart.tcKDTest" />
 					<child name="VerifyCustomerOptionsCart" key="{DD202FF6-A363-4D20-8697-AD013D33304A}" path="VerifyCustomerOptionsCart.tcKDTest" />
 					<child name="VerifyCustomerOptionCartSearch" key="{E221B54D-A3A9-4BE8-98CC-012B479682CB}" path="VerifyCustomerOptionCartSearch.tcKDTest" />
+					<child name="SaveInitialValuesLCL" key="{C1F2A181-0CFA-45F8-BAF3-1DB300F43634}" path="SaveInitialValuesLCL.tcKDTest" />
+					<child name="SaveInitialValuesAIR" key="{0A419DFF-C3E7-4571-B2A8-042B6D4D80AE}" path="SaveInitialValuesAIR.tcKDTest" />
+					<child name="SaveInitialValuesGround" key="{FF686AB7-19F7-47D4-9BDD-CC778C138368}" path="SaveInitialValuesGround.tcKDTest" />
+					<child name="VerifyAddedMarginFCLCopy" key="{56A2F5C3-3512-494F-BEF9-3ACFC4026121}" path="VerifyAddedMarginFCLCopy.tcKDTest" />
+					<child name="SaveFinalValuesLCL" key="{F66095CA-2E57-4453-8520-F7BCD467A86B}" path="SaveFinalValuesLCL.tcKDTest" />
+					<child name="VerifyAddedMarginLCL" key="{1729BBEB-0F74-4F09-A637-E6A93E2647C2}" path="VerifyAddedMarginLCL.tcKDTest" />
+					<child name="SaveFinalValuesAIR" key="{98EEDEA7-1371-4B42-ACA7-B09F56A20F12}" path="SaveFinalValuesAIR.tcKDTest" />
+					<child name="VerifyAddedMarginAIR" key="{F4489848-00DE-4428-B950-84708F48D684}" path="VerifyAddedMarginAIR.tcKDTest" />
+					<child name="SaveFinalValuesGround" key="{A8D37E96-4117-4B59-B969-4E4D3F6D016E}" path="SaveFinalValuesGround.tcKDTest" />
+					<child name="VerifyAddedMarginGround" key="{F19BE65E-2ADD-4441-9871-1C1092034EDA}" path="VerifyAddedMarginGround.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<folder name="LCL_Search">
@@ -229,6 +240,7 @@
 					</folder>
 					<folder name="AIr_Search">
 						<child name="SelectAIROption" key="{1BE3703C-DFC2-4A81-804D-438F1B37C7EB}" path="SelectAIROption.tcKDTest" />
+						<child name="SearchByContractID_AIR" key="{51BC6921-52B3-4BC8-952E-DF8D6CBF5D1D}" path="SearchByContractID_AIR.tcKDTest" />
 					</folder>
 					<folder name="FCL_Search">
 						<child name="SelectFCLOption" key="{20826235-E18A-4D97-8B19-696F9F457ED8}" path="SelectFCLOption.tcKDTest" />
@@ -236,40 +248,44 @@
 					</folder>
 					<folder name="Ground_Search">
 						<child name="SelectGroundOption" key="{3419C4D3-45AB-4115-9B14-2D5A43247B14}" path="SelectGroundOption.tcKDTest" />
+						<child name="SearchByContractID_Ground" key="{3A2CD0C6-79DD-436B-9CD2-9DDECBDF6AF0}" path="SearchByContractID_Ground.tcKDTest" />
 					</folder>
-					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
-					<child name="Search_Without_CityLinking" key="{DE7BBEBD-7F17-42EA-B62C-246A042C80FD}" path="Search_Without_CityLinking.tcKDTest" />
-					<child name="SearchByContract_ID" key="{DFD5C4C2-9593-42C8-B66C-749A28C5F992}" path="SearchByContract_ID.tcKDTest" />
-					<child name="CustomizeSingleCheckHLS" key="{1829D790-2D1E-4A90-8436-E1ECC44137D9}" path="CustomizeSingleCheckHLS.tcKDTest" />
-					<child name="CustomizeUncheckHLS" key="{917B3DE3-3536-4D12-AD35-558F2D9DF7DA}" path="CustomizeUncheckHLS.tcKDTest" />
-					<child name="CustomizeSingle" key="{D9368873-F31A-4A8A-9A55-ADE80D01FF6C}" path="CustomizeSingle.tcKDTest" />
-					<child name="CustomizeHistory" key="{7603EA02-35F6-414A-84ED-1022A997DD8F}" path="CustomizeHistory.tcKDTest" />
-					<child name="SearchAndVerifyLinkedRate" key="{2C365F3A-09A3-4ED3-B16E-0ABB8D1023DC}" path="SearchAndVerifyLinkedRate.tcKDTest" />
-					<child name="SearchByContractID_LCL" key="{F6B18C8D-3D15-43F3-9D08-46EA2774309A}" path="SearchByContractID_LCL.tcKDTest" />
-					<child name="CheckedIncompleteRatesAndVerify" key="{606D0E42-5154-49AE-9B0B-C9062F00C4FE}" path="CheckedIncompleteRatesAndVerify.tcKDTest" />
-					<child name="UncheckIncompleteRatesAndVerify" key="{368DDE7D-5228-446F-B4FB-A54E0A5B72E7}" path="UncheckIncompleteRatesAndVerify.tcKDTest" />
-					<child name="SearchVerifyLCLForm" key="{372D0CE4-3265-4C60-800D-36D21FDBF0A1}" path="SearchVerifyLCLForm.tcKDTest" />
-					<child name="SearchVerifyAIRForm" key="{EFAB6F6D-585D-4AB9-B221-A962591A5B84}" path="SearchVerifyAIRForm.tcKDTest" />
-					<child name="SearchVerifyGroundForm" key="{A93260CB-1484-44FD-B514-1FB4B7DCEAF1}" path="SearchVerifyGroundForm.tcKDTest" />
-					<child name="CustomAndOriginalCarrier" key="{78363674-3B4E-4DB9-BED9-4DE88E6F2305}" path="CustomAndOriginalCarrier.tcKDTest" />
-					<child name="SelectAPISearchOnly" key="{6D17351F-8898-4DB8-B793-DF9A35B0FE1E}" path="SelectAPISearchOnly.tcKDTest" />
-					<child name="GoToAPIDropdown" key="{F2F2F335-FB20-4245-A594-C62E575C2DFD}" path="GoToAPIDropdown.tcKDTest" />
-					<child name="PressButtonSearch" key="{303CA891-7846-4B34-8F85-2BA07A3E7E26}" path="PressButtonSearch.tcKDTest" />
-					<child name="SelectTruckOriginLinked" key="{D7AA3960-A2DE-4AA0-87CB-C960AD98B0E9}" path="SelectTruckOriginLinked.tcKDTest" />
-					<child name="AddDestinationVia" key="{5F6F857C-A1FA-44CD-ACED-0C18C24E972F}" path="AddDestinationVia.tcKDTest" />
-					<child name="SelectTruckDestinationLinked" key="{2A3146AC-AA2E-4E78-8D13-C6EEDC5769E0}" path="SelectTruckDestinationLinked.tcKDTest" />
-					<child name="CustomerOptionsFCL" key="{8DC17A6D-7170-45F0-822A-243B6E421625}" path="CustomerOptionsFCL.tcKDTest" />
-					<child name="GoToSearchMenu" key="{57648F19-F2F2-4378-830A-B88850AD4DBE}" path="GoToSearchMenu.tcKDTest" />
-					<child name="SelectSingleSearchOption" key="{C65D0242-0C6F-4BFD-A106-8ED472624A5D}" path="SelectSingleSearchOption.tcKDTest" />
-					<child name="CustomerOptionsLCL" key="{C9578C07-5CBC-42EE-8E38-33875A3036C3}" path="CustomerOptionsLCL.tcKDTest" />
-					<child name="CustomerOptionsAIR" key="{60FDEF43-348D-445A-B73A-C50E938935D3}" path="CustomerOptionsAIR.tcKDTest" />
-					<child name="CustomerOptionsGround" key="{22CF4C9A-F9C0-4D19-A218-F6BD8E8BC445}" path="CustomerOptionsGround.tcKDTest" />
-					<child name="AddCustomerOptions" key="{01418077-D079-40A4-8248-1577291A00E0}" path="AddCustomerOptions.tcKDTest" />
-					<child name="SelectAlltypes" key="{2DED93E0-7F20-4163-B0F5-91794E666BE5}" path="SelectAlltypes.tcKDTest" />
+					<folder name="General">
+						<child name="AddCustomerOptions" key="{01418077-D079-40A4-8248-1577291A00E0}" path="AddCustomerOptions.tcKDTest" />
+						<child name="AddDestinationVia" key="{5F6F857C-A1FA-44CD-ACED-0C18C24E972F}" path="AddDestinationVia.tcKDTest" />
+						<child name="CheckedIncompleteRatesAndVerify" key="{606D0E42-5154-49AE-9B0B-C9062F00C4FE}" path="CheckedIncompleteRatesAndVerify.tcKDTest" />
+						<child name="CustomAndOriginalCarrier" key="{78363674-3B4E-4DB9-BED9-4DE88E6F2305}" path="CustomAndOriginalCarrier.tcKDTest" />
+						<child name="CustomerOptionsAIR" key="{60FDEF43-348D-445A-B73A-C50E938935D3}" path="CustomerOptionsAIR.tcKDTest" />
+						<child name="CustomerOptionsFCL" key="{8DC17A6D-7170-45F0-822A-243B6E421625}" path="CustomerOptionsFCL.tcKDTest" />
+						<child name="CustomerOptionsGround" key="{22CF4C9A-F9C0-4D19-A218-F6BD8E8BC445}" path="CustomerOptionsGround.tcKDTest" />
+						<child name="CustomerOptionsLCL" key="{C9578C07-5CBC-42EE-8E38-33875A3036C3}" path="CustomerOptionsLCL.tcKDTest" />
+						<child name="CustomizeHistory" key="{7603EA02-35F6-414A-84ED-1022A997DD8F}" path="CustomizeHistory.tcKDTest" />
+						<child name="CustomizeSingle" key="{D9368873-F31A-4A8A-9A55-ADE80D01FF6C}" path="CustomizeSingle.tcKDTest" />
+						<child name="CustomizeSingleCheckHLS" key="{1829D790-2D1E-4A90-8436-E1ECC44137D9}" path="CustomizeSingleCheckHLS.tcKDTest" />
+						<child name="CustomizeUncheckHLS" key="{917B3DE3-3536-4D12-AD35-558F2D9DF7DA}" path="CustomizeUncheckHLS.tcKDTest" />
+						<child name="GoToAPIDropdown" key="{F2F2F335-FB20-4245-A594-C62E575C2DFD}" path="GoToAPIDropdown.tcKDTest" />
+						<child name="GoToSearchMenu" key="{57648F19-F2F2-4378-830A-B88850AD4DBE}" path="GoToSearchMenu.tcKDTest" />
+						<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
+						<child name="PressButtonSearch" key="{303CA891-7846-4B34-8F85-2BA07A3E7E26}" path="PressButtonSearch.tcKDTest" />
+						<child name="Search_Without_CityLinking" key="{DE7BBEBD-7F17-42EA-B62C-246A042C80FD}" path="Search_Without_CityLinking.tcKDTest" />
+						<child name="SearchAndVerifyLinkedRate" key="{2C365F3A-09A3-4ED3-B16E-0ABB8D1023DC}" path="SearchAndVerifyLinkedRate.tcKDTest" />
+						<child name="SearchByContract_ID" key="{DFD5C4C2-9593-42C8-B66C-749A28C5F992}" path="SearchByContract_ID.tcKDTest" />
+						<child name="SearchByContractID_LCL" key="{F6B18C8D-3D15-43F3-9D08-46EA2774309A}" path="SearchByContractID_LCL.tcKDTest" />
+						<child name="SearchVerifyAIRForm" key="{EFAB6F6D-585D-4AB9-B221-A962591A5B84}" path="SearchVerifyAIRForm.tcKDTest" />
+						<child name="SearchVerifyGroundForm" key="{A93260CB-1484-44FD-B514-1FB4B7DCEAF1}" path="SearchVerifyGroundForm.tcKDTest" />
+						<child name="SearchVerifyLCLForm" key="{372D0CE4-3265-4C60-800D-36D21FDBF0A1}" path="SearchVerifyLCLForm.tcKDTest" />
+						<child name="SelectAlltypes" key="{2DED93E0-7F20-4163-B0F5-91794E666BE5}" path="SelectAlltypes.tcKDTest" />
+						<child name="SelectAPISearchOnly" key="{6D17351F-8898-4DB8-B793-DF9A35B0FE1E}" path="SelectAPISearchOnly.tcKDTest" />
+						<child name="SelectSingleSearchOption" key="{C65D0242-0C6F-4BFD-A106-8ED472624A5D}" path="SelectSingleSearchOption.tcKDTest" />
+						<child name="SelectTruckDestinationLinked" key="{2A3146AC-AA2E-4E78-8D13-C6EEDC5769E0}" path="SelectTruckDestinationLinked.tcKDTest" />
+						<child name="SelectTruckOriginLinked" key="{D7AA3960-A2DE-4AA0-87CB-C960AD98B0E9}" path="SelectTruckOriginLinked.tcKDTest" />
+						<child name="UncheckIncompleteRatesAndVerify" key="{368DDE7D-5228-446F-B4FB-A54E0A5B72E7}" path="UncheckIncompleteRatesAndVerify.tcKDTest" />
+						<child name="CustomCarrierAndRefresh" key="{FD8F0BC9-B6DA-4530-AF5F-F6366329BEE4}" path="CustomCarrierAndRefresh.tcKDTest" />
+						<child name="RejectQuote" key="{C6F74037-0D20-4BAD-8B1C-03F0A7169C4B}" path="RejectQuote.tcKDTest" />
+						<child name="SearchAndVerifyFCLQuoteForm" key="{03727DDC-3131-40EF-9EBE-DC45CF7823C1}" path="SearchAndVerifyFCLQuoteForm.tcKDTest" />
+						<child name="GoToMode" key="{530CDE1F-BAB9-46B9-836D-E2592955C8EC}" path="GoToMode.tcKDTest" />
+					</folder>
 				</folder>
-				<child name="SearchAndVerifyFCLQuoteForm" key="{03727DDC-3131-40EF-9EBE-DC45CF7823C1}" path="SearchAndVerifyFCLQuoteForm.tcKDTest" />
-				<child name="RejectQuote" key="{C6F74037-0D20-4BAD-8B1C-03F0A7169C4B}" path="RejectQuote.tcKDTest" />
-				<child name="CustomCarrierAndRefresh" key="{FD8F0BC9-B6DA-4530-AF5F-F6366329BEE4}" path="CustomCarrierAndRefresh.tcKDTest" />
 			</folder>
 			<folder name="History">
 				<child name="EditQuote" key="{FB5DFAC5-FC4C-4B3B-A393-59FF6A1ED39C}" path="EditQuote.tcKDTest" />
@@ -361,6 +377,22 @@
 					<child name="InputMarginFlat" key="{923CD6E6-A8B8-47EC-BE84-5157F1727930}" path="InputMarginFlat.tcKDTest" />
 					<child name="ButtonSaveNewRule" key="{63852AE2-5413-42DF-BAEB-25F042F17105}" path="ButtonSaveNewRule.tcKDTest" />
 					<child name="PressButtonYes" key="{62E821D7-490E-4DB9-95E6-64BF8388141C}" path="PressButtonYes.tcKDTest" />
+					<child name="AddMACAllModes" key="{EACBAF5F-8AF1-430E-97A7-4088A83F0FE6}" path="AddMACAllModes.tcKDTest" />
+					<child name="PressButtonAdd" key="{8642CFE2-F0CD-4DA0-9BBC-9D57FB8D40B3}" path="PressButtonAdd.tcKDTest" />
+					<child name="PressButtonSaveMAC" key="{2E5108FD-20A9-432B-B51E-DD084A90CF2F}" path="PressButtonSaveMAC.tcKDTest" />
+					<child name="AddContractID" key="{527F0B4D-1FA9-45A9-A5F4-AA83E25561AB}" path="AddContractID.tcKDTest" />
+					<child name="GoToLocationQualifiers" key="{34DF7E9A-036F-4007-A957-D16DF8A22FFE}" path="GoToLocationQualifiers.tcKDTest" />
+					<child name="CheckAllUnlocLocation" key="{E06AE977-0AE0-4971-AEAA-34B01B672EF1}" path="CheckAllUnlocLocation.tcKDTest" />
+					<child name="GoToModeTypeSize" key="{4092E39B-5E2D-42AC-A409-0EE67A85AD62}" path="GoToModeTypeSize.tcKDTest" />
+					<child name="CopyMACRule" key="{545EC0A6-B1BB-42FD-AA68-B8FEF8E8729E}" path="CopyMACRule.tcKDTest" />
+					<child name="GoToCarrierContractNAC" key="{4A50CFB4-DC89-4920-A5C9-17B69CACF416}" path="GoToCarrierContractNAC.tcKDTest" />
+					<child name="AddFCL40" key="{27631716-1074-4040-9B74-0AE2BFE70B0E}" path="AddFCL40.tcKDTest" />
+					<child name="AddLCLMode" key="{73FFBB90-9CC2-4321-8D79-4992ACBED429}" path="AddLCLMode.tcKDTest" />
+					<child name="AddAirMode" key="{177F0C5D-D69A-45F1-BBBE-EE7A59A5F112}" path="AddAirMode.tcKDTest" />
+					<child name="AddGround40" key="{0455B4CD-4C4E-4341-964C-8859116A94FE}" path="AddGround40.tcKDTest" />
+					<child name="GoToCompanyQualifiers" key="{6BA6D2D2-4B6D-4A8E-B3B5-DF1A5808474D}" path="GoToCompanyQualifiers.tcKDTest" />
+					<child name="AddCompanyqualifiers" key="{6787D656-DC02-42FC-A5DF-EE562C5F4618}" path="AddCompanyqualifiers.tcKDTest" />
+					<child name="PressButtonSave" key="{0D354A3E-C3F7-478C-A280-3757A8ED3B84}" path="PressButtonSave.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />

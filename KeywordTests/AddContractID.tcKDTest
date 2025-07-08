@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{0498ECD9-9884-4AA5-BB33-9C3C25288B5D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{549A3496-E340-4126-B50C-FE5CD834A1C0}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -9,6 +9,16 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; radio button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.radiobuttonContractId;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; radio button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.radiobuttonFiltered;" />
+				</Data>
+			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -23,36 +33,20 @@
 							</Values>
 						</Parameter>
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.modeTypeSize;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textcommodityMapping;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonAdd2;" />
-				</Data>
-			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Sets the state of the &apos;%n&apos; checkbox to %p1." Action="ClickChecked">
+				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Checked" DefVarType="11" VarType="11" ValueType="7" ValueValue="True" />
+						<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="contractID" />
 					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.checkbox20;" />
-				</Data>
-			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Sets the state of the &apos;%n&apos; checkbox to %p1." Action="ClickChecked">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Checked" DefVarType="11" VarType="11" ValueType="7" ValueValue="True" />
-					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.Size40_Search;" />
-				</Data>
-			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.savePrepaidCollect;" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textcommodityMapping;" />
 				</Data>
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{72B21F9B-8ACF-4D25-A0BA-4C2C13B2F28E}" />
+	<Parameters Key="{944BB07E-54C3-4865-A5A5-03E88C70B914}">
+		<Parameter0 Name="contractID" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="TRAININGAYLINFCL" Description="" />
+	</Parameters>
 </Root>

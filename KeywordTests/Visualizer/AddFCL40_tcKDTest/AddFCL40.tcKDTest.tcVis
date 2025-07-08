@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{27631716-1074-4040-9B74-0AE2BFE70B0E}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45845.7337615741" objectName="Aliases.radiobuttonFcl" objectLeft="613" objectTop="270" objectRight="653" objectBottom="310" clickPointX="637" clickPointY="291" imageFileName="tcvi525322390120440.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45845.7337962963" objectName="Aliases.checkbox40" objectLeft="842" objectTop="646" objectRight="882" objectBottom="686" clickPointX="860" clickPointY="663" imageFileName="tcvi525325250120441.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45845.7338078704" objectName="Aliases.buttonAdd6" objectLeft="1217" objectTop="901" objectRight="1251" objectBottom="931" clickPointX="1238" clickPointY="917" imageFileName="tcvi525326500120444.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

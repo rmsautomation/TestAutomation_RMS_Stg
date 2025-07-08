@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{73FFBB90-9CC2-4321-8D79-4992ACBED429}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45845.7345023148" objectName="Aliases.browser.pageQms.buttonAdd2" objectLeft="1786" objectTop="451" objectRight="1850" objectBottom="481" clickPointX="1817" clickPointY="466" imageFileName="tcvi525385890120440.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45845.734525463" objectName="Aliases.browser.pageQms.radiobuttonLcl" objectLeft="843" objectTop="270" objectRight="883" objectBottom="310" clickPointX="868" clickPointY="293" imageFileName="tcvi525388828120441.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45845.7345601852" objectName="Aliases.browser.pageQms.savePrepaidCollect" objectLeft="1217" objectTop="853" objectRight="1251" objectBottom="883" clickPointX="1238" clickPointY="869" imageFileName="tcvi525391437120442.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

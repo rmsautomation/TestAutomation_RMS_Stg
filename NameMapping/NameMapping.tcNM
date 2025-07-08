@@ -873,10 +873,6 @@
 												<Value Value="//input[@id=(//label[.=&apos;Rate&apos;]/@for)]" />
 											</Selector>
 											<Selector>
-												<Value Value="#mat-input-6" Enabled="False" />
-												<Value Value="#mat-input-6" />
-											</Selector>
-											<Selector>
 												<Value Value="//input[@type=&apos;number&apos;]" />
 												<Value Value="//input[@type=&apos;number&apos;]" />
 											</Selector>
@@ -20810,11 +20806,11 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//a[contains(text(), &apos; Bill of Lading Fee&apos;)]" />
+												<Value Value="xpath=//a[contains(text(), &apos;Origin Pickup&apos;)]" />
 												<Value Value="Add selector" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//a[contains(text(), &apos;Origin Pickup&apos;)]" />
+												<Value Value="xpath=//a[contains(text(), &apos; Bill of Lading Fee&apos;)]" Enabled="False" />
 												<Value Value="Add selector" />
 											</Selector>
 											<Selector>
@@ -25386,7 +25382,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//a[contains(text(), &apos; Bill of Lading Fee&apos;)]" />
+												<Value Value="xpath=//a[contains(text(), &apos; Bill of Lading Fee&apos;)]" Enabled="False" />
 												<Value Value="Add selector" />
 											</Selector>
 											<Selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{C4095F11-02C2-4476-9C4E-FE165AE6595B}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45842.6741550926" objectName="Aliases.browser.pageQms.buttonAdd2" objectLeft="1786" objectTop="503" objectRight="1850" objectBottom="533" clickPointX="1818" clickPointY="513" imageFileName="tcvi260987265109400.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45842.6752083333" objectName="Aliases.radiobuttonUser" objectLeft="806" objectTop="275" objectRight="846" objectBottom="315" clickPointX="836" clickPointY="295" imageFileName="tcvi261078515109403.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

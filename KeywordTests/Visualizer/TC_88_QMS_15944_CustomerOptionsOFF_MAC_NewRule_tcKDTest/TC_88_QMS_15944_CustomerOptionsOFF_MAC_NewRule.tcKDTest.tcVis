@@ -2,5 +2,6 @@
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{D1BD16C7-152F-4023-B7CC-BCDE382D37CE}">
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="45841.8495601852" objectName="Aliases.textnode0000tc88Now" objectLeft="143" objectTop="377" objectRight="266" objectBottom="401" clickPointX="169" clickPointY="389" imageFileName="tcvi18974632818521.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="23" kind="0" dateTime="45842.6536342593" objectName="Aliases.disabledCompanyQualifiers" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi259214781109400.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

@@ -468,24 +468,6 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeSurcharge2" Key="{21EB160C-5681-42FC-8479-7B8D8AA8278F}">
-										<Image FileName="180653214" Left="101" Top="383" Right="178" Bottom="407" />
-										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//span[contains(text(), &apos;Surcharge&apos;)]" />
-												<Value Value="//span[contains(text(), &apos;Surcharge&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-43&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-												<Value Value="//mat-option[@id=&apos;mat-option-43&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-43&apos;]/span" />
-												<Value Value="//mat-option[@id=&apos;mat-option-43&apos;]/span" />
-											</Selector>
-										</Selectors>
-									</Child>
 									<Child Name="panelMatSelectValue25" Key="{9D9CA817-CCC2-4BF4-B22A-B508D3A835B9}">
 										<Image FileName="-595980852" Left="318" Top="282" Right="480" Bottom="314" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
@@ -7540,16 +7522,20 @@
 										<TypeInfo Item0="{D7D5E02F-2B17-41C9-8249-64D39AAC8613}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//button[@role=&apos;switch&apos;])[5]" />
+												<Value Value="xpath=//label[normalize-space(text())=&apos;Show NAC Rates&apos;]/preceding-sibling::button[contains(@class, &apos;mdc-switch--unselected&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//button[@aria-labelledby=&apos;mat-mdc-slide-toggle-16-label&apos;]" Enabled="False" />
+												<Value Value="xpath=//button[@aria-labelledby=&apos;mat-mdc-slide-toggle-16-label&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//button[@role=&apos;switch&apos;])[5]" Enabled="False" />
 												<Value Value="xpath=(//button[@role=&apos;switch&apos;])[5]" />
 											</Selector>
 											<Selector>
+												<Value Value="xpath=(//div[@class=&apos;mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator&apos;])[5]" Enabled="False" />
 												<Value Value="xpath=(//div[@class=&apos;mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator&apos;])[5]" />
-												<Value Value="xpath=(//div[@class=&apos;mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator&apos;])[5]" />
-											</Selector>
-											<Selector>
-												<Value Value="xpath=//button[@aria-labelledby=&apos;mat-mdc-slide-toggle-16-label&apos;]" />
-												<Value Value="xpath=//button[@aria-labelledby=&apos;mat-mdc-slide-toggle-16-label&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -21322,6 +21308,23 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonShowNacRates" Key="{817CBB05-4ECD-4B74-8E34-72AAD2EF38B2}">
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//label[normalize-space(text())=&apos;Show NAC Rates&apos;]/preceding-sibling::button[contains(@class, &apos;mdc-switch--selected&apos;)]" />
+												<Value Value="//button[@aria-labelledby=(//label[contains(.,&apos;Show NAC Rates&apos;)]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-slide-toggle-7-button" Enabled="False" />
+												<Value Value="#mat-mdc-slide-toggle-7-button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//mat-slide-toggle//button" Enabled="False" />
+												<Value Value="//div[3]//mat-slide-toggle//button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox1Rmsautomation24GmailCo" Key="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
@@ -22362,6 +22365,32 @@
 									</Selector>
 								</Selectors>
 							</Child>
+							<Child Name="checkboxShowAllNac" Key="{21EB160C-5681-42FC-8479-7B8D8AA8278F}">
+								<Image FileName="180653214" Left="101" Top="383" Right="178" Bottom="407" />
+								<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+								<Selectors>
+									<Selector>
+										<Value Value="xpath=//input[@id=(//label[contains(normalize-space(.),&apos;Show All NAC&apos;)]/@for)]" />
+										<Value Value="Add selector" />
+									</Selector>
+									<Selector>
+										<Value Value="xpath=//input[@id=(//label[contains(.,&apos;Show All NAC&apos;)]/@for)]" />
+										<Value Value="Add selector" />
+									</Selector>
+									<Selector>
+										<Value Value="//span[contains(text(), &apos;Surcharge&apos;)]" Enabled="False" />
+										<Value Value="//span[contains(text(), &apos;Surcharge&apos;)]" />
+									</Selector>
+									<Selector>
+										<Value Value="//mat-option[@id=&apos;mat-option-43&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" Enabled="False" />
+										<Value Value="//mat-option[@id=&apos;mat-option-43&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+									</Selector>
+									<Selector>
+										<Value Value="//mat-option[@id=&apos;mat-option-43&apos;]/span" Enabled="False" />
+										<Value Value="//mat-option[@id=&apos;mat-option-43&apos;]/span" />
+									</Selector>
+								</Selectors>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
@@ -23337,20 +23366,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeGroupName" Key="{93CC82E9-92C8-4C16-B3C6-462FB918CAAB}">
+									<Child Name="nacCheck" Key="{93CC82E9-92C8-4C16-B3C6-462FB918CAAB}">
 										<Image FileName="2014839687" Left="388" Top="241" Right="468" Bottom="256" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//mat-label[.=&apos;Group name*&apos;]" />
+												<Value Value="xpath=//input[@id=(//label[contains(normalize-space(.),&apos;Show All NAC&apos;)]/@for)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-label[.=&apos;Group name*&apos;]" Enabled="False" />
 												<Value Value="//mat-label[.=&apos;Group name*&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-label[contains(@class, &apos;ng-tns-c1205077789-17&apos;)]" />
+												<Value Value="//mat-label[contains(@class, &apos;ng-tns-c1205077789-17&apos;)]" Enabled="False" />
 												<Value Value="//mat-label[contains(@class, &apos;ng-tns-c1205077789-17&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//label[@id=&apos;mat-mdc-form-field-label-16&apos;]/mat-label" />
+												<Value Value="//label[@id=&apos;mat-mdc-form-field-label-16&apos;]/mat-label" Enabled="False" />
 												<Value Value="//label[@id=&apos;mat-mdc-form-field-label-16&apos;]/mat-label" />
 											</Selector>
 											<Selector>
@@ -28808,7 +28841,7 @@
 				<Child Name="savePrepaidCollect" Owner="{C5F65C2F-AA9F-4101-9A9D-78E38AEE25E3}" />
 				<Child Name="panelSucessfullyCreatedThePrepai" Owner="{5CFD4601-B4A5-4734-A28E-E2E7F5B51015}" />
 				<Child Name="eftCompany" Owner="{82CABA6C-C09B-44B3-9792-860258292DBD}" />
-				<Child Name="textnodeSurcharge2" Owner="{21EB160C-5681-42FC-8479-7B8D8AA8278F}" />
+				<Child Name="checkboxShowAllNac" Owner="{21EB160C-5681-42FC-8479-7B8D8AA8278F}" />
 				<Child Name="panelMatSelectValue25" Owner="{9D9CA817-CCC2-4BF4-B22A-B508D3A835B9}" />
 				<Child Name="textnodeMatOption46" Owner="{D35B4CB4-E629-4291-8F45-19A739BC1D95}" />
 				<Child Name="textboxMatInput5" Owner="{DE9D6505-A5BD-4424-AB20-60B01317CAF9}" />
@@ -29133,7 +29166,6 @@
 				<Child Name="textnodeGround4" Owner="{0C9E831B-1D5A-4F4E-991D-B10F8FBCF9AC}" />
 				<Child Name="labelMatMdcSlideToggle16Label" Owner="{B59CD2B1-B3E7-4045-AFFB-B695CF73F2DC}">
 					<Child Name="toggle_permissionspos2" Owner="{116C4218-AE0A-491B-9B72-DC78E426EB27}" />
-					<Child Name="buttonMatMdcSlideToggle16Button2" Owner="{8A720F5A-6072-4D77-9686-89C1D1DACA2E}" />
 				</Child>
 				<Child Name="vg9" Owner="{ED876EEF-FB8B-4EC7-8263-A9346B57BF62}" />
 				<Child Name="contactsIcon" Owner="{513B2243-4E91-4C35-B93B-8576DEA1CFBD}" />
@@ -29839,6 +29871,7 @@
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="disabledShowAllNac" Owner="{8A720F5A-6072-4D77-9686-89C1D1DACA2E}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5CD2C0F1-A739-45E6-99AF-0250B3A12DEB}" />
 			<Child Name="pageLogin" Owner="{35E2CBEA-3D12-4A4D-B2F3-7025EDC3F3E4}">
@@ -30032,6 +30065,7 @@
 				<Child Name="textnodePd" Owner="{930B0A71-13D7-458A-A54F-6C24A0F41D43}" />
 				<Child Name="textboxNumber2" Owner="{5C8CC68F-86C0-4711-9F26-3DF2EEF86FAE}" />
 				<Child Name="panelGridView" Owner="{57081410-812A-4EB0-8406-0077DCE359AF}" />
+				<Child Name="buttonShowNacRatesSelected" Owner="{817CBB05-4ECD-4B74-8E34-72AAD2EF38B2}" />
 			</Child>
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />

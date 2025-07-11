@@ -253,6 +253,7 @@
 					<child name="VerifyEFtCompany" key="{B17B51C8-A056-47C3-B7EC-6E4DA2B7EF85}" path="VerifyEFtCompany.tcKDTest" />
 					<child name="PressCloseButton" key="{E601A16B-D8C2-4AAC-ADE0-3213B66C52F3}" path="PressCloseButton.tcKDTest" />
 					<child name="VerifySendButtonEnabled" key="{6485C180-38DA-4951-BB87-4A3E33BDD57B}" path="VerifySendButtonEnabled.tcKDTest" />
+					<child name="VerifyNACRates" key="{8262BD93-F903-451E-A969-19D1930EEBF6}" path="VerifyNACRates.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<folder name="LCL_Search">
@@ -307,6 +308,8 @@
 						<child name="RejectQuote" key="{C6F74037-0D20-4BAD-8B1C-03F0A7169C4B}" path="RejectQuote.tcKDTest" />
 						<child name="SearchAndVerifyFCLQuoteForm" key="{03727DDC-3131-40EF-9EBE-DC45CF7823C1}" path="SearchAndVerifyFCLQuoteForm.tcKDTest" />
 						<child name="GoToMode" key="{530CDE1F-BAB9-46B9-836D-E2592955C8EC}" path="GoToMode.tcKDTest" />
+						<child name="DisabledShowAllNacSearchSection" key="{6E30F1D3-E4A5-4D41-8934-BB8A0210AAB0}" path="DisabledShowAllNacSearchSection.tcKDTest" />
+						<child name="EnabledShowAllNACSearch" key="{7FF7D34E-5AE7-410B-B080-9F7EEBEB0982}" path="EnabledShowAllNACSearch.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -438,6 +441,7 @@
 					<child name="VerifyDisableAmendment" key="{CBECF930-BE22-4605-A5A1-92BFB61597CA}" path="VerifyDisableAmendment.tcKDTest" />
 					<child name="GoToOrganizationSettings" key="{08E70737-9C82-4A2A-AF10-78E7A96845BC}" path="GoToOrganizationSettings.tcKDTest" />
 					<child name="Disabled_EnabledCustomerOptions" key="{FDE65AEF-DBC1-4047-81C7-0D6676E2F9C2}" path="Disabled_EnabledCustomerOptions.tcKDTest" />
+					<child name="ShowAllNacOption" key="{F5648148-0F36-4F22-875C-A740051B2FB7}" path="ShowAllNacOption.tcKDTest" />
 				</folder>
 				<folder name="SurchargeGroup">
 					<child name="DeleteOrganizationGroup" key="{D772E15C-C4DC-4729-9F9C-BC6AFB8AE62C}" path="DeleteOrganizationGroup.tcKDTest" />

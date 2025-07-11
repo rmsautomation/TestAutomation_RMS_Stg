@@ -411,12 +411,22 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_82_QMS__15272_NewOCEAN_EFTCompanyName" key="{24DDDE0D-3597-4AF4-B340-E873FBF803C4}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{8C26FF11-72D2-41AD-B653-FF9E62BE79AC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_83_QMS_14953_Linked7LLTL_LCL" key="{B4841650-0CE6-4D29-93BF-3E79BF40F495}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{7A5A1C60-7D10-4C1D-AC58-43D2217668F7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_86_QMS_14625_SearchCustomerOptionsAddExisting" key="{1BABEC4B-93DE-4513-BE8F-F1FA2A5F9826}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{2931036B-9C3B-4F9F-9845-EBCDF7A81093}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_87_QMS_15930_ShowAllNAC_ON_OFF" key="{994955E5-BDFE-453F-9144-BF00902BC955}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E2F687E7-DEE7-4F00-A47B-EEDEA08A518E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />

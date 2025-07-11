@@ -27,6 +27,7 @@
 						<child name="TC_8_QMS_8006_CheckNonExpired_GRICompareProd" key="{277B2749-167E-45CC-A2C9-1A722DFFB3BB}" path="TC_8_QMS_8006_CheckNonExpired_GRICompareProd.tcKDTest" />
 						<child name="TC_9_QMS_9992_Search_FT_OFF_ON" key="{977EDCA0-67B6-486E-8139-818B0A7D50C7}" path="TC_9_QMS_9992_Search_FT_OFF_ON.tcKDTest" />
 						<child name="TC_86_QMS_14625_SearchCustomerOptionsAddExisting" key="{2931036B-9C3B-4F9F-9845-EBCDF7A81093}" path="TC_86_QMS_14625_SearchCustomerOptionsAddExisting.tcKDTest" />
+						<child name="TC_87_QMS_15930_ShowAllNAC_ON_OFF" key="{E2F687E7-DEE7-4F00-A47B-EEDEA08A518E}" path="TC_87_QMS_15930_ShowAllNAC_ON_OFF.tcKDTest" />
 					</folder>
 				</folder>
 				<folder name="XENETA">

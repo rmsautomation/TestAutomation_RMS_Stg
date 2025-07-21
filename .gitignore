@@ -10,3 +10,5 @@ Log/
 
 # Ignore backup files
 *.bak
+/Hooks/{693EEAC8-94D1-472F-A4C7-9A782CFE7197}/Hooks0.tcax.tlb
+/Hooks/{693EEAC8-94D1-472F-A4C7-9A782CFE7197}/Hooks1.tcax.tlb

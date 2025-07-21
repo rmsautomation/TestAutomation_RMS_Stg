@@ -82,6 +82,7 @@
 						<child name="TC_50_QMS_5080_Margin_Rule_Select_Department" key="{5D8D7277-AC3C-4823-A4DC-A1A3C93A886B}" path="TC_50_QMS_5080_Margin_Rule_Select_Department.tcKDTest" />
 						<child name="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{D1BD16C7-152F-4023-B7CC-BCDE382D37CE}" path="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule.tcKDTest" />
 						<child name="TC_80_QMS_15022_MarginCopyExisting_NewRules" key="{B2DD11B0-D72F-4440-96BE-6BAB398747DE}" path="TC_80_QMS_15022_MarginCopyExisting_NewRules.tcKDTest" />
+						<child name="TC_84_QMs_15160_MarginMgmtAIR_NewCompanyQualifiers_Not_ALL" key="{4422A06B-5D18-4405-9EE6-CC003B4ACF5E}" path="TC_84_QMs_15160_MarginMgmtAIR_NewCompanyQualifiers_Not_ALL.tcKDTest" />
 					</folder>
 				</folder>
 				<folder name="RatePrioritization">
@@ -254,6 +255,8 @@
 					<child name="PressCloseButton" key="{E601A16B-D8C2-4AAC-ADE0-3213B66C52F3}" path="PressCloseButton.tcKDTest" />
 					<child name="VerifySendButtonEnabled" key="{6485C180-38DA-4951-BB87-4A3E33BDD57B}" path="VerifySendButtonEnabled.tcKDTest" />
 					<child name="VerifyNACRates" key="{8262BD93-F903-451E-A969-19D1930EEBF6}" path="VerifyNACRates.tcKDTest" />
+					<child name="VerifyMACRuleWasNOTApply" key="{36EED0B1-8F83-4E16-AE87-1500F339AA44}" path="VerifyMACRuleWasNOTApply.tcKDTest" />
+					<child name="VerifyAddedMarginAIROriginal" key="{CE526646-E713-4F17-82CE-EB0D700901CF}" path="VerifyAddedMarginAIROriginal.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<folder name="LCL_Search">
@@ -419,6 +422,7 @@
 					<child name="GoToCompanyQualifiers" key="{6BA6D2D2-4B6D-4A8E-B3B5-DF1A5808474D}" path="GoToCompanyQualifiers.tcKDTest" />
 					<child name="AddCompanyqualifiers" key="{6787D656-DC02-42FC-A5DF-EE562C5F4618}" path="AddCompanyqualifiers.tcKDTest" />
 					<child name="PressButtonSave" key="{0D354A3E-C3F7-478C-A280-3757A8ED3B84}" path="PressButtonSave.tcKDTest" />
+					<child name="AddSpecificCompany" key="{F128BDA0-1F0E-44A7-BBFE-406F6F811AD5}" path="AddSpecificCompany.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />

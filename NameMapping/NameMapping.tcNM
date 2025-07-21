@@ -11566,10 +11566,6 @@
 												<Value Value="//input[@id=(//label[contains(.,&apos;All UNLOC (*)&apos;)]/@for)]" />
 											</Selector>
 											<Selector>
-												<Value Value="#mat-mdc-checkbox-1-input" />
-												<Value Value="#mat-mdc-checkbox-1-input" />
-											</Selector>
-											<Selector>
 												<Value Value="//input[@type=&apos;checkbox&apos;]" />
 												<Value Value="//input[@type=&apos;checkbox&apos;]" />
 											</Selector>
@@ -19493,6 +19489,10 @@
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//button/span[@class=&apos;mdc-button__label&apos; and text()=&apos;Add&apos;]/parent::button" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
 												<Value Value="//shared-info-panel-content/div/button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
 												<Value Value="//shared-info-panel-content/div/button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
 											</Selector>
@@ -26254,6 +26254,78 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode0000tc84" Key="{EC8B2C04-508F-429A-98CA-7440DF716A4D}">
+										<Image FileName="-484322862" Left="129" Top="497" Right="199" Bottom="519" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//mat-option[./span[contains(text(), &apos;0000TC84&apos;)]]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-525&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" Enabled="False" />
+												<Value Value="//mat-option[@id=&apos;mat-option-525&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-525&apos;]/span" Enabled="False" />
+												<Value Value="//mat-option[@id=&apos;mat-option-525&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{73D7A261-0417-4FD2-9FA0-3A78849DE8D6}">
+										<Image FileName="588739027" Left="99" Top="477" Right="1856" Bottom="720" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-list[contains(@class, &apos;mat-mdc-list&apos;)]" />
+												<Value Value="//mat-list[contains(@class, &apos;mat-mdc-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-0-0&apos;]//mat-list" />
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-0-0&apos;]//mat-list" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-list" />
+												<Value Value="//mat-list" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelType" Key="{DA834408-D287-483F-BCCF-4EDED52D6BF9}">
+										<Image FileName="-1549483530" Left="114" Top="457" Right="481" Bottom="471" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Type&apos;]" />
+												<Value Value="//div[.=&apos;Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;w-30&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;w-30&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode0000tc842" Key="{A2E7497D-720E-456B-8473-BEE3DEEF2EBF}">
+										<Image FileName="750053586" Left="132" Top="257" Right="202" Bottom="275" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;0000TC84&apos;]" />
+												<Value Value="//span[text()=&apos;0000TC84&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-margin-rule-edit//mat-form-field//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" />
+												<Value Value="//cp-margin-rule-edit//mat-form-field//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-select-value-11&apos;]//span/span" />
+												<Value Value="//div[@id=&apos;mat-select-value-11&apos;]//span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-margin-rule-edit//mat-select/div/div/span/span" />
+												<Value Value="//cp-margin-rule-edit//mat-select/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -30245,5 +30317,9 @@
 		<Child Name="textnodeNonHazardousOnly" Owner="{C773F007-DB96-46E8-9BDB-EDA0FBE08EF5}" />
 		<Child Name="panelAaidg" Owner="{4FAD42D7-963F-4160-8385-6EC786DE1234}" />
 		<Child Name="textnodeDestination2" Owner="{8A0D2882-94A6-4046-AEAB-4EFAEFFF4662}" />
+		<Child Name="textnode0000tc84" Owner="{EC8B2C04-508F-429A-98CA-7440DF716A4D}" />
+		<Child Name="textnode6" Owner="{73D7A261-0417-4FD2-9FA0-3A78849DE8D6}" />
+		<Child Name="panelType" Owner="{DA834408-D287-483F-BCCF-4EDED52D6BF9}" />
+		<Child Name="textnode0000tc842" Owner="{A2E7497D-720E-456B-8473-BEE3DEEF2EBF}" />
 	</LogicalNodes>
 </Root>

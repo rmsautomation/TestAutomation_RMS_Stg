@@ -151,10 +151,6 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-option-15" />
-												<Value Value="#mat-option-15" />
-											</Selector>
-											<Selector>
 												<Value Value="//mat-option[contains(., &apos;Is&apos;)]" />
 												<Value Value="//mat-option[contains(., &apos;Is&apos;)]" />
 											</Selector>
@@ -1665,31 +1661,31 @@
 												<Value Value="Add selector" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=(//input[@type=&apos;text&apos; and contains(@class, &apos;mat-mdc-input-element&apos;)])[3]" Enabled="False" />
+												<Value Value="xpath=(//input[@type=&apos;text&apos; and contains(@class, &apos;mat-mdc-input-element&apos;)])[3]" />
 												<Value Value="xpath=(//input[@type=&apos;text&apos; and contains(@class, &apos;mat-mdc-input-element&apos;)])[3]" />
 											</Selector>
 											<Selector>
-												<Value Value="//input[@aria-label=&apos;Number&apos;]" Enabled="False" />
+												<Value Value="//input[@aria-label=&apos;Number&apos;]" />
 												<Value Value="//input[@aria-label=&apos;Number&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//input[@role=&apos;combobox&apos;]" Enabled="False" />
+												<Value Value="//input[@role=&apos;combobox&apos;]" />
 												<Value Value="//input[@role=&apos;combobox&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//shared-autocomplete//mat-form-field//input[@type=&apos;text&apos;]" Enabled="False" />
+												<Value Value="//shared-autocomplete//mat-form-field//input[@type=&apos;text&apos;]" />
 												<Value Value="//shared-autocomplete//mat-form-field//input[@type=&apos;text&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" Enabled="False" />
+												<Value Value="//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
 												<Value Value="//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//shared-autocomplete//mat-form-field//input" Enabled="False" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//shared-autocomplete//mat-form-field//input" />
 												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//shared-autocomplete//mat-form-field//input" />
 											</Selector>
 											<Selector>
-												<Value Value="//div/shared-autocomplete//mat-form-field//input" Enabled="False" />
+												<Value Value="//div/shared-autocomplete//mat-form-field//input" />
 												<Value Value="//div/shared-autocomplete//mat-form-field//input" />
 											</Selector>
 										</Selectors>
@@ -6057,7 +6053,7 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//mat-cell//div[contains(text(), &apos;ITGA&apos;)]" />
+												<Value Value="xpath=//mat-cell//div[contains(text(), &apos;ITG Transportation&apos;)]" />
 												<Value Value="xpath=//mat-cell//div[contains(text(), &apos;ITGA&apos;)]" />
 											</Selector>
 										</Selectors>
@@ -6317,12 +6313,16 @@
 										<TypeInfo Item0="{631957E0-E6E9-4AB9-AD38-6DC8505DBF42}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//a[normalize-space(text())=&apos;Line Haul&apos;]" />
-												<Value Value="xpath=//a[normalize-space(text())=&apos;Line Haul&apos;]" />
+												<Value Value="xpath=//a[contains(text(), &apos;Base Rate&apos;)]" />
+												<Value Value="xpath=//a[contains(text(), &apos;Base Rate&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//a[contains(text(), &apos;Base Rate&apos;)]" />
-												<Value Value="xpath=//a[contains(text(), &apos;Base Rate&apos;)]" />
+												<Value Value="xpath=//a[normalize-space(text())=&apos;Container Drayage&apos;]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[normalize-space(text())=&apos;Line Haul&apos;]" />
+												<Value Value="xpath=//a[normalize-space(text())=&apos;Line Haul&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -11564,10 +11564,6 @@
 											<Selector>
 												<Value Value="//input[@id=(//label[contains(.,&apos;All UNLOC (*)&apos;)]/@for)]" />
 												<Value Value="//input[@id=(//label[contains(.,&apos;All UNLOC (*)&apos;)]/@for)]" />
-											</Selector>
-											<Selector>
-												<Value Value="#mat-mdc-checkbox-1-input" />
-												<Value Value="#mat-mdc-checkbox-1-input" />
 											</Selector>
 											<Selector>
 												<Value Value="//input[@type=&apos;checkbox&apos;]" />
@@ -19493,6 +19489,10 @@
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//button/span[@class=&apos;mdc-button__label&apos; and text()=&apos;Add&apos;]/parent::button" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
 												<Value Value="//shared-info-panel-content/div/button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
 												<Value Value="//shared-info-panel-content/div/button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
 											</Selector>
@@ -26254,6 +26254,166 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode0000tc84" Key="{EC8B2C04-508F-429A-98CA-7440DF716A4D}">
+										<Image FileName="-484322862" Left="129" Top="497" Right="199" Bottom="519" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//mat-option[./span[contains(text(), &apos;0000TC84&apos;)]]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-525&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" Enabled="False" />
+												<Value Value="//mat-option[@id=&apos;mat-option-525&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-525&apos;]/span" Enabled="False" />
+												<Value Value="//mat-option[@id=&apos;mat-option-525&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{73D7A261-0417-4FD2-9FA0-3A78849DE8D6}">
+										<Image FileName="588739027" Left="99" Top="477" Right="1856" Bottom="720" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-list[contains(@class, &apos;mat-mdc-list&apos;)]" />
+												<Value Value="//mat-list[contains(@class, &apos;mat-mdc-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-0-0&apos;]//mat-list" />
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-0-0&apos;]//mat-list" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-list" />
+												<Value Value="//mat-list" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelType" Key="{DA834408-D287-483F-BCCF-4EDED52D6BF9}">
+										<Image FileName="-1549483530" Left="114" Top="457" Right="481" Bottom="471" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Type&apos;]" />
+												<Value Value="//div[.=&apos;Type&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;w-30&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;w-30&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode0000tc842" Key="{A2E7497D-720E-456B-8473-BEE3DEEF2EBF}">
+										<Image FileName="750053586" Left="132" Top="257" Right="202" Bottom="275" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;0000TC84&apos;]" />
+												<Value Value="//span[text()=&apos;0000TC84&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-margin-rule-edit//mat-form-field//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" />
+												<Value Value="//cp-margin-rule-edit//mat-form-field//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-select-value-11&apos;]//span/span" />
+												<Value Value="//div[@id=&apos;mat-select-value-11&apos;]//span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//cp-margin-rule-edit//mat-select/div/div/span/span" />
+												<Value Value="//cp-margin-rule-edit//mat-select/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode7" Key="{93ABC55B-DEE5-4E3C-ACCD-80D3AEA0E051}">
+										<Image FileName="-2100029548" Left="775" Top="367" Right="784" Bottom="371" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;path&apos;][contains(@class, &apos;ng-tns-c3393473648-140&apos;)]" />
+												<Value Value="//*[name()=&apos;path&apos;][contains(@class, &apos;ng-tns-c3393473648-140&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;mat-select-50&apos;]//*[name()=&apos;path&apos;]" />
+												<Value Value="//mat-select[@id=&apos;mat-select-50&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-filter//div/mat-form-field//mat-select//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+												<Value Value="//shared-filter//div/mat-form-field//mat-select//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxSelectRow" Key="{7A074F7E-BB7E-4E91-83CA-2B53C723398C}">
+										<Image FileName="-470598475" Left="602" Top="554" Right="638" Bottom="590" />
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=&apos;mat-mdc-checkbox-133-input&apos;]" />
+												<Value Value="//input[@id=&apos;mat-mdc-checkbox-133-input&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-checkbox-133-input" />
+												<Value Value="#mat-mdc-checkbox-133-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-table/mat-row/mat-cell/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+												<Value Value="//mat-table/mat-row/mat-cell/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-cell/mat-checkbox/div/div/input" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-cell/mat-checkbox/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonDepartmentDescription" Key="{C8757652-EF31-45A6-B2B5-994567236698}">
+										<Image FileName="-1251171223" Left="639" Top="281" Right="675" Bottom="317" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Department Description&apos;]/@for)]" />
+												<Value Value="//input[@id=(//label[.=&apos;Department Description&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Department Description&apos;]" />
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Department Description&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-41-input" />
+												<Value Value="#mat-radio-41-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;mat-radio-group-39&apos;]" />
+												<Value Value="//input[@name=&apos;mat-radio-group-39&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//mat-radio-group/mat-radio-button//input" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//mat-radio-group/mat-radio-button//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxSelectRow2" Key="{214919D4-82C8-44D5-B476-04D942B4D0E5}">
+										<Image FileName="-1819104622" Left="602" Top="554" Right="638" Bottom="590" />
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=&apos;mat-mdc-checkbox-159-input&apos;]" />
+												<Value Value="//input[@id=&apos;mat-mdc-checkbox-159-input&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-checkbox-159-input" />
+												<Value Value="#mat-mdc-checkbox-159-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-table/mat-row/mat-cell/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+												<Value Value="//mat-table/mat-row/mat-cell/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-cell/mat-checkbox/div/div/input" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-cell/mat-checkbox/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -28826,7 +28986,6 @@
 				<Child Name="textnodeContains" Owner="{4E361A26-32DD-4B3C-86B7-813819C0C442}" />
 				<Child Name="textnodeMatOption15" Owner="{D1AF9804-A02F-404C-BC00-67B625ED0B89}" />
 				<Child Name="tradeLane_name" Owner="{8E160E81-4CC4-4986-9796-32FACCC01E95}" />
-				<Child Name="buttonDone_SaveFilterPrepaid" Owner="{1C286E2F-0A65-4554-9A7D-47E2B7AE40DA}" />
 				<Child Name="panelCurrencyAdjustmentFactorCaf" Owner="{E8145BC9-5174-447B-BC8E-75725A2184C6}" />
 				<Child Name="buttonDelete_PrepaidCollect" Owner="{A114BD3E-5DD2-4AB5-80A0-2FC597E296B9}" />
 				<Child Name="buttonYes_DeletePrepaidCollect" Owner="{D1FF8E32-70F3-4F52-9575-79B960DE638E}" />
@@ -30084,6 +30243,7 @@
 			<Child Name="panelMscDemoFcl" Owner="{60C7C3DD-DE56-4836-BE30-D97BB16CA68D}" />
 			<Child Name="buttonSkipSetup" Owner="{50966A4F-F5AA-456D-A3AB-6CE6E65A50D9}" />
 			<Child Name="dryOption" Owner="{437B5A56-8094-4F24-8416-C3A11B669427}" />
+			<Child Name="buttonDone_SaveFilterPrepaid" Owner="{1C286E2F-0A65-4554-9A7D-47E2B7AE40DA}" />
 		</Child>
 		<Child Name="textnodeQmsAlertNewFullUploadFul2" Owner="{02C06E45-BEB0-471B-95D5-402E4BC1B7D1}" />
 		<Child Name="textnode" Owner="{C9AC77B5-217E-4D06-B995-B6BEF8B5B9E5}" />
@@ -30245,5 +30405,13 @@
 		<Child Name="textnodeNonHazardousOnly" Owner="{C773F007-DB96-46E8-9BDB-EDA0FBE08EF5}" />
 		<Child Name="panelAaidg" Owner="{4FAD42D7-963F-4160-8385-6EC786DE1234}" />
 		<Child Name="textnodeDestination2" Owner="{8A0D2882-94A6-4046-AEAB-4EFAEFFF4662}" />
+		<Child Name="textnode0000tc84" Owner="{EC8B2C04-508F-429A-98CA-7440DF716A4D}" />
+		<Child Name="textnode6" Owner="{73D7A261-0417-4FD2-9FA0-3A78849DE8D6}" />
+		<Child Name="panelType" Owner="{DA834408-D287-483F-BCCF-4EDED52D6BF9}" />
+		<Child Name="textnode0000tc842" Owner="{A2E7497D-720E-456B-8473-BEE3DEEF2EBF}" />
+		<Child Name="textnode7" Owner="{93ABC55B-DEE5-4E3C-ACCD-80D3AEA0E051}" />
+		<Child Name="checkboxSelectRow" Owner="{7A074F7E-BB7E-4E91-83CA-2B53C723398C}" />
+		<Child Name="radiobuttonDepartmentDescription" Owner="{C8757652-EF31-45A6-B2B5-994567236698}" />
+		<Child Name="checkboxSelectRow2" Owner="{214919D4-82C8-44D5-B476-04D942B4D0E5}" />
 	</LogicalNodes>
 </Root>

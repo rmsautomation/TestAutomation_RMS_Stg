@@ -464,20 +464,20 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelMatSelectValue25" Key="{9D9CA817-CCC2-4BF4-B22A-B508D3A835B9}">
+									<Child Name="searchHeader" Key="{9D9CA817-CCC2-4BF4-B22A-B508D3A835B9}">
 										<Image FileName="-595980852" Left="318" Top="282" Right="480" Bottom="314" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-select-value-25" />
-												<Value Value="#mat-select-value-25" />
+												<Value Value="xpath=//div[@class=&apos;rate-search-header&apos;]" />
+												<Value Value="Add selector" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-form-field[2]//mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
+												<Value Value="//mat-form-field[2]//mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" Enabled="False" />
 												<Value Value="//mat-form-field[2]//mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-form-field[2]/div/div/div/mat-select/div/div" />
+												<Value Value="//mat-form-field[2]/div/div/div/mat-select/div/div" Enabled="False" />
 												<Value Value="//mat-form-field[2]/div/div/div/mat-select/div/div" />
 											</Selector>
 										</Selectors>
@@ -23092,28 +23092,6 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="buttonDone" Key="{AA743C10-74DC-49F4-A264-757182A06ADD}">
-										<Image FileName="85237480" Left="736" Top="419" Right="774" Bottom="459" />
-										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//button[contains(., &apos;done&apos;)]" />
-												<Value Value="//button[contains(., &apos;done&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-body//shared-filter//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
-												<Value Value="//mat-tab-body//shared-filter//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-1-0&apos;]//shared-icon-button/button" />
-												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-1-0&apos;]//shared-icon-button/button" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-tab-body//shared-filter//shared-icon-button/button" />
-												<Value Value="//mat-tab-body//shared-filter//shared-icon-button/button" />
-											</Selector>
-										</Selectors>
-									</Child>
 									<Child Name="panelMatSelectValue77" Key="{252B2A10-C072-4593-B62C-7D00BF83DCDF}">
 										<Image FileName="-994626603" Left="318" Top="432" Right="480" Bottom="464" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
@@ -28426,6 +28404,32 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="buttonDone" Key="{AA743C10-74DC-49F4-A264-757182A06ADD}">
+								<Image FileName="85237480" Left="736" Top="419" Right="774" Bottom="459" />
+								<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+								<Selectors>
+									<Selector>
+										<Value Value="xpath=//shared-icon-button[@class=&apos;align-self-start ng-star-inserted&apos;]" />
+										<Value Value="Add selector" />
+									</Selector>
+									<Selector>
+										<Value Value="//button[contains(., &apos;done&apos;)]" />
+										<Value Value="//button[contains(., &apos;done&apos;)]" />
+									</Selector>
+									<Selector>
+										<Value Value="//mat-tab-body//shared-filter//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+										<Value Value="//mat-tab-body//shared-filter//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+									</Selector>
+									<Selector>
+										<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-1-0&apos;]//shared-icon-button/button" />
+										<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-1-0&apos;]//shared-icon-button/button" />
+									</Selector>
+									<Selector>
+										<Value Value="//mat-tab-body//shared-filter//shared-icon-button/button" />
+										<Value Value="//mat-tab-body//shared-filter//shared-icon-button/button" />
+									</Selector>
+								</Selectors>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="filezilla" Key="{BD74AECE-8164-4E52-87D2-048957A5C583}">
@@ -29001,7 +29005,7 @@
 				<Child Name="panelSucessfullyCreatedThePrepai" Owner="{5CFD4601-B4A5-4734-A28E-E2E7F5B51015}" />
 				<Child Name="eftCompany" Owner="{82CABA6C-C09B-44B3-9792-860258292DBD}" />
 				<Child Name="checkboxShowAllNac" Owner="{21EB160C-5681-42FC-8479-7B8D8AA8278F}" />
-				<Child Name="panelMatSelectValue25" Owner="{9D9CA817-CCC2-4BF4-B22A-B508D3A835B9}" />
+				<Child Name="searchHeader" Owner="{9D9CA817-CCC2-4BF4-B22A-B508D3A835B9}" />
 				<Child Name="textnodeMatOption46" Owner="{D35B4CB4-E629-4291-8F45-19A739BC1D95}" />
 				<Child Name="textboxMatInput5" Owner="{DE9D6505-A5BD-4424-AB20-60B01317CAF9}" />
 				<Child Name="textnodePerson" Owner="{4A8B145A-8975-4CC2-A0A2-350E19F75501}" />

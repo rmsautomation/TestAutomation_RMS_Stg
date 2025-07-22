@@ -423,6 +423,7 @@
 					<child name="AddCompanyqualifiers" key="{6787D656-DC02-42FC-A5DF-EE562C5F4618}" path="AddCompanyqualifiers.tcKDTest" />
 					<child name="PressButtonSave" key="{0D354A3E-C3F7-478C-A280-3757A8ED3B84}" path="PressButtonSave.tcKDTest" />
 					<child name="AddSpecificCompany" key="{F128BDA0-1F0E-44A7-BBFE-406F6F811AD5}" path="AddSpecificCompany.tcKDTest" />
+					<child name="AddDepartment" key="{83FABC7F-8762-485B-A13F-211E5A7337DA}" path="AddDepartment.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />

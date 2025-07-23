@@ -21325,6 +21325,68 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelSort" Key="{6CB8AF7B-2117-43C3-B313-921666DE5B08}">
+										<Image FileName="-2007628749" Left="638" Top="422" Right="745" Bottom="443" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@aria-describedby=(//div[.=&apos;Sort&apos;]/@id)]" />
+												<Value Value="//div[@aria-describedby=(//div[.=&apos;Sort&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-table/mat-header-row/mat-header-cell[2]/div/div" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-table/mat-header-row/mat-header-cell[2]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonDepartmentDescription" Key="{28360C53-DD6E-4585-8273-2D6D6237BD8C}">
+										<Image FileName="461016047" Left="629" Top="281" Right="665" Bottom="317" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Department Description&apos;]/@for)]" />
+												<Value Value="//input[@id=(//label[.=&apos;Department Description&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Department Description&apos;]" />
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Department Description&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-15-input" />
+												<Value Value="#mat-radio-15-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;mat-radio-group-13&apos;]" />
+												<Value Value="//input[@name=&apos;mat-radio-group-13&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/mat-radio-group/mat-radio-button//input" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/mat-radio-group/mat-radio-button//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsername" Key="{94DB9904-A9F6-41F3-9756-BEBB4679F717}">
+										<Image FileName="-789029118" Left="616" Top="353" Right="778" Bottom="384" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-select[.=&apos;Username&apos;]" />
+												<Value Value="//mat-select[.=&apos;Username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[.=&apos;Username&apos;]" />
+												<Value Value="//mat-select[.=&apos;Username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-select-52" />
+												<Value Value="#mat-select-52" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-grid//shared-filter//div/mat-form-field//mat-select" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-grid//shared-filter//div/mat-form-field//mat-select" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox1Rmsautomation24GmailCo" Key="{6D70296C-3758-413F-B8B9-4D1F024CE616}">
@@ -30229,6 +30291,9 @@
 				<Child Name="textboxNumber2" Owner="{5C8CC68F-86C0-4711-9F26-3DF2EEF86FAE}" />
 				<Child Name="panelGridView" Owner="{57081410-812A-4EB0-8406-0077DCE359AF}" />
 				<Child Name="buttonShowNacRatesSelected" Owner="{817CBB05-4ECD-4B74-8E34-72AAD2EF38B2}" />
+				<Child Name="panelSort" Owner="{6CB8AF7B-2117-43C3-B313-921666DE5B08}" />
+				<Child Name="radiobuttonDepartmentDescription" Owner="{28360C53-DD6E-4585-8273-2D6D6237BD8C}" />
+				<Child Name="textnodeUsername" Owner="{94DB9904-A9F6-41F3-9756-BEBB4679F717}" />
 			</Child>
 			<Child Name="panelDlDfpRmsMagayaCom2" Owner="{770EB74C-1306-4508-9BCF-7CD795F9FA05}" />
 			<Child Name="textnodeQmsAlertNewFullUploadFul" Owner="{0182D8A0-885C-498C-8222-543166378B77}" />

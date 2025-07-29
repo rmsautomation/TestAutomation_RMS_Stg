@@ -197,6 +197,9 @@
 					<child name="ClickOnAmedmentID" key="{9005BDDB-BB09-48DC-9C54-9D00E7A4AEC3}" path="ClickOnAmedmentID.tcKDTest" />
 					<child name="GoToAMD_ReleaseDownload" key="{ED53F633-0C66-4DCA-A8E1-61D57F934805}" path="GoToAMD_ReleaseDownload.tcKDTest" />
 					<child name="DownloadCarrierDoc" key="{7DB51394-3ACD-447D-937B-3C1B2F254DB6}" path="DownloadCarrierDoc.tcKDTest" />
+					<child name="SelectAmendmentOption" key="{75B2C874-F917-4624-BDDA-10638A37C638}" path="SelectAmendmentOption.tcKDTest" />
+					<child name="SelectContractID" key="{57122533-F87D-43BA-A02E-7C29C71D2D3B}" path="SelectContractID.tcKDTest" />
+					<child name="AddAmendmentID" key="{02C28CFD-BE88-4069-B996-E0A0D45D69D9}" path="AddAmendmentID.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Search_Single">

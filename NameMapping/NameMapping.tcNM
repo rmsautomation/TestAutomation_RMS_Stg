@@ -26486,6 +26486,100 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="radiobuttonAmendment" Key="{7FB4AA0B-DCF2-437A-8E03-40187C67D778}">
+										<Image FileName="1602947160" Left="224" Top="537" Right="260" Bottom="573" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Amendment&apos;)]/@for)]" />
+												<Value Value="//input[@id=(//label[contains(.,&apos;Amendment&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;amendment&apos;]" />
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;amendment&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-6-input" />
+												<Value Value="#mat-radio-6-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input[@name=&apos;mat-radio-group-3&apos;]" />
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input[@name=&apos;mat-radio-group-3&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input" />
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg3" Key="{295D29CA-5735-41C9-90AB-C51879C2545D}">
+										<Image FileName="-1693319010" Left="851" Top="710" Right="873" Bottom="732" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-15&apos;)]" />
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-15&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;mat-select-4&apos;]//*[name()=&apos;svg&apos;]" />
+												<Value Value="//mat-select[@id=&apos;mat-select-4&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+												<Value Value="//div/mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMscAutomationTc52" Key="{552DBDCC-243F-48CE-9463-C95270D19562}">
+										<Image FileName="791193858" Left="238" Top="917" Right="412" Bottom="939" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;MSC-AUTOMATION_TC52&apos;)]" />
+												<Value Value="//span[contains(text(), &apos;MSC-AUTOMATION_TC52&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-423&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+												<Value Value="//mat-option[@id=&apos;mat-option-423&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-423&apos;]/span" />
+												<Value Value="//mat-option[@id=&apos;mat-option-423&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRemarksNotes" Key="{D43AE88C-A337-42D3-9AA4-FA7E28C4E367}">
+										<Image FileName="1191616897" Left="211" Top="907" Right="1860" Bottom="1088" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Remarks/Notes&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;Remarks/Notes&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContractIdRequired" Key="{403199DA-EFB4-40D7-97BF-C5AC205C9828}">
+										<Image FileName="-1693319010" Left="242" Top="712" Right="391" Bottom="730" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Contract ID - Required&apos;]" />
+												<Value Value="//span[.=&apos;Contract ID - Required&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;mat-mdc-select-placeholder&apos;)]" />
+												<Value Value="//span[contains(@class, &apos;mat-mdc-select-placeholder&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-select-value-35&apos;]/span" />
+												<Value Value="//div[@id=&apos;mat-select-value-35&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-form-field//mat-select//span" />
+												<Value Value="//mat-radio-group//mat-form-field//mat-select//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -30539,5 +30633,10 @@
 		<Child Name="radiobuttonFmc" Owner="{3A02B28F-C8C7-4E4E-B06A-4B7C1E99074A}" />
 		<Child Name="buttonCarrierDocument" Owner="{9672ACFA-8FDC-4058-B8EE-F2433E378918}" />
 		<Child Name="textnodeUploadedFile" Owner="{FA8F39DC-2943-4952-85FC-1519A62B2693}" />
+		<Child Name="radiobuttonAmendment" Owner="{7FB4AA0B-DCF2-437A-8E03-40187C67D778}" />
+		<Child Name="vg3" Owner="{295D29CA-5735-41C9-90AB-C51879C2545D}" />
+		<Child Name="textnodeMscAutomationTc52" Owner="{552DBDCC-243F-48CE-9463-C95270D19562}" />
+		<Child Name="panelRemarksNotes" Owner="{D43AE88C-A337-42D3-9AA4-FA7E28C4E367}" />
+		<Child Name="textnodeContractIdRequired" Owner="{403199DA-EFB4-40D7-97BF-C5AC205C9828}" />
 	</LogicalNodes>
 </Root>

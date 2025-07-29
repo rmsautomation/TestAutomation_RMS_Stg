@@ -28,6 +28,7 @@
 						<child name="TC_9_QMS_9992_Search_FT_OFF_ON" key="{977EDCA0-67B6-486E-8139-818B0A7D50C7}" path="TC_9_QMS_9992_Search_FT_OFF_ON.tcKDTest" />
 						<child name="TC_86_QMS_14625_SearchCustomerOptionsAddExisting" key="{2931036B-9C3B-4F9F-9845-EBCDF7A81093}" path="TC_86_QMS_14625_SearchCustomerOptionsAddExisting.tcKDTest" />
 						<child name="TC_87_QMS_15930_ShowAllNAC_ON_OFF" key="{E2F687E7-DEE7-4F00-A47B-EEDEA08A518E}" path="TC_87_QMS_15930_ShowAllNAC_ON_OFF.tcKDTest" />
+						<child name="TC_81_QMS_15198_SingleDownloadCarrierDocSwitchedOn" key="{4DB4FDB1-BA77-4AC6-904B-9041FF4BD8C8}" path="TC_81_QMS_15198_SingleDownloadCarrierDocSwitchedOn.tcKDTest" />
 					</folder>
 				</folder>
 				<folder name="XENETA">
@@ -64,8 +65,8 @@
 					<child name="TC_25_QMS_5579_Contract_Self_Serve_Upload" key="{4B7F805D-1B10-4499-8A67-9EEF560DB1D8}" path="TC_25_QMS_5579_Contract_Self_Serve_Upload.tcKDTest" />
 					<child name="TC_48_QMS_5580_ContractView_Search_Contract_ID" key="{1BDFC759-08D0-4F77-B1A5-30A4B8427324}" path="TC_48_QMS_5580_ContractView_Search_Contract_ID.tcKDTest" />
 					<child name="TC_49_QMS_5578_Contract_Full_Serve_Upload" key="{8A8E1DD7-FA78-4691-B576-2586F5B75EFF}" path="TC_49_QMS_5578_Contract_Full_Serve_Upload.tcKDTest" />
-					<child name="TC_90_QMS_15734_CarrierDocAccessFullServeNewContract" key="{1BAD7EA6-1472-473D-A5D3-030B77ACD045}" path="TC_90_QMS_15734_CarrierDocAccessFullServeNewContract.tcKDTest" />
 					<child name="TC_89_QMS_15733_CarrierDocAccessFullServeAmendment" key="{B7E87EA0-27ED-41FD-A263-A5A730316A45}" path="TC_89_QMS_15733_CarrierDocAccessFullServeAmendment.tcKDTest" />
+					<child name="TC_90_QMS_15734_CarrierDocAccessFullServeNewContract" key="{1BAD7EA6-1472-473D-A5D3-030B77ACD045}" path="TC_90_QMS_15734_CarrierDocAccessFullServeNewContract.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Tariff">
@@ -277,6 +278,7 @@
 					<child name="VerifyNACRates" key="{8262BD93-F903-451E-A969-19D1930EEBF6}" path="VerifyNACRates.tcKDTest" />
 					<child name="VerifyMACRuleWasNOTApply" key="{36EED0B1-8F83-4E16-AE87-1500F339AA44}" path="VerifyMACRuleWasNOTApply.tcKDTest" />
 					<child name="VerifyAddedMarginAIROriginal" key="{CE526646-E713-4F17-82CE-EB0D700901CF}" path="VerifyAddedMarginAIROriginal.tcKDTest" />
+					<child name="SelectDownloadCarrierDoc" key="{9BA14E17-20F7-441A-817B-98ADFCB44D4E}" path="SelectDownloadCarrierDoc.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<folder name="LCL_Search">

@@ -26580,6 +26580,30 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonDownload" Key="{587D14F3-49BD-44EA-A0BF-C58B964581A7}">
+										<Image FileName="-66811116" Left="1829" Top="458" Right="1878" Bottom="485" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Download&apos;]/@id)]" />
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;arrow_drop_down&apos;)]" />
+												<Value Value="//button[contains(., &apos;arrow_drop_down&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSpotQuotation" Key="{92EE4783-88E1-403F-8BE2-6B24E3354104}">
+										<Image FileName="923266745" Left="1589" Top="524" Right="1862" Bottom="556" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//rate-search-details-view/div[2]" />
+												<Value Value="//rate-search-details-view/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -30638,5 +30662,7 @@
 		<Child Name="textnodeMscAutomationTc52" Owner="{552DBDCC-243F-48CE-9463-C95270D19562}" />
 		<Child Name="panelRemarksNotes" Owner="{D43AE88C-A337-42D3-9AA4-FA7E28C4E367}" />
 		<Child Name="textnodeContractIdRequired" Owner="{403199DA-EFB4-40D7-97BF-C5AC205C9828}" />
+		<Child Name="buttonDownload" Owner="{587D14F3-49BD-44EA-A0BF-C58B964581A7}" />
+		<Child Name="panelSpotQuotation" Owner="{92EE4783-88E1-403F-8BE2-6B24E3354104}" />
 	</LogicalNodes>
 </Root>

@@ -17,6 +17,9 @@
 			<child name="ContractTC52_xlsm" key="{EC2A7AD0-E41F-4038-AF40-B218B36DEA92}">
 				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="ContractTC52_xlsm" ID="{EC2A7AD0-E41F-4038-AF40-B218B36DEA92}" FileName="Files\ContractTC52.xlsm" Update="False" />
 			</child>
+			<child name="UploadPDFTC44_pdf" key="{C1D4FE95-357D-4A7D-90E4-2FACA38F4A11}">
+				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadPDFTC44_pdf" ID="{C1D4FE95-357D-4A7D-90E4-2FACA38F4A11}" FileName="Files\UploadPDFTC44.pdf" Update="False" />
+			</child>
 		</folder>
 		<child name="Allocation_Agreement___AutomationTest___08_16_2024_xlsx" key="{637E7ABA-65CF-49F5-9B0C-1183F9430FE5}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Allocation_Agreement___AutomationTest___08_16_2024_xlsx" ID="{637E7ABA-65CF-49F5-9B0C-1183F9430FE5}" FileName="Files\Allocation Agreement - AutomationTest - 08-16-2024.xlsx" Update="True" />
@@ -44,6 +47,15 @@
 		</child>
 		<child name="UploadExcel_xlsm" key="{5FEBBD59-E98F-4EE4-9ACB-4FFD77BBBBF4}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadExcel_xlsm" ID="{5FEBBD59-E98F-4EE4-9ACB-4FFD77BBBBF4}" FileName="Files\UploadExcel.xlsm" Update="False" />
+		</child>
+		<child name="UploadExcelTC44_xlsm" key="{EF01E181-19D4-438B-ACF4-51888AA9F82A}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadExcelTC44_xlsm" ID="{EF01E181-19D4-438B-ACF4-51888AA9F82A}" FileName="Files\UploadExcelTC44.xlsm" Update="False" />
+		</child>
+		<child name="UploadTXTTC44_txt" key="{FF2C9289-008C-4849-B65C-11384232AF88}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadTXTTC44_txt" ID="{FF2C9289-008C-4849-B65C-11384232AF88}" FileName="Files\UploadTXTTC44.txt" Update="False" />
+		</child>
+		<child name="ContractTC44_xlsm" key="{93E1FAC0-B126-4320-8579-379418F34823}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="ContractTC44_xlsm" ID="{93E1FAC0-B126-4320-8579-379418F34823}" FileName="Files\ContractTC44.xlsm" Update="False" />
 		</child>
 	</children>
 </Root>

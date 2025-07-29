@@ -411,6 +411,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_81_QMS_15198_SingleDownloadCarrierDocSwitchedOn" key="{423E49C7-D369-40B9-9EF9-E82706319290}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{4DB4FDB1-BA77-4AC6-904B-9041FF4BD8C8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_82_QMS__15272_NewOCEAN_EFTCompanyName" key="{24DDDE0D-3597-4AF4-B340-E873FBF803C4}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{8C26FF11-72D2-41AD-B653-FF9E62BE79AC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
@@ -437,6 +442,16 @@
 				<children />
 			</testItem>
 			<testItem name="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{B8A2D297-D76C-4103-9488-71BF04692FCE}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{D1BD16C7-152F-4023-B7CC-BCDE382D37CE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_89_QMS_15733_CarrierDocAccessFullServeAmendment" key="{56E78768-52AD-4E3C-AD39-DA92EB0D0570}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{B7E87EA0-27ED-41FD-A263-A5A730316A45}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_90_QMS_15734_CarrierDocAccessFullServeNewContract" key="{329419CF-4FFB-4D84-88CA-0D3251EBB311}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{1BAD7EA6-1472-473D-A5D3-030B77ACD045}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />

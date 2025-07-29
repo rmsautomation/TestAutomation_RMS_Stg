@@ -9,6 +9,16 @@
 		<Children>
 			<Operation Type="{51174C35-4DFC-4F13-A144-D3A20C0172D9}">
 				<Data Description="Puts the value of a variable to an Excel cell.">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="FileName" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="fileName" />
+						<Parameter Name="Cell" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="cell" />
+						<Parameter Name="Value" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Value" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{51174C35-4DFC-4F13-A144-D3A20C0172D9}">
+				<Data Description="Puts the value of a variable to an Excel cell.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="FileName" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="fileName" />
 						<Parameter Name="Cell" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="cell" />

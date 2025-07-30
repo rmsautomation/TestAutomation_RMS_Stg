@@ -86,6 +86,7 @@
 						<child name="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{D1BD16C7-152F-4023-B7CC-BCDE382D37CE}" path="TC_88_QMS_15944_CustomerOptionsOFF_MAC_NewRule.tcKDTest" />
 						<child name="TC_80_QMS_15022_MarginCopyExisting_NewRules" key="{B2DD11B0-D72F-4440-96BE-6BAB398747DE}" path="TC_80_QMS_15022_MarginCopyExisting_NewRules.tcKDTest" />
 						<child name="TC_84_QMs_15160_MarginMgmtAIR_NewCompanyQualifiers_Not_ALL" key="{4422A06B-5D18-4405-9EE6-CC003B4ACF5E}" path="TC_84_QMs_15160_MarginMgmtAIR_NewCompanyQualifiers_Not_ALL.tcKDTest" />
+						<child name="TC_85_QMS_14921_MarginMgmtGROUND_NewCompanyQualifiers_Not_ALL" key="{0747B26B-991B-4F49-AABF-121C74F8F603}" path="TC_85_QMS_14921_MarginMgmtGROUND_NewCompanyQualifiers_Not_ALL.tcKDTest" />
 					</folder>
 				</folder>
 				<folder name="RatePrioritization">
@@ -279,6 +280,8 @@
 					<child name="VerifyMACRuleWasNOTApply" key="{36EED0B1-8F83-4E16-AE87-1500F339AA44}" path="VerifyMACRuleWasNOTApply.tcKDTest" />
 					<child name="VerifyAddedMarginAIROriginal" key="{CE526646-E713-4F17-82CE-EB0D700901CF}" path="VerifyAddedMarginAIROriginal.tcKDTest" />
 					<child name="SelectDownloadCarrierDoc" key="{9BA14E17-20F7-441A-817B-98ADFCB44D4E}" path="SelectDownloadCarrierDoc.tcKDTest" />
+					<child name="VerifyMACRuleWasNOTApplyGround" key="{8773A7EC-1220-42DA-9DC6-277D399F396F}" path="VerifyMACRuleWasNOTApplyGround.tcKDTest" />
+					<child name="VerifyAddedMarginGroundOriginal" key="{7397E72E-B5A5-4722-9F28-1EBDC5C8CCD3}" path="VerifyAddedMarginGroundOriginal.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<folder name="LCL_Search">

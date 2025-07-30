@@ -25188,7 +25188,7 @@
 												<Value Value="Add selector" />
 											</Selector>
 											<Selector>
-												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" />
+												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" Enabled="False" />
 												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" />
 											</Selector>
 											<Selector>

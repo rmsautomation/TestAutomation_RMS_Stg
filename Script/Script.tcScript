@@ -55,5 +55,8 @@
 		<child name="CheckColumnsHeader_PDF" key="{C0023010-7759-40F9-AE7B-F59AC2E61DDA}" path="CheckColumnsHeader_PDF.js" />
 		<child name="BookingPDF" key="{8656F3C1-AF12-473C-BC24-9E0CEFFCD4DA}" path="BookingPDF.js" />
 		<child name="VerifyFTP" key="{14EBB53B-11A9-468E-9D90-784D42594AD8}" path="VerifyFTP.js" />
+		<child name="FindGenericElement" key="{5E2A8FFB-EB79-4B38-B3A7-F18137289E04}" path="FindGenericElement.js" />
+		<child name="VerifyDownloadZIP" key="{6FA2B340-1035-4318-A9B9-420259D7DD14}" path="VerifyDownloadZIP.js" />
+		<child name="DeleteLatestZIP" key="{E7D17FE3-8984-47DF-B27A-D82D74EFC8D1}" path="DeleteLatestZIP.js" />
 	</children>
 </Root>

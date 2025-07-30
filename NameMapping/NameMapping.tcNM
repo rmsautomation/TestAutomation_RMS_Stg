@@ -638,21 +638,13 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeCurrencyAdjustmentFactor2" Key="{82A722E4-EABB-47B3-A48A-B72647CCDE53}">
+									<Child Name="carrierDocAccess" Key="{82A722E4-EABB-47B3-A48A-B72647CCDE53}">
 										<Image FileName="-1484378227" Left="813" Top="526" Right="1024" Bottom="550" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//mat-checkbox[contains(@class, &apos;mat-mdc-checkbox-checked&apos;) and .//label[normalize-space(.)=&apos;Carrier Document Access&apos;]]" />
 												<Value Value="//mat-option[@id=&apos;mat-option-33&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-												<Value Value="//mat-option[@id=&apos;mat-option-33&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-33&apos;]/span" />
-												<Value Value="//mat-option[@id=&apos;mat-option-33&apos;]/span" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option/span" />
-												<Value Value="//mat-option/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -26454,6 +26446,164 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="radiobuttonFmc" Key="{3A02B28F-C8C7-4E4E-B06A-4B7C1E99074A}">
+										<Image FileName="970979368" Left="224" Top="640" Right="260" Bottom="676" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;FMC&apos;)]/@for)]" />
+												<Value Value="//input[@id=(//label[contains(.,&apos;FMC&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;fmc&apos;]" />
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;fmc&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-8-input" />
+												<Value Value="#mat-radio-8-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-8&apos;]//input[@name=&apos;mat-radio-group-6&apos;]" />
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-8&apos;]//input[@name=&apos;mat-radio-group-6&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group[2]//mat-radio-button[@id=&apos;mat-radio-8&apos;]//input" />
+												<Value Value="//mat-radio-group[2]//mat-radio-button[@id=&apos;mat-radio-8&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCarrierDocument" Key="{9672ACFA-8FDC-4058-B8EE-F2433E378918}">
+										<Image FileName="936971553" Left="502" Top="514" Right="615" Bottom="541" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Carrier Document&apos;)]" />
+												<Value Value="//button[contains(., &apos;Carrier Document&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ml-2&apos;)]" />
+												<Value Value="//button[contains(@class, &apos;ml-2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonAmendment" Key="{7FB4AA0B-DCF2-437A-8E03-40187C67D778}">
+										<Image FileName="1602947160" Left="224" Top="537" Right="260" Bottom="573" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Amendment&apos;)]/@for)]" />
+												<Value Value="//input[@id=(//label[contains(.,&apos;Amendment&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;amendment&apos;]" />
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;amendment&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-6-input" />
+												<Value Value="#mat-radio-6-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input[@name=&apos;mat-radio-group-3&apos;]" />
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input[@name=&apos;mat-radio-group-3&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input" />
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg3" Key="{295D29CA-5735-41C9-90AB-C51879C2545D}">
+										<Image FileName="-1693319010" Left="851" Top="710" Right="873" Bottom="732" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-15&apos;)]" />
+												<Value Value="//*[name()=&apos;svg&apos;][contains(@class, &apos;ng-tns-c3393473648-15&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;mat-select-4&apos;]//*[name()=&apos;svg&apos;]" />
+												<Value Value="//mat-select[@id=&apos;mat-select-4&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+												<Value Value="//div/mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMscAutomationTc52" Key="{552DBDCC-243F-48CE-9463-C95270D19562}">
+										<Image FileName="791193858" Left="238" Top="917" Right="412" Bottom="939" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;MSC-AUTOMATION_TC52&apos;)]" />
+												<Value Value="//span[contains(text(), &apos;MSC-AUTOMATION_TC52&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-423&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+												<Value Value="//mat-option[@id=&apos;mat-option-423&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-423&apos;]/span" />
+												<Value Value="//mat-option[@id=&apos;mat-option-423&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRemarksNotes" Key="{D43AE88C-A337-42D3-9AA4-FA7E28C4E367}">
+										<Image FileName="1191616897" Left="211" Top="907" Right="1860" Bottom="1088" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Remarks/Notes&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;Remarks/Notes&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContractIdRequired" Key="{403199DA-EFB4-40D7-97BF-C5AC205C9828}">
+										<Image FileName="-1693319010" Left="242" Top="712" Right="391" Bottom="730" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Contract ID - Required&apos;]" />
+												<Value Value="//span[.=&apos;Contract ID - Required&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;mat-mdc-select-placeholder&apos;)]" />
+												<Value Value="//span[contains(@class, &apos;mat-mdc-select-placeholder&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-select-value-35&apos;]/span" />
+												<Value Value="//div[@id=&apos;mat-select-value-35&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-form-field//mat-select//span" />
+												<Value Value="//mat-radio-group//mat-form-field//mat-select//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDownload" Key="{587D14F3-49BD-44EA-A0BF-C58B964581A7}">
+										<Image FileName="-66811116" Left="1829" Top="458" Right="1878" Bottom="485" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Download&apos;]/@id)]" />
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;arrow_drop_down&apos;)]" />
+												<Value Value="//button[contains(., &apos;arrow_drop_down&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSpotQuotation" Key="{92EE4783-88E1-403F-8BE2-6B24E3354104}">
+										<Image FileName="923266745" Left="1589" Top="524" Right="1862" Bottom="556" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//rate-search-details-view/div[2]" />
+												<Value Value="//rate-search-details-view/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -27910,6 +28060,28 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeUploadedFile" Key="{FA8F39DC-2943-4952-85FC-1519A62B2693}">
+										<Image FileName="1613654315" Left="677" Top="855" Right="768" Bottom="873" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//td[contains(normalize-space(.), &apos;Uploaded File:&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//b[contains(text(), &apos;Uploaded File:&apos;)]" Enabled="False" />
+												<Value Value="//b[contains(text(), &apos;Uploaded File:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ConversationReadingPaneContainer&apos;]//td/b" Enabled="False" />
+												<Value Value="//div[@id=&apos;ConversationReadingPaneContainer&apos;]//td/b" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/table[2]//tr/td/b" Enabled="False" />
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/table[2]//tr/td/b" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="wndChrome_WidgetWin_0" Key="{97858EFD-6541-4A86-BD64-C98AB7AC0C27}">
@@ -29076,7 +29248,7 @@
 				<Child Name="textnodePrepaidCollect" Owner="{0D3AE6E3-F7C0-4AFA-A3CB-DD4B5BB65BDE}" />
 				<Child Name="panelMatSelectValue7" Owner="{AB151D5A-9EDD-47F5-99BE-329151EA5702}" />
 				<Child Name="textboxNumber2" Owner="{4759FB32-0060-4C3C-98A9-9DD7A587CD7C}" />
-				<Child Name="textnodeCurrencyAdjustmentFactor2" Owner="{82A722E4-EABB-47B3-A48A-B72647CCDE53}" />
+				<Child Name="carrierDocAccess" Owner="{82A722E4-EABB-47B3-A48A-B72647CCDE53}" />
 				<Child Name="combo_carrier_mess" Owner="{C36F1BE6-7AB5-4584-ACB1-8904C297A3C1}" />
 				<Child Name="panelMatSelectValue13" Owner="{D13262A3-F256-4201-8DAF-BE5EBCFBA1A1}" />
 				<Child Name="textnodeMatOption19" Owner="{896C551A-91A5-40ED-A093-D46609860B84}" />
@@ -30482,5 +30654,15 @@
 		<Child Name="checkboxSelectRow" Owner="{7A074F7E-BB7E-4E91-83CA-2B53C723398C}" />
 		<Child Name="radiobuttonDepartmentDescription" Owner="{C8757652-EF31-45A6-B2B5-994567236698}" />
 		<Child Name="checkboxSelectRow2" Owner="{214919D4-82C8-44D5-B476-04D942B4D0E5}" />
+		<Child Name="radiobuttonFmc" Owner="{3A02B28F-C8C7-4E4E-B06A-4B7C1E99074A}" />
+		<Child Name="buttonCarrierDocument" Owner="{9672ACFA-8FDC-4058-B8EE-F2433E378918}" />
+		<Child Name="textnodeUploadedFile" Owner="{FA8F39DC-2943-4952-85FC-1519A62B2693}" />
+		<Child Name="radiobuttonAmendment" Owner="{7FB4AA0B-DCF2-437A-8E03-40187C67D778}" />
+		<Child Name="vg3" Owner="{295D29CA-5735-41C9-90AB-C51879C2545D}" />
+		<Child Name="textnodeMscAutomationTc52" Owner="{552DBDCC-243F-48CE-9463-C95270D19562}" />
+		<Child Name="panelRemarksNotes" Owner="{D43AE88C-A337-42D3-9AA4-FA7E28C4E367}" />
+		<Child Name="textnodeContractIdRequired" Owner="{403199DA-EFB4-40D7-97BF-C5AC205C9828}" />
+		<Child Name="buttonDownload" Owner="{587D14F3-49BD-44EA-A0BF-C58B964581A7}" />
+		<Child Name="panelSpotQuotation" Owner="{92EE4783-88E1-403F-8BE2-6B24E3354104}" />
 	</LogicalNodes>
 </Root>

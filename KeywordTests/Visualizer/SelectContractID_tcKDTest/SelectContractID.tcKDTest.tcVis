@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{57122533-F87D-43BA-A02E-7C29C71D2D3B}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45867.8674421296" objectName="Aliases.vg" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi9066164056720.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45867.8696180556" objectName="Aliases.textnodeContractIdRequired" objectLeft="242" objectTop="712" objectRight="391" objectBottom="730" clickPointX="296" clickPointY="722" imageFileName="tcvi9084918756720.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45867.8674884259" objectName="NameMapping.Sys.chrome.pageQms.scrollBar" objectLeft="224" objectTop="737" objectRight="884" objectBottom="984" clickPointX="876" clickPointY="763" imageFileName="tcvi9066579656723.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45867.8677199074" objectName="Aliases.textnodeMscAutomationTc52" objectLeft="238" objectTop="917" objectRight="412" objectBottom="939" clickPointX="378" clickPointY="925" imageFileName="tcvi9068535956727.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -11,6 +11,15 @@
 			<child name="ContactUpload_xlsx" key="{8107AD9A-4FAF-4C0F-8284-DA34569161D3}">
 				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="ContactUpload_xlsx" ID="{8107AD9A-4FAF-4C0F-8284-DA34569161D3}" FileName="Files\ContactUpload.xlsx" Update="False" />
 			</child>
+			<child name="ContractTC53_xlsm" key="{B1694357-26D2-4386-AD36-8B594C95AA19}">
+				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="ContractTC53_xlsm" ID="{B1694357-26D2-4386-AD36-8B594C95AA19}" FileName="Files\ContractTC53.xlsm" Update="False" />
+			</child>
+			<child name="ContractTC52_xlsm" key="{EC2A7AD0-E41F-4038-AF40-B218B36DEA92}">
+				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="ContractTC52_xlsm" ID="{EC2A7AD0-E41F-4038-AF40-B218B36DEA92}" FileName="Files\ContractTC52.xlsm" Update="False" />
+			</child>
+			<child name="UploadPDFTC44_pdf" key="{C1D4FE95-357D-4A7D-90E4-2FACA38F4A11}">
+				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadPDFTC44_pdf" ID="{C1D4FE95-357D-4A7D-90E4-2FACA38F4A11}" FileName="Files\UploadPDFTC44.pdf" Update="False" />
+			</child>
 		</folder>
 		<child name="Allocation_Agreement___AutomationTest___08_16_2024_xlsx" key="{637E7ABA-65CF-49F5-9B0C-1183F9430FE5}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Allocation_Agreement___AutomationTest___08_16_2024_xlsx" ID="{637E7ABA-65CF-49F5-9B0C-1183F9430FE5}" FileName="Files\Allocation Agreement - AutomationTest - 08-16-2024.xlsx" Update="True" />
@@ -20,6 +29,33 @@
 		</child>
 		<child name="RegressionStaging_xlsm" key="{CCC2F123-D679-47F8-95AD-7CC66A50BF0C}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="RegressionStaging_xlsm" ID="{CCC2F123-D679-47F8-95AD-7CC66A50BF0C}" FileName="Files\RegressionStaging.xlsm" Update="False" />
+		</child>
+		<child name="UploadPDFTC53_pdf" key="{8F94F46F-C584-43B9-9046-F33C398E707F}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadPDFTC53_pdf" ID="{8F94F46F-C584-43B9-9046-F33C398E707F}" FileName="Files\UploadPDFTC53.pdf" Update="False" />
+		</child>
+		<child name="UploadTXTTC53_txt" key="{60394B84-814F-4368-89F8-BFA12B9EFCCE}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadTXTTC53_txt" ID="{60394B84-814F-4368-89F8-BFA12B9EFCCE}" FileName="Files\UploadTXTTC53.txt" Update="False" />
+		</child>
+		<child name="UploadExcelTC53_xlsm" key="{6A60ABD5-5487-4737-A48C-B9C41BC56BD0}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadExcelTC53_xlsm" ID="{6A60ABD5-5487-4737-A48C-B9C41BC56BD0}" FileName="Files\UploadExcelTC53.xlsm" Update="False" />
+		</child>
+		<child name="UploadPDF_pdf" key="{E86B361E-7F4B-4967-8D8E-94064F16F394}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadPDF_pdf" ID="{E86B361E-7F4B-4967-8D8E-94064F16F394}" FileName="Files\UploadPDF.pdf" Update="False" />
+		</child>
+		<child name="UploadTXT_txt" key="{D8EA7652-4587-4099-863C-AEE09DD6331E}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadTXT_txt" ID="{D8EA7652-4587-4099-863C-AEE09DD6331E}" FileName="Files\UploadTXT.txt" Update="False" />
+		</child>
+		<child name="UploadExcel_xlsm" key="{5FEBBD59-E98F-4EE4-9ACB-4FFD77BBBBF4}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadExcel_xlsm" ID="{5FEBBD59-E98F-4EE4-9ACB-4FFD77BBBBF4}" FileName="Files\UploadExcel.xlsm" Update="False" />
+		</child>
+		<child name="UploadExcelTC44_xlsm" key="{EF01E181-19D4-438B-ACF4-51888AA9F82A}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadExcelTC44_xlsm" ID="{EF01E181-19D4-438B-ACF4-51888AA9F82A}" FileName="Files\UploadExcelTC44.xlsm" Update="False" />
+		</child>
+		<child name="UploadTXTTC44_txt" key="{FF2C9289-008C-4849-B65C-11384232AF88}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadTXTTC44_txt" ID="{FF2C9289-008C-4849-B65C-11384232AF88}" FileName="Files\UploadTXTTC44.txt" Update="False" />
+		</child>
+		<child name="ContractTC44_xlsm" key="{93E1FAC0-B126-4320-8579-379418F34823}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="ContractTC44_xlsm" ID="{93E1FAC0-B126-4320-8579-379418F34823}" FileName="Files\ContractTC44.xlsm" Update="False" />
 		</child>
 	</children>
 </Root>

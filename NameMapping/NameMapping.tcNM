@@ -25188,7 +25188,7 @@
 												<Value Value="Add selector" />
 											</Selector>
 											<Selector>
-												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" />
+												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" Enabled="False" />
 												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" />
 											</Selector>
 											<Selector>
@@ -26601,6 +26601,24 @@
 											<Selector>
 												<Value Value="//rate-search-details-view/div[2]" />
 												<Value Value="//rate-search-details-view/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode0000tc85" Key="{CFEB7F62-4104-4867-B0D9-1CCC0508A7BD}">
+										<Image FileName="-995216507" Left="129" Top="550" Right="199" Bottom="572" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//mat-option[./span[contains(text(), &apos;0000TC85&apos;)]]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-666&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" Enabled="False" />
+												<Value Value="//mat-option[@id=&apos;mat-option-666&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-666&apos;]/span" Enabled="False" />
+												<Value Value="//mat-option[@id=&apos;mat-option-666&apos;]/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -30664,5 +30682,6 @@
 		<Child Name="textnodeContractIdRequired" Owner="{403199DA-EFB4-40D7-97BF-C5AC205C9828}" />
 		<Child Name="buttonDownload" Owner="{587D14F3-49BD-44EA-A0BF-C58B964581A7}" />
 		<Child Name="panelSpotQuotation" Owner="{92EE4783-88E1-403F-8BE2-6B24E3354104}" />
+		<Child Name="textnode0000tc85" Owner="{CFEB7F62-4104-4867-B0D9-1CCC0508A7BD}" />
 	</LogicalNodes>
 </Root>

@@ -431,6 +431,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_85_QMS_14921_MarginMgmtGROUND_NewCompanyQualifiers_Not_ALL" key="{F91B66B0-343C-4FDE-A9C0-71473FDC71B2}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{0747B26B-991B-4F49-AABF-121C74F8F603}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_86_QMS_14625_SearchCustomerOptionsAddExisting" key="{1BABEC4B-93DE-4513-BE8F-F1FA2A5F9826}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{2931036B-9C3B-4F9F-9845-EBCDF7A81093}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />

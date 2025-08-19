@@ -26499,10 +26499,6 @@
 												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;amendment&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="#mat-radio-6-input" />
-												<Value Value="#mat-radio-6-input" />
-											</Selector>
-											<Selector>
 												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input[@name=&apos;mat-radio-group-3&apos;]" />
 												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-6&apos;]//input[@name=&apos;mat-radio-group-3&apos;]" />
 											</Selector>

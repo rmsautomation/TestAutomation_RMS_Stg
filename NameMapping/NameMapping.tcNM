@@ -28678,6 +28678,35 @@
 									</Selector>
 								</Selectors>
 							</Child>
+							<Child Name="pageLogin" Key="{54638A9C-0298-489F-A4DC-05B1952CBDF4}">
+								<Image FileName="1562495438" Left="0" Top="87" Right="1919" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://staging.gocatapult.com/" />
+										<Value Value="https://staging.gocatapult.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{FD247A8D-ADA9-40F1-9018-041EC4170D72}">
+										<Image FileName="1562495438" Left="0" Top="87" Right="1511" Bottom="1040" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Version&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;new-bg&apos;)]" Enabled="False" />
+												<Value Value="//div[contains(@class, &apos;new-bg&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="filezilla" Key="{BD74AECE-8164-4E52-87D2-048957A5C583}">
@@ -30679,5 +30708,8 @@
 		<Child Name="buttonDownload" Owner="{587D14F3-49BD-44EA-A0BF-C58B964581A7}" />
 		<Child Name="panelSpotQuotation" Owner="{92EE4783-88E1-403F-8BE2-6B24E3354104}" />
 		<Child Name="textnode0000tc85" Owner="{CFEB7F62-4104-4867-B0D9-1CCC0508A7BD}" />
+		<Child Name="pageLogin" Owner="{54638A9C-0298-489F-A4DC-05B1952CBDF4}">
+			<Child Name="panel" Owner="{FD247A8D-ADA9-40F1-9018-041EC4170D72}" />
+		</Child>
 	</LogicalNodes>
 </Root>

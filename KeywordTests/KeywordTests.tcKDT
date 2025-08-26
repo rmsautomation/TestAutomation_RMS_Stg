@@ -549,6 +549,7 @@
 				<child name="LoginProd" key="{ACC11E9F-F431-40FB-B09D-2C82B8168DCC}" path="LoginProd.tcKDTest" />
 				<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
 				<child name="WriteExcel" key="{BDFB375E-BAB0-440C-B96A-F88F45E75B6B}" path="WriteExcel.tcKDTest" />
+				<child name="VerifyRMS_Version" key="{6AE66BD2-4E73-4A94-9C25-9543B1B62E75}" path="VerifyRMS_Version.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

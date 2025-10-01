@@ -4875,6 +4875,14 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//span[contains(text(),&apos;@&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[contains(text(),&apos;aylin.rodriguez@magaya.com&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//div[contains(@class, &apos;text&apos;) and contains(text(), &apos;aylin.rodriguez@magaya.com&apos;)]" />
 												<Value Value="xpath=//div[contains(@class, &apos;text&apos;) and contains(text(), &apos;aylin.rodriguez@magaya.com&apos;)]" />
 											</Selector>
@@ -5788,6 +5796,10 @@
 										<Image FileName="202592664" Left="1752" Top="876" Right="1849" Bottom="896" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Miami&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
 											<Selector>
 												<Value Value="xpath=//div[contains(text(), &apos;Miami, FL&apos;)]" />
 												<Value Value="xpath=//div[contains(text(), &apos;Miami, FL&apos;)]" />

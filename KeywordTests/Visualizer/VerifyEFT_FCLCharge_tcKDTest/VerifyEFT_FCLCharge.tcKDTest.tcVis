@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{7754E499-24F7-427B-A659-90D51FCBBCC7}" />
+	<data key="{7754E499-24F7-427B-A659-90D51FCBBCC7}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="46000.7189467593" objectName="Aliases.radiobuttonNONHAZ" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-35703478115840.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>

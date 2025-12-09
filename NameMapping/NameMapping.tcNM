@@ -8308,11 +8308,11 @@
 												<Value Value="xpath=//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;justify-content-center&apos;)]//label[text()=&apos;Hazardous&apos;]/following-sibling::mat-slide-toggle//button[@role=&apos;switch&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=(//div[@class=&apos;mdc-switch__ripple&apos;])[6]" />
+												<Value Value="xpath=(//div[@class=&apos;mdc-switch__ripple&apos;])[6]" Enabled="False" />
 												<Value Value="xpath=(//div[@class=&apos;mdc-switch__ripple&apos;])[6]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=(//div[@class=&apos;mdc-switch__track&apos;])[6]" />
+												<Value Value="xpath=(//div[@class=&apos;mdc-switch__track&apos;])[6]" Enabled="False" />
 												<Value Value="xpath=(//div[@class=&apos;mdc-switch__track&apos;])[6]" />
 											</Selector>
 										</Selectors>
@@ -15438,6 +15438,10 @@
 										<Image FileName="-1300566783" Left="155" Top="317" Right="300" Bottom="336" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[@class=&apos;mdc-list-item__primary-text&apos; and text()=&apos;000AAUTOMATION &apos;]" />
+												<Value Value="Add selector" />
+											</Selector>
 											<Selector>
 												<Value Value="//span[text()=&apos;000AAUTOMATION&apos;]" />
 												<Value Value="//span[text()=&apos;000AAUTOMATION&apos;]" />
@@ -26630,6 +26634,145 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel13" Key="{809D84F6-6C90-4A8D-94C9-A74DB0F1EDFF}">
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[7]/mat-checkbox//div[contains(@class, &apos;mat-mdc-checkbox-touch-target&apos;)]" />
+												<Value Value="//div[7]/mat-checkbox//div[contains(@class, &apos;mat-mdc-checkbox-touch-target&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonMatRadio197Input" Key="{4B26CC5A-58E1-4486-8962-7C6847164727}">
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Hazardous Rates&apos;]/@for)]" />
+												<Value Value="//input[@id=(//label[.=&apos;Hazardous Rates&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;1&apos;]" Enabled="False" />
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-197-input" Enabled="False" />
+												<Value Value="#mat-radio-197-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-197&apos;]//input[@name=&apos;mat-radio-group-193&apos;]" Enabled="False" />
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-197&apos;]//input[@name=&apos;mat-radio-group-193&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-197&apos;]//input" Enabled="False" />
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-197&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel14" Key="{9E42E6D8-D9C3-4421-8030-594CCAFE5213}">
+										<Image FileName="806227309" Left="57" Top="398" Right="936" Bottom="689" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//rate-search-grid-view/shared-spinner/div[contains(@class, &apos;spinner-container&apos;)]" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//rate-search-grid-view/shared-spinner/div[contains(@class, &apos;spinner-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//shared-spinner/div" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//shared-spinner/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-search-grid-view/shared-spinner/div" />
+												<Value Value="//rate-search-grid-view/shared-spinner/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContractId2" Key="{5D64E622-26E3-4FDA-BB02-C3863B95EB63}">
+										<Image FileName="2104151522" Left="57" Top="398" Right="936" Bottom="647" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;flex-layout-stretch&apos;)]/div[contains(@class, &apos;flex-layout-stretch&apos;)]/rate-search-grid-view/div[contains(@class, &apos;flex-layout-stretch&apos;)]/div[contains(@class, &apos;flex-layout-stretch&apos;)]/shared-grid/div[contains(@class, &apos;flex-layout-stretch&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;flex-layout-stretch&apos;)]/div[contains(@class, &apos;flex-layout-stretch&apos;)]/rate-search-grid-view/div[contains(@class, &apos;flex-layout-stretch&apos;)]/div[contains(@class, &apos;flex-layout-stretch&apos;)]/shared-grid/div[contains(@class, &apos;flex-layout-stretch&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]/div" />
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid/div" />
+												<Value Value="//shared-grid/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel15" Key="{4922AADA-185C-41D5-B184-1FC3FA15B98D}">
+										<Image FileName="-940937645" Left="0" Top="211" Right="40" Bottom="231" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;arrow-container&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;arrow-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sideNav&apos;]//div/div" />
+												<Value Value="//div[@id=&apos;sideNav&apos;]//div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-side-nav/div/div/div/div" />
+												<Value Value="//app-side-nav/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonMatRadio121Input" Key="{7531DB79-AA95-4257-B944-EB37ABBCCFE2}">
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Non-Hazardous Rates&apos;]/@for)]" />
+												<Value Value="//input[@id=(//label[.=&apos;Non-Hazardous Rates&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;2&apos;]" Enabled="False" />
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-121-input" Enabled="False" />
+												<Value Value="#mat-radio-121-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-121&apos;]//input[@name=&apos;mat-radio-group-118&apos;]" Enabled="False" />
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-121&apos;]//input[@name=&apos;mat-radio-group-118&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-121&apos;]//input" Enabled="False" />
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-121&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeService" Key="{52BA9C53-9688-42FA-B891-0A1474228AE6}">
+										<Image FileName="-755284673" Left="57" Top="412" Right="1043" Bottom="548" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-table[contains(., &apos;Service&apos;)]" />
+												<Value Value="//mat-table[contains(., &apos;Service&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-table[@role=&apos;table&apos;]" />
+												<Value Value="//mat-table[@role=&apos;table&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-table[contains(@class, &apos;mat-mdc-table&apos;)]" />
+												<Value Value="//mat-table[contains(@class, &apos;mat-mdc-table&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-table" />
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-table" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-table" />
+												<Value Value="//mat-table" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{700A86B3-A00A-4F58-BC6C-125E64CD7F49}">
@@ -29211,6 +29354,35 @@
 											</Child>
 										</Children>
 									</Child>
+									<Child Name="panel" Key="{96B0AE42-5615-459D-A7CF-8F59D6E4F395}">
+										<Image FileName="-588054149" Left="0" Top="71" Right="1366" Bottom="104" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="wxWindowNR" />
+												<Value Value="wxWindowNR" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="panel" />
+												<Value Value="panel" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="btnQuickconnect" Key="{EBA0CBEC-F693-4554-9958-8B59002A6C82}">
+												<Image FileName="-588054149" Left="615" Top="77" Right="710" Bottom="100" />
+												<TypeInfo Item0="{CA0FF9B7-4C49-47BB-A0CF-DE4403AA05DF}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="Button" />
+														<Value Value="Button" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="&amp;Quickconnect" />
+														<Value Value="&amp;Quickconnect" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -30723,5 +30895,15 @@
 		<Child Name="pageLogin" Owner="{54638A9C-0298-489F-A4DC-05B1952CBDF4}">
 			<Child Name="panel" Owner="{FD247A8D-ADA9-40F1-9018-041EC4170D72}" />
 		</Child>
+		<Child Name="panel13" Owner="{809D84F6-6C90-4A8D-94C9-A74DB0F1EDFF}" />
+		<Child Name="panel2" Owner="{96B0AE42-5615-459D-A7CF-8F59D6E4F395}">
+			<Child Name="btnQuickconnect" Owner="{EBA0CBEC-F693-4554-9958-8B59002A6C82}" />
+		</Child>
+		<Child Name="radiobuttonHAZ" Owner="{4B26CC5A-58E1-4486-8962-7C6847164727}" />
+		<Child Name="panel14" Owner="{9E42E6D8-D9C3-4421-8030-594CCAFE5213}" />
+		<Child Name="panelContractId2" Owner="{5D64E622-26E3-4FDA-BB02-C3863B95EB63}" />
+		<Child Name="panel15" Owner="{4922AADA-185C-41D5-B184-1FC3FA15B98D}" />
+		<Child Name="radiobuttonNONHAZ" Owner="{7531DB79-AA95-4257-B944-EB37ABBCCFE2}" />
+		<Child Name="textnodeService" Owner="{52BA9C53-9688-42FA-B891-0A1474228AE6}" />
 	</LogicalNodes>
 </Root>

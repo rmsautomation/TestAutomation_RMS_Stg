@@ -17,7 +17,6 @@
 						<child name="TC_2_QMS_4322_STANDARD_USER_LCL_APIs" key="{BC88BBCC-7BDF-41F5-99F9-9A97A5446EB1}" path="TC_2_QMS_4322_STANDARD_USER_LCL_APIs.tcKDTest" />
 						<child name="TC_10_QMS_4224_Single_API_ONE" key="{F04F423A-373C-4DD9-BC66-515D6BB844EC}" path="TC_10_QMS_4224_Single_API_ONE.tcKDTest" />
 						<child name="TC_3_QMS_4325_Single_AIR_Quote" key="{B86F44A7-C37C-4D84-8603-17F3F6E53203}" path="TC_3_QMS_4325_Single_AIR_Quote.tcKDTest" />
-						<child name="TC_4_QMS_4336_Ground_Single_ITG_API" key="{EE1E4DDE-0B04-4690-8946-0BEFB942BDBB}" path="TC_4_QMS_4336_Ground_Single_ITG_API.tcKDTest" />
 						<child name="TC_20_QMS_9958CustomCarrierDisableOverride" key="{6303765D-B802-49C2-B6A0-45E56D293BCE}" path="TC_20_QMS_9958CustomCarrierDisableOverride.tcKDTest" />
 						<child name="TC_41_QMS_5079_Tabs_can_be_customized" key="{4F4A3662-CA76-48AF-8338-AD7176A51B65}" path="TC_41_QMS_5079_Tabs_can_be_customized.tcKDTest" />
 						<child name="TC_44_QMS_4746_Multi_Rate_Selection" key="{DC68FEA6-DA13-4ED4-A117-3DC503A98E63}" path="TC_44_QMS_4746_Multi_Rate_Selection.tcKDTest" />
@@ -338,6 +337,8 @@
 						<child name="GoToMode" key="{530CDE1F-BAB9-46B9-836D-E2592955C8EC}" path="GoToMode.tcKDTest" />
 						<child name="DisabledShowAllNacSearchSection" key="{6E30F1D3-E4A5-4D41-8934-BB8A0210AAB0}" path="DisabledShowAllNacSearchSection.tcKDTest" />
 						<child name="EnabledShowAllNACSearch" key="{7FF7D34E-5AE7-410B-B080-9F7EEBEB0982}" path="EnabledShowAllNACSearch.tcKDTest" />
+						<child name="SelectHazOption" key="{2EB0F5C0-B4FC-4387-8B25-59842BD27F30}" path="SelectHazOption.tcKDTest" />
+						<child name="SelectNONHAZ_Option" key="{4615D29F-13E4-4083-A2ED-E7D195D71F30}" path="SelectNONHAZ_Option.tcKDTest" />
 					</folder>
 				</folder>
 			</folder>
@@ -550,6 +551,7 @@
 				<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
 				<child name="WriteExcel" key="{BDFB375E-BAB0-440C-B96A-F88F45E75B6B}" path="WriteExcel.tcKDTest" />
 				<child name="VerifyRMS_Version" key="{6AE66BD2-4E73-4A94-9C25-9543B1B62E75}" path="VerifyRMS_Version.tcKDTest" />
+				<child name="TC_4_QMS_4336_Ground_Single_ITG_API" key="{EE1E4DDE-0B04-4690-8946-0BEFB942BDBB}" path="TC_4_QMS_4336_Ground_Single_ITG_API.tcKDTest" />
 			</folder>
 		</folder>
 	</children>

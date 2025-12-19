@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{87AEFB72-6491-463D-B0E2-9AAAC4D26FA8}" Tags="@onlyStaging @q2tms" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{87AEFB72-6491-463D-B0E2-9AAAC4D26FA8}" Tags="@onlyStaging @q2tms @search" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>

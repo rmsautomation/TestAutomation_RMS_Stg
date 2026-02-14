@@ -6181,6 +6181,10 @@
 												<Value Value="xpath=//a[contains(text(), &apos;Base Rate&apos;)]" />
 												<Value Value="xpath=//a[contains(text(), &apos;Base Rate&apos;)]" />
 											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[contains(text(), &apos;Basic Ocean Freight&apos;)]" />
+												<Value Value="Add selector" />
+											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="panelSearchRateDetailsWrapper" Key="{FB032C7E-6C3B-4D01-AC17-97247F1E4D32}">
@@ -6319,6 +6323,10 @@
 											<Selector>
 												<Value Value="xpath=//a[contains(text(), &apos;Base Rate&apos;)]" />
 												<Value Value="xpath=//a[contains(text(), &apos;Base Rate&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[contains(text(), &apos;Basic Ocean Freight&apos;)]" />
+												<Value Value="Add selector" />
 											</Selector>
 											<Selector>
 												<Value Value="xpath=//a[normalize-space(text())=&apos;Container Drayage&apos;]" />
